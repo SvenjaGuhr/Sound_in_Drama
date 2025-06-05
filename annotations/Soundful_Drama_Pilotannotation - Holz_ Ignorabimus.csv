@@ -1,4 +1,4 @@
-ID,speaker,stage,paragraph,source_file,Nein,Lautstärkeniveau (0;1-5),Kommentar
+ID,speaker,stage,paragraph,source_file,Sound: Ja/Nein?,Lautstärkeniveau (0;1-5),Kommentar
 632,GEORG,"Achselzucken; durch den so prompt zurückerhaltnen Hieb noch
   nervös-gereizter.","Nicht eben jeder kann, seiner großzügigen, breitbasigen, edleren Charakterveranlagung entsprechend ...",holz-ignorabimus.xml,nein,,
 2642,DUFROY,Achselzucken; fast verletzt.,"Ein Fall, wie er in unsrer neueren Psychopathik ...",holz-ignorabimus.xml,nein,,
