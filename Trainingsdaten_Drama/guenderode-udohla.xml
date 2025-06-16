@@ -199,7 +199,7 @@
             <l>Doch still davon, wir sollen nur gehorchen,</l>
             <l>Und unsre Meinung kommt hier viel zu spät.</l>
           </lg>
-          <stage><character_sound>Derwisch kommt.</character_sound></stage>
+          <stage><character_sound>Derwisch kommt</character_sound>.</stage>
         </sp>
         <sp who="#derwisch">
           <speaker>DERWISCH.</speaker>
@@ -326,7 +326,7 @@
             <l>Zu Männern dieses weiche Volk zu bilden,</l>
             <l>Allein unmünd'ge Kinder bleiben sie.</l>
           </lg>
-          <stage><character_sound>Der Sultan kommt. Alle werfen sich nieder.</character_sound></stage>
+          <stage><character_sound>Der Sultan kommt. Alle werfen sich nieder</character_sound>.</stage>
         </sp>
         <sp who="#sultan">
           <speaker>SULTAN.</speaker>
@@ -425,7 +425,7 @@
             <l>Genug davon. Ich habe euch vernommen</l>
             <l>Entfernet euch. Sino! Bleibe du bei mir.</l>
           </lg>
-          <stage><character_sound>Mangu und Derwisch ab.</character_sound></stage>
+          <stage><character_sound>Mangu und Derwisch ab</character_sound>.</stage>
           <lg>
             <l>Warum o Schicksal, muß ich diese lieben?</l>
             <l>Die Einzige die du mir hast versagt.</l>
@@ -473,7 +473,7 @@
             <l>Ob ich sie fliehe, oder mir vermähle,</l>
             <l>Verderben bringt mir was ich auch erwähle.</l>
           </lg>
-          <stage><character_sound>Garten des Pallastes.</character_sound></stage>
+          <stage><character_sound>Garten des Pallastes</character_sound>.</stage>
           <stage>Nerissa und Elpa.</stage>
         </sp>
         <sp who="#nerissa">
@@ -600,7 +600,7 @@
             <l>Wenn keiner ihrer heilgen Stimme lauschet,</l>
             <l>Weil ihren Dienst ein rauh Geschlecht verschmäht.</l>
           </lg>
-          <stage><character_sound>Sultan und Sino kommen.</character_sound></stage>
+          <stage><character_sound>Sultan und Sino kommen</character_sound>.</stage>
         </sp>
         <sp who="#sultan">
           <speaker>SULTAN.</speaker>
@@ -666,7 +666,7 @@
             <l>Was soll ich thun? Auf welche Rettung sinnen?</l>
             <l>Ist keine Hülfe, ist kein Rath mehr da?</l>
           </lg>
-          <stage><character_sound>Mangu kommt.</character_sound></stage>
+          <stage><character_sound>Mangu kommt</character_sound>.</stage>
         </sp>
         <sp who="#mangu">
           <speaker>MANGU.</speaker>
@@ -682,7 +682,7 @@
             <l>Ruf ihn hierher, er rede jetzt vor mir.</l>
           </lg>
           <stage><character_sound>Sino tritt in den Hinter-Grund und winkt, Udohla erscheint und wirft sich vor dem
-            Sultan nieder.</character_sound></stage>
+            Sultan nieder</character_sound>.</stage>
           <pb n="102" />
         </sp>
         <sp who="#mangu">
@@ -694,7 +694,7 @@
         </sp>
         <sp who="#udohla">
           <speaker>UDOHLA</speaker>
-          <stage><character_sound>sagt aufstehend zum Sultan.</character_sound></stage>
+          <stage><character_sound>sagt aufstehend zum Sultan</character_sound>.</stage>
           <lg>
             <l>Ich heiße Achmed, bin dein Knecht, gebohren</l>
             <l>Zu Hyderabad, Selims Schwester-Sohn.</l>
@@ -713,12 +713,12 @@
             <l>Der Nabob hieß mich dir dies Schreiben bringen</l>
             <l>Und Gruß und Unterwerfung seinem Herrn.</l>
           </lg>
-          <stage><character_sound>Er reicht ihm ein Papier.</character_sound></stage>
+          <stage><character_sound>Er reicht ihm ein Papier</character_sound>.</stage>
         </sp>
         <sp who="#sultan">
           <speaker>SULTAN.</speaker>
           <l>Du hast's gethan.</l>
-          <stage><character_sound>Nachdem er gelesen.</character_sound></stage>
+          <stage><character_sound>Nachdem er gelesen</character_sound>.</stage>
           <lg>
             <l>Du bist ein guter Bote.</l>
             <l>Erbitte einen Lohn; es werde dir</l>
@@ -740,7 +740,7 @@
             <l>Bahadars, der im Aufruhr ist gefangen«.</l>
             <l>So sprach der Jüngling.</l>
           </lg>
-          <stage><character_sound>Kniend.</character_sound></stage>
+          <stage><character_sound>Kniend</character_sound>.</stage>
           <lg>
             <l>Herr! erhör ihn.</l>
             <l>Ich habe keine Bitte als die seine</l>
@@ -762,7 +762,7 @@
             <l>Komm Mangu! Laß uns zur Prinzessin eilen,</l>
             <l>Und Sino du! erklär ihm was geschah.</l>
           </lg>
-          <stage><character_sound>Ab mit Mangu.</character_sound></stage>
+          <stage><character_sound>Ab mit Mangu</character_sound>.</stage>
           <stage>Lange Pause, Udohla bleibt eine Weile auf den Knien liegen, steht dann langsam
             auf.</stage>
         </sp>
@@ -855,7 +855,7 @@
             <l>Des lieben Tages, den ich kaum gesehen,</l>
             <l>Von dem ich jetzo trauernd scheiden muß.</l>
           </lg>
-          <stage><character_sound>Er zieht den Dolch; Sino hält ihn ab.</character_sound></stage>
+          <stage><character_sound>Er zieht den Dolch; Sino hält ihn ab</character_sound>.</stage>
         </sp>
         <sp who="#sino">
           <speaker>SINO.</speaker>
@@ -905,7 +905,7 @@
       </div>
       <div type="act">
         <head><pb n="107" /> Zweiter Akt</head>
-        <stage><character_sound>Garten.</character_sound></stage>
+        <stage><character_sound>Garten</character_sound>.</stage>
         <stage>Nerissa und Elpa.</stage>
         <sp who="#nerissa">
           <speaker>NERISSA.</speaker>
@@ -913,7 +913,7 @@
             <l>Geh! Such ihn! ruf ihn! denn ich muß ihn sehen,</l>
             <l>Ich muß ihn sprechen, führe ihn hierher.</l>
           </lg>
-          <stage><character_sound>Elpa ab.</character_sound></stage>
+          <stage><character_sound>Elpa ab</character_sound>.</stage>
           <lg>
             <l>Wie ist mir nun? Weh, weh mir Unglücksvollen!</l>
             <l>Die Götter Indiens verlassen mich,</l>
@@ -1044,7 +1044,7 @@
             <l>O all ihr Götter! Ich hab schwer gefrevelt,</l>
             <l>Denn schöner ist das Leben als der Tod.</l>
           </lg>
-          <stage><character_sound>Zimmer im Pallast.</character_sound></stage>
+          <stage><character_sound>Zimmer im Pallast</character_sound>.</stage>
           <stage>Der Sultan steht gedankenvoll. Nach langer Pause erscheinen Mangu und Sino.</stage>
         </sp>
         <sp who="#mangu">
@@ -1088,7 +1088,7 @@
             <l>So such ihn auf und laß ihn zu mir kommen,</l>
             <l>Bis dahin aber will ich einsam seyn.</l>
           </lg>
-          <stage><character_sound><character_sound>Ab.</character_sound></character_sound></stage>
+          <stage><character_sound><character_sound>Ab</character_sound>.</character_sound></stage>
         </sp>
         <sp who="#sino">
           <speaker>SINO.</speaker>
@@ -1129,7 +1129,7 @@
             <l>Ich weiß, du wirst mich nimmer kennen lernen,</l>
             <l>Unmöglich ist's, was hofft ich auch darauf?</l>
           </lg>
-          <stage><character_sound>Mangu bleibt eine Weile gedankenvoll stehn, geht dann ab.</character_sound></stage>
+          <stage><character_sound>Mangu bleibt eine Weile gedankenvoll stehn, geht dann ab</character_sound>.</stage>
           <lg>
             <l>So brich denn endlich deines Schweigens Bande</l>
             <l>Mein lang gezähmt nur allzu duldsam Herz!</l>
@@ -1240,7 +1240,7 @@
             <l>Es schwimmt ein lieblich Bild vor meinem Auge</l>
             <l>Das ich so gerne Bruder nennen mag.</l>
           </lg>
-          <stage><character_sound>Elpa kommt.</character_sound></stage>
+          <stage><character_sound>Elpa kommt</character_sound>.</stage>
           <pb n="115" />
         </sp>
         <sp who="#elpa">
@@ -1300,7 +1300,7 @@
             <l>Komm, eh der Sultan so gestimmt dich findet,</l>
             <l>Erscheinen darfst du also nicht vor ihm.</l>
           </lg>
-          <stage><character_sound>Beide ab. Udohla kommt.</character_sound></stage>
+          <stage><character_sound>Beide ab. Udohla kommt</character_sound>.</stage>
         </sp>
         <sp who="#udohla">
           <speaker>UDOHLA.</speaker>
@@ -1311,7 +1311,7 @@
             <l><ambient_sound>Der Himmel jauchzt mir ihren Namen nach</ambient_sound>,</l>
             <l><ambient_sound>Ihn flüstern leise alle Frühlings-Lüfte</ambient_sound> –</l>
           </lg>
-          <stage><character_sound>Sino kommt.</character_sound></stage>
+          <stage><character_sound>Sino kommt</character_sound>.</stage>
         </sp>
         <sp who="#sino">
           <speaker>SINO.</speaker>
@@ -1405,11 +1405,11 @@
             <l>Und dennoch muß ich stets auf Rettung sinnen,</l>
             <l>Und ungern wie mich selbst geb ich dich auf.</l>
           </lg>
-          <stage><character_sound>Der Sultan, Mangu und Gefolge kommen.</character_sound></stage>
+          <stage><character_sound>Der Sultan, Mangu und Gefolge kommen</character_sound>.</stage>
         </sp>
         <sp who="#sultan">
           <speaker>SULTAN</speaker>
-          <stage><character_sound>sagt zu Mangu.</character_sound></stage>
+          <stage><character_sound>sagt zu Mangu</character_sound>.</stage>
           <lg>
             <l>Geh! Eile, denn ich will sie hier erwarten,</l>
             <l>Ich dulde dieses Zögern länger nicht. –</l>
@@ -1435,11 +1435,11 @@
             <l>Wenn du gebietest, Herr! so muß ich sterben.</l>
             <l>Ich weiß es, und ich bin darauf gefaßt.</l>
           </lg>
-          <stage><character_sound>Nerissa und Mangu kommen.</character_sound></stage>
+          <stage><character_sound>Nerissa und Mangu kommen</character_sound>.</stage>
         </sp>
         <sp who="#sultan">
           <speaker>SULTAN</speaker>
-          <stage><character_sound>sagt ihr entgegen.</character_sound></stage>
+          <stage><character_sound>sagt ihr entgegen</character_sound>.</stage>
           <lg>
             <l>Die Scheidewand, Geliebte! ist zerfallen,</l>
             <l>Und du bist mein. Ja Liebe du bist mein.</l>
