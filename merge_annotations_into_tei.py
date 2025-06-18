@@ -47,21 +47,23 @@ def main() -> None:
     # Merge annotations into TEI
     new_texts = {}
     for text in annotations:
-        if text == "holz-ignorabimus":
-            continue
+        #if text == "holz-ignorabimus":
+        #    continue
         new_text = tei[text]
         print(text)
         for i, row in annotations[text].iterrows():
-            stage_str_orig = row["stage"]
-            #print(row["stage"])
-            stage_str = re.sub(r"\s+", " ", stage_str_orig).replace(".", "\\.").replace(" ", '(?:\\s*?|\\s*?<pb n="\\d+?"/>\\s*?|\\s*und\\s*)').removeprefix(".*?").removeprefix('(?:\\s*?|\\s*?<pb n="\\d+?"/>\\s*?)').removesuffix(".*?").removesuffix('(?:\\s*?|\\s*?<pb n="\\d+?"/>\\s*?)')
-            stage_regex = re.compile(stage_str)
-            try:
-                idx = re.search(stage_str, new_text, re.DOTALL).span()
-                new_text = new_text[:idx[1]] + "</character_sound>" + new_text[idx[1]:]
-                new_text = new_text[:idx[0]] + "<character_sound>" + new_text[idx[0]:]
-            except AttributeError:
-                raise AttributeError(f"'{stage_str_orig}' could not be found in {text}\nRegex: {stage_str}")
+            if row["Sound: Ja/Nein?"] in ["Ja", "ja"]:
+                stage_str_orig = row["stage"]
+                stage_str = re.sub(r"\s+", " ", stage_str_orig).replace(".", "\\.").replace("sagt", "(?=sagt\\s*?)").replace(" ", '(?:\\s*?|\\s*?<pb n="\\d+?"/>\\s*?|\\s*und\\s*|\\s*?sagt\\s*?|\\s*?</?ambient_sound>\\s*?)?').removeprefix('(?:\\s*?|\\s*?<pb n="\\d+?"/>\\s*?)').removesuffix('(?:\\s*?|\\s*?<pb n="\\d+?"/>\\s*?)')
+                try:
+                    idx = re.search(stage_str, new_text, re.DOTALL).span()
+                    new_text = new_text[:idx[1]] + "</character_sound>" + new_text[idx[1]:]
+                    new_text = new_text[:idx[0]] + "<character_sound>" + new_text[idx[0]:]
+                except AttributeError:
+                    continue
+                    #raise AttributeError(f"'{stage_str_orig}' could not be found in {text}\nRegex: {stage_str}")
+            else:
+                continue
         new_texts[text] = new_text
 
     for text in new_texts:
