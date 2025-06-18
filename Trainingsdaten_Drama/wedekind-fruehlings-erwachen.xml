@@ -238,7 +238,7 @@
           </sp>
           <sp who="#frau_bergmann">
             <speaker>FRAU BERGMANN</speaker>
-            <stage><character_sound>sagt sie küssend.</character_sound></stage>
+            <stage><character_sound>sagt sie küssend</character_sound>.</stage>
             <p>Mein einziges Herzblatt!</p>
           </sp>
           <sp who="#wendla">
@@ -252,7 +252,7 @@
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA</speaker>
-            <stage><character_sound>sagt das Kleid in den Schrank hängend.</character_sound></stage>
+            <stage><character_sound>sagt das Kleid in den Schrank hängend</character_sound>.</stage>
             <p>Nein, da möcht ich schon lieber gleich vollends zwanzig sein ...!</p>
           </sp>
           <sp who="#frau_bergmann">
@@ -335,7 +335,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Schlaft wohl!</p>
-            <stage><character_sound>Alle entfernen sich bis auf Moritz und Melchior.</character_sound></stage>
+            <stage><character_sound>Alle entfernen sich bis auf Moritz und Melchior</character_sound>.</stage>
           </sp>
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
@@ -348,7 +348,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Reden wir von etwas anderem. –</p>
-            <stage><character_sound>Sie gehen spazieren.</character_sound></stage>
+            <stage><character_sound>Sie gehen spazieren</character_sound>.</stage>
           </sp>
           <sp who="#moritz">
             <speaker>MORITZ.</speaker>
@@ -893,7 +893,7 @@
           <sp who="#wendla">
             <speaker>WENDLA.</speaker>
             <p>Wozu nur?! Ich bin so glücklich, Mädchen zu sein; wenn ich kein Mädchen wär, brächt ich mich um, um das nächste Mal ...</p>
-            <stage><character_sound>Melchior geht vorüber und grüßt.</character_sound></stage>
+            <stage><character_sound>Melchior geht vorüber und grüßt</character_sound>.</stage>
             <pb n="107" />
           </sp>
           <sp who="#thea">
@@ -1041,7 +1041,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Blaß wie ein Handtuch.</p>
-            <stage><character_sound>Moritz kommt in äußerster Aufregung.</character_sound></stage>
+            <stage><character_sound>Moritz kommt in äußerster Aufregung</character_sound>.</stage>
           </sp>
           <sp who="#laemmermeier">
             <speaker>LÄMMERMEIER.</speaker>
@@ -1142,7 +1142,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Schert dich das? – – Laß sie schwatzen, Moritz! Fort nur fort, zur Stadt hinaus!</p>
-            <stage><character_sound>Die Professoren Hungergurt und Knochenbruch gehen vorüber.</character_sound></stage>
+            <stage><character_sound>Die Professoren Hungergurt und Knochenbruch gehen vorüber</character_sound>.</stage>
           </sp>
           <sp who="#knochenbruch">
             <speaker>KNOCHENBRUCH.</speaker>
@@ -1208,7 +1208,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Wir gehen dann zusammen. Ich nehme den Korb und wir schlagen den Weg durch die Runse ein, so sind wir in zehn Minuten schon auf der Brücke! – Wenn man so daliegt, die Stirn in die Hand gestützt, kommen einem die sonderbarsten Gedanken ...</p>
-            <stage><character_sound>Beide lagern sich unter der Eiche.</character_sound></stage>
+            <stage><character_sound>Beide lagern sich unter der Eiche</character_sound>.</stage>
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA.</speaker>
@@ -1389,7 +1389,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Ich will dich bitten lehren! –</p>
-            <stage><character_sound>Er schlägt sie.</character_sound></stage>
+            <stage><character_sound>Er schlägt sie</character_sound>.</stage>
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA.</speaker>
@@ -1406,7 +1406,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Wendla! –</p>
-            <stage><character_sound>Er schlägt sie stärker.</character_sound></stage>
+            <stage><character_sound>Er schlägt sie stärker</character_sound>.</stage>
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA.</speaker>
@@ -1471,7 +1471,7 @@
               erscheine mir dann plötzlich selber als kopflose Königin ... Möglich, daß mir noch mal
               einer aufgesetzt wird.</p>
             <stage><character_sound>Frau Gabor kommt mit dem dampfenden Tee, den sie vor Moritz und Melchior auf den
-              Tisch setzt.</character_sound></stage>
+              Tisch setzt</character_sound>.</stage>
           </sp>
           <sp who="#frau_gabor">
             <speaker>FRAU GABOR.</speaker>
@@ -1552,7 +1552,7 @@
             <p>Du bist alt genug, Melchior, um wissen zu können, was dir zuträglich und was dir schädlich ist. Tu, was du vor dir verantworten kannst. Ich werde die erste sein, die es dankbar anerkennt, wenn du mir niemals Grund gibst, dir etwas vorenthalten zu müssen. – Ich wollte dich nur darauf aufmerksam machen, daß auch das Beste nachteilig wirken kann, wenn man noch die Reife nicht besitzt, um es richtig aufzunehmen. – Ich werde mein Vertrauen immer lieber in<emph>dich</emph> als in irgend beliebige
               erzieherische Maßregeln setzen. – – Wenn ihr noch etwas braucht, Kinder, dann komm
               herüber, Melchior, und rufe mich. Ich bin auf meinem Schlafzimmer.</p>
-            <stage><character_sound>Ab.</character_sound></stage>
+            <stage><character_sound>Ab</character_sound>.</stage>
           </sp>
           <sp who="#moritz">
             <speaker>MORITZ.</speaker>
@@ -1606,7 +1606,7 @@
           <sp who="#frau_bergmann">
             <speaker>FRAU BERGMANN</speaker>
             <stage><character_sound>sagt den Hut auf, die Mantille um, einen Korb am Arm, mit strahlendem Gesicht durch
-              die Mitteltür eintretend.</character_sound></stage>
+              die Mitteltür eintretend</character_sound>.</stage>
             <p>Wendla! – Wendla!</p>
           </sp>
           <sp who="#wendla">
@@ -1628,7 +1628,7 @@
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA</speaker>
-            <stage><character_sound>sagt sich während des folgenden vollends ankleidend.</character_sound></stage>
+            <stage><character_sound>sagt sich während des folgenden vollends ankleidend</character_sound>.</stage>
             <p>Du warst bei Ina? – Wie geht es Ina? – Will's noch immer nicht bessern?</p>
           </sp>
           <sp who="#frau_bergmann">
@@ -1714,12 +1714,12 @@
           </sp>
           <sp who="#frau_bergmann">
             <speaker>FRAU BERGMANN</speaker>
-            <stage><character_sound>sagt ans Fenster stürzend.</character_sound></stage>
+            <stage><character_sound>sagt ans Fenster stürzend</character_sound>.</stage>
             <p>Nicht möglich! – Nicht möglich! –</p>
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA</speaker>
-            <stage><character_sound>sagt zugleich.</character_sound></stage>
+            <stage><character_sound>sagt zugleich</character_sound>.</stage>
             <p>Eine Bettlade hält er unterm Kinn, fiedelt die Wacht am Rhein drauf – – eben biegt er um die Ecke ...</p>
           </sp>
           <sp who="#frau_bergmann">
@@ -1775,12 +1775,12 @@
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA</speaker>
-            <stage><character_sound><character_sound>sagt unter ihrer Schürze.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt unter ihrer Schürze</character_sound>.</character_sound></stage>
             <p>Ich höre.</p>
           </sp>
           <sp who="#frau_bergmann">
             <speaker>FRAU BERGMANN</speaker>
-            <stage><character_sound>sagt ekstatisch.</character_sound></stage>
+            <stage><character_sound>sagt ekstatisch</character_sound>.</stage>
             <p>– Aber es geht ja nicht, Kind! – Ich kann es ja nicht verantworten. – Ich verdiene ja, daß man mich ins Gefängnis setzt – daß man dich von mir nimmt ...</p>
           </sp>
           <sp who="#wendla">
@@ -1794,7 +1794,7 @@
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA</speaker>
-            <stage><character_sound>sagt unter ihrer Schürze, zitternd.</character_sound></stage>
+            <stage><character_sound>sagt unter ihrer Schürze, zitternd</character_sound>.</stage>
             <p>O Gott, o Gott!</p>
           </sp>
           <sp who="#frau_bergmann">
@@ -1814,7 +1814,7 @@
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA</speaker>
-            <stage><character_sound>sagt sich erhebend.</character_sound></stage>
+            <stage><character_sound>sagt sich erhebend</character_sound>.</stage>
             <p>Großer – Gott – im Himmel!</p>
           </sp>
           <sp who="#frau_bergmann">
@@ -2238,12 +2238,12 @@
             <speaker>ILSE.</speaker>
             <p>Schlummre süß! ... Geht ihr wohl noch zum<emph>Wigwam</emph> hinunter, wo Melchi
               Gabor meinen Tomahawk begrub? – Brrr! Bis es an euch kommt, lieg ich im Kehricht.</p>
-            <stage><character_sound>Eilt davon.</character_sound></stage>
+            <stage><character_sound>Eilt davon</character_sound>.</stage>
             <pb n="135" />
           </sp>
           <sp who="#moritz">
             <speaker>MORITZ</speaker>
-            <stage><character_sound><character_sound>sagt allein.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt allein</character_sound>.</character_sound></stage>
             <p>– – – Ein Wort hätte es gekostet. –<stage>Er ruft.</stage> Ilse! – Ilse! – – Gottlob
               sie hört nicht mehr.</p>
             <p>– Ich bin in der Stimmung nicht. – Dazu bedarf es eines freien Kopfes und eines fröhlichen Herzens. – Schade, schade um die Gelegenheit!</p>
@@ -2354,7 +2354,7 @@
           <sp who="#sonnenstich">
             <speaker>SONNENSTICH.</speaker>
             <p>Führen Sie ihn herauf!</p>
-            <stage><character_sound>Habebald ab.</character_sound></stage>
+            <stage><character_sound>Habebald ab</character_sound>.</stage>
           </sp>
           <sp who="#zungenschlag">
             <speaker>ZUNGENSCHLAG.</speaker>
@@ -2558,7 +2558,7 @@
           </sp>
           <sp who="#pastor_kahlbauch">
             <speaker>PASTOR KAHLBAUCH</speaker>
-            <stage><character_sound><character_sound><character_sound><character_sound><character_sound>Rentier Stiefel die Hand drückend.</character_sound></character_sound></character_sound></character_sound></character_sound></stage>
+            <stage><character_sound><character_sound><character_sound><character_sound><character_sound>Rentier Stiefel die Hand drückend</character_sound>.</character_sound></character_sound></character_sound></character_sound></stage>
             <p>Wir wissen, daß denen, die Gott lieben, alle Dinge zum besten dienen. 1. Korinth. 12,15. – Denken Sie der trostlosen Mutter und suchen Sie ihr das Verlorene durch verdoppelte Liebe zu ersetzen!</p>
           </sp>
           <sp who="#sonnenstich">
@@ -2584,7 +2584,7 @@
           </sp>
           <sp who="#rentier_stiefel">
             <speaker>RENTIER STIEFEL</speaker>
-            <stage><character_sound>sagt sich die Nase schneuzend.</character_sound></stage>
+            <stage><character_sound>sagt sich die Nase schneuzend</character_sound>.</stage>
             <p>Der Junge war nicht von mir ... der Junge war nicht von mir ...</p>
             <stage>Rentier Stiefel, geleitet von Pastor Kahlbauch, Rektor Sonnenstich, Professor
               Knochenbruch, Onkel Probst und Freund Ziegenmelker ab. – Der Regen läßt nach.</stage>
@@ -2690,7 +2690,7 @@
           <sp who="#otto">
             <speaker>OTTO.</speaker>
             <p>Hast du den Vergil schon auf morgen? – – – – –</p>
-            <stage><character_sound>Die Gymnasiasten ab. – Martha und Ilse kommen ans Grab.</character_sound></stage>
+            <stage><character_sound>Die Gymnasiasten ab. – Martha und Ilse kommen ans Grab</character_sound>.</stage>
           </sp>
           <sp who="#ilse">
             <speaker>ILSE.</speaker>
@@ -2708,7 +2708,7 @@
             <speaker>MARTHA.</speaker>
             <p>Du hast recht, Ilse! –</p>
             <stage><character_sound>Sie wirft einen Efeukranz in die Gruft. Ilse öffnet ihre Schürze und läßt eine
-              Fülle frischer Anemonen auf den Sarg regnen.</character_sound></stage>
+              Fülle frischer Anemonen auf den Sarg regnen</character_sound>.</stage>
           </sp>
           <sp who="#martha">
             <speaker>MARTHA.</speaker>
@@ -2915,7 +2915,7 @@
           </sp>
           <sp who="#frau_gabor">
             <speaker>FRAU GABOR</speaker>
-            <stage><character_sound>sagt bedeckt ihr Gesicht.</character_sound></stage>
+            <stage><character_sound>sagt bedeckt ihr Gesicht</character_sound>.</stage>
             <p>Barmherziger Himmel!</p>
           </sp>
         </div>
@@ -2954,7 +2954,7 @@
           </sp>
           <sp who="#melchior">
             <speaker>MELCHIOR</speaker>
-            <stage><character_sound><character_sound>sagt für sich.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt für sich</character_sound>.</character_sound></stage>
             <p>Es ist nicht klug, daß ich mich separiere. Alles hält mich im Auge. Ich muß mitmachen – oder die Kreatur geht zum Teufel. – – Die Gefangenschaft macht sie zu Selbstmördern. – – Brech ich den Hals, ist es gut! Komme ich davon, ist es auch gut! Ich kann nur gewinnen. – Ruprecht wird mein Freund, er besitzt hier Kenntnisse. – Ich werde ihm die Kapitel von Judas Schnur Thamar, von Moab, von Lot und seiner Sippe, von der Königin Basti und der Abisag von Sunem zum besten geben. – Er hat die verunglückteste Physiognomie auf der Abteilung.</p>
           </sp>
           <sp who="#ruprecht">
@@ -2979,7 +2979,7 @@
           </sp>
           <sp who="#ruprecht">
             <speaker>RUPRECHT</speaker>
-            <stage><character_sound>sagt das Stück nehmend.</character_sound></stage>
+            <stage><character_sound>sagt das Stück nehmend</character_sound>.</stage>
             <p>Danke schön!</p>
           </sp>
           <sp who="#helmuth">
@@ -3001,7 +3001,7 @@
           </sp>
           <sp who="#helmuth">
             <speaker>HELMUTH</speaker>
-            <stage><character_sound>sagt ihm nachrennend.</character_sound></stage>
+            <stage><character_sound>sagt ihm nachrennend</character_sound>.</stage>
             <p>Den schlag ich tot!</p>
           </sp>
           <sp who="#diethelm #reinhold #gaston">
@@ -3011,7 +3011,7 @@
           </sp>
           <sp who="#melchior">
             <speaker>MELCHIOR</speaker>
-            <stage><character_sound>sagt allein, gegen das Fenster gewandt.</character_sound></stage>
+            <stage><character_sound>sagt allein, gegen das Fenster gewandt</character_sound>.</stage>
             <p>– Da geht der Blitzableiter hinunter. – Man muß ein Taschentuch drumwickeln. – Wenn ich an<emph>sie</emph> denke, schießt mir immer das Blut in den Kopf. Und Moritz
               liegt mir wie Blei in den Füßen. – – – Ich gehe zur Redaktion. Bezahlen Sie mich per
               Hundert; ich kolportiere! – sammle Tagesneuigkeiten – schreibe – lokal – – ethisch – –
@@ -3077,11 +3077,11 @@
           <sp who="#dr_brausepulver">
             <speaker>DR. VON BRAUSEPULVER.</speaker>
             <p>Ich danke Ihnen, liebe Frau Bergmann. Mein Wagen wartet. Lassen Sie sich's nicht so zu Herzen gehen. In wenigen Wochen ist unsere liebe kleine Patientin wieder frisch und munter wie eine Gazelle. Seien Sie getrost. – Guten Tag, Frau Bergmann. Guten Tag, liebes Kind. Guten Tag, meine Damen. Guten Tag.</p>
-            <stage><character_sound>Frau Bergmann geleitet ihn vor die Tür.</character_sound></stage>
+            <stage><character_sound>Frau Bergmann geleitet ihn vor die Tür</character_sound>.</stage>
           </sp>
           <sp who="#ina">
             <speaker>INA</speaker>
-            <stage><character_sound>sagt am Fenster.</character_sound></stage>
+            <stage><character_sound>sagt am Fenster</character_sound>.</stage>
             <p>– Nun färbt sich eure Platane schon wieder bunt. – Siehst du's vom Bett aus? – Eine kurze Pracht, kaum recht der Freude wert, wie man sie so kommen und gehen sieht. – Ich muß nun auch bald gehen. Müller erwartet mich vor der Post und ich muß zuvor noch zur Schneiderin. Mucki bekommt seine ersten Höschen, und Karl soll einen neuen Trikotanzug auf den Winter haben.</p>
           </sp>
           <sp who="#wendla">
@@ -3106,7 +3106,7 @@
           <sp who="#wendla">
             <speaker>WENDLA.</speaker>
             <p>Leb wohl, Ina. – Bring mir Himmelschlüssel mit, wenn du wiederkommst. Adieu. Grüße deine Jungens von mir.</p>
-            <stage><character_sound>Ina ab.</character_sound></stage>
+            <stage><character_sound>Ina ab</character_sound>.</stage>
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA.</speaker>
@@ -3201,7 +3201,7 @@
           <sp who="#frau_bergmann">
             <speaker>FRAU BERGMANN.</speaker>
             <p>Ich habe nichts gehört, liebes Herz. –</p>
-            <stage><character_sound>Geht an die Tür und öffnet.</character_sound></stage>
+            <stage><character_sound>Geht an die Tür und öffnet</character_sound>.</stage>
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA.</speaker>
@@ -3310,7 +3310,7 @@
           <sp who="#haenschen_rilow">
             <speaker>HÄNSCHEN.</speaker>
             <p>Laß uns nicht traurig sein! –</p>
-            <stage><character_sound>Er küßt ihn auf den Mund.</character_sound></stage>
+            <stage><character_sound>Er küßt ihn auf den Mund</character_sound>.</stage>
           </sp>
           <sp who="#ernst">
             <speaker>ERNST</speaker>
@@ -3337,7 +3337,7 @@
             jagen unter dem Mond hin. – Melchior klettert über die Kirchhofmauer.</stage>
           <sp who="#melchior">
             <speaker>MELCHIOR</speaker>
-            <stage><character_sound>sagt auf der Innenseite herabspringend.</character_sound></stage>
+            <stage><character_sound>sagt auf der Innenseite herabspringend</character_sound>.</stage>
             <p>Hierher folgt mir die Meute nicht. – Derweil sie Bordelle absuchen, kann ich aufatmen und mir sagen, wie weit ich bin ...</p>
             <p>Der Rock in Fetzen, die Taschen leer – vor dem Harmlosesten bin ich nicht sicher. – Tagsüber muß ich im Walde weiterzukommen suchen ...</p>
             <p>Ein Kreuz habe ich niedergestampft. – Die Blümchen wären heut noch erfroren! – Ringsum ist die Erde kahl ...</p>
@@ -3440,11 +3440,11 @@
           <sp who="#moritz">
             <speaker>MORITZ.</speaker>
             <p>Was zauderst du ...?</p>
-            <stage><character_sound>Ein vermummter Herr tritt auf.</character_sound></stage>
+            <stage><character_sound>Ein vermummter Herr tritt auf</character_sound>.</stage>
           </sp>
           <sp who="#der_vermummte_herr">
             <speaker>DER VERMUMMTE HERR</speaker>
-            <stage><character_sound>sagt zu Melchior.</character_sound></stage>
+            <stage><character_sound>sagt zu Melchior</character_sound>.</stage>
             <p>Du bebst ja vor Hunger. Du bist gar nicht befähigt, zu urteilen. –<stage>Zu
                 Moritz.</stage> Gehen Sie.</p>
           </sp>
@@ -3673,7 +3673,7 @@
             <speaker>DER VERMUMMTE HERR.</speaker>
             <p>Komm, Kind! –</p>
             <stage><character_sound>Er legt seinen Arm in denjenigen Melchiors und entfernt sich mit ihm über die
-              Gräber hin.</character_sound></stage>
+              Gräber hin</character_sound>.</stage>
           </sp>
           <sp who="#moritz">
             <speaker>MORITZ</speaker>

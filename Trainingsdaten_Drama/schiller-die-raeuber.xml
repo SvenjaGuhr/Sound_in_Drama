@@ -305,7 +305,7 @@
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound>sagt begierig.</character_sound></stage>
+            <stage><character_sound>sagt begierig</character_sound>.</stage>
             <p>Nachrichten von meinem Sohne Karl?</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -467,7 +467,7 @@
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound><character_sound><character_sound>sagt auffahrend.</character_sound></character_sound></character_sound></stage>
+            <stage><character_sound><character_sound><character_sound>sagt auffahrend</character_sound>.</character_sound></character_sound></stage>
             <p>Franz! Franz! was sagst du?</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -530,7 +530,7 @@
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound>sagt zärtlich.</character_sound></stage>
+            <stage><character_sound>sagt zärtlich</character_sound>.</stage>
             <p>Bis er anders worden.</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -551,7 +551,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound><character_sound>sagt schnell.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt schnell</character_sound>.</character_sound></stage>
             <p>Dabei bleibts also?</p>
           </sp>
           <sp who="#der_alte_moor">
@@ -568,7 +568,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt mit Lachen ihm nachsehend.</character_sound></stage>
+            <stage><character_sound>sagt mit Lachen ihm nachsehend</character_sound>.</stage>
             <p>Tröste dich, Alter, du wirst ihn nimmer an diese Brust drücken, der Weg dazu ist ihm verrammelt wie der Himmel der Hölle – Er war aus deinen Armen gerissen, ehe<pb n="499" /> du wußtest, daß du es wollen könntest – da müßt ich ein erbärmlicher Stümper sein,
               wenn ichs nicht einmal so weit gebracht hätte, einen Sohn vom Herzen des Vaters
               loszulösen, und wenn er mit ehernen Banden daran geklammert wäre – Ich hab einen
@@ -681,7 +681,7 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound><character_sound><character_sound><character_sound>sagt aufspringend.</character_sound></character_sound></character_sound></character_sound></stage>
+            <stage><character_sound><character_sound><character_sound><character_sound>sagt aufspringend</character_sound>.</character_sound></character_sound></character_sound></stage>
             <p>Bravo! Bravissimo! Du bringst mich eben recht auf das Chapitre. Ich will dir was ins Ohr sagen, Moor, das schon lang mit mir umgeht, und du bist der Mann dazu – sauf, Bruder, sauf – wie wärs, wenn wir Juden würden und das Königreich wieder aufs Tapet brächten?</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -700,7 +700,7 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound>sagt stutzig.</character_sound></stage>
+            <stage><character_sound>sagt stutzig</character_sound>.</stage>
             <p>Pfui, du wirst doch nicht gar den verlorenen Sohn spielen wollen! Ein Kerl wie du, der mit dem Degen mehr auf die Gesichter gekritzelt hat, als drei Substituten in einem Schaltjahr<pb n="504" /> ins Befehlbuch schreiben! Soll ich dir von der großen
               Hundsleiche vorerzählen? Ha! ich muß nur dein eigenes Bild wieder vor dich rufen, das
               wird Feuer in deine Adern blasen, wenn dich sonst nichts mehr begeistert. Weißt du
@@ -759,7 +759,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt ärgerlich.</character_sound></stage>
+            <stage><character_sound>sagt ärgerlich</character_sound>.</stage>
             <p>Ich wüßte nicht, wozu wir den Mut noch haben sollten und noch nicht gehabt hätten.</p>
           </sp>
           <sp who="#spiegelberg">
@@ -768,7 +768,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt zerstreut.</character_sound></stage>
+            <stage><character_sound>sagt zerstreut</character_sound>.</stage>
             <p>Wie? Du hast es wohl gar noch weiter gebracht?</p>
           </sp>
           <sp who="#spiegelberg">
@@ -785,14 +785,14 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound>sagt hitziger.</character_sound></stage>
+            <stage><character_sound>sagt hitziger</character_sound>.</stage>
             <p>Spiegelberg, wird es heißen, kannst du hexen, Spiegelberg? Es ist schade, daß du kein General worden bist, Spiegelberg, wird der König sagen, du hättest die Östreicher durch ein Knopfloch gejagt. Ja, hör ich die Dokters jammern, es ist unverantwortlich, daß der Mann nicht die Medizin studiert hat, er hätte ein neues Kropfpulver erfunden. Ach! und daß er das Kamerale nicht zum Fach genommen hat, werden die Sullys in ihren Kabinetten seufzen, er hätte aus Steinen Louisdore hervorgezaubert. Und Spiegelberg wird es heißen in Osten und Westen, und in den Kot mit euch, ihr Memmen, ihr Kröten, indes Spiegelberg mit ausgespreiteten Flügeln zum Tempel des Nachruhms emporfliegt.</p>
             <pb n="507" />
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR.</speaker>
             <p>Glück auf den Weg! Steig du auf Schandsäulen zum Gipfel des Ruhms. Im Schatten meiner väterlichen Haine, in den Armen meiner Amalia lockt mich ein edler Vergnügen. Schon die vorige Woche hab ich meinem Vater um Vergebung geschrieben, hab ihm nicht den kleinsten Umstand verschwiegen, und wo Aufrichtigkeit ist, ist auch Mitleid und Hilfe. Laß uns Abschied nehmen, Moritz. Wir sehen uns heut, und nie mehr. Die Post ist angelangt. Die Verzeihung meines Vaters ist schon innerhalb dieser Stadtmauren.</p>
-            <stage><character_sound>Schweizer, Grimm, Roller, Schufterle, Razmann treten auf.</character_sound></stage>
+            <stage><character_sound>Schweizer, Grimm, Roller, Schufterle, Razmann treten auf</character_sound>.</stage>
           </sp>
           <sp who="#roller">
             <speaker>ROLLER.</speaker>
@@ -821,7 +821,7 @@
           <sp who="#karl_von_moor">
             <speaker>MOOR.</speaker>
             <p>Ich zittre nicht. Warum sollt ich auch zittern? Kameraden! dieser Brief – freut euch mit mir! Ich bin der Glücklichste unter der Sonne, warum sollt ich zittern?</p>
-            <stage><character_sound>Schwarz tritt auf.</character_sound></stage>
+            <stage><character_sound>Schwarz tritt auf</character_sound>.</stage>
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
@@ -868,7 +868,7 @@
           </sp>
           <sp who="#roller">
             <speaker>ROLLER</speaker>
-            <stage><character_sound>sagt ihm nach.</character_sound></stage>
+            <stage><character_sound>sagt ihm nach</character_sound>.</stage>
             <p>Moor! wo 'naus, Moor? was beginnst du?</p>
           </sp>
           <sp who="#grimm">
@@ -891,7 +891,7 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound><character_sound>sagt sachte herbeischleichend.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt sachte herbeischleichend</character_sound>.</character_sound></stage>
             <p>Von Wasser und Brot ist die Rede? Ein schönes Leben! Da hab ich anders für euch gesorgt! Sagt ichs nicht, ich müßt am Ende für euch alle denken?</p>
           </sp>
           <sp who="#schweizer">
@@ -908,7 +908,7 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound>sagt mit einem stolzen Gelächter.</character_sound></stage>
+            <stage><character_sound>sagt mit einem stolzen Gelächter</character_sound>.</stage>
             <p>Armer Tropf! Aus dieser Lage reißen? hahaha! – aus dieser Lage reißen? – und auf mehr raffiniert dein Fingerhut voll Gehirn nicht? und damit trabt deine Mähre zum Stalle? Spiegelberg müßte ein Hundsfott sein, wenn er mit dem nur anfangen wollte. Zu Helden, sag ich dir, zu Freiherrn, zu Fürsten, zu Göttern wirds euch machen!</p>
           </sp>
           <sp who="#razmann">
@@ -1053,7 +1053,7 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound>sagt giftig.</character_sound></stage>
+            <stage><character_sound>sagt giftig</character_sound>.</stage>
             <p>Was predigt der Zauderer? Stand nicht der Kopf schon, eh noch ein Glied sich regte? Folgt, Kameraden.</p>
           </sp>
           <sp who="#roller">
@@ -1062,7 +1062,7 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound>sagt geschmeidig.</character_sound></stage>
+            <stage><character_sound>sagt geschmeidig</character_sound>.</stage>
             <p>Ja – haltet – Roller sagt recht. Und das muß ein erleuchteter Kopf sein. Versteht ihr? Ein feiner, politischer Kopf muß das sein! Ja! wenn ich mirs denke, was ihr vor einer Stunde waret, was ihr itzt seid, – durch<emph>einen</emph> glücklichen Gedanken
               seid – ja freilich, freilich müßt ihr einen Chef haben – und wer diesen Gedanken
               entsponnen, sagt, muß das nicht ein erleuchteter politischer Kopf sein?</p>
@@ -1082,7 +1082,7 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound>sagt unwillig von ihm weg.</character_sound></stage>
+            <stage><character_sound>sagt unwillig von ihm weg</character_sound>.</stage>
             <p>Stockfisch!</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -1147,12 +1147,12 @@
           </sp>
           <sp who="#roller #grimm #schwarz #schufterle #razmann #schweizer">
             <speaker>ALLE</speaker>
-            <stage><character_sound>sagen mit lärmendem Geschrei.</character_sound></stage>
+            <stage><character_sound>sagen mit lärmendem Geschrei</character_sound>.</stage>
             <p>Es lebe der Hauptmann!</p>
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound>sagt aufspringend, vor sich.</character_sound></stage>
+            <stage><character_sound>sagt aufspringend, vor sich</character_sound>.</stage>
             <p>Bis ich ihm hinhelfe!</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -1176,11 +1176,11 @@
           <sp who="#karl_von_moor">
             <speaker>MOOR.</speaker>
             <p>Nun, und bei dieser männlichen Rechte! schwör ich euch hier, treu und standhaft euer Hauptmann zu bleiben bis in den Tod! Den soll dieser Arm gleich zur Leiche machen, der jemals zagt oder zweifelt oder zurücktritt! Ein Gleiches widerfahre mir von jedem unter euch, wenn ich meinen Schwur verletze! Seid ihrs zufrieden?</p>
-            <stage><character_sound>Spiegelberg läuft wütend auf und nieder.</character_sound></stage>
+            <stage><character_sound>Spiegelberg läuft wütend auf und nieder</character_sound>.</stage>
           </sp>
           <sp who="#roller #grimm #schwarz #schufterle #razmann #schweizer">
             <speaker>ALLE</speaker>
-            <stage><character_sound>sagen mit aufgeworfenen Hüten.</character_sound></stage>
+            <stage><character_sound>sagen mit aufgeworfenen Hüten</character_sound>.</stage>
             <p>Wir sinds zufrieden.</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -1189,7 +1189,7 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound>sagt ihnen nachsehend, nach einer Pause.</character_sound></stage>
+            <stage><character_sound>sagt ihnen nachsehend, nach einer Pause</character_sound>.</stage>
             <p>Dein Register hat ein Loch. Du hast das Gift weggelassen.<stage>Ab.</stage></p>
           </sp>
         </div>
@@ -1268,7 +1268,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound><character_sound>sagt aufgebracht.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt aufgebracht</character_sound>.</character_sound></stage>
             <p>Meinen Ring einer Metze?</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -1279,7 +1279,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound><character_sound>sagt heftig.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt heftig</character_sound>.</character_sound></stage>
             <p>Aber<emph>meinen</emph> Ring – ich sage, <emph>meinen</emph> Ring?</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -1317,7 +1317,7 @@
             <p>Graut dir vor diesem Karl? Ekelt dir schon von dem matten Gemälde? Geh, gaff ihn selbst an, deinen schönen, englischen göttlichen Karl! Geh, sauge seinen balsamischen Atem ein und laß dich von den Ambrosiadüften begraben, die aus seinem Rachen dampfen! der bloße Hauch seines Mundes wird dich in jenen<pb n="518" /> schwarzen todähnlichen
               Schwindel hauchen, der den Geruch eines berstenden Aases und den Anblick eines
               leichenvollen Walplatzes begleitet.</p>
-            <stage><character_sound>Amalia wendet ihr Gesicht ab.</character_sound></stage>
+            <stage><character_sound>Amalia wendet ihr Gesicht ab</character_sound>.</stage>
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ.</speaker>
@@ -1327,14 +1327,14 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt froh aufspringend.</character_sound></stage>
+            <stage><character_sound>sagt froh aufspringend</character_sound>.</stage>
             <p>Ha! Karl! nun erkenn ich dich wieder! du bist noch ganz! ganz! alles war Lüge! – Weißt du nicht, Bösewicht, daß Karl unmöglich das werden kann?<stage>Franz steht
                 einige Zeit tiefsinnig, dann dreht er sich plötzlich, um zu gehen.</stage> Wohin so
               eilig, fliehst du vor deiner eigenen Schande?</p>
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt mit verhülltem Gesicht.</character_sound></stage>
+            <stage><character_sound>sagt mit verhülltem Gesicht</character_sound>.</stage>
             <p>Laß mich, laß mich! – meinen Tränen den Lauflassen – tyrannischer Vater! den besten deiner Söhne so hinzugeben dem Elend – der rings umgebenden Schande – laß mich, Amalia! ich will ihm zu Füßen fallen, auf den Knien will ich ihn beschwören, den ausgesprochenen Fluch auf mich, auf mich zu laden – mich zu enterben – mich – mein Blut – mein Leben – alles –</p>
           </sp>
           <sp who="#amalia">
@@ -1365,7 +1365,7 @@
             <speaker>FRANZ.</speaker>
             <p>So ganz gleich in unsern Neigungen – die Rose war seine liebste Blume – welche Blume war mir über die Rose? Er liebte die Musik unaussprechlich, und ihr seid Zeugen, ihr Sterne! ihr habt mich so oft in der Totenstille der Nacht beim Klaviere belauscht, wenn alles um mich begraben lag in Schatten und Schlummer – und wie kannst du noch zweifeln, Amalia, wenn unsere Liebe in<emph>einer Vollkommenheit</emph> zusammentraf,
               und wenn die Liebe die nämliche ist, wie könnten ihre Kinder entarten?</p>
-            <stage><character_sound>Amalia sieht ihn verwundernd an.</character_sound></stage>
+            <stage><character_sound>Amalia sieht ihn verwundernd an</character_sound>.</stage>
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ.</speaker>
@@ -1375,7 +1375,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound><character_sound>sagt zurückspringend.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt zurückspringend</character_sound>.</character_sound></stage>
             <p>Verräter, wie ich dich ertappe! In eben dieser Laube beschwur er mich, keiner andern Liebe – wenn er sterben sollte – sieht du, wie gottlos, wie abscheulich du – geh aus meinen Augen!</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -1405,7 +1405,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt mit den Füßen stampfend.</character_sound></stage>
+            <stage><character_sound>sagt mit den Füßen stampfend</character_sound>.</stage>
             <p>Wart! so sollst du vor mir zittern! Mich einem Bettler aufopfern?<stage>Zornig
                 ab.</stage></p>
           </sp>
@@ -1425,7 +1425,7 @@
           <head>Erste Szene</head>
           <sp who="#franz_von_moor">
             <speaker>FRANZ VON MOOR</speaker>
-            <stage><character_sound>sagt nachdenkend in seinem Zimmer.</character_sound></stage>
+            <stage><character_sound>sagt nachdenkend in seinem Zimmer</character_sound>.</stage>
             <p>Es dauert mir zu lange – der Doktor will, er sei im Umkehren – das Leben eines Alten ist doch eine Ewigkeit! – Und nun wär freie, ebene Bahn bis auf diesen ärgerlichen zähen Klumpen Fleisch, der mir, gleich dem unterirdischen Zauberhund in den Geistermärchen, den Weg zu meinen Schätzen verrammelt.</p>
             <p>Müssen denn aber meine Entwürfe sich unter das eiserne Joch des Mechanismus beugen? – Soll sich mein hochfliegender Geist an den Schneckengang der<emph>Materie</emph>
               ketten lassen? – Ein Licht ausgeblasen, das ohnehin nur mit den letzten Öltropfen noch
@@ -1552,7 +1552,7 @@
           </sp>
           <sp who="#hermann">
             <speaker>HERMANN</speaker>
-            <stage><character_sound>sagt wild.</character_sound></stage>
+            <stage><character_sound>sagt wild</character_sound>.</stage>
             <p>Blitz, Donner und Hagel, seid still!</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -1596,7 +1596,7 @@
           </sp>
           <sp who="#hermann">
             <speaker>HERMANN</speaker>
-            <stage><character_sound>sagt näher kommend.</character_sound></stage>
+            <stage><character_sound>sagt näher kommend</character_sound>.</stage>
             <p>Unbegreiflich, das erste Wort, das ich höre.</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -1617,7 +1617,7 @@
           </sp>
           <sp who="#hermann">
             <speaker>HERMANN</speaker>
-            <stage><character_sound>sagt in Hitze.</character_sound></stage>
+            <stage><character_sound>sagt in Hitze</character_sound>.</stage>
             <p>Nein, so wahr ich Hermann heiße, das sollt Ihr nicht! wenn noch ein Fünkchen Verstand in diesem Gehirne glostet! das sollt Ihr nicht!</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -1658,7 +1658,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt ihm nachrufend.</character_sound></stage>
+            <stage><character_sound>sagt ihm nachrufend</character_sound>.</stage>
             <p>Die Ernte ist dein, lieber Hermann! – Wenn der Ochse den Kornwagen in die Scheune gezogen hat, so muß er mit Heu vorlieb nehmen. Dir eine Stallmagd, und keine Amalia!<stage>Geht ab.</stage></p>
           </sp>
         </div>
@@ -1676,7 +1676,7 @@
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound>sagt träumend.</character_sound></stage>
+            <stage><character_sound>sagt träumend</character_sound>.</stage>
             <p>Mein Sohn! mein Sohn! mein Sohn!</p>
             <pb n="526" />
           </sp>
@@ -1696,7 +1696,7 @@
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound>sagt halb wach.</character_sound></stage>
+            <stage><character_sound>sagt halb wach</character_sound>.</stage>
             <p>Er war nicht da? drückt ich nicht seine Hände? Garstiger Franz! willst du ihn auch meinen Träumen entreißen?</p>
           </sp>
           <sp who="#amalia">
@@ -1744,7 +1744,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt immer das Aug auf das Bild geheftet.</character_sound></stage>
+            <stage><character_sound>sagt immer das Aug auf das Bild geheftet</character_sound>.</stage>
             <p>Nein, nein! er ists nicht. Bei Gott! das ist Karl nicht – Hier, hier<stage>Auf Herz
                 und Stirne zeigend.</stage> So ganz, so anders. Die träge Farbe reicht nicht, den
               himmlischen Geist nachzuspiegeln, der in seinem feurigen Auge herrschte. Weg damit!
@@ -1765,7 +1765,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt schwärmend.</character_sound></stage>
+            <stage><character_sound>sagt schwärmend</character_sound>.</stage>
             <p>Ja süß, himmlisch süß ists, eingewiegt zu werden in den Schlaf des Todes von dem Gesang des Geliebten – vielleicht träumt man auch im Grabe noch fort – ein langer, ewiger unendlicher Traum von Karln, <ambient_sound>bis man die Glocke der Auferstehung läutet</ambient_sound> –<stage>Aufspringend, entzückt.</stage> und von itzt an in seinen Armen auf ewig,
                 <stage>Pause. Sie geht ans Klavier und spielt.</stage></p>
             <lg>
@@ -1792,7 +1792,7 @@
               <l>Hektor fällt, ein Vaterlandserretter,</l>
               <l>Und wir sehn uns wieder in Elysium.</l>
             </lg>
-            <stage><character_sound>Daniel.</character_sound></stage>
+            <stage><character_sound>Daniel</character_sound>.</stage>
             <pb n="528" />
           </sp>
           <sp who="#daniel">
@@ -1842,7 +1842,7 @@
           </sp>
           <sp who="#hermann">
             <speaker>HERMANN</speaker>
-            <stage><character_sound>sagt mit veränderter Stimme.</character_sound></stage>
+            <stage><character_sound>sagt mit veränderter Stimme</character_sound>.</stage>
             <p>Gnädiger Herr! laßt es einen armen Mann nicht entgelten, wenn er wider Willen Euer Herz durchbohrt. Ich bin ein Fremdling in diesem Lande, aber Euch kenne ich sehr gut, Ihr seid der Vater Karls von Moor.</p>
           </sp>
           <sp who="#der_alte_moor">
@@ -1887,7 +1887,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt in Entzückung.</character_sound></stage>
+            <stage><character_sound>sagt in Entzückung</character_sound>.</stage>
             <p>Hektor, Hektor! hört Ihrs? Er stand –</p>
           </sp>
           <sp who="#hermann">
@@ -1896,7 +1896,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt wild auf Hermann losgehend.</character_sound></stage>
+            <stage><character_sound>sagt wild auf Hermann losgehend</character_sound>.</stage>
             <p>Daß der Tod deine verfluchte Zunge versiegle! Bist du hieher kommen, unserem Vater den Todesstoß zu geben? – Vater! Amalia! Vater!</p>
           </sp>
           <sp who="#hermann">
@@ -1908,17 +1908,17 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt wie aus einem Todesschlummer aufgejagt.</character_sound></stage>
+            <stage><character_sound>sagt wie aus einem Todesschlummer aufgejagt</character_sound>.</stage>
             <p>Sein letzter Seufzer, Amalia!</p>
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound>sagt gräßlich schreiend, sich die Haare ausraufend.</character_sound></stage>
+            <stage><character_sound>sagt gräßlich schreiend, sich die Haare ausraufend</character_sound>.</stage>
             <p>Mein Fluch ihn gejagt in den Tod! gefallen in Verzweiflung!</p>
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt umherirrend im Zimmer.</character_sound></stage>
+            <stage><character_sound>sagt umherirrend im Zimmer</character_sound>.</stage>
             <p>Oh! was habt Ihr gemacht, Vater? Mein Karl, mein Bruder!</p>
           </sp>
           <sp who="#hermann">
@@ -1927,12 +1927,12 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt wie erstaunt.</character_sound></stage>
+            <stage><character_sound>sagt wie erstaunt</character_sound>.</stage>
             <p>Mir? Amalias Porträt? Mir, Karl, Amalia? Mir?</p>
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt heftig auf Hermann losgehend.</character_sound></stage>
+            <stage><character_sound>sagt heftig auf Hermann losgehend</character_sound>.</stage>
             <p>Feiler, bestochener Betrüger!<stage>Faßt ihn hart an.</stage></p>
           </sp>
           <sp who="#hermann">
@@ -1950,7 +1950,7 @@
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound>sagt schreiend, sein Gesicht zerfleischend.</character_sound></stage>
+            <stage><character_sound>sagt schreiend, sein Gesicht zerfleischend</character_sound>.</stage>
             <p>Wehe, wehe! mein Fluch ihn gejagt in den Tod! gefallen in Verzweiflung!</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -1959,7 +1959,7 @@
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound>sagt lallend.</character_sound></stage>
+            <stage><character_sound>sagt lallend</character_sound>.</stage>
             <p>Mein Fluch ihn gejagt in den Tod, gefallen mein Sohn in Verzweiflung! –</p>
           </sp>
           <sp who="#hermann">
@@ -1969,12 +1969,12 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt aufspringend, ihm nach.</character_sound></stage>
+            <stage><character_sound>sagt aufspringend, ihm nach</character_sound>.</stage>
             <p>Bleib! bleib! Was waren seine letzte Worte?</p>
           </sp>
           <sp who="#hermann">
             <speaker>HERMANN</speaker>
-            <stage><character_sound>sagt zurückrufend.</character_sound></stage>
+            <stage><character_sound>sagt zurückrufend</character_sound>.</stage>
             <p>Sein letzter Seufzer war Amalia!<stage>Ab.</stage></p>
             <pb n="531" />
           </sp>
@@ -2007,7 +2007,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound><character_sound>sagt auf den Boden stampfend.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt auf den Boden stampfend</character_sound>.</character_sound></stage>
             <p>Verzweifelt! meine ganze Kunst erliegt an dem Starrkopf.</p>
           </sp>
           <sp who="#der_alte_moor">
@@ -2056,7 +2056,7 @@
               will mir keiner das Haupt halten, will keiner die ringende Seele entbinden? Keine
               Söhne! keine Töchter! keine Freunde! – Menschen nur – Will keiner, allein – verlassen
               – Wehe! Wehe! – Verzweifeln, aber nicht sterben!</p>
-            <stage><character_sound>Amalia mit verweinten Augen.</character_sound></stage>
+            <stage><character_sound>Amalia mit verweinten Augen</character_sound>.</stage>
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR.</speaker>
@@ -2064,7 +2064,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt mit sanfterem Ton.</character_sound></stage>
+            <stage><character_sound>sagt mit sanfterem Ton</character_sound>.</stage>
             <p>Ihr habt einen herrlichen Sohn verloren.</p>
           </sp>
           <sp who="#der_alte_moor">
@@ -2092,7 +2092,7 @@
           <sp who="#amalia">
             <speaker>AMALIA.</speaker>
             <p>Sterben ist Flug in seine Arme. Wohl Euch! Ihr seid zu beneiden. Warum sind diese Gebeine nicht mürb? warum diese Haare nicht grau? Wehe über die Kräfte der Jugend! Willkommen, du markloses Alter! näher gelegen dem Himmel und meinem Karl.</p>
-            <stage><character_sound>Franz tritt auf.</character_sound></stage>
+            <stage><character_sound>Franz tritt auf</character_sound>.</stage>
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR.</speaker>
@@ -2163,7 +2163,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt mit einem plötzlichen Schrei.</character_sound></stage>
+            <stage><character_sound>sagt mit einem plötzlichen Schrei</character_sound>.</stage>
             <p>Tot! Alles tot!<stage>Ab in Verzweiflung.</stage></p>
             <stage>Franz hüpft frohlockend herein.</stage>
           </sp>
@@ -2352,7 +2352,7 @@
           <sp who="#razmann">
             <speaker>RAZMANN.</speaker>
             <p>Ich versteh, ich versteh.</p>
-            <stage><character_sound>Schwarz in vollem Lauf.</character_sound></stage>
+            <stage><character_sound>Schwarz in vollem Lauf</character_sound>.</stage>
           </sp>
           <sp who="#razmann">
             <speaker>RAZMANN.</speaker>
@@ -2430,7 +2430,7 @@
           </sp>
           <sp who="#schweizer #roller">
             <speaker>SCHWEIZER. ROLLER</speaker>
-            <stage><character_sound><character_sound>sagen hinter der Szene.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagen hinter der Szene</character_sound>.</character_sound></stage>
             <p>Holla ho! Holla ho!</p>
           </sp>
           <sp who="#razmann">
@@ -2447,17 +2447,17 @@
             <p>Roller! Schweizer! Blitz, Donner, Hagel und Wetter!<stage>Fliegen ihm
                 entgegen.</stage></p>
             <stage><character_sound>Räuber Moor zu Pferd, Schweizer, Roller, Grimm, Schufterle, Räubertrupp mit Kot
-              und Staub bedeckt, treten auf.</character_sound></stage>
+              und Staub bedeckt, treten auf</character_sound>.</stage>
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt vom Pferd springend.</character_sound></stage>
+            <stage><character_sound>sagt vom Pferd springend</character_sound>.</stage>
             <p>Freiheit! Freiheit! – – du bist im Trocknen, Roller! – Führ meinen Rappen ab, Schweizer, und wasch ihn mit Wein.<stage>Wirft sich auf die Erde.</stage> Das hat
               gegolten!</p>
           </sp>
           <sp who="#razmann">
             <speaker>RAZMANN</speaker>
-            <stage><character_sound>sagt zu Roller.</character_sound></stage>
+            <stage><character_sound>sagt zu Roller</character_sound>.</stage>
             <p>Nun bei der Feueresse des Plutos! bist du vom Rad auferstanden?</p>
           </sp>
           <sp who="#schwarz">
@@ -2466,7 +2466,7 @@
           </sp>
           <sp who="#roller">
             <speaker>ROLLER</speaker>
-            <stage><character_sound>sagt in Atem.</character_sound></stage>
+            <stage><character_sound>sagt in Atem</character_sound>.</stage>
             <p>Ich bins. Leibhaftig. Ganz. Wo glaubst du, daß ich herkomme?</p>
           </sp>
           <sp who="#schwarz">
@@ -2566,7 +2566,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt sehr ernst.</character_sound></stage>
+            <stage><character_sound>sagt sehr ernst</character_sound>.</stage>
             <p>Roller, du bist teuer bezahlt.</p>
           </sp>
           <sp who="#schufterle">
@@ -2587,7 +2587,7 @@
               – es sind noch mehr unter euch, die meinem Grimm reif sind. Ich kenne dich,
               Spiegelberg. Aber ich will nächstens unter euch treten, und fürchterlich Musterung
               halten. <stage>Sie gehn zitternd ab.</stage></p>
-            <stage><character_sound>Moor allein, heftig auf und ab gehend.</character_sound></stage>
+            <stage><character_sound>Moor allein, heftig auf und ab gehend</character_sound>.</stage>
             <p>Höre sie nicht, Rächer im Himmel! – Was kann ich dafür? Was kannst du dafür, wenn deine Pestilenz, deine Teurung, deine Wasserfluten, den Gerechten mit dem Bösewicht auffressen? Wer kann der Flamme befehlen, daß sie nicht auch durch die gesegneten<pb n="547" /> Saaten wüte, wenn sie das Genist der Hornissel zerstören soll? – O pfui
               über den Kindermord! den Weibermord! – den Krankenmord! Wie beugt mich diese Tat! Sie
               hat meine schönsten Werke vergiftet – da steht der Knabe, schamrot und ausgehöhnt vor
@@ -2599,7 +2599,7 @@
           </sp>
           <sp who="#die_raeuber">
             <speaker>RÄUBER</speaker>
-            <stage><character_sound>sagt eilig.</character_sound></stage>
+            <stage><character_sound>sagt eilig</character_sound>.</stage>
             <p>Sieh dich vor, Hauptmann! Es spukt! Ganze Haufen böhmischer Reuter schwadronieren im Holz herum – der höllische Blaustrumpf muß ihnen verträtscht haben –</p>
           </sp>
           <sp who="#die_raeuber">
@@ -2610,7 +2610,7 @@
             <speaker>NEUE RÄUBER.</speaker>
             <p>Weh, weh, weh! Wir sind gefangen, gerädert, wir sind gevierteilt! Viele tausend Husaren, Dragoner und Jäger sprengen um die Anhöhe, und halten die Luftlöcher besetzt.<stage>Moor geht ab.</stage></p>
             <stage><character_sound>Schweizer. Grimm. Roller. Schwarz. Schufterle. Spiegelberg. Razmann.
-              Räubertrupp.</character_sound></stage>
+              Räubertrupp</character_sound>.</stage>
           </sp>
           <sp who="#schweizer">
             <speaker>SCHWEIZER.</speaker>
@@ -2644,7 +2644,7 @@
           <sp who="#razmann">
             <speaker>RAZMANN.</speaker>
             <p>Der Hauptmann, der Hauptmann!</p>
-            <stage><character_sound>Moor, langsam, vor sich.</character_sound></stage>
+            <stage><character_sound>Moor, langsam, vor sich</character_sound>.</stage>
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR.</speaker>
@@ -2705,7 +2705,7 @@
           <sp who="#karl_von_moor">
             <speaker>MOOR.</speaker>
             <p>Weg! Er dank es seiner Schande, sie hat ihn gerettet. Er soll nicht sterben, wenn ich und mein Schweizer sterben, und mein Roller. Laß ihn die Kleider ausziehen, so will ich sagen, er sei ein Reisender, und ich hab ihn bestohlen – Sei ruhig, Schweizer, ich schwöre darauf, er wird doch noch gehangen werden.</p>
-            <stage><character_sound>Pater tritt auf.</character_sound></stage>
+            <stage><character_sound>Pater tritt auf</character_sound>.</stage>
           </sp>
           <sp who="#pater">
             <speaker>PATER</speaker>
@@ -2752,7 +2752,7 @@
           </sp>
           <sp who="#pater">
             <speaker>PATER</speaker>
-            <stage><character_sound>sagt im Eifer.</character_sound></stage>
+            <stage><character_sound>sagt im Eifer</character_sound>.</stage>
             <p>Entsetzlicher Mensch! hebe dich weg von mir! Picht nicht das Blut des ermordeten Reichsgrafen an deinen verfluchten Fingern? Hast du nicht das Heiligtum des Herrn mit diebischen Händen durchbrochen, und mit einem Schelmengriff die geweihten Gefäße des Nachtmahls entwandt? Wie? hast du nicht Feuerbrände in unsere gottesfürchtige Stadt geworfen? und den Pulverturm über die Häupter guter Christen herabgestürzt?<stage>Mit
                 zusammengeschlagenen Händen.</stage> Greuliche, greuliche Frevel, die bis zum Himmel
               hinaufstinken, das Jüngste Gereicht waffnen, daß es reißend daherbricht! Reif zur
@@ -2863,7 +2863,7 @@
           </sp>
           <sp who="#pater">
             <speaker>PATER</speaker>
-            <stage><character_sound><character_sound>sagt vor sich.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt vor sich</character_sound>.</character_sound></stage>
             <p>Ist der Kerl unsinnig? – Sorgt ihr etwa, daß dies eine Falle sei, euch lebendig zu fangen? – Leset selbst, hier ist der Generalpardon unterschrieben.<stage>Er gibt
                 Schweizern ein Papier.</stage> Könnt ihr noch zweifeln?</p>
           </sp>
@@ -2886,7 +2886,7 @@
           </sp>
           <sp who="#pater">
             <speaker>PATER</speaker>
-            <stage><character_sound>sagt äußerst erstaunt.</character_sound></stage>
+            <stage><character_sound>sagt äußerst erstaunt</character_sound>.</stage>
             <p>Ich werde unsinnig, ich laufe davon! Hat man je von so was gehört?</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -2895,7 +2895,7 @@
           </sp>
           <sp who="#roller">
             <speaker>ROLLER</speaker>
-            <stage><character_sound>sagt in wilder Bewegung.</character_sound></stage>
+            <stage><character_sound>sagt in wilder Bewegung</character_sound>.</stage>
             <p>Und wann die Hölle uns neunfach umzingelte!<stage>Schwenkt seinen Degen.</stage> Wer
               kein Hund ist, rette den Hauptmann!</p>
           </sp>
@@ -2906,12 +2906,12 @@
           </sp>
           <sp who="#schweizer #grimm #roller #schwarz #schufterle #razmann #die_raeuber">
             <speaker>ALLE</speaker>
-            <stage><character_sound>lärmen.</character_sound></stage>
+            <stage><character_sound>lärmen</character_sound>.</stage>
             <p>Rettet, rettet, rettet den Hauptmann!</p>
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt sich losreißend, freudig.</character_sound></stage>
+            <stage><character_sound>sagt sich losreißend, freudig</character_sound>.</stage>
             <p>Itzt sind wir frei – Kameraden! Ich fühle eine Armee in meiner Faust – Tod oder Freiheit! Wenigstens sollen sie keinen lebendig haben!</p>
             <stage>Man bläst zum Angriff. <ambient_sound>Lärm und Getümmel</ambient_sound><ambient_sound>Lärm und Getümmel</ambient_sound>. Sie gehen ab mit gezogenem
               Degen.</stage>
@@ -3095,7 +3095,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt mit Mitleiden, seine Hand ergreifend.</character_sound></stage>
+            <stage><character_sound>sagt mit Mitleiden, seine Hand ergreifend</character_sound>.</stage>
             <p>Guter Mensch – Kann ein Wort von deinen Lippen die Riegel der Ewigkeit aufreißen?</p>
           </sp>
           <sp who="#hermann">
@@ -3105,7 +3105,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound><character_sound>sagt schreiend.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt schreiend</character_sound>.</character_sound></stage>
             <p>Unglücklicher!</p>
           </sp>
           <sp who="#hermann">
@@ -3114,7 +3114,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt gegen ihn herstürzend.</character_sound></stage>
+            <stage><character_sound>sagt gegen ihn herstürzend</character_sound>.</stage>
             <p>Du lügst –</p>
           </sp>
           <sp who="#hermann">
@@ -3196,7 +3196,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt in den Anblick verschwemmt.</character_sound></stage>
+            <stage><character_sound>sagt in den Anblick verschwemmt</character_sound>.</stage>
             <p>So stirbt ein Held! – Anbetenswürdig.</p>
           </sp>
           <sp who="#grimm">
@@ -3273,7 +3273,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt zurückgesunken.</character_sound></stage>
+            <stage><character_sound>sagt zurückgesunken</character_sound>.</stage>
             <p>Und ich so häßlich auf dieser schönen Welt – und ich ein Ungeheuer auf dieser herrlichen Erde.</p>
           </sp>
           <sp who="#grimm">
@@ -3293,23 +3293,23 @@
           </sp>
           <sp who="#schwarz">
             <speaker>SCHWARZ</speaker>
-            <stage><character_sound>sagt zu den übrigen.</character_sound></stage>
+            <stage><character_sound>sagt zu den übrigen</character_sound>.</stage>
             <p>Unbegreiflich! Ich hab ihn nie so gesehen.</p>
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt mit Wehmut.</character_sound></stage>
+            <stage><character_sound>sagt mit Wehmut</character_sound>.</stage>
             <p>Daß ich wiederkehren dürfte in meiner Mutter Leib! daß ich ein Bettler geboren werden dürfte! – nein! ich wollte nicht mehr o Himmel – daß ich werden dürfte wie dieser Taglöhner einer! – O ich wollte mich abmüden, daß mir das Blut von den Schläfen rollte – mir die Wollust eines einzigen Mittagschlafs zu erkaufen – die Seligkeit einer einzigen Träne.</p>
           </sp>
           <sp who="#grimm">
             <speaker>GRIMM</speaker>
-            <stage><character_sound><character_sound>sagt zu den andern.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt zu den andern</character_sound>.</character_sound></stage>
             <p>Nur Geduld! der Paroxysmus ist schon im Fallen.</p>
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR.</speaker>
             <p>Es war eine Zeit, wo sie mir so gern flossen – o ihr Tage des Friedens! Du Schloß meines Vaters – ihr grünen, schwärmerischen Täler! O all ihr Elysiumszenen meiner Kindheit! – Werdet ihr nimmer zurückkehren – nimmer mit köstlichen Säuseln meinen brennenden Busen kühlen? – Traure mit mir, Natur – Sie werden nimmer zurückkehren, nimmer mit köstlichen Säuseln meinen brennenden Busen kühlen. – Dahin! dahin! unwiederbringlich! –</p>
-            <stage><character_sound>Schweizer mit Wasser im Hut.</character_sound></stage>
+            <stage><character_sound>Schweizer mit Wasser im Hut</character_sound>.</stage>
           </sp>
           <sp who="#schweizer">
             <speaker>SCHWEIZER.</speaker>
@@ -3392,7 +3392,7 @@
           </sp>
           <sp who="#schweizer">
             <speaker>SCHWEIZER</speaker>
-            <stage><character_sound>sagt zum Hauptmann.</character_sound></stage>
+            <stage><character_sound>sagt zum Hauptmann</character_sound>.</stage>
             <p>Der Bursche gefällt mir. – Höre, guter Freund! Du hast deine Leute gefunden.</p>
           </sp>
           <sp who="#kosinsky">
@@ -3407,7 +3407,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt näherkommend.</character_sound></stage>
+            <stage><character_sound>sagt näherkommend</character_sound>.</stage>
             <p>Kennen Sie auch den Hauptmann?</p>
           </sp>
           <sp who="#kosinsky">
@@ -3441,7 +3441,7 @@
           </sp>
           <sp who="#schweizer">
             <speaker>SCHWEIZER</speaker>
-            <stage><character_sound>sagt mit einem Sprung.</character_sound></stage>
+            <stage><character_sound>sagt mit einem Sprung</character_sound>.</stage>
             <p>Heisa! Heisa! So ist ja unser Roller zehnhundertfach vergütet! Ein ganzer Mordbruder für unsere Bande!</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -3491,7 +3491,7 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound>sagt unwillig auf und ab gehend.</character_sound></stage>
+            <stage><character_sound>sagt unwillig auf und ab gehend</character_sound>.</stage>
             <p>Ei wie dumm! wie abscheulich, wie unverzeihlich dumm! das ist die Manier nicht! Ich habs anderst gemacht.</p>
           </sp>
           <sp who="#kosinsky">
@@ -3539,7 +3539,7 @@
             <speaker>KOSINSKY.</speaker>
             <p>Blut, Blut – höre nur weiter! Blut, sag ich dir, wird deine ganze Seele füllen. Sie war bürgerlicher Geburt, eine Deutsche – aber ihr Anblick schmelzte die Vorurteile des Adels hinweg. Mit der schüchternsten Bescheidenheit nahm sie den Trauring von<pb n="566" /> meiner Hand, und übermorgen sollte ich meine <emph>Amalia</emph> vor den
               Altar führen.</p>
-            <stage><character_sound>Moor steht schnell auf.</character_sound></stage>
+            <stage><character_sound>Moor steht schnell auf</character_sound>.</stage>
           </sp>
           <sp who="#kosinsky">
             <speaker>KOSINSKY.</speaker>
@@ -3587,7 +3587,7 @@
           </sp>
           <sp who="#schweizer">
             <speaker>SCHWEIZER</speaker>
-            <stage><character_sound>sagt aufstehend, seinen Degen wetzend.</character_sound></stage>
+            <stage><character_sound>sagt aufstehend, seinen Degen wetzend</character_sound>.</stage>
             <p>Das ist Wasser auf unsere Mühle, Hauptmann! Da gibts was anzuzünden!</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -3715,7 +3715,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt in seinen Anblick versunken.</character_sound></stage>
+            <stage><character_sound>sagt in seinen Anblick versunken</character_sound>.</stage>
             <p>Vater, Vater! vergib mir! – Ja ein vortrefflicher Mann! –<stage>Er wischt sich die
                 Augen.</stage> Ein göttlicher Mann!</p>
           </sp>
@@ -3768,7 +3768,7 @@
           <sp who="#karl_von_moor">
             <speaker>MOOR.</speaker>
             <p>Aber dies Bild rechter Hand? – du weinst, Amalia?</p>
-            <stage><character_sound>Amalia schnell ab.</character_sound></stage>
+            <stage><character_sound>Amalia schnell ab</character_sound>.</stage>
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR.</speaker>
@@ -3779,7 +3779,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ VON MOOR</speaker>
-            <stage><character_sound>sagt in tiefen Gedanken.</character_sound></stage>
+            <stage><character_sound>sagt in tiefen Gedanken</character_sound>.</stage>
             <p>Weg mit diesem Bild! weg, feige Memme! was zagst du und vor wem? ist mirs nicht die wenige<pb n="571" /> Stunden, die der Graf in diesen Mauren wandelt, als schlich immer
               ein Spion der Hölle meinen Fersen nach – Ich sollt ihn kennen! Es ist so was Großes
               und oft Gesehenes in seinem wilden, sonnverbrannten Gesicht, das mich beben macht –
@@ -3820,7 +3820,7 @@
               daß dein getroffenes Gewissen durch die Larve erblassen soll! – Er soll sterben! – Der
               ist ein Stümper, der sein Werk nur auf die Hälfte bringt, und dann weggeht, und müßig
               zugafft, wie es weiter damit werden wird.</p>
-            <stage><character_sound>Daniel mit Wein.</character_sound></stage>
+            <stage><character_sound>Daniel mit Wein</character_sound>.</stage>
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ.</speaker>
@@ -3898,12 +3898,12 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound><character_sound>sagt blaß.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt blaß</character_sound>.</character_sound></stage>
             <p>Hat er, hat er wirklich? Wie, so laß mich doch hören! Er sagte, er sei mein Bruder?</p>
           </sp>
           <sp who="#daniel">
             <speaker>DANIEL</speaker>
-            <stage><character_sound>sagt betroffen.</character_sound></stage>
+            <stage><character_sound>sagt betroffen</character_sound>.</stage>
             <p>Was, mein Gebieter? – Nein, das sagte er nicht. Aber wie ihn das Fräulein in der Galerie herumführte, ich putzte eben den Staub von den Rahmen der Gemälde ab, stand er bei dem Porträt des seligen Herrn plötzlich still, wie vom Donner gerührt. Das gnädige Fräulein deutete drauf hin, und sagte: Ein vortrefflicher Mann! Ja, ein vortrefflicher Mann, gab er zur Antwort, indem er sich die Augen wischte.</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -3974,7 +3974,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt im Begriff zu gehen.</character_sound></stage>
+            <stage><character_sound>sagt im Begriff zu gehen</character_sound>.</stage>
             <p>Gut, du sollsts nötig haben.<stage>Daniel hält ihn auf und fällt vor ihm
                 nieder.</stage></p>
           </sp>
@@ -4024,7 +4024,7 @@
           </sp>
           <sp who="#daniel">
             <speaker>DANIEL</speaker>
-            <stage><character_sound>sagt nach einigem Nachdenken.</character_sound></stage>
+            <stage><character_sound>sagt nach einigem Nachdenken</character_sound>.</stage>
             <p>Ich wills tun, morgen will ichs tun.<stage>Ab.</stage></p>
           </sp>
           <sp who="#franz_von_moor">
@@ -4058,7 +4058,7 @@
           <stage>Räuber Moor von der einen Seite, Daniel von der andern.</stage>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt hastig.</character_sound></stage>
+            <stage><character_sound>sagt hastig</character_sound>.</stage>
             <p>Wo ist das Fräulein?</p>
           </sp>
           <sp who="#daniel">
@@ -4188,7 +4188,7 @@
           </sp>
           <sp who="#daniel">
             <speaker>DANIEL</speaker>
-            <stage><character_sound>sagt leiser.</character_sound></stage>
+            <stage><character_sound>sagt leiser</character_sound>.</stage>
             <p>Und wenn man freilich so ungebeten aufersteht – Euer Bruder war des Herrn selig einziger Erbe –</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -4203,7 +4203,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt auffahrend aus schröcklichem Pausen.</character_sound></stage>
+            <stage><character_sound>sagt auffahrend aus schröcklichem Pausen</character_sound>.</stage>
             <p>Betrogen, betrogen! da fährt es über meine Seele wie der Blitz!<emph>Spitzbübische
                 Künste!</emph> Himmel und Hölle! nicht du, Vater! <emph>Spitzbübische Künste!</emph>
               <emph>Mörder</emph>, <emph>Räuber</emph> durch spitzbübische Künste! Angeschwärzt von
@@ -4231,7 +4231,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt befehlend.</character_sound></stage>
+            <stage><character_sound>sagt befehlend</character_sound>.</stage>
             <p>Hurtig, hurtig! Zaudre nicht lang, laß alles da! und daß kein Aug dich gewahr wird.<stage>Kosinsky ab.</stage></p>
             <stage>Moor.</stage>
             <p>Ich fliehe aus diesen Mauren. Der geringste Verzug könnte mich wütig machen, und er ist meines Vaters Sohn – Bruder, Bruder! Du hast mich zum Elendesten auf Erden gemacht, ich habe dich niemals beleidigt, es war nicht brüderlich gehandelt – Ernte die Früchte deiner Untat in Ruhe, meine Gegenwart soll dir den Genuß nicht länger vergällen – aber gewiß, es war nicht brüderlich gehandelt. Finsternis verlösche sie auf ewig, und der Tod rühre sie nicht auf!</p>
@@ -4299,7 +4299,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt zurückfahrend.</character_sound></stage>
+            <stage><character_sound>sagt zurückfahrend</character_sound>.</stage>
             <p>Ha! – und verdient er diese Vergötterung? Verdient er? –</p>
           </sp>
           <sp who="#amalia">
@@ -4321,7 +4321,7 @@
           <sp who="#amalia">
             <speaker>AMALIA.</speaker>
             <p>Oh Sie hätten ihn so lieb gehabt – es war so viel, so viel in seinem Angesicht – in seinen Augen – im Ton seiner Stimme, das Ihnen so gleich kommt – das ich so liebe –</p>
-            <stage><character_sound>Moor sieht zur Erde.</character_sound></stage>
+            <stage><character_sound>Moor sieht zur Erde</character_sound>.</stage>
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA.</speaker>
@@ -4376,7 +4376,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt froh aufhüpfend.</character_sound></stage>
+            <stage><character_sound>sagt froh aufhüpfend</character_sound>.</stage>
             <p>Ha, wie bin ich ein glückliches Mädchen! Mein Einziger ist Nachstrahl der Gottheit, und die Gottheit ist Huld und Erbarmen! Nicht eine Fliege konnt er leiden sehen – Seine Seele ist so fern von einem blutigen Gedanken, als fern der Mittag von der Mitternacht ist.</p>
             <stage>Moor kehrt sich schnell ab in ein Gebüsch, blickt starr in die Gegend.</stage>
           </sp>
@@ -4409,7 +4409,7 @@
           <stage>Die Räuberbande gelagert auf der Erde.</stage>
           <sp who="#die_raeuber">
             <speaker>DIE RÄUBER</speaker>
-            <stage><character_sound>sagen und singen.</character_sound></stage>
+            <stage><character_sound>sagen und singen</character_sound>.</stage>
             <lg>
               <l>Stehlen, morden, huren, balgen</l>
               <l>Heißt bei uns nur die Zeit zerstreun.</l>
@@ -4478,7 +4478,7 @@
           </sp>
           <sp who="#schwarz">
             <speaker>SCHWARZ</speaker>
-            <stage><character_sound><character_sound>sagt zu Grimm.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt zu Grimm</character_sound>.</character_sound></stage>
             <p>Wollen wir nicht Spionen ausstellen?</p>
           </sp>
           <sp who="#grimm">
@@ -4491,7 +4491,7 @@
           </sp>
           <sp who="#razmann">
             <speaker>RAZMANN</speaker>
-            <stage><character_sound><character_sound>sagt leise zu Spiegelberg.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt leise zu Spiegelberg</character_sound>.</character_sound></stage>
             <p>Wo will das hinaus – rede deutscher!</p>
           </sp>
           <sp who="#spiegelberg">
@@ -4524,7 +4524,7 @@
           </sp>
           <sp who="#spiegelberg">
             <speaker>SPIEGELBERG</speaker>
-            <stage><character_sound>sagt zu Razmann.</character_sound></stage>
+            <stage><character_sound>sagt zu Razmann</character_sound>.</stage>
             <p>Ja – und Jahre schon dicht ich darauf: Es soll anders werden. Razmann – wenn du bist, wofür ich dich immer hielt – Razmann. – Man vermißt ihn – gibt ihn halb verloren – Razmann – mich deucht, seine schwarze Stunde schlägt – wie? Nicht einmal röter wirst du, da dir die Glocke zur Freiheit läutet? Hast nicht einmal so viel Mut, einen kühnen Wink zu verstehen?</p>
           </sp>
           <sp who="#razmann">
@@ -4544,7 +4544,7 @@
           </sp>
           <sp who="#die_raeuber">
             <speaker>RÄUBER</speaker>
-            <stage><character_sound>sagt in Bewegung.</character_sound></stage>
+            <stage><character_sound>sagt in Bewegung</character_sound>.</stage>
             <p>Mordjo! Mordjo! – Schweizer – Spiegelberg – Reißt sie auseinander –</p>
           </sp>
           <sp who="#schweizer">
@@ -4569,7 +4569,7 @@
           <sp who="#schwarz">
             <speaker>SCHWARZ</speaker>
             <stage>sagt aufspringend.</stage>
-            <p>Horch! ein Pistolschuß!<stage>Man schießt wieder.</stage> Noch einer! Holla! der
+            <p>Horch! ein Pistolschuß!<stage><ambient_sound> Man schießt wieder </ambient_sound>.</stage> Noch einer! Holla! der
               Hauptmann!</p>
           </sp>
           <sp who="#grimm">
@@ -4581,17 +4581,17 @@
             <speaker>SCHWARZ.</speaker>
             <p>Er ists – ists! – Salvier dich, Schweizer – laßt uns ihm antworten.<stage>Sie
                 schießen.</stage></p>
-            <stage><character_sound>Moor, Kosinsky treten auf.</character_sound></stage>
+            <stage><character_sound>Moor, Kosinsky treten auf</character_sound>.</stage>
           </sp>
           <sp who="#schweizer">
             <speaker>SCHWEIZER</speaker>
-            <stage><character_sound>sagt ihnen entgegen.</character_sound></stage>
+            <stage><character_sound>sagt ihnen entgegen</character_sound>.</stage>
             <p>Sei willkommen, mein Hauptmann – Ich bin ein bißchen vorlaut gewesen seit du weg bist.<stage>Er führt ihn an die Leiche.</stage> Sei du Richter zwischen mir und
               diesem – von <emph>hinten</emph> hat er dich ermorden wollen.</p>
           </sp>
           <sp who="#die_raeuber">
             <speaker>RÄUBER</speaker>
-            <stage><character_sound>sagt mit Bestürzung.</character_sound></stage>
+            <stage><character_sound>sagt mit Bestürzung</character_sound>.</stage>
             <p>Was? den Hauptmann?</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -4605,7 +4605,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt nachdenkend.</character_sound></stage>
+            <stage><character_sound>sagt nachdenkend</character_sound>.</stage>
             <p>Ich verstehe – Lenker im Himmel – ich verstehe – die Blätter fallen von den Bäumen – und mein Herbst ist kommen – Schafft mir diesen aus den Augen.<stage>Spiegelbergs
                 Leiche wird hinweggetragen.</stage></p>
           </sp>
@@ -4755,12 +4755,12 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt sachte zurücktretend.</character_sound></stage>
+            <stage><character_sound>sagt sachte zurücktretend</character_sound>.</stage>
             <p>Was soll das bedeuten?</p>
           </sp>
           <sp who="#der_alte_moor">
             <speaker>EINE STIMME</speaker>
-            <stage><character_sound><character_sound>sagt aus dem Schloß.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt aus dem Schloß</character_sound>.</character_sound></stage>
             <p>Wer pocht da? He? Bist dus, Hermann mein Rabe?</p>
           </sp>
           <sp who="#hermann">
@@ -4775,7 +4775,7 @@
           </sp>
           <sp who="#hermann">
             <speaker>HERMANN.</speaker>
-            <p>Stille – Horch – </ambient_sound>Geräusch</ambient_sound> wie von Schnarchenden! Hörst du nicht was?</p>
+            <p>Stille – Horch – <ambient_sound>Geräusch</ambient_sound> wie von Schnarchenden! Hörst du nicht was?</p>
           </sp>
           <sp who="#der_alte_moor">
             <speaker>STIMME.</speaker>
@@ -4796,7 +4796,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt mit Entsetzen hervortretend.</character_sound></stage>
+            <stage><character_sound>sagt mit Entsetzen hervortretend</character_sound>.</stage>
             <p>Steh!</p>
           </sp>
           <sp who="#hermann">
@@ -4912,7 +4912,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt heftig von ihm abgewandt.</character_sound></stage>
+            <stage><character_sound>sagt heftig von ihm abgewandt</character_sound>.</stage>
             <p>Es ist offenbar!</p>
           </sp>
           <sp who="#der_alte_moor">
@@ -4943,7 +4943,7 @@
           </sp>
           <sp who="#die_raeuber">
             <speaker>DIE RÄUBER</speaker>
-            <stage><character_sound>sagt aufgejagt.</character_sound></stage>
+            <stage><character_sound>sagt aufgejagt</character_sound>.</stage>
             <p>He, holla! holla! was gibts da?</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -5052,7 +5052,7 @@
           <sp who="#daniel">
             <speaker>DANIEL.</speaker>
             <p>Lebe wohl, teures Mutterhaus – Hab so manch Guts und Liebs in dir genossen, da der Herr seliger noch lebete – Tränen auf deine Gebeine, du lange Verfaulter! Das verlangt er von einem alten Knecht – es war das Obdach der Waisen, und der Port der Verlassenen, und dieser Sohn hats gemacht zur Mördergrube – Lebe wohl du guter Boden! wie oft hat der alte Daniel dich abgefegt – Lebe wohl, du lieber Ofen, der alte Daniel nimmt schweren Abschied von dir – es war dir alles so vertraut worden – wird dir weh tun, alter Elieser – Aber Gott bewahre mich in Gnaden vor dem Trug und List des Argen – Leer kam ich hieher – leer zieh ich wieder hin – aber meine Seele ist gerettet.</p>
-            <stage><character_sound>Wie er gehen will, kömmt Franz im Schlafrock hereingestürzt.</character_sound></stage>
+            <stage><character_sound>Wie er gehen will, kömmt Franz im Schlafrock hereingestürzt</character_sound>.</stage>
           </sp>
           <sp who="#daniel">
             <speaker>DANIEL.</speaker>
@@ -5064,7 +5064,7 @@
           </sp>
           <sp who="#daniel">
             <speaker>DANIEL</speaker>
-            <stage><character_sound>sagt ängstlich.</character_sound></stage>
+            <stage><character_sound>sagt ängstlich</character_sound>.</stage>
             <p>Hilf, heilige Mutter Gottes! Seid Ihrs, gestrenger Herre, der so gräßlich durch die Gewölbe schreit, daß alle Schläfer auffahren?</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -5157,7 +5157,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound><character_sound>sagt verwirrt.</character_sound></character_sound></stage>
+            <stage><character_sound><character_sound>sagt verwirrt</character_sound>.</character_sound></stage>
             <p>Weg – weg! was rüttelst du mich so, scheußliches Totengeripp? – die Toten stehen noch nicht auf –</p>
           </sp>
           <sp who="#daniel">
@@ -5252,7 +5252,7 @@
           </sp>
           <sp who="#daniel">
             <speaker>DANIEL</speaker>
-            <stage><character_sound>sagt im Abgehn.</character_sound></stage>
+            <stage><character_sound>sagt im Abgehn</character_sound>.</stage>
             <p>Gott sei Euch gnädig!</p>
           </sp>
           <sp who="#franz_von_moor">
@@ -5261,7 +5261,7 @@
               droben über den Sternen – und wenn er gerecht ist, Waisen und Witwen, Unterdrückte,
               Geplagte heulen zu ihm auf, und wenn er gerecht ist? – warum haben sie gelitten, warum
               hast du über sie triumphieret? –</p>
-            <stage><character_sound>Pastor Moser tritt auf.</character_sound></stage>
+            <stage><character_sound>Pastor Moser tritt auf</character_sound>.</stage>
           </sp>
           <sp who="#moser">
             <speaker>MOSER.</speaker>
@@ -5328,7 +5328,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt unruhig im Zimmer auf und ab gehend.</character_sound></stage>
+            <stage><character_sound>sagt unruhig im Zimmer auf und ab gehend</character_sound>.</stage>
             <p>Pfaffengewäsche, Pfaffengewäsche!</p>
           </sp>
           <sp who="#moser">
@@ -5355,7 +5355,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt wild auf ihn losgehend.</character_sound></stage>
+            <stage><character_sound>sagt wild auf ihn losgehend</character_sound>.</stage>
             <p>Daß dich der Donner stumm mache, Lügengeist du! Ich will dir die verfluchte Zunge aus dem Munde reißen!</p>
           </sp>
           <sp who="#moser">
@@ -5422,7 +5422,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt aufgesprungen.</character_sound></stage>
+            <stage><character_sound>sagt aufgesprungen</character_sound>.</stage>
             <p>Geh in tausend Grüfte, du Eule! wer hieß dich hieher kommen? Geh, sag ich, oder ich stoß dich durch und durch!</p>
           </sp>
           <sp who="#moser">
@@ -5439,7 +5439,7 @@
           <sp who="#bedienter_5-1b">
             <speaker>BEDIENTER.</speaker>
             <p>Amalia ist entsprungen, der Graf ist plötzlich verschwunden.</p>
-            <stage><character_sound>Daniel kommt ängstlich.</character_sound></stage>
+            <stage><character_sound>Daniel kommt ängstlich</character_sound>.</stage>
           </sp>
           <sp who="#daniel">
             <speaker>DANIEL.</speaker>
@@ -5470,12 +5470,12 @@
           </sp>
           <sp who="#schweizer">
             <speaker>SCHWEIZER</speaker>
-            <stage><character_sound>sagt auf der Gasse.</character_sound></stage>
+            <stage><character_sound>sagt auf der Gasse</character_sound>.</stage>
             <p>Stürmt! Schlagt tot! Brecht ein! Ich sehe Licht! dort muß er sein.</p>
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt auf den Knien.</character_sound></stage>
+            <stage><character_sound>sagt auf den Knien</character_sound>.</stage>
             <p>Höre mich beten, Gott im Himmel! – Es ist das erste Mal – soll auch gewiß nimmer geschehen – erhöre mich, Gott im Himmel!</p>
           </sp>
           <sp who="#daniel">
@@ -5489,7 +5489,7 @@
           </sp>
           <sp who="#schweizer">
             <speaker>SCHWEIZER</speaker>
-            <stage><character_sound>sagt immer auf der Gasse.</character_sound></stage>
+            <stage><character_sound>sagt immer auf der Gasse</character_sound>.</stage>
             <p>Schlag sie zurück, Kamerad – der Teufel ists und will euren Herrn holen – wo ist der Schwarz mit seinen Haufen? – Postier dich ums Schloß, Grimm – Lauf Sturm wider die Ringmauer!</p>
           </sp>
           <sp who="#grimm">
@@ -5527,7 +5527,7 @@
           </sp>
           <sp who="#franz_von_moor">
             <speaker>FRANZ</speaker>
-            <stage><character_sound>sagt ihm graß nachstierend, nach einer Pause.</character_sound></stage>
+            <stage><character_sound>sagt ihm graß nachstierend, nach einer Pause</character_sound>.</stage>
             <p>In die Hölle, wolltest du sagen? – Wirklich! ich wittere so etwas –<stage>Wahnsinnig.</stage> Sind das ihr hellen Triller? Hör ich euch zischen, ihr
               Nattern des Abgrunds? – Sie dringen herauf – belagern die Türe – warum zag ich so vor
               dieser bohrenden Spitze? – <ambient_sound>Die Türe kracht</ambient_sound> – stürzt – unentrinnbar! – Ha! so erbarm du
@@ -5585,7 +5585,7 @@
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound>sagt in Tränen ausbrechend.</character_sound></stage>
+            <stage><character_sound>sagt in Tränen ausbrechend</character_sound>.</stage>
             <p>O mein Kind!</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -5599,7 +5599,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt erschrocken.</character_sound></stage>
+            <stage><character_sound>sagt erschrocken</character_sound>.</stage>
             <p>Welches?</p>
           </sp>
           <sp who="#der_alte_moor">
@@ -5635,7 +5635,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt sehr gerührt.</character_sound></stage>
+            <stage><character_sound>sagt sehr gerührt</character_sound>.</stage>
             <p>Er war Euch lieb Euer andrer Sohn?</p>
           </sp>
           <sp who="#der_alte_moor">
@@ -5650,7 +5650,7 @@
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR.</speaker>
             <p>Oh ich fühl es tief, was mir Amalia sagte, der Geist der Rache sprach aus ihrem Munde: Vergebens ausstrecken deine sterbenden Hände wirst du nach einem Sohn, vergebens wähnen zu umfassen die warme Hand deines Karls, der nimmermehr an deinem Bette steht –</p>
-            <stage><character_sound>Räuber Moor reicht ihm die Hand mit abgewandtem Gesicht.</character_sound></stage>
+            <stage><character_sound>Räuber Moor reicht ihm die Hand mit abgewandtem Gesicht</character_sound>.</stage>
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR.</speaker>
@@ -5658,7 +5658,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt in der heftigsten Bewegung.</character_sound></stage>
+            <stage><character_sound>sagt in der heftigsten Bewegung</character_sound>.</stage>
             <p>Itzt muß es sein – itzt verlaßt mich<stage>Zu den Räubern.</stage>! Und doch – Kann
               ich ihm denn seinen Sohn wieder schenken? – Ich kann ihm seinen Sohn doch nicht mehr
               schenken – Nein! Ich wills nicht tun.</p>
@@ -5679,7 +5679,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt in der fürchterlichsten Beklemmung gen Himmel sehend.</character_sound></stage>
+            <stage><character_sound>sagt in der fürchterlichsten Beklemmung gen Himmel sehend</character_sound>.</stage>
             <p>O nur diesmal – Laß meine Seele nicht matt werden – nur diesmal halte mich aufrecht.</p>
           </sp>
           <sp who="#der_alte_moor">
@@ -5709,13 +5709,13 @@
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound>sagt mit Schmerz.</character_sound></stage>
+            <stage><character_sound>sagt mit Schmerz</character_sound>.</stage>
             <p>Daß du den Sohn vertilgen mußtest, Retter des Vaters! – Siehe die Gottheit ermüdet nicht im Erbarmen, und wir armseligen Würmer gehen schlafen mit unserm Groll.<stage>Legt seine Hand auf des Räubers Haupt.</stage> Sei so glücklich, als du dich
               erbarmest!</p>
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt weichmütig, aufstehend.</character_sound></stage>
+            <stage><character_sound>sagt weichmütig, aufstehend</character_sound>.</stage>
             <p>O – wo ist meine Mannheit? Meine Sehnen werden schlapp, der Dolch sinkt aus meinen Händen.</p>
           </sp>
           <sp who="#der_alte_moor">
@@ -5744,7 +5744,7 @@
           </sp>
           <sp who="#grimm">
             <speaker>GRIMM</speaker>
-            <stage><character_sound>sagt mit gesenktem Ton.</character_sound></stage>
+            <stage><character_sound>sagt mit gesenktem Ton</character_sound>.</stage>
             <p>Mein Hauptmann.<stage>Räuber Moor antwortet nicht und tritt weiter
               zurück.</stage></p>
           </sp>
@@ -5758,7 +5758,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt ohne nach ihnen hinzuschaun.</character_sound></stage>
+            <stage><character_sound>sagt ohne nach ihnen hinzuschaun</character_sound>.</stage>
             <p>Wer seid ihr?</p>
           </sp>
           <sp who="#grimm">
@@ -5784,7 +5784,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt froh emporhüpfend.</character_sound></stage>
+            <stage><character_sound>sagt froh emporhüpfend</character_sound>.</stage>
             <p>Habe Dank, Lenker der Dinge – Umarmet mich, meine Kinder – Erbarmung sei von nun an die Losung – Nun wär auch das überstanden – Alles überstanden.</p>
             <stage>Neue Räuber. Amalia.</stage>
           </sp>
@@ -5794,7 +5794,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt mit fliegenden Haaren.</character_sound></stage>
+            <stage><character_sound>sagt mit fliegenden Haaren</character_sound>.</stage>
             <p>Die Toten, <ambient_sound>schreien sie</ambient_sound>, seien erstanden auf seine Stimme – mein Oheim lebendig – in diesem Wald – wo ist er? Karl! Oheim! – Ha!<stage>Stürzt auf den Alten
               zu.</stage></p>
           </sp>
@@ -5815,7 +5815,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt sich losreißend, zu den Räubern.</character_sound></stage>
+            <stage><character_sound>sagt sich losreißend, zu den Räubern</character_sound>.</stage>
             <p>Brecht auf, ihr! Der Erzfeind hat mich verraten!</p>
           </sp>
           <sp who="#amalia">
@@ -5824,7 +5824,7 @@
           </sp>
           <sp who="#der_alte_moor">
             <speaker>DER ALTE MOOR</speaker>
-            <stage><character_sound>sagt sich aufraffend.</character_sound></stage>
+            <stage><character_sound>sagt sich aufraffend</character_sound>.</stage>
             <p>Bräutigam? Tochter! Tochter! Ein Bräutigam?</p>
             <pb n="612" />
           </sp>
@@ -5856,11 +5856,11 @@
               dritten Mal! – Diese deine Retter sind Räuber und Mörder! Dein Karl ist ihr
               Hauptmann!</p>
             <stage><character_sound>Der alte Moor gibt seinen Geist auf. Amalia steht stumm und starr wie eine
-              Bildsäule. Die ganze Bande in fürchterlicher Pause.</character_sound></stage>
+              Bildsäule. Die ganze Bande in fürchterlicher Pause</character_sound>.</stage>
           </sp>
           <sp who="#karl_von_moor">
             <speaker>RÄUBER MOOR</speaker>
-            <stage><character_sound>sagt wider eine Eiche rennend.</character_sound></stage>
+            <stage><character_sound>sagt wider eine Eiche rennend</character_sound>.</stage>
             <p>Die Seelen derer, die ich erdrosselte im Taumel der Liebe – derer, die ich zerschmetterte im heiligen Schlaf, derer – hahaha! hört ihr den Pulverturm knallen über der Kreißenden Stühlen? Seht ihr die Flammen schlagen an den Wiegen der Säuglinge? das ist Brautfackel, das ist Hochzeitmusik – oh, er vergißt nicht, er weiß zu knüpfen – darum von mir die Wonne der Liebe! darum mir zur Folter die Liebe! Das ist Vergeltung!</p>
           </sp>
           <sp who="#amalia">
@@ -5890,7 +5890,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt aufblühend, in ekstatischer Wonne.</character_sound></stage>
+            <stage><character_sound>sagt aufblühend, in ekstatischer Wonne</character_sound>.</stage>
             <p>Sie vergibt mir, sie liebt mich! Rein bin ich wie der Äther des Himmels, sie liebt mich. Weinenden Dank dir, Erbarmer im Himmel!<stage>Er fällt auf die Knie und weinet
                 heftig.</stage> Der Friede meiner Seele ist wiedergekommen, die Qual hat ausgetobt,
               die Hölle ist nicht mehr – Sieh, o sieh, die Kinder des Lichts weinen am Hals der
@@ -5900,7 +5900,7 @@
           </sp>
           <sp who="#ein_raeuber">
             <speaker>EIN RÄUBER</speaker>
-            <stage><character_sound>sagt grimmig hervortretend.</character_sound></stage>
+            <stage><character_sound>sagt grimmig hervortretend</character_sound>.</stage>
             <p>Halt ein, Verräter! – Gleich laß diesen Arm fahren – oder ich will dir ein Wort sagen, daß dir die Ohren gellen, und deine Zähne vor Entsetzen klappern!<stage>Streckt das Schwert zwischen beide.</stage></p>
           </sp>
           <sp who="#ein_alter_raeuber">
@@ -5943,7 +5943,7 @@
           </sp>
           <sp who="#amalia">
             <speaker>AMALIA</speaker>
-            <stage><character_sound>sagt seine Knie umfassend.</character_sound></stage>
+            <stage><character_sound>sagt seine Knie umfassend</character_sound>.</stage>
             <p>Oh um Gottes willen, um aller Erbarmungen willen! Ich will ja nicht Liebe mehr, weiß ja wohl, daß droben unsere Sterne feindlich voneinander fliehen, – Tod ist meine Bitte nur. – Verlassen, verlassen! Nimm es ganz in seiner entsetzlichen Fülle, verlassen! Ich kanns nicht überdulden. Du siehst ja, das kann kein Weib überdulden. Tod ist meine Bitte nur! Sieh, meine Hand zittert! Ich habe das Herz nicht zu stoßen. Mir bangt vor der blitzenden Schneide – dir ists ja so leicht, so leicht, bist ja Meister im Morden, zeuch dein Schwert, und ich bin glücklich!</p>
           </sp>
           <sp who="#karl_von_moor">
@@ -5976,7 +5976,7 @@
           </sp>
           <sp who="#karl_von_moor">
             <speaker>MOOR</speaker>
-            <stage><character_sound>sagt auf den Leichnam mit starrem Blick.</character_sound></stage>
+            <stage><character_sound>sagt auf den Leichnam mit starrem Blick</character_sound>.</stage>
             <p>Sie ist getroffen! Dies Zucken noch, und dann wirds vorbei sein – Nun, seht doch! Habt ihr noch was zu fordern? Ihr opfertet mir ein Leben auf, ein Leben, das schon nicht mehr euer war, ein Leben voll Abscheulichkeit und Schande – ich hab euch einen Engel geschlachtet. Wie, seht doch recht her! Seid ihr nunmehr zufrieden?</p>
           </sp>
           <sp who="#grimm">
