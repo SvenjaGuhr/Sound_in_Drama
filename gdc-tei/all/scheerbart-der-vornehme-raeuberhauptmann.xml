@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000182" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der vornehme Räuberhauptmann</title>
+        <title type="sub">Ein Bühnenspass in drei Aufzügen</title>
+        <author>
+          <persName>
+            <forename>Paul</forename>
+            <surname>Scheerbart</surname>
+          </persName>
+          <idno type="wikidata">Q62435</idno>
+          <idno type="pnd">118606816</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:tv5k.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode"
+                >Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <author>Paul Scheerbart</author>: <title level="a">Der vornehme Räuberhauptmann. Ein
+              Bühnenspass in drei Aufzügen</title>. Herausgegeben von Mechthild Rausch. Band
+              <biblScope unit="volume">1</biblScope>: Revolutionäre Theater-Bibliothek.
+              <pubPlace>München</pubPlace>: <publisher>edition text + kritik</publisher>
+            <date>1977</date>, S. <biblScope unit="page" from="173" to="178"
+            >173–178</biblScope>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="knoblauch" sex="MALE">
+            <persName>Knoblauch</persName>
+          </person>
+          <person xml:id="lord" sex="MALE">
+            <persName>Lord</persName>
+          </person>
+          <person xml:id="knussel" sex="MALE">
+            <persName>Knussel</persName>
+          </person>
+          <person xml:id="merribur" sex="MALE">
+            <persName>Merribûr</persName>
+          </person>
+          <person xml:id="klatsch" sex="MALE">
+            <persName>Klatsch</persName>
+          </person>
+          <person xml:id="polizei-inspektor" sex="MALE">
+            <persName>Polizei-Inspektor</persName>
+          </person>
+          <person xml:id="ein_strassenkehrer" sex="MALE">
+            <persName>Ein Strassenkehrer</persName>
+          </person>
+          <person xml:id="zweiter_strassenkehrer" sex="MALE">
+            <persName>Zweiter Strassenkehrer</persName>
+          </person>
+          <person xml:id="ein_dichter" sex="MALE">
+            <persName>Ein Dichter</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-11-03">(ff) formalities</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1904">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000182"
+        passive="http://www.wikidata.org/entity/Q51393698"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <pb n="173"/>
+    <front>
+      <docTitle>
+        <titlePart type="main">Der vornehme Räuberhauptmann</titlePart>
+        <titlePart type="sub">Ein Bühnenspass in drei Aufzügen</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personen.</head>
+        <castItem><role>Graf Knoblauch,</role>
+          <roleDesc>Räuberhauptmann.</roleDesc></castItem>
+        <castItem><role>Knussel,</role>
+          <roleDesc>Räuber.</roleDesc></castItem>
+        <castItem><role>von Meiersprung,</role>
+          <roleDesc>Räuber.</roleDesc></castItem>
+        <castItem><role>Merribûr,</role>
+          <roleDesc>Räuber.</roleDesc></castItem>
+        <castItem><role>Klatsch,</role>
+          <roleDesc>Räuber.</roleDesc></castItem>
+        <castItem><role>ein Lord.</role></castItem>
+        <castItem><role>ein Polizei-Inspektor.</role></castItem>
+        <castItem><role>ein Gensdarm.</role></castItem>
+        <castItem><role>verschiedene deutsche Dichter, Kellner und Strassenkehrer.</role></castItem>
+      </castList>
+      <set>
+        <p>Die Handlung spielt teils in den Abbruzzen – teils in einem Polizeilokal Italiens – teils
+          in Berlin auf der Strasse.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+        <head>Erster Aufzug</head>
+        <stage>Zwei Zeltwände, die hinten im rechten Winkel zusammenstossen. Die Wände sind lose
+          hängendes faltiges Tuch. Im rechten Winkel kann das Tuch auseinandergeschlagen werden.
+          Möglichst prächtiges Tuch.</stage>
+        <stage>Rechts Knoblauch mit langen roten Bartkotelettes in einem Triumphstuhl – rauchend und
+          Zeitung lesend. Er ist sehr elegant nach der neuesten Mode gekleidet. Links hängt an einem
+          Kleiderständer sein Zylinder, Ueberzieher, Regenschirm und Perspektiv.</stage>
+        <stage>Knussel und von Meiersprung bringen einen gefesselten Lord herein. Knoblauch springt
+          erfreut auf und verbeugt sich sehr höflich.</stage>
+        <pb n="174"/>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Serr erfreut, Sie kennen zu lernen. Bitte Pardon for mein ausländisches Akzent. Ich bin
+            ein deutscher Graff und serr vorrnehm, spräkke wie ein Weltmann mit internationales
+            Akzent. Jedder ächte Deutschmann muss speak Weltsprak – weil old Germany Weltreich.
+            Disse Art, sick zu drücken aus, itzo serr moddern und vorrnehm. Knussel, nimm doch dem
+            Herrn Lord die Fesseln ab, dass er kann rauk min Ziehgarr. <stage>Bietet ihm eine
+              Zigarre und ein brennendes Streichholz an.</stage> Mon Nom is Knoblock. Vive la
+            vie!</p>
+          <stage>Der Lord steckt sich die Zigarre an und wird durch von Meiersprung mit der Flinte
+            von hinten erschossen.</stage>
+        </sp>
+        <sp who="#lord">
+          <speaker>LORD</speaker>
+          <stage>ärgerlich.</stage>
+          <p>Die Ziehgarr fällt. <stage>Fällt selbst und stirbt.</stage></p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Gesicht und Extremmitäten janz unkenntlich maken und die Kleidderchens vergrabben.</p>
+          <stage>Der Lord wird von den beiden Räubern hinausgetragen.</stage>
+        </sp>
+        <sp who="#knussel">
+          <speaker>KNUSSEL</speaker>
+          <stage>kommt gleich zurück.</stage>
+          <p>Das Geld haben wir ihm schon abgenommen; hier ist es. <stage>Gibt dem Knoblauch eine
+              Brieftasche.</stage></p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Disse Monneten werden morjen Abbend unter Euch Viere verteilt – ick will nix davon
+            prendre – ick will nurr habben eine neue Ziehgarr.</p>
+        </sp>
+        <sp who="#knussel">
+          <speaker>KNUSSEL.</speaker>
+          <p>Serr vornehm!</p>
+          <stage>Ab.</stage>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH</speaker>
+          <stage>sehr laut.</stage>
+          <p>Merribûr! Klatsch! <stage>Merribûr und Klatsch treten ein.</stage></p>
+        </sp>
+        <sp who="#merribur">
+          <speaker>MERRIBÛR.</speaker>
+          <p>Guten Morgen, Räuberhauptmann.</p>
+        </sp>
+        <sp who="#klatsch">
+          <speaker>KLATSCH.</speaker>
+          <p>Guten Morgen, Herr Graf.</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Gutten Morjen, Kinders! Ick will vertellen Euck something entre nous! Hier find ick
+            zwei Zettel von Knussel und Meiersprung – die wollen Euck totschlaggen mit Hammer und
+            Grannitt. <stage>Gibt ihnen die Zettel.</stage> Gehet raus und schiesset die Verräter
+            vorrherr dot. Abber vorrnehm – von hinten!</p>
+          <stage>Merribûr und Klatsch mit wütenden Gebärden ab – Knoblauch ladet schnell eine
+            Doppelflinte und horcht. Zwei Schüsse ertönen kurz hinter einander – er macht darauf
+            eine Spalte im linken Wandtuch, steckt die Flinte durch und schiesst auch zwei Schüsse
+            ab.</stage>
+        </sp>
+        <pb n="175"/>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH</speaker>
+          <stage>stellt die Flinte weg und zieht sich den Ueberzieher an.</stage>
+          <p>So – so – ita! Italiano! Italiano! Itzo sein die vier Räubber dot – mausedot. Und derr
+            Lord wird, da err verstümmelt ist, för den Räubberhauptmann gehalten werden. Ick kann
+            go. Mirr tutt nurr die Ziehgarr leid. <stage>Hängt sich das Perspektiv um.</stage> Nurr
+            nich die Monnetten verjessen! <stage>Steckt die Brieftasche ein und setzt sich den
+              Zylinder auf und geht hinten ab. Aber zwischen den Tüchern hält er noch einmal inne,
+              dreht sich um und zieht den Zylinder mit dem Blick auf den Triumphstuhl.</stage>
+            Räuberlebben, lebbe woll! Du warrst mirr nich vorrnehm genuck! <stage>Zylinder
+              schwenkend mit zum Himmel gerichteten Augen.</stage> Thallatta! Thallatta! Sei mirr
+            jeküsst uff Bauck!</p>
+          <stage>Vorhang!</stage>
+        </sp>
+      </div>
+      <div type="act">
+        <head>Zweiter Aufzug</head>
+        <stage>Kahles Polizeilokal – Polizei-Inspektor am Aktentisch – viel Gerümpel – Knoblauch
+          kommt gravitätisch herein.</stage>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Gutten Morjen, Monsieur!</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR</speaker>
+          <stage>steht auf.</stage>
+          <p>Was steht zu Diensten?</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Ah! Sehr gutt, dass Sie kennen deitsch in Idalia! Háhaha! Ick bin deitscher Jraff,
+            spräck abber mit internationales Akzent, weil das is serr vornehm und moddern – und
+            pahdriodisch, Empfelle Euck internationalles Akzent – dammit is zu maken guttes Jeschäft
+            bei old Germany.</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Ich habe leider keine Zeit zu verlieren. Was steht zu Diensten?</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH</speaker>
+          <stage>setzt sich auf einen Stuhl und betrachtet den Inspektor mit Stiellorgnette.</stage>
+          <p>Serr gutt!</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Was wollen Sie denn eigentlich, mein Herr?</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Die Belohnung will ick habben.</p>
+        </sp>
+        <pb n="176"/>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Welche Belohnung?</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Drei mal hundert Dausend Francs.</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Sie sind wohl verrückt.</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>För de Beleidijung eines deitschen Jraffen habben Se zu zallen – blos fönf hondert
+            Francs.</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Ich habe Sie nicht beleidigt.</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH</speaker>
+          <stage>erregt aufspringend.</stage>
+          <p>Wat? Se meenen woll, ick bin ut Dummsdorf – wat?</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Wenn Sie jetzt nicht vernünftig reden, so werde ich Sie anders behandeln.</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Why? Ick habbe fönf Räubers dotgeschossen – mausedot – mit Mausergewerr. I go always
+            into the black.</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Was? Die fünf Räuber aus den Abbruzzen?</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>En effet! Jawoll! Now werrden Se heflich – nit?</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Allerdings, mein Herr, wenn das ist –</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Gensdarm draussen vorm Dohr! Der vertellt die Historia!</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Wo?</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Buten! Draussen! <stage>Der Polizei-Inspektor stürzt hinaus und kommt gleich mit dem
+              Gensdarm hinein – sie sprechen hastig italienisch mit einander.</stage></p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Mein Herr, Sie haben tatsächlich die 300000 Francs zu bekommen – sofort! Gehen Sie
+            bitte zum deutschen Gesandten mit diesem Schein.</p>
+          <stage>Er schreibt schnell was auf und gibt es dem Knoblauch.</stage>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Werrden Sie sich angewönnen Internationales Akzent? Pêle-Mêle! Janz leicht zu
+            lörnen!</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Ja, mein Herr, wenn Sie mich nicht wegen Beleidigung verklagen.</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>No, Sir! Ick make Se zum Direkter miner Konstonterstötzungsanstalt. Wollen Se? Will
+            you?</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Mit Vergnügen.</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Ick zalle fönfzig Dusend Francs för de deitschen Könstler, de in Idalia nich Jeld
+            genuck habben för Wein, Abbendbrott und gutte Ziehgarrs. Sie, Mynheer Direkter, habben
+            de verdammte Pflicht und Schuldigkeit – den deitschen <pb n="177"/> Kinstlern jenne drei
+            Erheiterungsjeggenstände alle Abbend bei bonten Lampions grattis to verabfolken. You
+            understand!</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Meinen herzlichsten Dank!</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Sir! Weltsprak!</p>
+        </sp>
+        <sp who="#polizei-inspektor">
+          <speaker>POLIZEI-INSPEKTOR.</speaker>
+          <p>Thank you! Thank you very much!</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>International please! For ever! Altid! För alle Ewigkeit! Wietsche watsche – watsche
+            wietsche! Gutten Morjen!</p>
+          <stage>Der Gensdarm verbeugt sich und erhält Banknoten, der Polizei-Inspektor verbeugt
+            sich ebenfalls immerzu. Der Gensdarm öffnet hinten die Türe – und der Graf Knoblauch
+            geht gravitätisch hinaus, während die Beiden sich immerzu verbeugen.</stage>
+          <stage>Vorhang!</stage>
+        </sp>
+      </div>
+      <div type="act">
+        <head>Dritter Aufzug</head>
+        <stage>Auf der Strasse vor dem Portalzelt eines Berliner Hotels. Knoblauch kommt mit einer
+          kleinen Zahl »bekannter« deutscher Dichter, die sämmtlich Zylinder tragen und sehr fidel
+          sind, nach Hause und will sich von seinen Begleitern verabschieden. Morgengrauen.</stage>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Serr erfreut, mine gutten Hörrschaften, dass Se mich nach Hause gebbracht habben.
+            Gestatten Se mirr, dass ick Ihnen gebbe Diamantdossen zum Angedenk an dissen Abbend. Se
+            sind wöltbekannte deitsche Dichter – und ick bin Ihr Mäcen – your Mäcenas! Wenn ick nich
+            wärre jekommen <stage>Er verteilt eifrig blitzende Zigarettenetuis.</stage> so wärre die
+            deitsche Litteratur längst futschikato. Ick – seien Se öhrlich! – ick musste kommen. Ick
+            habbe Ihnen widder uff die Beene geholfen. Na – schadet nix. Ick kam zor ricktigen Zeit
+            – Time is money. Die <pb n="178"/> deitschen Dichter sollen hoch lebben! Hoch!
+              <stage>Alle schreien drei Mal »Hoch!« Strassenkehrer kommen herbei.</stage></p>
+        </sp>
+        <sp who="#ein_strassenkehrer">
+          <speaker>EIN STRASSENKEHRER.</speaker>
+          <p>Du, Aujust, biste nich ooch en deitscher Dichter? Goh doch henn und vertell dat dem
+            Herrn mit den roden Kotelettes.</p>
+        </sp>
+        <sp who="#zweiter_strassenkehrer">
+          <speaker>ZWEITER STRASSENKEHRER</speaker>
+          <stage>nimmt die Mütze ab und sagt.</stage>
+          <p>Gnädiger Herr, ick bin ooch een deitscher Dichter. Schenken Se mir doch ooch wat.</p>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Infamer Bengel! Was verstehst Du vom internationalen Akzent? <stage>Gibt ihm eine
+              schallende Ohrfeige, dass er gleich hinfällt – Die Strassenkehrer schreien und ziehen
+              das Messer – Knoblauch zieht seinen Revolver – und die Strassenkehrer – auch der
+              Geohrfeigte – laufen schreiend davon. Die Dichter stehen ganz starr da.</stage></p>
+        </sp>
+        <sp who="#ein_dichter">
+          <speaker>EIN DICHTER.</speaker>
+          <p>Graf Knoblauch – Hurrah!</p>
+          <stage>Alle schreien Hurrah.</stage>
+        </sp>
+        <sp who="#knoblauch">
+          <speaker>KNOBLAUCH.</speaker>
+          <p>Schlaffen Se woll, mine gutten Hörrschaften! <stage>Alle Zylinder werden in der Luft
+              herumgeschwenkt.</stage> Und vörgessen Se nich den vorrnehmen internationalen Akzent!
+            Thallatta! Thallatta! Wietsche watsche! Vörgessen Se ooch nich mine Monnetten! Juten
+            Morjen! Schlaffen Se woll! <stage>Gravitätisch durchs Kellnerspalier ins
+            Hotel.</stage></p>
+          <stage>Vorhang!</stage>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

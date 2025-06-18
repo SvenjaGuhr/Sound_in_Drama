@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000183" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Das dumme Luder</title>
+        <title type="sub">Ein Jupiter-Drama</title>
+        <author>
+          <persName>
+            <forename>Paul</forename>
+            <surname>Scheerbart</surname>
+          </persName>
+          <idno type="wikidata">Q62435</idno>
+          <idno type="pnd">118606816</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:tvgp.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode"
+                >Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <author>Paul Scheerbart</author>: <title level="a">Das dumme Luder. Ein
+              Jupiter-Drama</title>. Herausgegeben von Mechthild Rausch. Band <biblScope
+              unit="volume">1</biblScope>: Revolutionäre Theater-Bibliothek.
+              <pubPlace>München</pubPlace>: <publisher>edition text + kritik</publisher>
+            <date>1977</date>, S. <biblScope unit="page" from="133" to="135"
+            >133–135</biblScope>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="mossino" sex="MALE">
+            <persName>Mossino</persName>
+          </person>
+          <person xml:id="marikanno" sex="FEMALE">
+            <persName>Marikanno</persName>
+          </person>
+          <person xml:id="passeck" sex="MALE">
+            <persName>Passeck</persName>
+          </person>
+          <person xml:id="kefinska" sex="FEMALE">
+            <persName>Kefinska</persName>
+          </person>
+          <person xml:id="lissamatsch" sex="FEMALE">
+            <persName>Lissamátsch</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-01-02">(ff) formalities; add set information and gender info</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1904">
+        <desc/>
+      </event>
+      <event type="premiere" when="1907-02-15">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000183"
+        passive="http://www.wikidata.org/entity/Q51394298"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <pb n="133"/>
+    <front>
+      <docTitle>
+        <titlePart type="main">Das dumme Luder</titlePart>
+        <titlePart type="sub">Ein Jupiter-Drama</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personen.</head>
+        <castItem><role>Kefinska,</role>
+          <roleDesc>das dumme Luder.</roleDesc></castItem>
+        <castItem><role>Mossino,</role>
+          <roleDesc>ein alter König.</roleDesc></castItem>
+        <castItem><role>Passeck,</role>
+          <roleDesc>ein Magistratsbeamter.</roleDesc></castItem>
+        <castItem><role>Marikanno,</role>
+          <roleDesc>eine gute Frau.</roleDesc></castItem>
+        <castItem><role>Lissamátsch,</role>
+          <roleDesc>ein Dienstmädchen.</roleDesc></castItem>
+      </castList>
+      <set>
+        <p>Die Handlung spielt auf dem Jupiter in der dreizehnten Epoche der allgemeinen
+          Begeisterung.</p>
+        <p>Drei bunt karrierte Wände mit Flügeltüren in der Mitte. Sieben Bänke hintereinander – wie
+          in einer irdischen Dorfschulstube.</p>
+        <p>Alle Personen, mit Ausnahme des Dienstmädchens Lissamátsch, das im Ernährungsraume links
+          unaufhörlich bis zu ihrem Erscheinen mit Töpfen klappert, sitzen auf den Bänken, die keine
+          Lehne haben, möglichst weit von einander entfernt; jede Person hat eine Bank für sich.
+          –</p>
+        <p>Diese Herrschaften haben sämtlich einen talergrossen Propfen oben auf der Stirn, tragen
+          hellgrüne Gewänder und lange weisse Haare; Mossino hat eine goldene Zackenkrone aufm
+          Kopf.</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene">
+        <head>[Stücktext]</head>
+        <sp who="#mossino">
+          <speaker>MOSSINO.</speaker>
+          <p>Diese Lissamátsch arbeitet im Ernährungsraume, nicht wahr?</p>
+        </sp>
+        <sp who="#marikanno">
+          <speaker>MARIKANNO.</speaker>
+          <p>Jawohl! Die Ernährungsarie wird bald wieder zur Tatsache werden.</p>
+        </sp>
+        <sp who="#passeck">
+          <speaker>PASSECK.</speaker>
+          <p>Das ist gut.</p>
+        </sp>
+        <pb n="134"/>
+        <sp who="#kefinska">
+          <speaker>KEFINSKA.</speaker>
+          <p>Ich finde das Leben, das wir leben, wirklich nicht sehr schön.</p>
+        </sp>
+        <sp who="#passeck">
+          <speaker>PASSECK.</speaker>
+          <p>Manchmal ist es doch ganz nett.</p>
+        </sp>
+        <sp who="#kefinska">
+          <speaker>KEFINSKA.</speaker>
+          <p>Aber gemeinhin ziemlich stumpfsinnig.</p>
+        </sp>
+        <sp who="#marikanno">
+          <speaker>MARIKANNO.</speaker>
+          <p>Man muss immer nur die guten Seiten einer Sache im Auge behalten.</p>
+        </sp>
+        <sp who="#kefinska">
+          <speaker>KEFINSKA.</speaker>
+          <p>Na ja – wems Spass macht! Mir macht es aber keinen Spass. Ich finde besonders die Art,
+            in der wir entstehen, nicht schön.</p>
+        </sp>
+        <sp who="#marikanno">
+          <speaker>MARIKANNO.</speaker>
+          <p>Wozu soll denn Alles schön sein?</p>
+        </sp>
+        <sp who="#kefinska">
+          <speaker>KEFINSKA.</speaker>
+          <p>Na – ich finds sogar lächerlich – nicht blos: nicht schön! Wenn die Bewohner des
+            Jupiter nur dadurch in die Welt der Erscheinung gelangen können, dass vordem ein Mann
+            mit einer Frau zusammen fünf hundert Mal in einer Stunde zwei weisse Wände bespucken, –
+            so ist das eben lächerlich.</p>
+        </sp>
+        <sp who="#passeck">
+          <speaker>PASSECK.</speaker>
+          <p>Ein wenig komisch ist das allerdings.</p>
+        </sp>
+        <sp who="#marikanno">
+          <speaker>MARIKANNO.</speaker>
+          <p>Es macht doch aber so viel Vergnügen.</p>
+        </sp>
+        <sp who="#kefinska">
+          <speaker>KEFINSKA.</speaker>
+          <p>Dummes Rindsvieh!</p>
+        </sp>
+        <sp who="#marikanno">
+          <speaker>MARIKANNO.</speaker>
+          <p>Dummes Luder!</p>
+        </sp>
+        <sp who="#kefinska">
+          <speaker>KEFINSKA.</speaker>
+          <p>Adieu, Sie!</p>
+          <stage>Ab rechts.</stage>
+        </sp>
+        <sp who="#marikanno">
+          <speaker>MARIKANNO.</speaker>
+          <p>So ist er immer.</p>
+        </sp>
+        <sp who="#passeck">
+          <speaker>PASSECK.</speaker>
+          <p>Er regt sich immer so auf und sollte doch nicht vergessen, dass auf andern Sternen die
+            Entstehungsgeschichte der Lebewesen noch komischere Formen annimmt.</p>
+        </sp>
+        <sp who="#marikanno">
+          <speaker>MARIKANNO.</speaker>
+          <p>Das hab ich ihm auch schon gesagt – aber er nimmt keine Lehre an.</p>
+        </sp>
+        <sp who="#passeck">
+          <speaker>PASSECK.</speaker>
+          <p>Er ist eben ein dummes Luder.</p>
+        </sp>
+        <sp who="#mossino">
+          <speaker>MOSSINO.</speaker>
+          <p>Da hab ich neulich gelesen, dass auf dem Stern Erde Lebewesen existieren, die ganz
+            klein wie Mäuse auf die Welt kommen und dann in einer Art ihr Leben erhalten, die noch
+            viel komischer ist; die Leute schlagen nämlich andre Lebewesen mit Eisen entzwei,
+            zerschneiden den Körper der Entzweigeschlagenen in kleine Stücke und stecken sich diese
+            Stücke ins Maul und schlucken sie runter und lassen sie nachher wieder in Breiform aus
+            dem Körper raus. Und dadurch erhalten sie ihr Leben.</p>
+        </sp>
+        <pb n="135"/>
+        <sp who="#marikanno">
+          <speaker>MARIKANNO.</speaker>
+          <p>Finden sie das selber komisch?</p>
+        </sp>
+        <sp who="#mossino">
+          <speaker>MOSSINO.</speaker>
+          <p>Sie finden Garnichts dabei.</p>
+        </sp>
+        <sp who="#marikanno">
+          <speaker>MARIKANNO.</speaker>
+          <p>Und da schimpft Kefinska noch über die Spuckarie?</p>
+        </sp>
+        <sp who="#passeck">
+          <speaker>PASSECK.</speaker>
+          <p>Ein furchtbar dummes Luder.</p>
+        </sp>
+        <sp who="#lissamatsch">
+          <speaker>LISSAMÁTSCH</speaker>
+          <stage>von links.</stage>
+          <p>Kommen Sie nur herein, verehrte Herrschaften, die Propfenzieher sind schon gereinigt;
+            Sie können sich jetzt in aller Gemütsruhe die Propfen gegenseitig aus der Stirn ziehen
+            und sich dann ganz ruhig gegenseitig das Gehirn auslutschen und danach sich die Nasen
+            mit Terpentin beschmieren – wie Sie's gewohnt sind.</p>
+        </sp>
+        <sp who="#mossino">
+          <speaker>MOSSINO</speaker>
+          <stage>aufstehend.</stage>
+          <p>So erhalten Wir unser Leben.</p>
+        </sp>
+        <sp who="#passeck">
+          <speaker>PASSECK</speaker>
+          <stage>auch aufstehend.</stage>
+          <p>Eigentlich – <emph>auch</emph> ein bischen komisch.</p>
+        </sp>
+        <sp who="#kefinska">
+          <speaker>KEFINSKA</speaker>
+          <stage>hinten in der Türe schreiend.</stage>
+          <p>Wenn Ihr son Dreckleben weiterführen könnt – so könnt Ihr das ruhig tun. Ich danke
+            dafür. <stage>Er erdolcht sich.</stage></p>
+        </sp>
+        <sp who="#marikanno">
+          <speaker>MARIKANNO</speaker>
+          <stage>empört.</stage>
+          <p>Dummes Luder!</p>
+          <stage>Die beiden Andern lächeln.</stage>
+        </sp>
+        <stage>Der Vorhang fällt.</stage>
+      </div>
+    </body>
+  </text>
+</TEI>
