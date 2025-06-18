@@ -162,8 +162,8 @@
           <head>Erster Auftritt</head>
           <sp who="#der_prinz">
             <speaker>DER PRINZ</speaker>
-            <stage><character_sound>sagt und an einem Arbeitstische, voller Briefschaften und Papiere, deren einige er
-              durchläuft</character_sound></stage>
+            <stage>sagt und an einem Arbeitstische, voller Briefschaften und Papiere, deren einige er
+              durchläuft</stage>
             <p>Klagen, nichts als Klagen! Bittschriften, nichts als Bittschriften! – Die traurigen Geschäfte; und man beneidet uns noch! – Das glaub' ich; wenn wir allen helfen könnten: dann wären wir zu beneiden. – Emilia?<stage>Indem er noch eine von den Bittschriften
                 aufschlägt, und nach dem unterschriebnen Namen sieht.</stage> Eine Emilia? – Aber
               eine Emilia Bruneschi – nicht Galotti. Nicht Emilia Galotti! – Was will sie, diese
@@ -184,7 +184,7 @@
           </sp>
           <sp who="#der_kammerdiener">
             <speaker>DER KAMMERDIENER</speaker>
-            <stage><character_sound>sagt und welcher wieder herein tritt</character_sound></stage>
+            <stage>sagt und welcher wieder herein tritt</stage>
             <p>Nach dem Marchese ist geschickt. Und hier, ein Brief von der Gräfin Orsina.</p>
           </sp>
           <sp who="#der_prinz">
@@ -213,7 +213,7 @@
           </sp>
           <sp who="#der_kammerdiener">
             <speaker>DER KAMMERDIENER</speaker>
-            <stage><character_sound>sagt und der nochmals herein tritt</character_sound></stage>
+            <stage>sagt und der nochmals herein tritt</stage>
             <p>Der Maler Conti will die Gnade haben – –</p>
           </sp>
           <sp who="#der_prinz">
@@ -287,7 +287,7 @@
             lehnet.</stage>
           <sp who="#conti">
             <speaker>CONTI</speaker>
-            <stage><character_sound>sagt und indem er das andere zurecht stellet</character_sound></stage>
+            <stage>sagt und indem er das andere zurecht stellet</stage>
             <p>Ich bitte, Prinz, daß Sie die Schranken unserer Kunst erwägen wollen. Vieles von dem Anzüglichsten der Schönheit liegt ganz außer den Grenzen derselben. – Treten Sie so! –</p>
           </sp>
           <sp who="#der_prinz">
@@ -349,7 +349,7 @@
           </sp>
           <sp who="#conti">
             <speaker>CONTI</speaker>
-            <stage><character_sound>sagt und indem er es holt, und noch verkehrt in der Hand hält</character_sound></stage>
+            <stage>sagt und indem er es holt, und noch verkehrt in der Hand hält</stage>
             <p>Auch ein weibliches Porträt.</p>
           </sp>
           <sp who="#der_prinz">
@@ -375,8 +375,8 @@
           </sp>
           <sp who="#der_prinz">
             <speaker>DER PRINZ</speaker>
-            <stage><character_sound>sagt und indem er sich zu fassen sucht, aber ohne ein Auge von dem Bilde zu
-              verwenden</character_sound></stage>
+            <stage>sagt und indem er sich zu fassen sucht, aber ohne ein Auge von dem Bilde zu
+              verwenden</stage>
             <p>So halb! – um sie eben wieder zu kennen. – Es ist einige Wochen her, als ich sie mit ihrer Mutter in einer Vegghia traf. – Nachher ist sie mir nur an heiligen Stätten wieder vorgekommen, – wo das Angaffen sich weniger ziemet. – Auch kenn' ich ihren Vater. Er ist mein Freund nicht. Er war es, der sich meinen Ansprüchen auf Sabionetta am meisten widersetzte. – Ein alter Degen; stolz und rauh; sonst bieder und gut! –</p>
           </sp>
           <sp who="#conti">
@@ -648,7 +648,7 @@
           </sp>
           <sp who="#der_prinz">
             <speaker>DER PRINZ</speaker>
-            <stage><character_sound>sagt und der sich voll Verzweiflung in einen Stuhl wirft</character_sound></stage>
+            <stage>sagt und der sich voll Verzweiflung in einen Stuhl wirft</stage>
             <p>So bin ich verloren! – So will ich nicht leben!</p>
           </sp>
           <sp who="#marinelli">
@@ -657,7 +657,7 @@
           </sp>
           <sp who="#der_prinz">
             <speaker>DER PRINZ</speaker>
-            <stage><character_sound>sagt und der gegen ihn wieder aufspringt</character_sound></stage>
+            <stage>sagt und der gegen ihn wieder aufspringt</stage>
             <p>Verräter! – was mir ist? – Nun ja ich liebe sie; ich bete sie an. Mögt ihr es doch wissen! mögt ihr es doch längst gewußt haben, alle ihr, denen ich der tollen Orsina schimpfliche Fesseln lieber ewig tragen sollte! – Nur daß Sie, Marinelli, der Sie so oft mich Ihrer innigsten Freundschaft versicherten – O ein Fürst hat keinen Freund! kann keinen Freund haben! – daß Sie, Sie, so treulos, so hämisch mir bis auf diesen Augenblick die Gefahr verhöhlen dürfen, die meiner Liebe drohte: wenn ich Ihnen jemals das vergebe, – so werde mir meiner Sünden keine vergeben!</p>
           </sp>
           <sp who="#marinelli">
@@ -831,7 +831,7 @@
           </sp>
           <sp who="#camillo_rota">
             <speaker>CAMILLO ROTA</speaker>
-            <stage><character_sound>sagt und den Kopf schüttelnd, indem er die Papiere zu sich nimmt und abgeht</character_sound></stage>
+            <stage>sagt und den Kopf schüttelnd, indem er die Papiere zu sich nimmt und abgeht</stage>
             <p>Recht gern? – Ein Todesurteil recht gern? – Ich hätt' es ihn in diesem Augenblicke nicht mögen unterschreiben lassen, und wenn es den Mörder meines einzigen Sohnes betroffen hätte. – Recht gern! recht gern! – Es geht mir durch die Seele dieses gräßliche Recht gern!</p>
           </sp>
         </div>
@@ -845,7 +845,7 @@
           <stage>Claudia Galotti. Pirro.</stage>
           <sp who="#claudia">
             <speaker>CLAUDIA</speaker>
-            <stage><character_sound>sagt und im Heraustreten zu Pirro, der von der andern Seite hereintritt</character_sound></stage>
+            <stage>sagt und im Heraustreten zu Pirro, der von der andern Seite hereintritt</stage>
             <p>Wer sprengte da in den Hof?</p>
           </sp>
           <sp who="#pirro">
@@ -1364,8 +1364,8 @@
           <stage>Graf Appiani. Die Vorigen.</stage>
           <sp who="#appiani">
             <speaker>APPIANI</speaker>
-            <stage><character_sound>sagt und tritt tiefsinnig, mit vor sich hingeschlagnen Augen herein, und kömmt ihnen
-              näher, ohne sie zu erblicken; bis Emilia ihm entgegen springt</character_sound></stage>
+            <stage>sagt und tritt tiefsinnig, mit vor sich hingeschlagnen Augen herein, und kömmt ihnen
+              näher, ohne sie zu erblicken; bis Emilia ihm entgegen springt</stage>
             <p>Ah, meine Teuerste! – Ich war mir Sie in dem Vorzimmer nicht vermutend.</p>
           </sp>
           <sp who="#emilia">
@@ -1487,7 +1487,7 @@
           <stage>Graf Appiani. Claudia Galotti.</stage>
           <sp who="#appiani">
             <speaker>APPIANI</speaker>
-            <stage><character_sound>sagt und indem er ihr mit einer niedergeschlagnen Miene nachsieht</character_sound></stage>
+            <stage>sagt und indem er ihr mit einer niedergeschlagnen Miene nachsieht</stage>
             <p>Perlen bedeuten Tränen! – Eine kleine Geduld! – Ja, wenn die Zeit nur außer uns wäre! – Wenn eine Minute am Zeiger, sich in uns nicht in Jahre ausdehnen könnte! –</p>
           </sp>
           <sp who="#claudia">
@@ -1770,7 +1770,7 @@
           </sp>
           <sp who="#marinelli">
             <speaker>MARINELLI</speaker>
-            <stage><character_sound>sagt und der sich losreißt, und abgeht</character_sound></stage>
+            <stage>sagt und der sich losreißt, und abgeht</stage>
             <p>Nur Geduld, Graf, nur Geduld!</p>
           </sp>
         </div>
@@ -1976,7 +1976,7 @@
           <stage>Marinelli, und bald darauf Angelo.</stage>
           <sp who="#marinelli">
             <speaker>MARINELLI</speaker>
-            <stage><character_sound>sagt und der wieder nach dem Fenster geht</character_sound></stage>
+            <stage>sagt und der wieder nach dem Fenster geht</stage>
             <p>Dort fährt der Wagen langsam nach der Stadt zurück. – So langsam? Und in jedem Schlage ein Bedienter? – Das sind Anzeigen, die mir nicht gefallen; – daß der Streich wohl nur halb gelungen ist; – daß man einen Verwundeten gemächlich zurückführet, – und keinen Toten. – Die Maske steigt ab. – Es ist Angelo selbst. Der Tolldreiste! – Endlich, hier weiß er die Schliche. – Er winkt mir zu. Er muß seiner Sache gewiß sein. – Ha, Herr Graf, der Sie nicht nach Massa wollten, und nun noch einen weitern Weg müssen! – Wer hatte Sie die Affen so kennen gelehrt?<stage>Indem er nach der Türe
                 zugeht.</stage> Ja wohl sind sie hämisch. – Nun Angelo?</p>
           </sp>
@@ -2143,7 +2143,7 @@
           </sp>
           <sp who="#marinelli">
             <speaker>MARINELLI</speaker>
-            <stage><character_sound>sagt und der plötzlich herzu tritt, als ob er eben herein käme</character_sound></stage>
+            <stage>sagt und der plötzlich herzu tritt, als ob er eben herein käme</stage>
             <p>Ah, gnädiges Fräulein! Was für ein Unglück, oder vielmehr, was für ein Glück, – was für ein glückliches Unglück verschafft uns die Ehre –</p>
           </sp>
           <sp who="#emilia">
@@ -2306,7 +2306,7 @@
           <stage>Claudia Galotti. Battista. Marinelli.</stage>
           <sp who="#claudia">
             <speaker>CLAUDIA</speaker>
-            <stage><character_sound>sagt und die in die Türe tritt, indem Battista heraus gehen will</character_sound></stage>
+            <stage>sagt und die in die Türe tritt, indem Battista heraus gehen will</stage>
             <p>Ha! der hob sie aus dem Wagen! Der führte sie fort! Ich erkenne dich. Wo ist sie? Sprich, Unglücklicher!</p>
           </sp>
           <sp who="#battista">
@@ -2761,7 +2761,7 @@
           </sp>
           <sp who="#marinelli">
             <speaker>MARINELLI</speaker>
-            <stage><character_sound>sagt und der sie zurück hält</character_sound></stage>
+            <stage>sagt und der sie zurück hält</stage>
             <p>Wohin?</p>
           </sp>
           <sp who="#orsina">
@@ -2878,19 +2878,19 @@
           <stage>Der Prinz. Orsina. Marinelli.</stage>
           <sp who="#der_prinz">
             <speaker>DER PRINZ</speaker>
-            <stage><character_sound>sagt und indem er aus dem Kabinette tritt, vor sich</character_sound></stage>
+            <stage>sagt und indem er aus dem Kabinette tritt, vor sich</stage>
             <p>Ich muß ihm zu Hülfe kommen –</p>
           </sp>
           <sp who="#orsina">
             <speaker>ORSINA</speaker>
-            <stage><character_sound>sagt und die ihn erblickt, aber unentschlüssig bleibt, ob sie auf ihn zugehen
-              soll</character_sound></stage>
+            <stage>sagt und die ihn erblickt, aber unentschlüssig bleibt, ob sie auf ihn zugehen
+              soll</stage>
             <p>Ha! da ist er.</p>
           </sp>
           <sp who="#der_prinz">
             <speaker>DER PRINZ</speaker>
-            <stage><character_sound>sagt und geht quer über den Saal, bei ihr vorbei, nach den andern Zimmern, ohne sich im
-              Reden aufzuhalten</character_sound></stage>
+            <stage>sagt und geht quer über den Saal, bei ihr vorbei, nach den andern Zimmern, ohne sich im
+              Reden aufzuhalten</stage>
             <p>Sieh da! unsere schöne Gräfin. – Wie sehr betaure ich, Madame, daß ich mir die Ehre Ihres Besuchs für heute so wenig zu Nutze machen kann! Ich bin beschäftiget. Ich bin nicht allein. – Ein andermal, meine liebe Gräfin! Ein andermal. – Itzt halten Sie länger sich nicht auf. Ja nicht länger! – Und Sie, Marinelli, ich erwarte Sie. –</p>
           </sp>
         </div>
@@ -3101,7 +3101,7 @@
           </sp>
           <sp who="#marinelli">
             <speaker>MARINELLI</speaker>
-            <stage><character_sound>sagt und indem er ihn erblicket, vor sich</character_sound></stage>
+            <stage>sagt und indem er ihn erblicket, vor sich</stage>
             <p>Nun vollends! der Alte! –</p>
           </sp>
           <sp who="#odoardo">
@@ -3161,7 +3161,7 @@
           </sp>
           <sp who="#marinelli">
             <speaker>MARINELLI</speaker>
-            <stage><character_sound>sagt und leise zu dem Obersten, den er bei Seite ziehet</character_sound></stage>
+            <stage>sagt und leise zu dem Obersten, den er bei Seite ziehet</stage>
             <p>Mein Herr, ich muß Sie hier mit einer Dame lassen, die – der – mit deren Verstande – Sie verstehen mich. Ich sage Ihnen<pb n="187" /> dieses, damit Sie wissen, was Sie auf
               ihre Reden zu geben haben, – deren sie oft sehr seltsame führet. Am besten, Sie lassen
               sich mit ihr nicht ins Wort.</p>
@@ -3314,8 +3314,8 @@
           <stage>Claudia Galotti. Die Vorigen.</stage>
           <sp who="#claudia">
             <speaker>CLAUDIA</speaker>
-            <stage><character_sound>sagt und die im Hereintreten sich umsiehet, und sobald sie ihren Gemahl erblickt, auf ihn
-              zuflieget</character_sound></stage>
+            <stage>sagt und die im Hereintreten sich umsiehet, und sobald sie ihren Gemahl erblickt, auf ihn
+              zuflieget</stage>
             <p>Erraten! – Ah, unser Beschützer, unser Retter! Bist du da, Odoardo? Bist du da? – Aus ihren Wispern, aus ihren Mienen schloß ich es. – Was soll ich dir sagen, wenn du noch nichts weißt? – Was soll ich dir sagen, wenn du schon alles weißt? – Aber wir sind unschuldig. Ich bin unschuldig. Deine Tochter ist unschuldig. Unschuldig, in allem unschuldig!</p>
           </sp>
           <sp who="#odoardo">
@@ -3793,7 +3793,7 @@
           </sp>
           <sp who="#odoardo">
             <speaker>ODOARDO</speaker>
-            <stage><character_sound>sagt und bei Seite, indem er die Hand leer wieder heraus zieht</character_sound></stage>
+            <stage>sagt und bei Seite, indem er die Hand leer wieder heraus zieht</stage>
             <p>Das sprach sein Engel!</p>
           </sp>
           <sp who="#der_prinz">
@@ -4030,7 +4030,7 @@
           </sp>
           <sp who="#der_prinz">
             <speaker>DER PRINZ</speaker>
-            <stage><character_sound>sagt und indem er näher kömmt</character_sound></stage>
+            <stage>sagt und indem er näher kömmt</stage>
             <p>Was seh' ich? – Entsetzen!</p>
           </sp>
           <sp who="#marinelli">

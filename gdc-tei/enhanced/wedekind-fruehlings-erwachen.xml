@@ -335,7 +335,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Schlaft wohl!</p>
-            <stage><character_sound>Alle entfernen sich bis auf Moritz und Melchior.</character_sound></stage>
+            <stage>Alle entfernen sich bis auf Moritz und Melchior.</stage>
           </sp>
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
@@ -348,7 +348,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Reden wir von etwas anderem. –</p>
-            <stage><character_sound>Sie gehen spazieren.</character_sound></stage>
+            <stage>Sie gehen spazieren.</stage>
           </sp>
           <sp who="#moritz">
             <speaker>MORITZ.</speaker>
@@ -1041,7 +1041,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Blaß wie ein Handtuch.</p>
-            <stage><character_sound>Moritz kommt in äußerster Aufregung.</character_sound></stage>
+            <stage>Moritz kommt in äußerster Aufregung.</stage>
           </sp>
           <sp who="#laemmermeier">
             <speaker>LÄMMERMEIER.</speaker>
@@ -1131,7 +1131,7 @@
           </sp>
           <sp who="#melchior">
             <speaker>MELCHIOR</speaker>
-            <stage><character_sound>sagt und gibt ihm eine</character_sound></stage>
+            <stage>sagt und gibt ihm eine</stage>
             <p>– – Komm, Moritz. Gehn wir zum Försterhaus!</p>
           </sp>
           <sp who="#georg">
@@ -1142,7 +1142,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Schert dich das? – – Laß sie schwatzen, Moritz! Fort nur fort, zur Stadt hinaus!</p>
-            <stage><character_sound>Die Professoren Hungergurt und Knochenbruch gehen vorüber.</character_sound></stage>
+            <stage>Die Professoren Hungergurt und Knochenbruch gehen vorüber.</stage>
           </sp>
           <sp who="#knochenbruch">
             <speaker>KNOCHENBRUCH.</speaker>
@@ -1208,7 +1208,7 @@
           <sp who="#melchior">
             <speaker>MELCHIOR.</speaker>
             <p>Wir gehen dann zusammen. Ich nehme den Korb und wir schlagen den Weg durch die Runse ein, so sind wir in zehn Minuten schon auf der Brücke! – Wenn man so daliegt, die Stirn in die Hand gestützt, kommen einem die sonderbarsten Gedanken ...</p>
-            <stage><character_sound>Beide lagern sich unter der Eiche.</character_sound></stage>
+            <stage>Beide lagern sich unter der Eiche.</stage>
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA.</speaker>
@@ -1470,8 +1470,8 @@
               nicht aus dem Kopf. Wenn ich ein schönes Mädchen sehe, seh ich es ohne Kopf – und
               erscheine mir dann plötzlich selber als kopflose Königin ... Möglich, daß mir noch mal
               einer aufgesetzt wird.</p>
-            <stage><character_sound>Frau Gabor kommt mit dem dampfenden Tee, den sie vor Moritz und Melchior auf den
-              Tisch setzt.</character_sound></stage>
+            <stage>Frau Gabor kommt mit dem dampfenden Tee, den sie vor Moritz und Melchior auf den
+              Tisch setzt.</stage>
           </sp>
           <sp who="#frau_gabor">
             <speaker>FRAU GABOR.</speaker>
@@ -1552,7 +1552,7 @@
             <p>Du bist alt genug, Melchior, um wissen zu können, was dir zuträglich und was dir schädlich ist. Tu, was du vor dir verantworten kannst. Ich werde die erste sein, die es dankbar anerkennt, wenn du mir niemals Grund gibst, dir etwas vorenthalten zu müssen. – Ich wollte dich nur darauf aufmerksam machen, daß auch das Beste nachteilig wirken kann, wenn man noch die Reife nicht besitzt, um es richtig aufzunehmen. – Ich werde mein Vertrauen immer lieber in<emph>dich</emph> als in irgend beliebige
               erzieherische Maßregeln setzen. – – Wenn ihr noch etwas braucht, Kinder, dann komm
               herüber, Melchior, und rufe mich. Ich bin auf meinem Schlafzimmer.</p>
-            <stage><character_sound>Ab.</character_sound></stage>
+            <stage>Ab.</stage>
           </sp>
           <sp who="#moritz">
             <speaker>MORITZ.</speaker>
@@ -1611,7 +1611,7 @@
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA</speaker>
-            <stage><character_sound>sagt und erscheint in Unterröckchen und Korsett in der Seitentüre rechts</character_sound></stage>
+            <stage>sagt und erscheint in Unterröckchen und Korsett in der Seitentüre rechts</stage>
             <p>Was gibt's, Mutter?</p>
           </sp>
           <sp who="#frau_bergmann">
@@ -1843,8 +1843,8 @@
           <head>Dritte Szene</head>
           <sp who="#haenschen_rilow">
             <speaker>HÄNSCHEN RILOW</speaker>
-            <stage><character_sound>sagt und ein Licht in der Hand, verriegelt die Tür hinter sich und öffnet den
-              Deckel</character_sound></stage>
+            <stage>sagt und ein Licht in der Hand, verriegelt die Tür hinter sich und öffnet den
+              Deckel</stage>
             <p>Hast du zu Nacht gebetet, Desdemona?<stage>Er zieht eine Reproduktion der Venus von
                 Palma Vecchio aus dem Busen.</stage> Du siehst mir nicht nach Vaterunser aus, Holde
               – kontemplativ des Kommenden gewärtig, wie in dem süßen Augenblick aufkeimender
@@ -1961,7 +1961,7 @@
           <head>Fünfte Szene</head>
           <sp who="#frau_gabor">
             <speaker>FRAU GABOR</speaker>
-            <stage><character_sound>sagt und sitzt, schreibt</character_sound></stage>
+            <stage>sagt und sitzt, schreibt</stage>
             <p>Lieber Herr Stiefel!</p>
             <p>Nachdem ich vierundzwanzig Stunden über alles, was Sie mir schreiben, nachgedacht und wieder nachgedacht, ergreife ich schweren Herzens die Feder. Den Betrag zur Überfahrt nach Amerika kann ich Ihnen – ich gebe Ihnen meine heiligste Versicherung –<emph>nicht</emph> verschaffen. Erstens habe ich so viel nicht zu meiner Verfügung,
               und zweitens, wenn ich es hätte, wäre es die denkbar größte Sünde, Ihnen die Mittel
@@ -2042,8 +2042,8 @@
           </sp>
           <sp who="#ilse">
             <speaker>ILSE</speaker>
-            <stage><character_sound>sagt und in abgerissenen Kleidern, ein buntes Tuch um den Kopf, faßt ihn von rückwärts an
-              der Schulter</character_sound></stage>
+            <stage>sagt und in abgerissenen Kleidern, ein buntes Tuch um den Kopf, faßt ihn von rückwärts an
+              der Schulter</stage>
             <p>Was hast du verloren?</p>
           </sp>
           <sp who="#moritz">
@@ -2238,7 +2238,7 @@
             <speaker>ILSE.</speaker>
             <p>Schlummre süß! ... Geht ihr wohl noch zum<emph>Wigwam</emph> hinunter, wo Melchi
               Gabor meinen Tomahawk begrub? – Brrr! Bis es an euch kommt, lieg ich im Kehricht.</p>
-            <stage><character_sound>Eilt davon.</character_sound></stage>
+            <stage>Eilt davon.</stage>
             <pb n="135" />
           </sp>
           <sp who="#moritz">
@@ -2354,7 +2354,7 @@
           <sp who="#sonnenstich">
             <speaker>SONNENSTICH.</speaker>
             <p>Führen Sie ihn herauf!</p>
-            <stage><character_sound>Habebald ab.</character_sound></stage>
+            <stage>Habebald ab.</stage>
           </sp>
           <sp who="#zungenschlag">
             <speaker>ZUNGENSCHLAG.</speaker>
@@ -2531,12 +2531,12 @@
           </sp>
           <sp who="#rentier_stiefel">
             <speaker>RENTIER STIEFEL</speaker>
-            <stage><character_sound>sagt und mit tränenerstickter Stimme, wirft eine Schaufel voll Erde in die Gruft</character_sound></stage>
+            <stage>sagt und mit tränenerstickter Stimme, wirft eine Schaufel voll Erde in die Gruft</stage>
             <p>Der Junge war nicht von mir! – Der Junge war nicht von mir! Der Junge hat mir von klein auf nicht gefallen!</p>
           </sp>
           <sp who="#sonnenstich">
             <speaker>REKTOR SONNENSTICH</speaker>
-            <stage><character_sound><character_sound><character_sound><character_sound><character_sound>sagt und wirft eine Schaufel voll Erde in die Gruft</character_sound></character_sound></character_sound></character_sound></character_sound></stage>
+            <stage>sagt und wirft eine Schaufel voll Erde in die Gruft</stage>
             <p>Der Selbstmord als der denkbar bedenklichste Verstoß gegen die sittliche Weltordnung ist der denkbar bedenklichste Beweis<emph>für</emph> die sittliche Weltordnung, indem
               der Selbstmörder der sittlichen Weltordnung den Urteilsspruch zu sprechen erspart und
               ihr Bestehen bestätigt.</p>
@@ -2558,7 +2558,7 @@
           </sp>
           <sp who="#pastor_kahlbauch">
             <speaker>PASTOR KAHLBAUCH</speaker>
-            <stage><character_sound><character_sound><character_sound><character_sound><character_sound>Rentier Stiefel die Hand drückend.</character_sound></character_sound></character_sound></character_sound></character_sound></stage>
+            <stage><character_sound>Rentier Stiefel die Hand drückend.</character_sound></stage>
             <p>Wir wissen, daß denen, die Gott lieben, alle Dinge zum besten dienen. 1. Korinth. 12,15. – Denken Sie der trostlosen Mutter und suchen Sie ihr das Verlorene durch verdoppelte Liebe zu ersetzen!</p>
           </sp>
           <sp who="#sonnenstich">
@@ -2690,7 +2690,7 @@
           <sp who="#otto">
             <speaker>OTTO.</speaker>
             <p>Hast du den Vergil schon auf morgen? – – – – –</p>
-            <stage><character_sound>Die Gymnasiasten ab. – Martha und Ilse kommen ans Grab.</character_sound></stage>
+            <stage>Die Gymnasiasten ab. – Martha und Ilse kommen ans Grab.</stage>
           </sp>
           <sp who="#ilse">
             <speaker>ILSE.</speaker>
@@ -2996,7 +2996,7 @@
           </sp>
           <sp who="#ruprecht">
             <speaker>RUPRECHT</speaker>
-            <stage><character_sound>sagt und schlägt ihn ins Gesicht</character_sound></stage>
+            <stage>sagt und schlägt ihn ins Gesicht</stage>
             <p>Da!<stage>Rennt davon.</stage></p>
           </sp>
           <sp who="#helmuth">
@@ -3081,7 +3081,7 @@
           </sp>
           <sp who="#ina">
             <speaker>INA</speaker>
-            <stage><character_sound>sagt am Fenster.</character_sound></stage>
+            <stage>sagt am Fenster.</stage>
             <p>– Nun färbt sich eure Platane schon wieder bunt. – Siehst du's vom Bett aus? – Eine kurze Pracht, kaum recht der Freude wert, wie man sie so kommen und gehen sieht. – Ich muß nun auch bald gehen. Müller erwartet mich vor der Post und ich muß zuvor noch zur Schneiderin. Mucki bekommt seine ersten Höschen, und Karl soll einen neuen Trikotanzug auf den Winter haben.</p>
           </sp>
           <sp who="#wendla">
@@ -3096,7 +3096,7 @@
           </sp>
           <sp who="#frau_bergmann">
             <speaker>FRAU BERGMANN</speaker>
-            <stage><character_sound>sagt und kommt zurück</character_sound></stage>
+            <stage>sagt und kommt zurück</stage>
             <p>Er meint, das Erbrechen werde sich auch geben; und du sollst dann nur ruhig wieder aufstehn ... Ich glaube auch, es ist besser, wenn du bald wieder aufstehst, Wendla.</p>
           </sp>
           <sp who="#ina">
@@ -3106,7 +3106,7 @@
           <sp who="#wendla">
             <speaker>WENDLA.</speaker>
             <p>Leb wohl, Ina. – Bring mir Himmelschlüssel mit, wenn du wiederkommst. Adieu. Grüße deine Jungens von mir.</p>
-            <stage><character_sound>Ina ab.</character_sound></stage>
+            <stage>Ina ab.</stage>
           </sp>
           <sp who="#wendla">
             <speaker>WENDLA.</speaker>
@@ -3314,7 +3314,7 @@
           </sp>
           <sp who="#ernst">
             <speaker>ERNST</speaker>
-            <stage><character_sound>sagt und küßt ihn</character_sound></stage>
+            <stage>sagt und küßt ihn</stage>
             <p>Ich ging von Hause fort mit dem Gedanken, dich nur eben zu sprechen und wieder umzukehren.</p>
           </sp>
           <sp who="#haenschen_rilow">
@@ -3337,7 +3337,7 @@
             jagen unter dem Mond hin. – Melchior klettert über die Kirchhofmauer.</stage>
           <sp who="#melchior">
             <speaker>MELCHIOR</speaker>
-            <stage><character_sound>sagt auf der Innenseite herabspringend.</character_sound></stage>
+            <stage>sagt auf der Innenseite herabspringend.</stage>
             <p>Hierher folgt mir die Meute nicht. – Derweil sie Bordelle absuchen, kann ich aufatmen und mir sagen, wie weit ich bin ...</p>
             <p>Der Rock in Fetzen, die Taschen leer – vor dem Harmlosesten bin ich nicht sicher. – Tagsüber muß ich im Walde weiterzukommen suchen ...</p>
             <p>Ein Kreuz habe ich niedergestampft. – Die Blümchen wären heut noch erfroren! – Ringsum ist die Erde kahl ...</p>
@@ -3363,7 +3363,7 @@
           </sp>
           <sp who="#moritz">
             <speaker>MORITZ STIEFEL</speaker>
-            <stage><character_sound>sagt und seinen Kopf unter dem Arm, stapft über die Gräber her</character_sound></stage>
+            <stage>sagt und seinen Kopf unter dem Arm, stapft über die Gräber her</stage>
             <p>Einen Augenblick, Melchior! Die Gelegenheit wiederholt sich so bald nicht. Du ahnst nicht, was mit Ort und Stunde zusammenhängt ...</p>
           </sp>
           <sp who="#melchior">
@@ -3444,7 +3444,7 @@
           </sp>
           <sp who="#der_vermummte_herr">
             <speaker>DER VERMUMMTE HERR</speaker>
-            <stage><character_sound>sagt zu Melchior.</character_sound></stage>
+            <stage>sagt zu Melchior.</stage>
             <p>Du bebst ja vor Hunger. Du bist gar nicht befähigt, zu urteilen. –<stage>Zu
                 Moritz.</stage> Gehen Sie.</p>
           </sp>
@@ -3672,8 +3672,8 @@
           <sp who="#der_vermummte_herr">
             <speaker>DER VERMUMMTE HERR.</speaker>
             <p>Komm, Kind! –</p>
-            <stage><character_sound>Er legt seinen Arm in denjenigen Melchiors und entfernt sich mit ihm über die
-              Gräber hin.</character_sound></stage>
+            <stage>Er legt seinen Arm in denjenigen Melchiors und entfernt sich mit ihm über die
+              Gräber hin.</stage>
           </sp>
           <sp who="#moritz">
             <speaker>MORITZ</speaker>
