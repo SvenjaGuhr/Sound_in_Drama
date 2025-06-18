@@ -19,7 +19,7 @@ def parse_args() -> argparse.ArgumentParser:
 
     handler = argparse.ArgumentParser(description=__doc__)
     handler.add_argument('--inputannotations', type=str, help='Location of annotation data')
-    handler.add_argument('--inputtei', type=str, help='Location of annotation data')
+    handler.add_argument('--inputtei', type=str, help='Location of TEI data')
     handler.add_argument('--outputdir', type=str, help='Directory for output')
     args = handler.parse_args()
     return args
