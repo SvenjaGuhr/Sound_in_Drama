@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xml:id="ger000410" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der Regierungswechsel</title>
+        <title type="sub">Ein politisches Drama</title>
+        <author>
+          <persName>
+            <forename>Paul</forename>
+            <surname>Scheerbart</surname>
+          </persName>
+          <idno type="wikidata">Q62435</idno>
+          <idno type="pnd">118606816</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:tv63.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <author>Paul Scheerbart</author>: <title level="a">Der Regierungswechsel. Ein
+              politisches Drama</title>. Herausgegeben von Mechthild Rausch. Band <biblScope unit="volume">1</biblScope>: Revolutionäre Theater-Bibliothek.
+              <pubPlace>München</pubPlace>: <publisher>edition text + kritik</publisher>
+            <date>1977</date>, S. <biblScope unit="page" from="148" to="155">148–155</biblScope>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="zibolko" sex="MALE">
+            <persName>Zibólko</persName>
+          </person>
+          <person xml:id="napoleon" sex="MALE">
+            <persName>Napoléon</persName>
+          </person>
+          <person xml:id="susanne" sex="FEMALE">
+            <persName>Susanne</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle" />
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-12-25">(ff) formalities</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1897">
+        <desc />
+      </event>
+      <event type="premiere" when="1907-02-15">
+        <desc />
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000410" passive="http://www.wikidata.org/entity/Q51393557" />
+    </listRelation>
+  </standOff>
+  <text>
+    <pb n="148" />
+    <front>
+      <docTitle>
+        <titlePart type="main">Der Regierungswechsel</titlePart>
+        <titlePart type="sub">Ein politisches Drama</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personen.</head>
+        <castItem><role>Der grosse Napoléon,</role>
+          <roleDesc>ein Kaiser.</roleDesc></castItem>
+        <castItem><role>Der grosse Zibólko,</role>
+          <roleDesc>ein Künstler.</roleDesc></castItem>
+        <castItem><role>Susanne,</role>
+          <roleDesc>ein Modell.</roleDesc></castItem>
+      </castList>
+      <set>
+        <p>Zeit: Gegenwart.</p>
+        <p>Ort: Weisse Bühne.</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene">
+        <head>[Stücktext]</head>
+        <stage>Rechts eine weisse Wand – links eine weisse Wand – hinten eine weisse Wand.</stage>
+        <stage>Und mitten auf der Bühne steht eine alte Trittleiter als einziges Möbel da.</stage>
+        <stage>Und auf der Trittleiter ganz hoch oben steht der grosse Napoléon. Er hat wie
+          gewöhnlich die Arme über der Brust gekreuzt. Das mit dem bekannten Hut bedeckte Haupt ist
+          sinnend nach vorn gebeugt. Die Stulpstiefel glänzen, und die Beinkleider des Kaisers sehen
+          weiss aus. Der graue Sommerschlachtenmantel hängt, ohne zugeknöpft zu sein, schlaff
+          herunter – wie ein altes schmutziges Handtuch.</stage>
+        <stage>Der grosse Schlachtendenker steht ganz ruhig eine gute Weile auf seiner alten
+          Trittleiter wie ein Denkmal, während sonst Nichts vorgeht und sich Niemand weiter auf der
+          weissen Bühne sehen lässt.</stage>
+        <stage>Plötzlich erscheint der grosse Zibólko im Hintergrunde.</stage>
+        <stage>Zibólko hat kolossal weite, nach orientalischer Manier dicht überm Fuss zugebundene,
+          orangefarbene Beinkleider an. Eine breite hellblaue Schärpe umhüllt den Leib, ein
+          dunkelblaues <pb n="149" /> offenes Sammtjacket mit weiten Puffärmeln den Oberkörper. Ein
+          weisser, oben ganz spitzer Riesenkalabreser krönt das blondgelockte Haupt. Das seidene
+          Hemd ist natürlich schneeweiss.</stage>
+        <stage>In der Linken hält der Künstler eine kreisrunde, küchentellergrosse Palette und in
+          der Rechten seinen berühmten armlangen Riesenpinsel.</stage>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Wer steht da oben auf der Trittleiter?</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Europas – Napoléon!</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Und was will Napoléon auf der Trittleiter?</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Mein lieber Zibólko, Sie scheinen sehr kurzsichtig zu sein. Sehen Sie denn nicht, dass
+            ich hier oben das zwanzigste Jahrhundert regiere?</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Was? Da oben auf meiner Trittleiter regieren Sie – das ganze zwanzigste Jahrhundert?
+            Wie sind Sie blos da hingekommen?</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Wundern Sie sich blos nicht so viel. Das ist ja lästig. Sie wissen doch, dass ich mich
+            in meinem ganzen Leben niemals gewundert habe.</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Ich möcht' aber ausserdem sehr gerne wissen, wie Sie's fertig bringen, da oben so ohne
+            Weiteres zu regieren – gleich ein veritables Jahrhundert zu regieren. Brauchen Sie dazu
+            nicht ein kleines Szepter?</p>
+          <stage>Droht schmunzelnd mit dem Riesenpinsel.</stage>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Nein, mein lieber Zibólko. Ich stehe hier ganz einfach da und suggeriere den Menschen
+            des zwanzigsten Jahrhunderts meine Gedanken auf. So regier <emph>ich</emph>!</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Sie? So! Na – das begreif ich! Aber – was für Gedanken suggerieren Sie denn den
+            Menschen auf?</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Militärische – selbstverständlich! Fragen Sie nicht so dumm! Vergessen Sie nicht, wen
+            Sie vor sich haben!</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Ach! Jetzt bin ich aber erst recht neugierig. Gibt's denn auch »militärische« Gedanken?
+            Das ist ja <emph>zu</emph> komisch! Herr, wie sehen die aus?</p>
+        </sp>
+        <pb n="150" />
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Frag Er doch nicht immer so wie ein alter Kammerdiener! Was für Gedanken
+              <emph>soll</emph> ich denn haben? Ich <emph>kann</emph> doch nur militärische Gedanken
+            haben. Ich denke an Flinten und Kanonen, an Säbel und Bajonnettes, an blanke
+            Stulp-Stiebel und klirrende Sporen, an blanke Knöpfe und blanke Helme, an Epaulettes und
+            Orden, an Granaten und Raketen, an Trommeln, Pfeifen, Pauken und Trompeten, an Pulver
+            und Blei, Dynamit und Panzerschiffe, Hurrahgebrüll und Torpedos – na? – was noch? – zum
+            Teufel! Ich denk ans Militär!</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Und das nennen Sie Gedanken?</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Das nenne ich allerdings »Gedanken«. Jeder vernünftige Mensch nennt das »Gedanken«. Und
+            Sie werden mir jedenfalls zugeben, dass die Menschen des zwanzigsten Jahrhunderts diese
+            Gedanken ebenso gut kapiert haben – wie die des neunzehnten Jahrhunderts. Mir ist es
+            eben gelungen, <emph>diesen</emph> Menschen <emph>diese</emph> Gedanken aufzusuggerieren
+            – einzutrichtern – Sie verstehen wohl. Ich <emph>regiere</emph> eben das zwanzigste
+            Jahrhundert auch. Wollen Sie das vielleicht bezweifeln?</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Nein – das kann ich nicht bezweifeln. Sie haben ja so Recht! Ich bewundere Sie!
+            Wahrhaftig! Hand aufs Herz! Doch, Herr Napoléon, wissen Sie, was <emph>ich</emph>
+            möchte?</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON</speaker>
+          <stage>sagt herablassend.</stage>
+          <p>Na, mein lieber Zibólko, was möchten Sie denn?</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Das zwanzigste Jahrhundert möcht <emph>ich</emph> regieren.</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Sie leiden wohl – wie die meisten Künstler – an Grössenwahn.</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Herr – wenn Sie so anfangen – dann will ich Ihnen bald zeigen – wem die Trittleiter
+            gehört. Die Trittleiter ist mein Eigentum.</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Sie sind ein Narr!</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Und Sie sind ein Wallross! <stage>Dringt mit dem Pinsel auf Napoléon ein – die Palette
+              als Schild benutzend. Der Kaiser zieht kaltblütig seinen Degen, und Zibólko zieht sich
+              erschrocken zurück.</stage></p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE</speaker>
+          <stage>sagt mit roter indianischer Federkrone und dünnen wallenden lilafarbigen Gewändern,
+            stolz und feierlich in den.<pb n="151" /> Vordergrund schreitend.</stage>
+          <p>Was ist denn <emph>hier</emph> los? Ein Duell?</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Ein Duell mit ungleichen Waffen.</p>
+          <stage>Hustet.</stage>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Träum ich denn noch? Das ist ja der olle Napolium!</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Napolium! Stimmt!</p>
+          <stage>Hustet wiederum.</stage>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Und was will der auf der Trittleiter?</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Regierte mal das neunzehnte Jahrhundert.</p>
+          <stage>Stampft mit dem Fuss auf.</stage>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Und Zibólko – Du? Was gedenkst <emph>Du</emph> nun zu tun?</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p><emph>Ich</emph> will das <emph>zwanzigste</emph> Jahrhundert regieren.</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE</speaker>
+          <stage>sagt und schüttelt mit dem Kopf</stage>
+          <p>Wir wollten hier doch rein machen – die Wände abfegen – und Du – Du willst jetzt wieder
+            das zwanzigste Jahrhundert regieren?</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Kind, was verstehst <emph>Du</emph> davon?</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Ach, zum Spassen bin ich nicht hergekommen, dazu ist das Leben viel zu ernst. Ich hole
+            den Besen.</p>
+          <stage>Ab.</stage>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Ich bitte Sie – gehen Sie da runter und blamieren Sie sich nicht! Was soll die Susanne
+            davon denken?</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Sehr hübsches Kind – diese Susanne!</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Gefällt sie Ihnen?</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Ausserordentlich.</p>
+          <stage>Wendet den Kopf, die Susanne kommt mit einem grossen Haarbesen zurück.</stage>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Dem Napolium gefällst Du, liebe Susanna. Sieh doch zu, dass Du ihn mit Güte
+            herunterbringst.</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Mit Güte?</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Schaf, mit Gewalt geht's doch nicht.</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE</speaker>
+          <stage>sagt listig und schlau.</stage>
+          <p>Vielleicht mit einer grösseren Macht.</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Mit welcher denn?</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Zibólko! Mit Liebe geht's! Ich sage Dir: mit Liebe geht Alles! Ich schmacht ihn an!
+              <stage>Rührend.</stage> Polli! Süsser Polli!</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Nun denn – man los! Lustig! Zeig, was Du kannst!</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Oh, mein Napolium, ich bin eine indianische Prinzessin! Mein Herzblut schäumt wie der
+            Niagarafall. Fall nicht um, Napolium! Ich liebe Dich! – denn Du bist gross. Und ich
+            liebe <emph>alle</emph>
+            <pb n="152" /> grossen Männer. Das ist ja mein Beruf. Komm runter an mein Herz! Steck
+            aber zuvor Deinen Degen ein!</p>
+          <stage>Napoléon steckt den Degen ein und steigt vorsichtig die Stufen hinab. Susanne
+            breitet mit dem Besen in der Rechten ihre beiden nackten Arme aus. Pathetisch schreitet
+            der Kaiser mit durchgedrückten Knieen auf das freundliche Modell los und legt ihm
+            feierlich die Rechte auf die Schulter. Das Mädchen fällt ihm natürlich um den Hals und
+            wirft ihm mit dem Besen, dessen Haare oben sind, den Hut vom Kopf. Zibólko steigt
+            währenddem schleunigst auf die Trittleiter hinauf und setzt sich ruhig auf die höchste
+            Stufe – hält die Palette wie einen Reichsapfel, den Pinsel wie ein Szepter.</stage>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Napolium, schenk mir Deinen Hut! Ja? Bitte! Bitte! Mein lieber guter Polli!</p>
+          <stage>Fällt beim Aufheben des Hutes vor dem Kaiser auf die Kniee.</stage>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON</speaker>
+          <stage>sagt mit weit ausgestreckter Rechten.</stage>
+          <p>Susanne, ich schenke Dir den Hut!</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Nimm meine Federkrone dafür!</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLEON.</speaker>
+          <p>Mit Wonne!</p>
+          <stage>Susanne setzt dem Napoléon die Federkrone auf und wirft den Napoléonshut nach
+            hinten an die weisse Wand.</stage>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Hol mir den Hut zurück! Schnell! Wirds bald?</p>
+          <stage>Napoléon stampft wütend mit dem Fuss auf, folgt aber dem Befehl. Susanne rennt ihm
+            nach, entreisst ihm den Degen und gibt ihn dem Zibólko, der sich behutsam auf den Degen
+            raufsetzt.</stage>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Susanne, was erlaubst Du Dir?</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE.</speaker>
+          <p>Komm, Du dummer Polli, ich will Dir Märchen erzählen! Wirst Du wohl kommen!!</p>
+          <stage>Beide hinten rechts oder links ab.</stage>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO</speaker>
+          <stage>sagt allein.</stage>
+          <p>Die Susanne hat offenbar den Napolium besiegt! ohne Frage! Susanne ist tatsächlich ein
+            Genie! Die hat die Taktik und Diplomatik mit Löffeln gefressen. Während sie mich liebt,
+            liebt sie den Napolium! Und ich kann ruhig regieren – kann ruhig das ganze zwanzigste
+            Jahrhundert regieren. Spass! Ich regiere mit Pinsel und Palette! Jetzt will
+              <emph>ich</emph> der Welt was aufsuggerieren! <stage>Fächelt sich mit der Palette
+              frische Luft <pb n="153" /> zu, hält den Pinsel nach unten wie einen Säbel.</stage> Die
+            Geschichte wird einfach grossartig! <stage>Tiefsinnig – fast murmelnd.</stage> Die
+            Uniform verfiel in Grössenwahn und schuf sich einen Apostel, den die Welt Napolium
+            nannte. Jetzt soll die Kunst in Grössenwahn verfallen und – und – <stage>Unheimlich
+              langsam aufstehend.</stage> Zibólko soll der Kunst-Apostel sein! <stage>Während er
+              sich fest auf zwei Mittelstufen der Trittleiter stellt.</stage> Huh! Man staune!
+            Zucken da drüben nicht bunte, glitzernde Glanzlichter auf! Das ist ja wirklich das
+            zwanzigste Jahrhundert! Na natürlich! Ein glänzendes Zeitalter: Strahlende Riesenpaläste
+            öffnen sich! Hei! Das ist ein Künstlerreich! <stage>Mit verklärten glänzenden
+              Augen.</stage> Die Welt wird nicht mehr hypnotisiert durch die Farbenpracht der
+            Uniform – nein – fürderhin hypnotisiert nur noch die Farbenpracht der allein selig
+            machenden Kunst. <stage>Tiefsinnig – sehr geistreich.</stage> Die blanken Kunstknöpfe
+            sind tausend Mal heller und feuriger als die blanken Soldatenknöpfe, die alle Tage blind
+            werden. Donnerwetter! Wer das nicht einsieht, kann sich begraben lassen. <stage>Sich
+              lachend hinter den Ohren krauend.</stage> Der Glanz der Kunst wirkt wie sieben Mal
+            hundert siebzig tausend Milliarden ganz heisser Riesensonnen mit dicksten Milchstrassen
+            – ach was! – noch viel stärker – viel – viel stärker!</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE</speaker>
+          <stage>sagt hinter einer der drei weissen Wände sehr laut.</stage>
+          <p>Napolium, ich sage Dir: ich bin Susanna, eine sagenumwobene indianische Prinzessin, die
+            sich Nichts weiss machen lässt! Du <emph>musst</emph> mir gehorchen.</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Susanne, was schreist Du da so? Sei endlich still! Hörst Du denn nicht, dass ich jetzt
+            schon das zwanzigste Jahrhundert regiere? Bist Du taub geworden?</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON</speaker>
+          <stage>stürmt und folgt wütend mit der Federkrone auf dem Kopfe nach vorn . Susanne mit Napoleonshut 
+             mit hocherhobenem Haarbesen</stage>
+          <p>Herr!! Was fällt Ihnen eigentlich ein?</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO</speaker>
+          <stage>sagt und setzt sich schnell</stage>
+          <p>Sie – Sie – Sie gänzlich veralteter Napolium – machen Sie sich nicht länger mausig! Das
+            rat ich Ihnen in allem Ernst. Helfen tuts Ihnen doch nichts. <emph>Ich</emph> regiere
+              <pb n="154" /> hier! Sehen Sie das nicht? Sind Sie <emph>auch</emph> kurzsichtig
+            geworden?</p>
+        </sp>
+        <sp who="#napoleon">
+          <speaker>NAPOLÉON.</speaker>
+          <p>Zibólko, mach Er, dass Er da runter kommt.</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO.</speaker>
+          <p>Susanne, nimm den Besen und feg den Napolium raus!</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE</speaker>
+          <stage>sagt und fegt den Napolium raus</stage>
+          <p>Marsch, Napolium! Es hat zum Abschied geblasen! Du hast hier lange genug Komödie
+            gespielt!</p>
+          <stage>Napoléon stolpert ab. Man hört im Folgenden, wie er hinten viele Treppen
+            runterfällt.</stage>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO</speaker>
+          <stage>sagt und steht wieder auf</stage>
+          <p>Napoliums Ende und Zibólkos Anfang! Jetzt setzt es Künstlergedanken! Neue Geister
+            kommen Flügel schlagend hell lachend heran. Wir können <emph>Alle</emph> lachen!
+            Gewaltige Weltbilder mit neuen Sternen und neuen Sonnen steigen schon im Hintergrunde
+            drollig leuchtend in die Höh'. Neue »lustige« Raketen mit ganz bunten Diamanten funkeln
+            und zischen rechts und links! Jetzt haben wir endlich – Farben – Paläste – echten
+            Weltrausch – Welten – Welten! Wunder entzündende magische Lichter flackern überall! Und
+            alle Menschen denken und empfinden jetzt wie ich! Das ist eine Lust. Weihrauch!
+            Weihrauch! Jubelt mir zu! Ich bin ja der »Künstler an sich«! Habt Ihr das nicht gleich
+            mir angemerkt? Kinder, lasst Euch küssen! Weihrauch! Weihrauch! Ich suggeriere! Ich
+            regiere! <stage>Schluchzt und agiert furchtbar mit den Armen.</stage></p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE</speaker>
+          <stage>sagt und kommt langsam ohne Besen mit gefalteten Händen wieder nach vorn – weinend</stage>
+          <p>Zibólko! Napolium brach das Genick. Er fiel all' die vielen Treppen runter. Die langen
+            Sporen tragen an Allem die Schuld!</p>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO</speaker>
+          <stage>Napoléons Degen mit dem Fuss auf den Fussboden herunterstossend.</stage>
+          <p>Schmeiss dem Napolium auch den Degen nach! Spute Dich! Die barbarische Waffe beleidigt
+            mein Künstlerauge!</p>
+        </sp>
+        <sp who="#susanne">
+          <speaker>SUSANNE</speaker>
+          <stage>hebt den Degen auf und stürmt mit ihm fort.</stage>
+        </sp>
+        <sp who="#zibolko">
+          <speaker>ZIBÓLKO</speaker>
+          <stage>Steigt, während der Degen des Kaisers hinter der hinteren Wand laut klirrend die
+            Treppen runterfällt, auf die höchste <pb n="155" /> Stufe der Trittleiter und hebt den
+            Pinsel mit steifem Arm steil wie Arminius empor – schreit laut.</stage>
+          <lg>
+            <l>Der Degen fällt,</l>
+            <l>Und <emph>ich</emph> regier die Welt!</l>
+          </lg>
+          <stage>Susanne erscheint wieder im Hintergrunde mit dem Napoliumshut auf dem Kopfe, faltet
+            still die Hände, geht langsam an die Trittleiter und sinkt neben derselben auf ein Knie.
+            Zibólko bleibt unbeweglich in seiner Denkmalsstellung stehn – starrt kühn in die
+            Zukunft.</stage>
+          <stage>Vorhang!</stage>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>
