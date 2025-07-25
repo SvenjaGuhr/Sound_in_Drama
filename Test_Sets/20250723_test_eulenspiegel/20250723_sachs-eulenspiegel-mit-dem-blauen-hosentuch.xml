@@ -630,7 +630,7 @@
         <sp who="#klaus_wuerfel">
           <speaker>Klaus Würfel</speaker>
           <l>Schlagt all auf ihn nach Leib und Leben!</l>
-          <stage>(Sie schlagen alle drei auf ihn ein, der Bauer flucht, dann laufen alle
+          <stage>(Sie schlagen alle drei auf ihn ein, <character_sound>der Bauer flucht</character_sound>, dann laufen alle
             weg.)</stage>
         </sp>
         <sp who="#der_bauer">
