@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000060" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Frau Nadja Bielew</title>
+        <title type="sub">Tragischer Akt</title>
+        <author>
+          <persName>
+            <forename>Carl</forename>
+            <surname>Hauptmann</surname>
+          </persName>
+          <idno type="wikidata">Q77485</idno>
+          <idno type="pnd">118546910</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:pkhc.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Carl Hauptmann: Panspiele. München: Verlag von Georg D.W. Callwey, 1909.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="die_schwester" sex="FEMALE">
+            <persName>Eine Schwester</persName>
+          </person>
+          <person xml:id="frau_generalin" sex="FEMALE">
+            <persName>Frau Generalin</persName>
+            <persName type="variant">Eine sehr vornehme, dunkelverschleierte Dame</persName>
+            <persName type="variant">Die Dame</persName>
+            <persName type="variant">Frau General</persName>
+          </person>
+          <person xml:id="nadja_bielew" sex="FEMALE">
+            <persName>Nadja Bielew</persName>
+            <persName type="variant">Nadjas Stimme</persName>
+            <persName type="variant">Nadja</persName>
+          </person>
+          <person xml:id="doktor_lenoir" sex="MALE">
+            <persName>Doktor Lenoir</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-12-17">(ff) formalities</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1909">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000060" passive="http://www.wikidata.org/entity/Q56448086"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <div type="front">
+        <head><pb n="115"/><pb n="117"/>Carl Hauptmann</head>
+        <head>Frau Nadja Bielew</head>
+        <head>Tragischer Akt</head>
+        <pb n="117"/>
+        <pb n="119"/>
+      </div>
+      <div type="Dramatis_Personae">
+        <castList>
+          <head>Personen.</head>
+          <castItem>Frau Nadja Bielew, geb. Lermontoff.</castItem>
+          <castItem>Frau Generalin Lermontoff.</castItem>
+          <castItem>Doktor Lenoir.</castItem>
+          <castItem>Herr Bielew.</castItem>
+          <castItem>Eine Schwester.</castItem>
+        </castList>
+      </div>
+      <set>
+        <p>Das Ereignis spielt in einem vornehmen Kurort im Westen.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+        <head>[Stücktext]</head>
+        <stage>Ein vornehmer Salon mit einer Glastür nach Terrasse und Garten in der Tiefe. In der
+          Mitte des Zimmers ein freier Schreibtisch, etwas quer gestellt, wovor ein bequemer
+          Arbeitsstuhl steht. Ein buntes Schultertuch hängt über die Lehne. Ein grosser Pelzfussack
+          liegt auf dem Bärenfell davor. Auf dem Schreibtisch liegen Zeitungen, beschriebene
+          Papiere, Bücher, ein grosses Buch ist aufgeschlagen, eine leere Vase steht da, ein
+          Liegesofa steht in der Nähe des Schreibtisches. Die Tür rechts führt auf den Hausflur. Die
+          Tür links führt in das Schlafzimmer. Draussen blüht der Frühling. Die Zimmertür nach der
+          Terrasse ist geöffnet.</stage>
+        <sp who="#die_schwester">
+          <speaker>EINE SCHWESTER</speaker>
+          <stage>öffnet die Tür von rechts und schaut herein und spricht nach draussen.</stage>
+          <p>Nein, sie ist noch nicht zurück. Frau Bielew ist noch nicht zurück.</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>EINE SEHR VORNEHME, DUNKELVERSCHLEIERTE DAME</speaker>
+          <stage>der die Schwester den Vortritt gelassen, ist Schritt um Schritt zögernd herein
+            getreten.</stage>
+          <p>Ich bin nämlich die Mutter von Frau Bielew.</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Wollen Sie nicht ganz hereintreten und einen <pb n="121"/> Augenblick hier Platz
+            nehmen, gnädige Frau? Oh, die Mutter!</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>DIE DAME</speaker>
+          <stage>sich erstaunt umblickend, ohne sich zu rühren.</stage>
+          <p>Frau Generalin Lermontoff.</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Wollen Sie nicht Platz nehmen, gnädigste Frau Generalin?</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Gütiger Himmel! Einen Augenblick lassen Sie mir noch Zeit. Ich muss mich erst eine
+            Weile wieder zur Besinnung bringen ... Hier hat sie also gelebt? Hier hat also Nadja den
+            Zusammenbruch erlebt? ... nach den fürchterlichen Ängsten, die wir haben durchmachen
+            müssen um ihr Leben ... Ich bin ganz erschüttert ... Nun also ... vor eine neue Nadja
+            hintreten oder vor die alte Nadja! ... Die qualvolle Unsicherheit der Erwartung bricht
+            mir fast das Herz. Sagen Sie mir doch, liebe Schwester! Sie haben Nadja gepflegt? ...
+            von dem ersten Tage an?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Sehr wohl, Frau Generalin! Gleich von dem <pb n="122"/> Tage an, als Frau Bielew hier
+            im Hotel erkrankt war ... Wohl gleich, als sie von Russland hier angekommen war! ...</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>der Schwester ins Wort fallend.</stage>
+          <p>Ja ja ... als Nadja aus Russland fliehen gemusst ... um jeden Preis fliehen gemusst,
+            und sie um jeden Preis nach Paris drängte, um dort ihrem leidenschaftlichen Hasse
+            womöglich nur noch leidenschaftlicher weiter zu dienen ... der unabsehbaren Fata Morgana
+            der Volksfreiheit weiter zu dienen, ihr junges Leben den grausamen Schicksalsforderungen
+            des revolutionären Komitees noch vollends als Opfer hinzuwerfen ... Ach, du himmlischer
+            Gott! wenn Sie wüssten! In solchen Zeiten, wie sie über unser Volk hereingebrochen sind,
+            da werden Kindergemüter zu Feuerflammen ... Wir hätten sie schützen können ... jawohl
+            ... wenn wir sie ganz und gar gefangen gehalten. Aber der Tag war gekommen, wo es mit
+            dieser Einsicht zu spät war ... wo Nadja mit der roten Fahne des Aufruhrs den Haufen
+            rachsüchtigen Volkes führte, und das Bild des Zaren vor aller Augen <pb n="123"/> mit
+            Verwünschungen unter ihre zarten Füsse trat. Da sprühten ihre sanften Augen nur Hass.
+            Sie zischte auf wie eine böse Schlange. Und nicht Vater noch Mutter, noch ihr Mann
+            konnten irgend Gehör finden in ihrem gejagten Herzen.</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Gnädigste Frau Generalin, Sie sprechen doch nicht ...</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Von Frau Bielew ... von Nadja Bielew, gebornen Lermontoff, meiner neunzehnjährigen,
+            bleichen, engelsanften, geliebten Tochter.</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER</speaker>
+          <stage>in Gedanken.</stage>
+          <p>Von Frau Nadja Bielew! Man kann sich so etwas wirklich gar nicht denken.</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Nein nein, ganz und gar nicht!</p>
+          <stage>Sie ist zögernd und betrachtend gegen den Schreibtisch getreten.</stage>
+          <p>Hier hat also Nadja schon wieder alles Mögliche durcheinander getan ... gelesen und
+            geschrieben?</p>
+          <stage><pb n="124"/> Bei diesen Worten blättert sie in dem Buche, das aufgeschlagen auf
+            dem Schreibtisch daliegt.</stage>
+          <p>Ein volkswirtschaftliches Buch?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Ja ja ... sie hat nun Sinn und Seele gefunden, wie sie oft sagt ... Ist es nicht das
+            grosse Werk ... ja freilich, es ist das grosse Werk von Doktor Lenoir ... Oh Gott, tätig
+            ist sie immer.</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Sagen Sie nur ruhig, immer gewesen, schon mit zehn Jahren. Schon mit zehn Jahren hat
+            dieser brennende Eifer angefangen, hat Nadja zu grübeln und zu arbeiten angefangen ...
+            Und man hat ihr keine Hindernisse bereitet. Man hat sich einfach nicht um sie gekümmert.
+            Das war der ganze Fehler ... Liebe Schwester, sprechen Sie doch! Wie ist sie jetzt? Ist
+            sie sanft geworden, wie sie war?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER</speaker>
+          <stage>freudig.</stage>
+          <p>Ja ja ja, sie lebt jetzt ganz auf.</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Oh mein Gott, was für ein rätselhaftes Wesen <pb n="125"/> sie immer war! Schon als
+            Kind konnte sie mit Leben und Tod spielen wie mit zwei goldenen Kugeln, konnte es ganz
+            arglos und mit Lachen ... Aber sie konnte sich auch plötzlich zu etwas überwinden und
+            sich ehern entscheiden ... Dann hatte sie eine heisse Flamme in der Seele brennen, die
+            alles Ding und Wesen und Menschen und sich selber vor sich zu Schatten machte. Und wenn
+            es in solchen Augenblicken um Mutter und Vater geschehen gewesen, hätte sie kaum mit den
+            Brauen gezuckt. Wenn es um ihren Mann und ihre Kinder geschehen gewesen, würden nur ihre
+            Augen flüchtig gesprochen haben –: »Was habe ich mit Euch zu schaffen?« und nichts
+            weiter. Solche heissen Herzen haben eine Glut wie geweihte Fackelträger.</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Aber, gnädigste Frau Generalin! Frau Nadja Bielew ist so unglaublich zärtlich und
+            kindlich jetzt.</p>
+          <stage>Sie ist an die offene Tür nach der Terrasse getreten.</stage>
+          <p>Sehen Sie! ... da ... nun glaube ich doch, dass sie es ist, die um die blühende Weide
+            biegt und herkommt.</p>
+          <pb n="126"/>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>äugt hinter der Schwester scharf mit dem Lorgnon hinaus.</stage>
+          <p>So? ... Gott ... das ist sie?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Sie kommt mit Doktor Lenoir vom See.</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>So? ... mit ... Doktor ...?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Das ist Doktor Lenoir.</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Ist das der Arzt?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>I ... nein ... ein Herr in mittleren Jahren schon ... ein sehr kluger ... ein sehr
+            unzugänglicher Mensch, der auch das Buch da geschrieben hat ... oh ... ein berühmter
+            Gelehrter ... er hat nämlich bei uns auch krank darnieder gelegen ... aber er ist völlig
+            in Genesung begriffen, wie Frau Nadja ... ein ganz abweisender Mensch ... ein bissel
+            unausstehlich manchmal ... ich begreife Frau Nadja nicht, dass sie an ihm so hinaufsieht
+            ... ein<pb n="127"/> alles verachtender ... alles bemäkelnder Herr ... ich als Schwester
+            kann es ja ruhig sagen ... dem auch seine Pflegerin nichts rechttun kann ... Gott ... er
+            mag wohl viele Enttäuschungen im Leben erfahren haben ... und er, hat auch gelebt ...
+            sicherlich ...</p>
+          <stage>Sie ist einen Schritt hinaus getreten und ruft.</stage>
+          <p>Frau Nadja Bielew! Es erwartet Sie jemand.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJAS STIMME</speaker>
+          <stage>von ferne.</stage>
+          <p>Gott! Gott! Gott!</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Sehen Sie, wie sie ganz erschrocken ist!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJAS STIMME.</speaker>
+          <p>Um Gotteswillen ... nein nein nein ... wo ich endlich einmal zum wirklichen Leben
+            aufwache.</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>streng.</stage>
+          <p>Was ruft Frau Bielew?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Frau Nadja denkt, es wollte sie jemand aus ihren Himmeln reissen.</p>
+          <pb n="128"/>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Sagen Sie mir nur ... wer ist der dunkle, schlanke Herr, der mit ihr kommt, und von dem
+            sie sich jetzt so hastig und zutraulich verabschiedet?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER</speaker>
+          <stage>ist auf die Terrasse hinaus getreten, ohne noch die Worte der Frau Generalin zu
+            hören.</stage>
+          <p><stage>Sie ruft in den Garten.</stage> Nein nein, Frau Nadja! Niemand will sie stören.
+            Machen Sie nur ja keine Umstände erst und kommen Sie .... rasch! ... rasch! ... ganz
+            rasch!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>ist leicht wie ein Mädchen den Gartenweg heran gesprungen und überhastend die
+            Stufen herauf gelaufen, wo die Schwester steht und sie erwartet, um sie selber herein zu
+            führen.</stage>
+          <stage>Nadja ist völlig schmucklos, ganz einfach, aber anmutig gekleidet, ohne Hut, hat
+            nur einen seidenen Shawl lässig um Schulter und Hüfte geschlungen, das Kleid ist
+            fussfrei, kurz wie bei einem Mädchen, die Füsse in Sandalen. Sie hat einen Strauss
+            Blumen in Händen. Noch auf der Terrasse ist sie prüfend stehen geblieben und kommt nur
+            Schritt um Schritt zögernd bis zur Tür heran. Sie sagt kein Wort.</stage>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>die Nadja ebenfalls zögernd, aber hoch aufgereckt entgegen gegangen ist.</stage>
+          <p>Meine ... liebe ... Nadja!</p>
+          <pb n="129"/>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA</speaker>
+          <stage>hat plötzlich die Mutter erkannt und greift sogleich ganz hastig und geängstigt
+            nach der Hand der Schwester.</stage>
+          <p>Liebe ... Schwester ... meine Mutter? ... Wie denn? Wartet Vater auch draussen? ...
+            Wartet mein Mann auch draussen? ... Kommen sie alle wieder, um mich neu zur Gefangenen
+            zu machen? ... Wollen mich die Augen meiner Mutter wieder mit Zorn anblitzen ... bis ich
+            ganz demütig bin? ... Will Vater mich neu niederschreien mit seiner harten Stimme? ...
+            Und der reiche, duldsame Mann mich anflehen, dass ich das Glanzstück seines Lebens
+            bleiben soll!? ... Werden Sie mich wieder klein und erbärmlich machen vor mir selber?
+            ... Schwester ... ich muss mich retten, Schwester!</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER</speaker>
+          <stage>hält Nadja fest.</stage>
+          <p>Aber, geliebte Frau Nadja! Sehen Sie nicht, dass Ihre Mutter grosse Tränen weint nach
+            Ihnen.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA</speaker>
+          <stage>kommt von der Schwester zärtlich geführt langsam und scheu auf die Frau Generalin
+            zu.</stage>
+          <p>Oh ... Ihr himmlischen Mächte! Mutter!</p>
+          <stage><pb n="130"/> Sie hat der Frau Generalin scheu und kindlich die Hand
+            hingereckt.</stage>
+          <p>Du sollst nicht weinen, Mutter! Ich will auch geduldig sein! Ich werde mir alles
+            anhören! Ich werde kein Wort erwidern ... und alles, was ihr verlangen werdet ...</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Nein nein ... gar nichts, Kind! Ich <emph>komme</emph> nicht, gleich etwas zu
+            verlangen. Ich will dir nur erst wieder in die Augen sehen. Ich will nur erst deiner
+            Seele wieder nahe kommen. Ich will erst wieder zu meiner kindlichen, heiteren Nadja
+            kommen. Ich verlange einstweilen gar nichts von dir. Lass mich nur eine Weile stumm
+            neben dir sitzen, wie früher ... und fühlen ... einmal endlich wieder ... dass du mein
+            Kind bist, und ich deine Mutter bin.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA</speaker>
+          <stage>ganz leise.</stage>
+          <p>Schwester! Lassen Sie meine Mutter ganz allein mit mir! Vielleicht ... ja ... ich habe
+            doch viele unaussprechliche Qualen durchgemacht ... und aus all der Jagd und dem Fieber
+            ist doch eine andere Nadja auferstanden. Wenn <pb n="131"/> wir jetzt ein paar
+            Augenblicke ohne Worte allein wären, sodass wir unsern Atem und unsre Herzschläge
+            heimlich hörten ... vielleicht, dass dann doch ein Frieden zwischen uns auftauchte.</p>
+          <stage>Ganz unvermittelt hart zur Schwester gewandt.</stage>
+          <p>...Ich hatte es Ihnen ja nie gesagt, Schwester, dass ich meine Mutter hasste, seitdem
+            sie mich vorzeitig um Reichtum verkuppelte, und meinen Vater hasste, weil er mein Volk
+            um seines Amtes willen verleugnete ... trotz der elenden Knechtschaft, in der es seufzt
+            und die er so gut erkannte, wie ich und Millionen.</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER</speaker>
+          <stage>ganz erschrocken.</stage>
+          <p>Geliebte Frau Nadja! Tuen Sie mir die Liebe! Was reden Sie da?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>plötzlich kindlich lachend.</stage>
+          <p>Ach Gott! Das <emph>war</emph>... das <emph>war</emph> ich alles früher einmal. Das ist
+            längst untergegangen. Das soll nie wieder kommen. Ich bin aus den Fieberschrecken der
+            Seele neu und klar aufgewacht. Ich habe ein Chaos durchlaufen ... dort in der Heimat ...
+            hier in der Krankheit <pb n="132"/> ... darin es noch ungebundener nachtobte, wie
+            Irrsinn ... Aber das ist alles wie ein Lärmschrecken verweht, dass die Seele sich
+            plötzlich selber hörte ... Nun bin ich ein glücklicher Mensch geworden, Mutter! ... Nun
+            will ich auch weinen ... an deinem Herzen, Mutter! ... Ich will den finsteren Rest
+            Erinnerung, der noch ferne auftaucht, wegweinen ... an deinem Herzen! ... Oh, Mutter ...
+            sieh mich ... jetzt bin ich endlich ganz genesen zu mir selber. Du kommst zu einem
+            keuschen Menschen, zu einem einsamen ganz in der Stille ... der sich um nichts mehr auf
+            die Gosse wirft! ... Du hast wieder nur eine Zärtliche vor dir ... All das Vergangene
+            waren Alpträume ... Schauer, die allen Hass vollends in mir zerbrachen ...
+            Fürchterliches! ... fort ist es! Ich habe mich heute draussen am See bekränzt, Mutter.
+            Es ist Frühling draussen ...</p>
+          <stage>Sie ist mit plötzlicher Wendung an die Glastür nach der Terrasse gegangen und
+            blickt hinaus mit unterdrückter, stummer Bewegung. Es bleibt eine Weile tiefe Stille im
+            Raum. Draussen singt ein Vogel.</stage>
+          <stage>Die Schwester gibt Frau Generalin ein leises Zeichen und entfernt sich behutsam
+            nach rechts.</stage>
+          <pb n="133"/>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Nadja!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA</speaker>
+          <stage>regt sich nicht.</stage>
+          <p>Frau Generalin. Geliebte, einzige Tochter ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>wendet sich plötzlich wie arglos zurück.</stage>
+          <p>Ach Gott nein! ... Da habe ich mir in Gedanken ganz diese Blumen zerdrückt, die mir
+            teuer sind.</p>
+          <stage>Sie ist an den Schreibtisch herangetreten und damit beschäftigt den Strauss zu
+            ordnen, und in die Vase zu stellen.</stage>
+          <p>Lege doch deinen Mantel ab, Mama!</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>Nadja's Hantierung spröde betrachtend.</stage>
+          <p>Nein, Nadja? ... Dass du dich jetzt um Blumen so herzlich kümmerst!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Ich hatte immer nur den Kopf voll flammender Ideen ... nicht? Und den Mund voll
+            flammender Worte. Ich wusste gar nichts anderes, als das gehetzte Volk weiter zu jagen
+            ... und wähnte immer irgendwo etwas vor mir, wie ein <pb n="134"/> Reich voll Licht und
+            Reinheit ... ein Dunstbild in der Ferne ... dorthin! ... dorthin! ... sollten sie alle
+            getrieben werden! ... Den Widerstrebenden alle Verachtung ... Für die Schönheit der
+            wirklichen Frühlinge und der stillen Sommernächte hatte ich ja nur die ewige Blindheit!
+            ... Oh ... eine Jagd, die mir das Herz zerriss ... Ein Wahnbild aus Rauch, wofür der
+            einzelne weggeworfen ist auf dem Wege ohne Erfüllung ... Nun beginne ich einen andern
+            Traum zu ahnen. Nun beginne ich an die Fülle Leben zu glauben, die in mir ist ... Nun
+            fühle ich mich emporgetragen, ich selber aus der eigenen Tiefe des Daseins ... voll
+            Liebe ... auch zu dir, Mutter! ...</p>
+          <stage>Sie hat die Mutter ängstlich angesehen und sagt hastig und sehr zärtlich.</stage>
+          <p>Was willst du sagen, Mutter?</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Wenn ich auch deine Worte nicht ganz verstehe, liebes Kind, so scheint mir doch das
+            eine daraus klar, dass du endlich die furchtbare Krankheit deines politischen Fanatismus
+            deutlich erkannt hast ... Dass du endlich deine <pb n="135"/> ideale Verstiegenheit von
+            dir getan hast ... Dass du zum ersten Male mit dir selber beginnen willst ... Und das
+            wäre doch eine Basis, auf der sich eine Zukunft errichten liesse! ... Wo hätte ich denn
+            auf der Herfahrt an eine solche Fügung je zu denken gewagt! ... Ich bin ja doch in
+            zitternder Sorge gleich vom Coupé aus hierher gehastet ... ich hatte wohl noch manch'
+            andre Worte von früher gellend im Ohr, dass du eine geborene Revolutionärin wärst, und
+            dass du keine tiefere Leidenschaft besässest, als deinen Kopf abzugeben, wenn dein Volk
+            es verlangte. Robespierre spukte ja damals in deinem Kopfe.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>die unterdessen in Gedanken wieder an die Glastür getreten war, starrt hinaus und
+            antwortet nicht.</stage>
+          <p><stage>Erst nach einer Pause sagt sie.</stage> Wovon redetest du eben, Mutter?</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Du musst aber jetzt auch hören, liebes Kind! Du kannst dir denken, wie mich die weite
+            Reise tief ermüdet hat ... Und ich bin noch genug erschüttert, dass auch ich alle meine
+            Kräfte zusammenraffe ... für dich ...</p>
+          <pb n="136"/>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Sei nicht böse, Mama!</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Ich bin ja doch hierher gefahren mit der verzehrendsten Unruhe, endlich einen Weg für
+            dich deutlich zu erkennen ... auch nur eine kleine Hoffnung für dich und uns ...
+            deutlich zu erkennen! ... Du weisst ja doch sicher, wie es in den Deinen aussieht ...
+            wie es um uns steht ... wie wir heimlich zittern und beben, dich um Gotteswillen nicht
+            ganz von uns zu lassen, dich in unser schlichtes, friedliches Menschendasein neu zurück
+            zu gewinnen ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>wie aus anderen Gedanken heraus.</stage>
+          <p>Wo sollte das sein? ... Wo denkst du dir das, Mutter?</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>betrachtet Nadjas kindliche, sanfte Art.</stage>
+          <p>Wo hätte ich denn jemals an eine solche Wandlung denken können, an eine solche Milde
+            und stillen, sanften Sinn. Es ist ja wie ein reiner Gottesfriede über dich gekommen,
+            mein geliebtes Kind ... Du stehst ja da, wie ein <pb n="137"/> schüchternes Mädchen ...
+            wirklich ... und ich beginne in meiner geängstigten Seele ... wirklich ... ach Gott ...
+            noch in Petersburg damals ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Mutter, nenne mir diesen Namen nicht!</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Nein nein, ich will von alledem nicht mehr reden. Ich will gar keine Erinnerungen
+            weiter heraufbeschwören. Die Zerwürfnisse mit deinen Eltern und mit deinem Manne sollen
+            jetzt nicht mehr zwischen uns stehen. Das Vergangene ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Gott! Gott! Ich habe wirklich alles Vergangene rein vergessen in mir.</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Ja, du <emph>sollst</emph> es vergessen und begraben in dir! Deine Eltern haben dir
+            voll verziehen. Deine Kinderchen rufen nach dir ... Dein sanfter Mann hatte ja doch
+            immer nur Liebe und Güte, um nicht zu sagen Anbetung für dich. Er würde dich aus einem
+            brennenden Hause herausgeholt haben ... Du kennst ihn ja ... <pb n="138"/> und wenn er
+            dabei zehnmal selber zu Staub und Asche geworden wäre. Er hat dir deine verstiegenen
+            Launen nie angerechnet ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>hat eine immer scheuere, beobachtende Miene angenommen, plötzlich
+            hervorstossend.</stage>
+          <p>Haben sie dich allein hierher gesandt? ... Mutter ... Bist du allein gekommen?</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>zurückhaltend.</stage>
+          <p>Nein ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>energisch.</stage>
+          <p>Wer ist mitgekommen? Ist Vater mitgekommen?</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>will Nadjas Hand ergreifen und sie an sich ziehen.</stage>
+          <p>Nadja ... ahnst du denn gar nicht ...?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>ganz gleichgültig.</stage>
+          <p>Ach Gott ja ... ich ahne es wohl ...</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Dein guter Mann läuft die ganze Zeit unten <pb n="139"/> ruhelos auf dem Kiesplatz hin
+            und her ... und wartet nur deines Winkes ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>geht zur Verandatür zurück, hinausträumend.</stage>
+          <p><stage>Nach einer Weile bittend.</stage> Gehe ... einstweilen ... Mutter ...</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>ebenfalls nach einer Pause innerer Erwägung.</stage>
+          <p>Gut ... ich gehe, liebes Kind. Es ist durchaus besser, wenn wir dir jetzt Zeit lassen
+            ... und du uns Zeit lässt. Ein jeder mag sich jetzt erst eine Weile hinstrecken, um sich
+            von der ersten, furchtbaren Angst zu erholen.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Wo wohnt ihr denn, Mutter?</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Dein Mann und ich, wir sind unten in dem Hotel am Kurpark sehr gut untergekommen ...
+            Nadja ... wenn ich deine sanfte Stimme höre ... wenn ich dich ansehe ...</p>
+          <pb n="140"/>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>achtlos zärtlich.</stage>
+          <p>Gehe, Mutter ...</p>
+          <stage>Sie streichelt plötzlich der Frau Generalin Gesicht.</stage>
+          <p>Du siehst wirklich totenblass aus, Mutter!</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Wie soll ich nur anders aussehen, Kind?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>deren Blick sich in diesem Augenblick im Spiegel verfangen hat, hastig.</stage>
+          <p>Wie sehe <emph>ich</emph> jetzt aus, Mutter?</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Nun, blass genug bist du auch noch immer!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Nein nein, das meine ich nicht ...</p>
+          <stage>Sie steht vor dem Spiegel und betrachtet sich scharf und verführerisch.</stage>
+          <p>Habe ich noch den harten Blick und die scharfen Linien auf der Stirn und um die
+            Mundwinkel, die der Enthusiasmus der Aufreizung in ein junges Gesicht bringt? Fange ich
+            nicht wieder an, aufzublühen? Du sagtest doch selbst, ich erschiene dir, wie ein
+            schüchternes Mädchen?</p>
+          <pb n="141"/>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Ach, du ewig eitle Nadja!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>immer noch vor dem Spiegel.</stage>
+          <p>Nadja Lermontoff hat jetzt eine Frühlingsblüte auf den Lippen und ein Lied in der
+            Seele, ein Schwärmerlied ... zum ersten Male ...</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>in Unruhe.</stage>
+          <p>Ja nun ... Nadja? ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Adieu, Mama!</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Willst du denn nicht deinem Manne wenigstens einen Blick gönnen und ihm einmal die Hand
+            reichen?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Warum denn nicht? ... Nur bin ich doch augenblicklich sehr ermüdet ... Mutter ...</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>hat jedoch die Tür nach aussen bereits geöffnet und spricht nur eilig
+            zurück.</stage>
+          <p>Nur einen Augenblick ... einen ganz flüchtigen <pb n="142"/> Augenblick, ehe wir beide
+            gleich wieder gehen!</p>
+          <stage>Im nächsten Augenblick ist ein sanfter, sehr bärtiger Herr ohne ein Wort hinter der
+            Frau Generalin eingetreten. Er ist offenbar ganz scheu, fast demütig. Aber in seinen
+            Augen hat er eine strahlende Freude. Er geht behutsam, ein wenig unbehülflich auf Nadja
+            zu. Nadja Bielew steht bleich, aber ganz zurückgenommen, kindlich lächelnd und reicht
+            ihm nur, mehr um ihn abzuhalten von sich, weit die Hand hin. Herr Bielew küsst ihre Hand
+            mehrmals leidenschaftlich. Es wird kein Wort gesprochen.</stage>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>ist sofort an die Glastür zurück getreten und blickt in Gedanken hinaus.</stage>
+          <p><stage>Dann sagt sie, ohne sich umzuwenden.</stage> Geht jetzt!</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Und wann willst du, Kind, dass wir wiederkommen, um uns endlich von einer besseren
+            Zukunft zu unterhalten?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Kommen? ... wer? ... ach, nein nein ... für diese Nacht wäre es doch am Ende ganz
+            zwecklos ... oder ... Gott ja, Mama ... komme nur du gegen die Dämmerung ... Nicht vor
+            acht, Mama! ... Und wenn Herr Bielew wirklich auch noch daran dächte ... später <pb n="143"/> liegt der Garten in tiefem Frieden ... und das Herz wird gewappnet sein ...
+            mit Güte, Mama ... mit eherner, klarer Güte! ... Adieu, Mama!</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Küsse mir nicht die Hände so inbrünstig, Nadja!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Ach, Mama, weisst du es nicht, dass ich das schon tat, als ich ein zehnjähriges Mädchen
+            war! Es tat mir oft fast weh ... aber ich liebte diesen Schmerz.</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Aber du sollst es <emph>jetzt</emph> nicht tun ... um alles in der Welt nicht ... denn
+            ich will mich nicht neu zu fürchten beginnen ... ich will mit ruhiger Hoffnung von dir
+            gehen.</p>
+          <stage>Herr Bielew hat die Tür geöffnet. Frau Generalin tritt hinaus. Hinter ihr Herr
+            Bielew.</stage>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>steht in der Tür und ruft nach.</stage>
+          <p>Adieu ... adieu, Mama!</p>
+          <stage>Dann schliesst sie die Tür langsam und geht zögernd bis an die Terrassentür zurück.
+            In Gedanken spricht sie vor sich hin.</stage>
+          <pb n="144"/>
+          <p>»Ich will mit ruhiger Hoffnung von dir gehen!« Oh, ihr gütigen Geister! ... Diese
+            Stunde muss über viel entscheiden ... muss über sehr viel entscheiden!</p>
+          <stage>In diesem Augenblick hat es an der Tür rechts lebhaft geklopft.</stage>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>fast erschreckt.</stage>
+          <p>Da ... was ist?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER</speaker>
+          <stage>tritt herein.</stage>
+          <p>Nun, verehrte Frau Nadja ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>ist an den Schreibtisch gegangen und hat mit Schreiben begonnen.</stage>
+          <p>Was wollen Sie?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Ich muss wohl doch jetzt ein bissel für Ruhe sorgen ... Gott ... liebe Frau Nadja ...
+            nur nicht so hastig ... nur nicht immer gleich ruhelos werden!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>während des Schreibens gleichgültig nebenbei.</stage>
+          <p>Hat es so den Anschein? ... Oh ... ich bin <pb n="145"/> es gar nicht ... ich bin
+            durchaus nicht hastig ... ich bin sehr ruhig jetzt.</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Aber entsetzlich übertrieben sind Sie manchmal.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>nebenbei.</stage>
+          <p>Oh ja ... das kann wohl sein.</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Ihre Frau Mutter habe ich dabei gradezu bewundert ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>immer noch schreibend.</stage>
+          <p>Nein nein, da haben Sie nur zu recht. Als Kind unterlag ich immer dieser Bewunderung
+            ... Oh, eine Mutter ... dachte ich.</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Und das war also Ihr lieber Mann ...? ... Und Ihre beiden Kinderchen sind doch gewiss
+            auch mitgekommen?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>springt plötzlich auf, zerreisst das Geschriebene in tausend Fetzen, lacht und sagt
+            hart.</stage>
+          <p>Lassen Sie mich in Ruhe jetzt. Ich will schlafen. Ich bin es bedürftig.</p>
+          <pb n="146"/>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Aber diese Blumen von Doktor Lenoir ... nein nein ... Sie sollen keine Blumen hier
+            haben, wenn Sie schlafen. Der Duft erregt Ihre Nerven viel zu sehr.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>stürzt drollig wütend auf sie zu.</stage>
+          <p>Wie ... kommen ... Sie ... mir ... vor ... dass Sie es wagen ...</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER</speaker>
+          <stage>trägt trotz Nadjas Bemühungen den Strauss frischer Blumen auf die Terrasse.</stage>
+          <p>Nein nein, Frau Nadja, hindern Sie mich nicht ... und ergeben Sie sich in,die
+            Anordnungen, die der Arzt mit aller Bestimmtheit getroffen hat.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>lässt sich drollig verzweifelt plötzlich auf das Liegesofa fallen und liegt mit
+            geschlossenen Augen hingestreckt.</stage>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER</speaker>
+          <stage>ist bemüht Nadja einzuhüllen.</stage>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>spricht währenddessen mit geschlossenen Augen drollig unwillig.</stage>
+          <p>Nur reden Sie nicht immer dasselbe, wie ein <pb n="147"/> Papagei ... und gehen Sie
+            endlich! ... Machen Sie nicht erst Verdriessliches weiter! ... Lassen Sie das Licht
+            herein oder nicht herein ... Lassen Sie die Tür angelweit offen oder machen Sie sie
+            unnütz zu, dass die weiche Luft nicht herein kann ... meinetwegen ... nur lassen Sie
+            mich endlich, ohne dass Sie wie ein Wächter stehen!</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Ich schliesse nur die Tür. Die Vorhänge will ich offen lassen. Es ist nicht gut, am
+            Tage bei geschlossenen Vorhängen zu schlafen. Der Schlaf wird zu tief.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>mit verträumtem Blick zum Fenster hinaus.</stage>
+          <p>Da ... diese schnee-schneeweisse, reine Wolke ... kann so unermesslich frei hingehn in
+            der blauen Luft ... ist ganz losgebunden ... Haben <emph>Sie</emph> einen Halt gefunden
+            in diesem Leben, Schwester?</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER</speaker>
+          <stage>einen Augenblick untätig und unschlüssig.</stage>
+          <p>Ich ...? ... Fragen Sie mich ...? ... Mein Gott! wenn man so viel zu tun hat, wie <pb n="148"/> in diesem Hause ... Einen Halt? ... Wie meinen Sie das? ...</p>
+          <stage>Indem sie langsam zur Tür geht.</stage>
+          <p>Ich, ich denke, es ist jetzt besser, dass Sie einen rechten Halt im Schlafe suchen.
+            Denn wenn man richtig ausgeruht ist, dann hat man wieder frische Kräfte. Und das ist der
+            beste Halt.</p>
+          <stage>Sie ist noch einmal prüfend an Nadjas Liegesofa herangetreten, hat das Schlafkissen
+            gerückt, blickt sich sorglich um, unterdessen Nadja mit geschlossenen Augen daliegt, und
+            geht dann geräuschlos zur rechten Tür hinaus. Es bleibt eine Weile Stille.</stage>
+          <stage>Draussen im Garten wird ein schlanker, vornehmer, dunkler Herr, schon in reiferen
+            Jahren, sichtbar, der auf die Terrassentür zukommt. Er hat einen englischen Plaid um die
+            Schultern und seine Schiffsmütze lässig in den Nacken geschoben. Er trägt ein paar Rosen
+            nachlässig in der Hand. Er kommt sehr geräuschlos prüfend bis an die Tür und drückt die
+            Stirn an die Scheibe. Er kann zuerst offenbar nicht genau erkennen. Wie er die
+            Schlafende gesehen, will er sich noch leiser entfernen.</stage>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>hat seine Annäherung wie gefühlt, richtet sich langsam hoch auf und lächelt
+            lieblich.</stage>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>hat sich noch einmal umgewandt und sieht sie.</stage>
+          <pb n="149"/>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>winkt stumm und zärtlich mit beiden Händen.</stage>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>tritt ins Zimmer ein.</stage>
+          <p>Nein, du ... es hat doch wohl nicht recht Sinn, wenn ich dir jetzt die so notwendige
+            Ruhe störe ... Ich komme <emph>später</emph> ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>winkt nur wieder sanft und stumm, aber bestimmt mit beiden Händen.</stage>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>tritt Schritt um Schritt zögernd, tiefer ins Zimmer herein.</stage>
+          <p>Willst du denn nicht wirklich erst ausruhen jetzt?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>legt ihren Kopf wieder mit geschlossenen Augen zurück.</stage>
+          <p>Lass dein Fragen! ... bitte, lass dein Fragen!</p>
+          <stage>Sie reckt ihm ihre Hand hin.</stage>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>küsst die Hand.</stage>
+          <p>Nadja Bielew Küsse mir auch die Linke.. oder Geliebter.</p>
+          <pb n="150"/>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>hat auch ihre Linke Hand geküsst und beugt sich über ihren Fuss, den sie zu fällig
+            aus der Decke herausgestreckt hält.</stage>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Sei nicht verrückt, du! Ich mag das jetzt nicht leiden! .</p>
+          <p>.. Oh, dass du kommst! ... Setze dich dort auf den Schreibstuhl ... ich werde hier
+            liegen ... so können wir reden.</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Aber du sollst nicht reden. Du sollst noch eine halbe Stunde mindestens ganz still
+            liegen.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Ach, wenn ich nur reden könnte ... wenn ich nur alles sagen könnte, was ich fühle ...
+            den grossen Schmerz, den ich in mir trage!</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Was hast du, liebes Kind?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Ach ... nichts! ...</p>
+          <stage>Sie blickt ihn lange fragend und zärtlich an.</stage>
+          <p>Freund ... oder Geliebter?</p>
+          <pb n="151"/>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Du siehst wirklich ganz erschrocken aus ... seit vorhin.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Nein nein ... davon will ich durchaus jetzt nichts wissen, wenn du bei mir bist ... Ich
+            will nur jetzt einmal endlich eine Sache ganz deutlich fühlen ...</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Was ... mein Kind? ... plagst du mich neu?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Ich will es jetzt nur einmal ganz deutlich fühlen, das glückselige Gefühl ... das
+            Einzige, was ich je besass, noch besitze ... Glaubst du es mir nicht? ... Mein Leben war
+            furchtbar ... vielleicht in der Einbildung ... aber auch im Wirklichen. Jedenfalls
+            kannte ich in meiner Jugend keinen hellen Tag, kein Lachen ohne Schmerzen ... Ich lernte
+            an allem zweifeln und an allen ... Wenn ich oft vom Tode spreche, so ist das kein Spass.
+            Liebe in Nadja Lermontoffs Herzen einmal erkannt, einmal erlebt, ist ein A und O ... und
+            nichts mehr ... Wenn <pb n="152"/> ich sie verlöre ... wenn ich sie einmal aufgeben
+            müsste ...</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Was aufgeben müsste? ... weil ich es nicht ganz so fühle, wie du es dir ausmalst ...
+            weil ich ja doch ein Leben gelebt habe ... alles tausendmal erfahren habe ... und nicht
+            mehr brenne und mich erhitze, liebes Kind? ... Aber warum aufgeben müsste? ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Oh ... ich mag es nicht sprechen ... ich mag es nicht laut nennen ... Die lauten Worte
+            verletzen meine Seele ... Und nicht fragen, nicht prüfen! ... Ich fürchte mich doch ...
+            Ja ja ... das ist nun ein Unterschied ... die einstige Revolutionärin liebte den Tod ...
+            und die Liebende will leben ...</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Liebe Nadja, wir sollten durchaus nicht immer nur solche Gespräche führen ... ich bin
+            gar nicht hier hereingekommen ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Nein ... Du hast ganz recht ... man kann <pb n="153"/> es einander doch! nicht zeigen,
+            was in unserm Blute brennt an wirklichem Feuer ...</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>lachend.</stage>
+          <p>Asche ... Asche.. mein Kind!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>ist aufgesprungen.</stage>
+          <p>Nein ... ich muss dir etwas erklären ... Es peinigt mich augenblicklich so sehr, dass
+            du ewig nur von Eitelkeit redest ... Natürlich bin auch ich eitel ... eitel um mich ...
+            eitel für deine Augen ... eitel für dein Herz ... aus Verlangen, zu blühen und zu leben
+            ... eitel aus dem tiefsten Lebensdrange ... Ich war natürlich auch sonst eitel ... auch
+            als Revolutionärin war ich eitel ... wenn du es eitel nennen willst, was mit
+            Schwärmergefühl nach dem Tode buhlt ... denn der Trieb sich auf die eigenste Weise rein
+            zu vollenden, vielleicht im Leben ... oder auch durch den Tod ... das ist Eitelkeit ...
+            das magst du immer Eitelkeit nennen ... du ... Freund ... oder Geliebter ... sage es mir
+            doch einmal, ob du mich allzu eitel findest?</p>
+          <pb n="154"/>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Du bist darin unheilbar; Nadja!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Der Tod quält ja doch die Menschen nur durch seine scheinbare Unlogik und Unkonsequenz.
+            Aber in der Revolution bekommt der Tod den Glanz der grossen Freude, den Glanz des
+            kühnen Opfers, den Glanz der Konsequenz. Er bekommt das Verlockende ... Nie kann der Tod
+            Lebensziel sein ... ganz gewiss nicht ... Aber er wird zum letzten Massstabe unsres
+            Lebensgefühls ... er wird zum erlösenden Ende der Tragödie ... er beleuchtet die grossen
+            Visionen, um die Millionen Seelen sich immer wieder neu freudig opfern ... Eine
+            Leidenschaft danach war immer in mir ... wie ein Durst der tragischen Vollendung brannte
+            mich immer ... lag mir immer im Blute ... Das kann natürlich nur bei aktiven Menschen
+            sein ... und bei solchen Menschen, die ein ganz eigenes Leben in ganz reiner Bestimmung
+            nur einmal leben wollen ...</p>
+          <stage>Plötzlich aus der Emphase ganz stumm und sanft werdend, und dann leise.</stage>
+          <p>Ach, sei nicht böse, Geliebter, dass ich immerfort<pb n="155"/> von politischen Dingen
+            spreche ... denn jetzt ist meine Seele von ganz anderem erfüllt und möchte gerne
+            vergessen.</p>
+          <stage>Sie hat sich wieder lässig auf das Liegesofa hingestreckt.</stage>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>lacht.</stage>
+          <p>Rede nur weiter. Das fesselt mich sehr, was du da vom Tode redest.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>neu leidenschaftlich und achtlos redend.</stage>
+          <p>Eine solche heimlich-fröhlich sich streckende Flamme nach dem letzten seligen Ende ...
+            eine solche Inbrunst zum Opfertode kann natürlich in Leuten wie Bismarck oder Napoleon
+            nicht leben. Napoleon und Bismarck waren gar nicht politische Kämpfer ... politische
+            Götter waren sie ... standen ausserhalb von Gut und Böse ... ausserhalb aller Idee von
+            der Gerechtigkeit, die ihre Bestimmung nur im einzelnen Menschen findet. Sie waren die
+            Schöpfer und Baumeister der grossen, politischen ... dieser grossen, unheimlichen
+            Moloche, die das einzelne Leben in ihre Feuerarme drücken ohne gross zu fragen ... sehr
+            ohne Rücksicht auf die Sehnsuchten der einzelnen Seele.</p>
+          <pb n="156"/>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>hat Nadjas leidenschaftliche Rede mit gespanntem Erstaunen angehört.</stage>
+          <p>Famos, Nadja! ... Das ist wirklich ein tiefer Lebensunterschied, den du damit kenntlich
+            machst. Und vielleicht kann man sich das Wesen der Revolution gar nicht besser klar
+            machen, als wenn man eine wahre Epidemie solcher Inbrunst im Durchschnitt eines Volkes
+            annimmt, wie sie in deinem Blute lodert.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>dehnt sich.</stage>
+          <p>Huh ... ja ja ja ... so mag es wohl zu erklären sein. Aber das interessiert mich jetzt
+            im Grunde gar nicht ... Du ... sieh mich an ... ich habe zwei Menschen in mir ...: einen
+            ganz ganz alten ... einen immer trauernden Menschen ... einen, der in jeder Minute zehn
+            Leben verlebte ... und einen lustigen Menschen, das Kind, das immer wieder neu geboren
+            wird.</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>ist aufgestanden und geht mit den Rosen achtlos tändelnd ein paar Schritte hin und
+            her.</stage>
+          <p>Ja ja ja ... das ist die liebende, leidende Nadja ... wenn man dein Feuerherz brennen
+              <pb n="157"/> sieht ... Gott ....wirklich ... es könnte mich fast froh machen ...
+            jedenfalls beneide ich dich ... Du hast noch allerhand solche Anbetung ... die dir heiss
+            macht ... Du hast noch Leidenschaft ... du hast noch einen Glauben ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>zärtlich zu ihm aufblickend.</stage>
+          <p>Nur an die Liebe! ...</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>ohne Acht.</stage>
+          <p>Ja ... hab ihn nur ... ich hab ihn nicht mehr ... ich habe gar nichts mehr derart ...
+            und muss auch weiter kommen</p>
+          <stage>Komisch.</stage>
+          <p>ich erkenne ....diese Welt</p>
+          <stage>Lachend.</stage>
+          <p>sonst nichts ... und weiss, dass in dieser Welt jede Seligkeit in drei Tagen
+            geschmacklos wird!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Nein, nein, nein, nein ... nur jetzt noch nicht davon, wenn du mich nicht auf einmal
+            ganz verwirren willst!</p>
+          <stage>Sie hat sich plötzlich an ihn gehangen, umarmt ihn und küsst ihn.</stage>
+          <pb n="158"/>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Du liebende, leidende Nadja, willst immer nicht diese Wahrheit glauben ... nun gut
+            ...!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>leidenschaftlich.</stage>
+          <p>Liebst du mich nicht? Sage die Wahrheit! Sage, so wie du denkst und fühlst! ... Ja! ...
+            Ganz bestimmt ... in diesem Augenblick musst du es ganz bestimmt sagen ... Ich habe nie
+            einen Mann geliebt ... nie einem Manne wahrhaft angehört ... ausser dir ... und in
+            meiner Seele kann es nie eine Enttäuschung geben für dich!</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Blitze nicht so mit deinen guten Augen ... Nadja ... sonst muss ich sie dir zuhalten
+            ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Sonst bin ich nur eben eine ganz haltlose Seele. Ich habe mich auch; damals nur in
+            Seelenangst hingeworfen, um meinem Leben einen reinen Sinn zu geben. Mein Geliebter, du
+            hast über all die politischen Dinge tiefer als ich nachgedacht. Du kennst die Mächte,
+            die ein Volk heissen, das Durcheinander, die Gewalten, die <pb n="159"/> nicht gut und
+            nicht böse sind. Nur unbarmherzig. Nur ehern. Darin die volle Seele zerrinnen muss, wie
+            ein flüchtiger Tropfen in einem Schwalle .... Jetzt bin ich heissen Lebens. Ich möchte
+            nicht ziellos verlöschen. Ich möchte brennen. Ich möchte Ich sein, weil ich ganz nur du
+            bin. Den Glauben an die grossen, potentatischen Worte hast du mir geraubt. Ich will
+            stumm sein und Leben fühlen. Ich brauche keinen Glauben mehr ... weil ich es lebe ...
+            weil es dein Leben ist ...</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>kühl.</stage>
+          <p>Du, Liebchen, du solltest wirklich die Dinge vielmehr nehmen wie sie sind!</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Ja ... Nicht? ... Ich bin dir fast närrisch mit meinen Gefühlen. Ich weiss es ja ...
+            Und ich sage dir doch ... ich will vergehen auf meinem einsamen Wege, wenn es nicht eine
+            Macht gibt, die absolut ist, warm wie das Licht, klar wie der Himmel, einzig wie die
+            Sonne, ein unverbrüchliches Geborgensein, wie keine Mutter ihr Kind bergen kann, weil
+            sie es hinausgeben <pb n="160"/> muss, keine Blüte ihren Keim bergen kann, weil er ihr
+            entwachsen muss. Nein, nicht entwachsen, nichts davon hinausgeben! Ganz es sein! Ganz es
+            leben! Ein einziges Ich und Du, Du und Ich, das den Frühling weckt, und den Sommer lebt
+            und den Tod ... Ein einiges Leben aus der Fülle und nichts zweites, das Du und Ich ist.
+            Es muss da sein ... auch in dir. Es ist grenzenlos selig ... und es ist der Abgrund des
+            Todes ohne das ...</p>
+          <stage>Es bleibt eine Weile still.</stage>
+          <p>Sind die Rosen für mich?</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>ganz mit Gedanken beschäftigt.</stage>
+          <p>Aber Nadja, du rennst doch immerfort hinter Träumen her. Zu was nur immer solche
+            grüblerischen, quälenden Erörterungen, die dir bloss die Ruhe rauben ... Nun ... mein
+            Gott ... ich sage dir ja, du kannst doch von einem Menschen, wie mir, nicht einen
+            solchen Enthusiasmus der Liebe verlangen ... Du kannst doch von einem solchen Menschen,
+            wie mir, nicht glauben, dass ihm sozusagen das Leben noch den Tod lohnte .... Aber warum
+            nur immer solchen Phantomen nachjagen, die man <pb n="161"/> nicht greifen kann ... und
+            alles so übertreiben? Man braucht doch nicht die Dinge gleich auf die äusserste Spitze
+            zu stellen! ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>ganz leidenschaftlich sich an ihn hängend.</stage>
+          <p>Liebst du mich nicht? Sage die Wahrheit ... Sage jetzt einmal ganz, wie du fühlst und
+            denkst! ...</p>
+          <stage>Sie hängt mit den Blicken an seinen Lippen.</stage>
+          <p>Ja ... ganz bestimmt! Du weisst es ... ich ... liebe dich ...</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>arglos lachend, mit leichter Abwehr.</stage>
+          <p>Herrgott, ich liebe dich ja auch, Nadja.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>hat ihn scheu und sanft losgelassen, wirft sich auf die Chaiselongue und verbirgt
+            ihren Kopf in ein Kissen.</stage>
+          <p><stage>Dann erhebt sie sich, blickt das Kissen an, und sagt so vor sich
+              hinstarrend.</stage> Meine Mutter ist heute gekommen.</p>
+          <stage>Es entsteht eine lange Pause.</stage>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Ja ... was ist es denn zunächst nur mit deiner Mutter? Ich begreife gar nicht ... warum
+              <pb n="162"/> soll sie nicht kommen? Du bist doch kein kleines Kind mehr, das sich vor
+            der Mutter fürchtet?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Sie sind eben angekommen, und werden alles aufbieten, um mich von hier mit
+            fortzunehmen.</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Wohin?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Vermutlich nach Italien ... vielleicht nach Rom, vielleicht nach Florenz ... was weiss
+            ich?</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Wer sind diese »sie«?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Da ... bitte! ... ich habe eben an dich geschrieben. Dort liegt der Brief.</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>versucht die zerissenen Zettel, die auf dem Schreibtisch liegen, zusammen zu
+            lesen.</stage>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Wenn du die Seele dieses Briefes noch zusammen <pb n="163"/> bringst, vielleicht
+            bringst du auch noch meine Seele zusammen.</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Gott, Kind, da sage mir doch ...</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Mein Mann ist auch dabei.</p>
+          <stage>Es entsteht eine lange Pause.</stage>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>sieht an die Taschenuhr.</stage>
+          <p>Aber, liebes Kind! Ich denke, die Sache mit deinem Mann war doch schon in Petersburg
+            ganz klar.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Sage nichts weiter! ... ja ja! ...</p>
+          <stage>Es entsteht wieder eine lange Pause.</stage>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>kleinlaut, sich ermannend.</stage>
+          <p>Nadja ... wir verpassen das Abendbrot ... komm, Nadja.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>rührt sich nicht.</stage>
+          <pb n="164"/>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR.</speaker>
+          <p>Natürlich muss das alles ordentlich überlegt werden.</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Gehe nur im voraus in den Saal hinunter. Ich muss erst meine dumme Aufregung ganz in
+            Ruhe bringen; ... Was soll da gross überlegt werden? ...</p>
+          <stage>Sie hängt sich plötzlich leidenschaftlich an ihn, küsst ihn einmal lieblich,
+            zärtlich lachend.</stage>
+          <p>Ich brauch dich nichts mehr zu fragen. Ich weiss schon alles ... Adieu ... mein ...
+            einziger ... Geliebter!</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>streichelt sie und küsst sie.</stage>
+          <p>Aber komme bald nach, Nadja ... hörst du?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>steht in Gedanken am Schreibtisch, ohne sich zu rühren.</stage>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>im Begriff abzugehen.</stage>
+          <p>Wann wollen denn deine Leute kommen?</p>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW.</speaker>
+          <p>Ich bin sicher, dass wenigstens mein Mann <pb n="165"/> schon jetzt um den Zaun des
+            Sanatoriums herumschleicht.</p>
+        </sp>
+        <sp who="#doktor_lenoir">
+          <speaker>DOKTOR LENOIR</speaker>
+          <stage>resigniert lachend.</stage>
+          <p>So so ...!</p>
+          <stage>Er wendet sich noch einmal zurück.</stage>
+          <p>Nadja! ... Nimm es harmlos! Das Leben ist eine Harmlosigkeit. Es ist gar nichts
+            dahinter. Man muss es leben, wie es kommt. Und nur ein wenig vernünftig sich halten. Tue
+            mir den Gefallen, Nadja!</p>
+          <stage>Er geht durch die rechte Tür ab.</stage>
+        </sp>
+        <sp who="#nadja_bielew">
+          <speaker>NADJA BIELEW</speaker>
+          <stage>setzt sich abgespannt in den Schreibstuhl, träumt eine Weile vor sich hin und
+            spielt mit einem Ring am Finger.</stage>
+          <p><stage>Dann erhebt sie sich, sieht sich um, und geht auf die Terrasse, um den
+              Blumenstrauss herein zu tragen. Sie steht einen Augenblick unentschlossen damit an der
+              Tür. Dann sagt sie vor sich hin.</stage> Nein ... hier auf der Chaiselongue nicht ...
+            ich will mich lieber aufs Bett legen.</p>
+          <stage>Damit trägt sie den Blumenstrauss in das Nebenzimmer. Die Tür bleibt offen. Sie
+            erscheint im nächsten Augenblick wieder. Sie sieht ihr Kostüm von oben bis unten an, und
+            befestigt sich die beiden Rosen an der Brust, die Doktor Lenoir achtlos hatte auf den
+            Boden fallen lassen. Dann ordnet sie sich ihr Haar, und lacht.</stage>
+          <p>Es ist nichts anderes notwendig. Ich werde wie <pb n="166"/> ein liebendes Mädchen
+            daliegen. Es entstellt gar nicht.</p>
+          <stage>Dann setzt sie sich an den Schreibtisch neu heran, schreibt einiges, zerreisst es
+            wieder ruhig, und sagt.</stage>
+          <p>Nein nein ... auch das ist unnütz ... Worte können es nicht mehr tun ... Schmerzen will
+            ich ihm nicht machen ... Adieu ... mein ... einziger Geliebter!</p>
+          <stage>Sie hat wieder mit dem Ring am Finger gespielt und hat ihm dann sorglich ein
+            kleines Oblat entnommen, das sie in der Hand vor sich hält und kindlich lächelnd
+            anstarrt.</stage>
+          <p>So etwas hatte auch immer Napoleon bei sich ... für den Fall, dass er zu sehr in die
+            Enge käme ... Und ich habe ja Lenoir zum Abschied das Wort deutlich gesagt. Es wird ihm
+            lange im Ohre klingen.</p>
+          <stage>Sie führt jetzt das Oblat sorglich zum Munde und sagt.</stage>
+          <p>Adieu ... mein ... einziger Geliebter!</p>
+          <stage>Dann erhebt sie sich plötzlich, rafft die zerissenen Zettel vom Tisch, lässt sie
+            aus der Hand auf die Erde fliegen und sagt.</stage>
+          <p>So zerflattert es.</p>
+          <stage>Sieht sich heiter um, bleicher geworden, auch in den Garten hinaus, geht mit
+            bestimmten Schritten in das geöffnete Nebenzimmer. Von dort hört man noch, dass sie
+            einen Stuhl rückt und sich nieder legt. Es entsteht eine grosse Stille.</stage>
+          <stage>Danach sieht man vom Garten her Frau Generalin mit der Schwester kommen. Herr
+            Bielew geht hinterdrein.</stage>
+          <pb n="167"/>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN.</speaker>
+          <p>Oh, Sie haben uns einen herrlichen Weg hier heran geführt, Schwester.</p>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Kommen Sie nur hier herein, gnädige Frau Generalin. Sehen Sie, die Terrassentür ist
+            nicht verschlossen. Und Sie warten gütigst eine Weile, wenn Frau Nadja noch beim Souper
+            ist.</p>
+          <stage>Sie ist in diesem Augenblicke von der Terrasse, den andern vornweg herein
+            getreten.</stage>
+          <p>Ja ... ich dachte es mir schon ... dass sie noch beim Souper wäre ... Bitte, nehmen Sie
+            doch Platz auf diesem Stuhl ... und Herr Bielew, wollen Sie nicht hier ...</p>
+          <stage>Sie hat einen zweiten Stuhl heran geschoben. Plötzlich stutzt sie. Sie beginnt die
+            zerstreuten Papierfetzen aufzulesen.</stage>
+          <p>Hier hat sie eben Notizen ... oder einen Brief zerrissen ... ich weiss nicht ... Gott
+            ... es fällt plötzlich eine Aengstlichkeit über mich her ... obwohl ich durchaus gar
+            keinen Grund wüsste ...</p>
+          <stage>Sie ruft.</stage>
+          <p>Frau Nadja ... Frau Nadja ... Warum steht denn diese Schlafzimmertür halb offen?
+            ...</p>
+          <stage>Sie ist an die Tür herangetreten.</stage>
+          <pb n="168"/>
+          <p>Nein ... sehen Sie nur ... sie schläft! ... Wie sie nur tief schläft ... und aussieht,
+            wie ein liebliches Mädchen ...!</p>
+        </sp>
+        <sp who="#frau_generalin">
+          <speaker>FRAU GENERALIN</speaker>
+          <stage>hat sich plötzlich auch erhoben, und steht ängstlich ins Zimmer hineinblickend.
+            Herr Bielew sieht scheu zur Erde.</stage>
+        </sp>
+        <sp who="#die_schwester">
+          <speaker>DIE SCHWESTER.</speaker>
+          <p>Nein nein ... sie ist aber so wunderbar still ... Das ist ja gar keine Schlummerruhe
+            ... Das ist ja ein ganz rätselhafter Frieden, der aus diesem Mädchengesicht redet.</p>
+          <stage>Sie ist plötzlich ins Zimmer gehastet und spricht drinnen.</stage>
+          <p>Gott Gott Gott ... Frau Generalin ... Frau Generalin! ... sie hat ja gar keinen Hauch
+            Atem mehr ... das Herz von Frau Nadja Bielew steht ja ganz still!</p>
+          <stage>Frau Generalin hat sich hoch und staunend, den Blick ins Schlafzimmer gebannt,
+            aufgerichtet.</stage>
+          <stage>Herr Bielew hat sich nicht vom Fleck gerührt, sieht totenbleich geworden zu Boden
+            und stöhnt plötzlich laut auf, ohne im übrigen seine Stellung zu ändern.</stage>
+          <stage>Der Vorhang fällt.</stage>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>
