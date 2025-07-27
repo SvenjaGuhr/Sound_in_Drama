@@ -1,0 +1,2302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xml:id="ger000309" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Maria Magdalene</title>
+        <title type="sub">Ein bürgerliches Trauerspiel in drei Akten</title>
+        <author>
+          <persName>
+            <forename>Friedrich</forename>
+            <surname>Hebbel</surname>
+          </persName>
+          <idno type="wikidata">Q57182</idno>
+          <idno type="pnd">118547445</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:pkx0.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Friedrich Hebbel: Werke. Herausgegeben von Gerhard Fricke, Werner Keller und Karl
+              Pörnbacher, Band 1–5, München: Hanser, 1963.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="klara" sex="FEMALE">
+            <persName>Klara</persName>
+          </person>
+          <person xml:id="mutter" sex="FEMALE">
+            <persName>Mutter</persName>
+          </person>
+          <person xml:id="karl" sex="MALE">
+            <persName>Karl</persName>
+          </person>
+          <person xml:id="leonhard" sex="MALE">
+            <persName>Leonhard</persName>
+          </person>
+          <person xml:id="meister_anton" sex="MALE">
+            <persName>Meister Anton</persName>
+          </person>
+          <person xml:id="adam" sex="MALE">
+            <persName>Adam</persName>
+          </person>
+          <person xml:id="zweiter_gerichtsdiener" sex="MALE">
+            <persName>Zweiter Gerichtsdiener</persName>
+          </person>
+          <person xml:id="eine_magd" sex="FEMALE">
+            <persName>Eine Magd</persName>
+          </person>
+          <person xml:id="wolfram" sex="MALE">
+            <persName>Wolfram</persName>
+          </person>
+          <person xml:id="sekretaer" sex="MALE">
+            <persName>Sekretär</persName>
+          </person>
+          <person xml:id="ein_knabe" sex="MALE">
+            <persName>Ein Knabe</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#meister_anton #mutter"/>
+            <relation name="parent_of" active="#meister_anton" passive="#klara"/>
+            <relation name="parent_of" active="#meister_anton" passive="#karl"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-02-25">(ff) formalities, add gender info</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1844">
+        <desc/>
+      </event>
+      <event type="premiere" when="1846">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000309" passive="http://www.wikidata.org/entity/Q1896129"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <div type="front">
+        <head>Friedrich Hebbel</head>
+        <head>Maria Magdalene</head>
+        <head>Ein bürgerliches Trauerspiel in drei Akten</head>
+        </div>
+      <div type="dedication">
+        <head>[Widmungsgedicht]</head>
+        <p>Sr. Majestät, <lb/>dem <lb/>KÖNIG CHRISTIAN DEM ACHTEN <lb/>von Dänemark <lb/>in tiefster Ehrfurcht gewidmet</p>
+        <lg>
+          <l>Dem Dichter ist es an- und eingeboren,</l>
+          <l>Daß er sich lange in sich selbst versenkt,</l>
+          <l>Und, in das innre Labyrinth verloren,</l>
+          <l>Des äußeren der Welt erst spät gedenkt;</l>
+          <l>Und dennoch hat ihn die Natur erkoren,</l>
+          <l>Zu zeigen, wie sich dies mit dem verschränkt,</l>
+          <l>Und es in klarem Bilde darzustellen,</l>
+          <l>Wie beide sich ergänzen und erhellen.</l>
+        </lg>
+        <lg>
+          <l>Denn nicht, wie wohl ein irdscher Künstler, spielend,</l>
+          <l>Wenn er zurück von seiner Tafel trat,</l>
+          <l>Dem Lieblingskind, das, lüstern darnach schielend,</l>
+          <l>Schon längst ihn still um seinen Griffel bat,</l>
+          <l>Ihn freundlich darreicht, auf nichts andres zielend,</l>
+          <l>Als daß es, träumend von gewaltger Tat,</l>
+          <l>Sein Meisterstück in toten, groben Zügen</l>
+          <l>Nachbilde, wie es kann, sich zu vergnügen;</l>
+        </lg>
+        <lg>
+          <l>Nur, weil sie selbst, ins einzelste zerfließend,</l>
+          <l>Sich endlich auch doch konzentrieren muß,</l>
+          <l>Und, in dem Teil als Ganzes sich genießend,</l>
+          <l>Den Anfang wieder finden in dem Schluß,</l>
+          <l>Der, sich mit der Idee zusammenschließend,</l>
+          <l>Ihr erst verschafft den höchsten Selbstgenuß,</l>
+          <l>Den alle untern Stufen ihr verneinen:</l>
+          <l>Rein, ganz und unverworren zu erscheinen;</l>
+        </lg>
+        <lg>
+          <l>Nur darum hat sie, statt ihn zu zerbrechen,</l>
+          <l>Dem Menschen ihren Zauberstab vertraut,</l>
+          <l>Als sie, bereit, ihr: es ist gut! zu sprechen,</l>
+          <l>Zum letzten Mal das Weltall überschaut,</l>
+          <l>Und dieser stellt nun, das Gesetz zu rächen</l>
+          <l>Am plumpen Stoff, dem ewig davor graut,</l>
+          <l>In den geschloßnen ersten Kreis den zweiten,</l>
+          <l>Wo sie nur noch harmonisch sich bestreiten.</l>
+          </lg>
+        <lg>
+          <l>Und, anfangs schauernd vor der hohen Gabe,</l>
+          <l>Wird sich der fromme Künstler bald bewußt,</l>
+          <l>Daß er zum Dank sich selbst zu opfern habe,</l>
+          <l>Und steigt nun tief hinab in seine Brust;</l>
+          <l>Er fragt nicht, ob ihn auch die Nacht begrabe,</l>
+          <l>Er geht, so weit er kann, in banger Lust,</l>
+          <l>Und führt sein Narr im Wappen die Versöhnung,</l>
+          <l>Er hofft nur kaum auf sie, wie auf die Krönung!</l>
+        </lg>
+        <lg>
+          <l>Doch, wenn er lange so den roten Faden</l>
+          <l>Aus sich hervor spinnt, der ihn führen kann,</l>
+          <l>So wird er plötzlich durch den Geist geladen:</l>
+          <l>Nun lege ihn in der Geschichte an!</l>
+          <l>Dies ist ein wahrer Ruf von Gottes Gnaden,</l>
+          <l>Und wer nicht folgt, der zeigt, daß er zerrann!</l>
+          <l>Ich habe vorlängst diesen Ruf vernommen,</l>
+          <l>Da hab ich nicht gesäumt, ich bin gekommen.</l>
+        </lg>
+        <lg>
+          <l>Und wie mein Blick sich lenkte in das Weite,</l>
+          <l>War mir auch flugs die Sehnsucht eingeflößt,</l>
+          <l>Die äußre Welt zu schaun in ihrer Breite,</l>
+          <l>Allein der Mittel sah ich mich entblößt.</l>
+          <l>Doch gleich stand mir ein Genius zur Seite,</l>
+          <l>Und von der Scholle ward mein Fuß gelöst,</l>
+          <l>Und was dies hieß, das kann ich jetzt erst wägen,</l>
+          <l>Wo sich zur Frucht verdichten will der Segen.</l>
+        </lg>
+        <lg>
+          <l>Du warst es, Herr und Fürst! Laß dirs gefallen,</l>
+          <l>Daß ich zum Danke jetzt dies kleine Bild,</l>
+          <l>Vielleicht das einfach-schlichteste von allen,</l>
+          <l>Worin sich mir das Welt-Geschick enthüllt,</l>
+          <l>Dir bringe, und, wen sichs für Königs-Hallen</l>
+          <l>Auch schlecht nur eignet, sei ihm dennoch mild!</l>
+          <l>Es ist des neuen Frühlings erstes Zeichen,</l>
+          <l>Und als das <span>erste</span></l>
+          </lg>
+      </div>
+      <div type="preface">
+        <head>Vorwort zur »Maria Magdalene«,</head>
+        <head>betreffend das Verhältnis der dramatischen Kunst zur Zeit und verwandte Punkte</head>
+        <p>Das kleine Vorwort, womit ich meine Genoveva begleitete, hat so viel Mißverständnis und Widerspruch hervorgerufen, daß ich mich über den darin berührten Hauptpunkt noch einmal aussprechen muß. Ich muß aber ein ästhetisches Fundament, und ganz besonders einigen guten Willen, auf das Wesentliche meines Gedankenganges einzugehen, voraussetzen, denn wenn die Unschuld des Worts nicht respektiert, und von der dialektischen Natur der Sprache, deren ganze Kraft auf dem Gegensatz beruht, abgesehen wird, so kann man mit jedem eigentümlichen Ausdruck jeden beliebigen Wechselbalg erzeugen, man braucht nur einfach in die Bejahung der eben hervorgehobenen Seite eine stillschweigende Verneinung aller übrigen zu legen.</p>
+        <p>Das Drama, als die Spitze aller Kunst, soll den jedesmaligen <span>Welt-</span><span>Menschen-Zustand</span><span>Verhältnis zur Idee</span><span>zweites</span><span>drittes</span><span>partiell-nationales</span><span>subjektiv-individuelles</span><span>möglich</span><span>Veränderung</span></p>
+        <p>Bis jetzt hat die Geschichte erst zwei Krisen aufzuzeigen, in welchen das höchste Drama hervortreten konnte, es ist demgemäß <span>Alten</span><span>Neuern</span></p>
+        <p>Nach Shakespeare hat zuerst <span>Goethe</span><span>Faust</span><span>Wahlverwandtschaften</span></p>
+        <p>Allein Goethe hat nur den Weg gewiesen, man kann kaum sagen, daß er den ersten Schritt getan hat, denn im Faust kehrte er, als er zu hoch hinauf, und in die kalte Region hinein geriet, wo das Blut zu gefrieren anfängt, wieder um, und in den Wahlverwandtschaften setzte er, wie Calderon, voraus, was er zu beweisen oder zu veranschaulichen hatte. Wie Goethe, der durchaus Künstler, großer Künstler, war, in den Wahlverwandtschaften einen solchen Verstoß gegen die innere Form begehen konnte, daß er, einem zerstreuten Zergliederer nicht unähnlich, der, statt eines wirklichen Körpers, ein Automat auf das anatomische Theater brächte, eine von Haus aus nichtige, ja unsittliche Ehe, wie die zwischen Eduard und Charlotte, zum Mittelpunkt seiner Darstellung machte und dies Verhältnis behandelte und benutzte, als ob es ein ganz entgegengesetztes, ein vollkommen berechtigtes wäre, wüßte ich mir nicht zu erklären; daß er aber auf die Hauptfrage des Romans nicht tiefer einging, und daß er ebenso im Faust, als er zwischen einer ungeheuren Perspektive und einem mit Katechismus-Figuren bemalten Bretter-Verschlag wählen sollte, den Bretter-Verschlag vorzog und die <span>Geburtswehen</span><span>Krankheits-Momenten</span></p>
+        <p>Goethe hat demnach, um seinen eigenen Ausdruck zu gebrauchen, die große Erbschaft der Zeit wohl <span>angetreten,</span><span>verzehrt</span><span>denn der
+            Mensch dieses Jahrhunderts will nicht, wie man ihm Schuld gibt, neue und unerhörte
+            Institutionen, er will nur ein besseres Fundament für die schon vorhandenen, er will,
+            daß sie sich auf nichts, als auf Sittlichkeit und Notwendigkeit, die identisch sind,
+            stützen und also den äußeren Haken, an dem sie bis jetzt zum Teil befestigt waren, gegen
+            den inneren Schwerpunkt, aus dem sie sich vollständig ableiten lassen, vertauschen
+            sollen</span><span>Trauerspiel</span><span>Kartenspiel</span><span>einen und denselben Zweck</span><span>Karfunkel</span><span>Kiesel</span><span>Lebens-Symbol</span><span>Lebens-Rätsel</span><span>Problem</span><span>Leben</span><span>Gebrochenheit</span><span>beides</span><span>zusammenfallen, das Moment der
+          Idee</span><span>verlorne Einheit</span><span>Krankheit selbst die
+            Gesundheit</span><span>Übergang</span><span>Behandlung</span><span>Unvermischtsein</span><span>letzte Resultat</span></p>
+        <p>Ich sagte: die dramatische Kunst soll den welthistorischen Prozeß, der in unseren Tagen vor sich geht, und der die vorhandenen Institutionen des menschlichen Geschlechts, die politischen, religiösen und sittlichen, nicht umstürzen, sondern tiefer begründen, sie also vor dem Umsturz sichern will, beendigen helfen. In <span>diesem</span><span>zeitgemäß</span><span>diesem</span><span>keinem
+            andern</span><span>jede echte</span><span>diesem</span><span>künstlerische Opfer der Zeit</span><span>Zeit</span><span>Zeitungsblatts</span><span>identisch</span><span>Poesie</span><span>Formen</span><span>Geist</span><span>Schlachten</span><span>epischen</span><span>dramatischen,</span><span>Herz</span><span>Schätze</span><span>lyrischen</span><span>Genie</span><span>jede</span><span>rechte Weise</span><span>Halb-Talent</span><span>Gehalt</span><span>engeren</span><span>zersprengen</span><span>Armut reich</span><span>»schwäbische Schule«</span><span>Flöte</span></p>
+        <p>Vielleicht sagt der eine oder der andere: dies sind ja alte, bekannte, längst festgestellte Dinge. Allerdings. Ja, ich würde erschrecken, wenn es sich anders verhielte, denn wir sollen im Ästhetischen, wie im Sittlichen, nach meiner Überzeugung nicht das <span>elfte</span><span>erfinden</span><span>zehn vorhandenen
+            erfüllen</span><span>gar nichts</span><span>Shakespeare</span><span>Eine Dichtung,
+            die sich für eine dramatische gibt, muß darstellbar sein</span><span>Künstler</span><span>darzustellen vermag</span><span>Dichter</span><span>nicht dargestellt wurde</span><span>Gedanken-Schemen</span><span>Handeln</span><span>Denken</span><span>Empfinden</span><span>an</span><span>Kluft</span><span>keineswegs so groß ist</span><span>Sprache</span><span>eine</span><span>darstellbar</span><span>andere</span><span>den
+            größeren</span><span>Darstellbarkeit</span><span>Konvenienz</span><span>Mode-Vorurteilen</span><span>Theater aller </span><span>zugleich</span><span>Bild</span><span>Welt</span><span>Elementen</span><span>Welt besteht</span><span>widerspenstigen ausscheiden</span><span>rechte Stelle</span><span>untergeordneten</span><span>hervortreten</span><span>höhern</span><span>verzehren</span><span>Wert</span><span>Bedeutung</span><span>Dramas</span><span>äußern Schicksal</span><span>Dargestelltwerden</span><span>Darstellbarkeit</span><span>Willkür</span><span>ganz von
+            selbst</span><span>Geistige
+            verleiblichen</span><span>dualistischen Ideen-Faktoren</span><span>Charakteren verdichten</span><span>innere</span><span>äußeren</span><span>Spitze</span><span>spannend</span><span>Interesse
+            erweckend</span><span>amüsieren</span><span>zufrieden</span></p>
+        <p>Kann aber, ich darf diese Frage nicht umgehen, die so weit fortgeschrittene Philosophie die große Aufgabe der Zeit nicht allein lösen, und ist der Standpunkt der Kunst nicht als ein überwundener oder ein doch zu überwindender zu betrachten? Wenn die Kunst nichts weiter wäre, als was die meisten in ihr erblicken, ein träumerisches, hin und wieder durch einen sogenannten ironischen Einfall über sich selbst unterbrochenes <span>Fortspinnen</span><span>in</span><span>mehr</span><span>anderes</span><span>realisierte
+            Philosophie</span><span>realisierte Idee</span><span>Welt</span><span>Kunst</span><span>die
+            Unfähigkeit Gottes, einen Monolog zu halten</span></p>
+        <p>Wenn nun aber das Drama keine geringere, als die weltgeschichtliche Aufgabe selbst lösen helfen, wenn es zwischen der Idee und dem Welt- und Menschen-Zustand vermitteln soll, folgt nicht daraus, daß es sich ganz an die Geschichte hingeben, daß es historisch sein muß? Ich habe mich über diesen wichtigen Punkt an einem andern Ort, in der Schrift: Ein Wort über das Drama, Hamburg bei Hoffmann und Campe, 1843, auf die ich hier wohl verweisen darf, dahin ausgesprochen, daß das Drama schon an und für sich und ohne spezielle Tendenz (die eigentlich, um recht geschichtlich zu werden, aus der Geschichte heraustritt, und die Nabelschnur, die jede Kraft mit der lebendigen Gegenwart verknüpft, durchschneidet, um sie an die tote Vergangenheit mit einem Zwirnsfaden festzubinden) historisch und daß die Kunst die höchste Geschichtschreibung sei. Diesen Ausspruch wird keiner, der rückwärts und vorwärts zu schauen versteht, anfechten, denn er wird sich erinnern, daß uns nur von denjenigen Völkern der alten Welt, die es zur Kunst gebracht, die ihr Dasein <span>resultieren</span><span>Kunst</span><span>Baken</span><span>allgemeinen</span><span>Gehalt der Geschichte</span><span>Schale</span><span>speziellen Perioden</span><span>untergeordneten Sinn</span><span>In
+            Spiritus Setzen</span><span>Hohenstaufen-Bandwürmer</span></p>
+        <p>So viel im allgemeinen. Nun noch ein Wort in Beziehung auf das Drama, das ich dem Publikum jetzt vorlege. Der Bänkelsängerstab, vor dem Immermann so gerechte Scheu trug, widert auch mich an, ich werde daher nicht über mein Stück und dessen Ökonomie (obgleich ich einige Ursache, und vielleicht auch einiges Recht dazu hätte, denn man hat mir die Judith und die Genoveva fast auf den Kopf gestellt, man hat mir in der ersteren namentlich das Moment, worin ihr ganzes Verdienst liegt, die Verwirrung der Motive in der Heldin, ohne die sie eine Katze, <span>in sich</span><span>notwendige</span><span>vernichtende</span><span>bürgerliches
+            Trauerspiel</span><span>Gebundenheit</span><span>Lebens</span><span>Einseitigkeit</span><span>Äußerlichkeiten</span><span>Hätte</span><span>Wäre sie</span><span>Zeiger</span><span>Gold</span><span>Messing</span><span>Schwere</span><span>Stoffs</span><span>Mängel</span><span>tragischen Form</span><span>alles</span><span>Ring</span><span>Form geschlossen</span><span>Einzel-Geschick</span><span>allgemein menschliches</span><span>Versöhnung</span><span>wahren</span><span>Unauflöslichen</span><span>unmöglichen</span><span>konventionelle</span><span>leicht
+            herbeizuführenden</span><span>Embrassement</span><span>Tod und Leben entzweiten</span><span>Resultat</span><span>Notwendigkeit</span><span>diesem</span></p>
+        <dateline>Paris, den 4. März 1844</dateline>
+      </div>
+      <div type="Dramatis_Personae">
+        <castList>
+          <head/>
+          <castItem>Meister Anton, ein Tischler.</castItem>
+          <castItem>Seine Frau.</castItem>
+          <castItem>Klara, seine Tochter.</castItem>
+          <castItem>Karl, sein Sohn.</castItem>
+          <castItem>Leonhard.</castItem>
+          <castItem>Ein Sekretär.</castItem>
+          <castItem>Wolfram, ein Kaufmann.</castItem>
+          <castItem>Adam, ein Gerichtsdiener.</castItem>
+          <castItem>Ein zweiter Gerichtsdiener.</castItem>
+          <castItem>Ein Knabe.</castItem>
+          <castItem>Eine Magd.</castItem>
+        </castList>
+      </div>
+      <set>
+        <p>Ort: eine mittlere Stadt.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+        <head>Erster Akt</head>
+        <stage>Zimmer im Hause des Tischlermeisters.</stage>
+        <div type="scene">
+          <head>Erste Szene</head>
+          <stage>Klara. Die Mutter.</stage>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Dein Hochzeits-Kleid? Ei, wie es dir steht! Es ist, als obs zu heut gemacht wäre!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Ja, Kind, die Mode läuft so lange vorwärts, bis sie nicht weiter kann, und umkehren muß. Dies Kleid war schon zehn Mal aus der Mode, und kam immer wieder hinein.</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Diesmal doch nicht ganz, liebe Mutter! Die Ärmel sind zu weit. Es muß dich nicht verdrießen!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER</speaker>
+            <stage>sagt lächelnd.</stage>
+            <p>Dann müßt ich du sein!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>So hast du also ausgesehen! Aber einen Kranz trugst du doch auch, nicht wahr?</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Wills hoffen! Wozu hätt ich sonst den Myrtenbaum jahrelang im Scherben gepflegt!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich hab dich so oft gebeten, und du hast es nie angezogen, du sagtest immer: mein Brautkleid ists nicht mehr, es ist nun mein Leichenkleid, und damit soll man nicht spielen. Ich mogt es zuletzt gar nicht mehr sehen, weil es mich, wenn es so weiß da hing, immer an deinen Tod und an den Tag erinnerte, wo die alten Weiber es dir über den Kopf ziehen würden. – Warum denn heut?</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Wenn man So schwer krank liegt, wie ich, und nicht weiß, ob man wieder gesund wird, da geht einem gar manches im Kopf herum. Der Tod ist schrecklicher, als man glaubt, o, er ist bitter! Er verdüstert die Welt, er bläst all die Lichter, eins nach dem andern, aus, die so bunt und lustig um uns her schimmern, die freundlichen Augen des Mannes und der Kinder hören zu leuchten auf, und es wird finster allenthalben, aber im Herzen zündet er ein Licht an, da wirds hell, und man sieht viel, sehr viel, was man nicht sehen mag. Ich bin mir eben nichts Böses bewußt, ich bin auf Gottes Wegen gegangen, ich, habe im Hause geschafft, was ich konnte, ich habe dich und deinen Bruder in der Furcht des Herrn aufgezogen und den </p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Hör davon auf, liebe Mutter, dich greifts an!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Nein, Kind, mir tuts wohl! Steh ich denn nicht gesund und kräftig wieder da? Hat der Herr mich nicht bloß gerufen, damit ich erkennen mögte, daß mein Feierkleid noch nicht fleckenlos und rein ist, und hat er mich nicht an der Pforte des Grabes wieder umkehren lassen, und mir Frist gegeben, mich zu schmücken für die himmlische Hochzeit? So gnadenvoll war er gegen jene sieben Jungfrauen im Evangelium, das du mir gestern abend vorlesen mußtest, nicht! Darum habe ich heute, da ich zum heiligen Abendmahl gehe, dies Gewand angelegt. Ich trug es den Tag, wo ich die frömmsten und besten Vorsätze meines Lebens faßte. Es soll mich an die mahnen, die ich noch nicht gehalten habe!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Du sprichst noch immer wie in deiner Krankheit!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Zweite Szene</head>
+          <sp who="#karl">
+            <speaker>KARL</speaker>
+            <stage>sagt und tritt auf</stage>
+            <p>Guten Morgen, Mutter! Nun, Klara, mögtest du mich leiden, wenn ich nicht dein Bruder wäre?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Eine goldene Kette? Woher hast du die?</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Wofür schwitz ich? Warum arbeit ich abends zwei Stunden länger, als die anderen? Du bist impertinent!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Zank am Sonntag-Morgen? Schäme dich, Karl!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Mutter, hast du nicht einen Gulden für mich?</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Ich habe kein Geld, als was zur Haushaltung gehört.</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Gib nur immer davon her! Ich will nicht murren, wenn du die Eierkuchen vierzehn Tage lang etwas magerer bäckst. So hast dus schon oft gemacht! Ich weiß das wohl! Als für </p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Du bist unverschämt!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Ich hab nur keine Zeit, sonst – <stage>Er will gehen.</stage></p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Wohin gehst du?</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Ich wills dir nicht sagen, dann kannst du, wenn der alte Brummbär nach mir fragt, ohne rot zu werden, antworten, daß dus nicht weißt. Übrigens brauch ich deinen Gulden gar nicht, es ist das beste, daß nicht alles Wasser aus einem Brunnen geschöpft werden soll. <stage>Für sich.</stage> Hier im Hause glauben sie von mir ja doch immer das Schlimmste; wie sollt es mich nicht freuen, sie in der Angst zu erhalten? Warum sollt ichs sagen, daß ich, da ich den Gulden nicht bekomme, nun schon in die Kirche gehen muß, wenn mir nicht ein Bekannter aus der Verlegenheit hilft? <stage>Ab.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Dritte Szene</head>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Was soll das heißen?</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Ach, er macht mir Herzeleid! Ja, ja, der Vater hat recht, das sind die Folgen! So allerliebst, wie er als kleiner Lockenkopf um das Stück Zucker bat, so trotzig fordert er jetzt den Gulden! Ob er den Gulden wirklich nicht fordern würde, wenn ich ihm das Stück Zucker abgeschlagen hätte? Das peinigt mich oft! Und ich glaube, er liebt mich nicht einmal. Hast du ihn ein einziges Mal weinen sehen während meiner Krankheit?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich sah ihn ja nur selten, fast nicht anders als bei Tisch. Mehr Appetit hatte er, als ich!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER</speaker>
+            <stage>sagt schnell.</stage>
+            <p>Das war natürlich, er mußte die schwere Arbeit verrichten!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Freilich! Und wie die Männer sind! Die schämen sich ihrer Tränen mehr, als ihrer Sünden! Eine geballte Faust, warum die nicht zeigen, aber ein weinendes Auge? Auch der Vater! Schluchzte er nicht den Nachmittag, wo dir zur Ader gelassen wurde, und kein Blut kommen wollte, an seiner</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER</speaker>
+            <stage>sagt lächelnd.</stage>
+            <p>Ja, ja! Ich sehe den Leonhard ja gar nicht mehr. Wie kommt das?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Mag er weg bleiben!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Ich will nicht hoffen, daß du ihn anderswo siehst als hier im Hause!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Bleib ich etwa zu lange weg, wenn ich abends zum Brunnen gehe, daß du Grund zum Verdacht hast?</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Nein, das nicht! Aber nur darum hab ich ihm Erlaubnis gegeben, daß er zu uns kommen darf, damit er dir nicht bei Nebel und Nacht aufpassen soll. Das hat meine Mutter auch nicht gelitten!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich seh ihn nicht!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Schmollt ihr miteinander? Ich mag ihn sonst wohl leiden, er ist so gesetzt! Wenn er nur erst etwas wäre! Zu meiner Zeit hätt er nicht lange warten dürfen, da rissen die Herren sich um einen geschickten Schreiber, wie die Lahmen um die Krücke, denn sie waren selten. Auch wir geringeren Leute konnten ihn brauchen. Heute setzte er dem Sohn einen Neujahrswunsch für den Vater auf, und erhielt allein für den vergoldeten Anfangsbuchstaben so viel, daß man einem Kinde eine Docke dafür hätte kaufen können. Morgen gab ihm der Vater einen Wink und ließ sich den Wunsch vorlesen, heimlich, bei verschlossenen Türen, um nicht überrascht zu werden und die Unwissenheit aufgedeckt zu sehen. Das gab doppelte Bezahlung. Da waren die Schreiber obenauf und machten das Bier teuer. Jetzt ists anders, jetzt müssen wir Alten, die wir uns nicht aufs Lesen und Schreiben verstehen, uns von neunjährigen Buben ausspotten lassen! Die Welt wird immer klüger, vielleicht kommt noch einmal die Zeit, wo einer sich schämen muß, wenn er nicht auf dem Seil tanzen kann!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Es läutet!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Nun, Kind, ich will für dich beten! Und was deinen Leonhard betrifft, so liebe ihn, wie er Gott liebt, nicht mehr, </p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und reicht ihr einen Strauß</stage>
+            <p>Da!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Der kommt gewiß vom Karl!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt nickt; dann beiseite.</stage>
+            <p>Ich wollt, es wäre so! Was ihr eine rechte Freude machen soll, das muß von ihm kommen!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>O, er ist gut und hat mich lieb! <stage>Ab.</stage></p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und sieht ihr durchs Fenster nach</stage>
+            <p>Da geht sie! Drei Mal träumt ich, sie läge im Sarg, und nun – o die boshaften Träume, sie kleiden sich in unsere Furcht, um unsre Hoffnung zu erschrecken! Ich will mich niemals wieder an einen Traum kehren, ich will mich über einen guten nicht wieder freuen, damit ich mich über den bösen, der ihm folgt, nicht wieder zu ängstigen brauche! Wie sie fest und sicher ausschreitet! Schon ist sie dem Kirchhof nah – wer wohl der erste ist, der ihr begegnet? Es soll nichts bedeuten, nein, ich meine nur – <stage>Erschrocken zusammenfahrend.</stage> Der Totengräber! Er hat eben ein Grab gemacht und steigt daraus hervor, sie grüßt ihn und blickt lächelnd in die düstre Grube hinab, nun wirft sie den Blumenstrauß hinunter und tritt in die Kirche. <stage>Man hört einen Choral.</stage> Sie singen: Nun danket alle Gott! <stage>Sie faltet die Hände.</stage> Ja! Ja! Wenn meine Mutter gestorben wäre, nie wär ich wieder ruhig geworden, denn – – <stage>Mit einem Blick gen Himmel.</stage> Aber Du bist gnädig, Du bist barmherzig! Ich wollt, ich hätt einen Glauben, wie die Katholischen, daß ich Dir etwas schenken dürfte! Meine ganze Sparbüchse wollt ich leeren, und Dir ein schönes vergoldetes Herz kaufen, und es mit Rosen umwinden. Unser Pfarrer sagt, vor Dir seien die Opfer nichts, denn alles sei Dein, und man müßte Dir das, was Du schon hast, nicht erst geben wollen! Aber alles, was im Hause ist, gehört meinem Vater doch auch, und dennoch sieht ers gar gern, wenn ich ihm für sein eignes Geld ein Tuch kaufe, und es sauber sticke, und ihm zum Geburtstag auf den Teller lege. Ja, er tut mir die Ehre an und trägts nur an den höchsten Feiertagen, zu Weihnacht oder zu Pfingsten! Einmal sah ich ein ganz kleines katholisches Mädchen, das seine Kirschen zum Altar trug. Wie gefiel mir das! Es waren die ersten im Jahr, die das Kind bekam, ich </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Vierte Szene</head>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>sagt vor der Tür.</stage>
+            <p>Angezogen?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Warum so zart, so rücksichtsvoll? Ich bin noch immer keine Prinzessin.</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>sagt und tritt ein</stage>
+            <p>Ich glaubte, du wärst nicht allein! Im Vorübergehen kam es mir vor, als ob Nachbars Bärbchen am Fenster stände!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Also darum!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Du bist immer verdrießlich! Man kann vierzehn Tage weg geblieben sein, Regen und Sonnenschein können sich am Himmel zehn Mal abgelöst haben, in deinem Gesicht steht, wenn man endlich wieder kommt, immer noch die alte Wolke!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Es gab andere Zeiten!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Wahrhaftig! Hättest du immer ausgesehen, wie jetzt, wir wären niemals gut Freund geworden!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Was lag daran!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>So frei fühlst du dich von mir? Mir kanns recht sein! Dann <stage>Mit Beziehung.</stage> hat dein Zahnweh von neulich nichts zu bedeuten gehabt!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>O Leonhard, es war nicht recht von dir!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Nicht recht, daß ich mein höchstes Gut, denn das bist du, auch durch das letzte Band an mich fest zu knüpfen suchte? Und in dem Augenblick, wo ich in Gefahr stand, es zu verlieren? Meinst du, ich sah die stillen Blicke nicht, die du mit dem Sekretär wechseltest? Das war ein schöner Freudentag für mich! Ich führe dich zum Tanz, und –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Du hörst nicht auf, mich zu kränken! Ich sah den Sekretär an, warum sollt ichs leugnen? Aber nur wegen des Schnurrbarts, <stage>Sie hält inne.</stage></p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>So gut steht, nicht wahr? Das wolltest du doch sagen? O ihr Weiber! Euch gefällt das Soldaten-Zeichen noch in der ärgsten Karikatur! Mir kam das kleine, lächerlich-runde Gesicht des Gecken, ich bin erbittert auf ihn, ich verhehle es nicht, er hat mir lange genug bei dir im Wege gestanden, mit dem Walde von Haaren, der es in der Mitte durchschneidet, wie ein weißes Kaninchen vor, das sich hinter den Busch verkriecht.</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich habe ihn noch nicht gelobt, du brauchst ihm nicht herabzusetzen.</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Du scheinst noch immer warmen Anteil an ihm zu nehmen!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Wir haben als Kinder zusammen gespielt, und nachher – du weißt recht gut!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>O ja, ich weiß! Aber eben darum!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Da war es wohl natürlich, daß ich, nun ich ihn seit so langer Zeit zum ersten Mal wieder er blickte, ihn ansah und mich verwunderte, wie groß und – <stage>Sie unterbricht sich.</stage></p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Warum wurdest du denn rot, als er dich wieder ansah?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich glaubte, er sähe nach dem Wärzchen auf meiner linken Backe, ob das auch größer geworden sei! Du weißt, daß ich mir dies alle Mal einbilde, wenn mich jemand so starr betrachtet, und daß ich dann immer rot werde. Ist mirs doch, als ob die Warze wächst, solange einer darnach guckt!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Seis, wie es sei, mich überliefs, und ich dachte: noch diesen Abend stell ich sie auf die Probe! Will sie mein Weib werden, so weiß sie, daß sie nichts wagt. Sagt sie nein, so –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>O, du sprachst ein böses, böses Wort, als ich dich zurück stieß und von der Bank aufsprang. Der Mond, der bisher zu meinem Beistand so fromm in die Laube hinein geschienen hatte, ertrank kläglich in den nassen Wolken, ich wollte forteilen, doch ich fühlte mich zurückgehalten, ich glaubte erst, du wärst es, aber es war der Rosenbusch, der mein Kleid mit seinen Dornen, wie mit Zähnen, festhielt, du lästertest mein Herz und ich traute ihm selbst nicht mehr, du standst vor mir, wie einer, der eine Schuld einfordert, ich – ach Gott!</p>
+            </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ich kanns noch nicht bereuen. Ich weiß, daß ich dich mir nur so erhalten konnte. Die alte Jugendliebe tat die Augen wieder auf, ich konnte sie nicht schnell genug zudrücken.</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Als ich zu Hause kam, fand ich meine Mutter krank, totkrank. Plötzlich dahin geworfen, wie von unsichtbarer Hand. Der Vater hatte nach mir schicken wollen, sie hatte es nicht zugegeben, um mich in meiner Freude nicht zu stören. Wie ward mir zumut, als ichs hörte! Ich hielt mich fern, ich wagte nicht, sie zu berühren, ich zitterte. Sie nahms für kindliche Besorgnis, und winkte mich zu sich heran, als ich mich langsam nahte, zog sie mich zu sich nieder und küßte meinen entweihten Mund. Ich verging, ich hätte ihr ein Geständnis tun, ich hätte ihr zuschreien mögen, was ich dachte und fühlte: meinetwegen liegst du so da! Ich tats, aber Tränen und Schluchzen erstickten die Worte, sie griff nach der Hand meines Vaters und sprach mit einem seligen Blick auf mich: welch ein Gemüt!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Sie ist wieder gesund. Ich kam, ihr meinen Glückwunsch abzustatten, und – was meinst du?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Und?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Bei deinem Vater um dich anzuhalten!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ach!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ist dirs nicht recht?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Nicht recht? Mein Tod wärs, wenn ich nicht bald dein Weib würde, aber du kennst meinen Vater nicht! Er weiß nicht, warum wir Eile haben, er kanns nicht wissen, und wir könnens ihm nicht sagen, und er hat hundert Mal erklärt, daß er seine Tochter nur dem gibt, der, wie er es nennt, nicht bloß Liebe im Herzen, sondern auch Brot im Schrank für sie hat. Er wird sprechen: wart noch ein Jahr, mein Sohn, oder zwei, und was willst du antworten?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Närrin, der Punkt ist ja gerade beseitigt! Ich habe die Stelle, ich bin Kassierer!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Du bist Kassierer? Und der andere Kandidat, der Neffe vom Pastor?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>War betrunken, als er zum Examen kam, verbeugte sich gegen den Ofen, statt gegen den Bürgermeister, und stieß, als er sich niedersetzte, drei Tassen vom Tisch. Du weißt, wie hitzig der Alte ist. Herr! fuhr er auf, doch noch bekämpfte er</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Das kommt –</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Unerwartet, nicht wahr? Nun, es kommt auch nicht so ganz von ungefähr. Warum ließ ich mich vierzehn Tage lang bei euch nicht sehen?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Was weiß ich? Ich denke, weil wir uns den letzten Sonntag erzürnten!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Den kleinen Zwist führte ich selbst listig herbei, damit ich wegbleiben könnte, ohne daß es zu sehr auffiele.</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich versteh dich nicht!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Glaubs. Die Zeit benutzt ich dazu, der kleinen buckligten Nichte des Bürgermeisters, die so viel bei dem Alten gilt, die seine rechte Hand ist, wie der Gerichtsdiener die linke, den Hof zu machen. Versteh mich recht! Ich sagte ihr selbst nichts Angenehmes, ausgenommen ein Kompliment über ihre Haare, die bekanntlich rot sind, ich sagte ihr nur einiges, das ihr wohl gefiel, über dich!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Über mich?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Warum sollt ichs verschweigen? Geschah es doch in der besten Absicht! Als ob es mir nie im Ernst um dich zu tun gewesen wäre, als ob – Genug! Das dauerte so lange, bis ich dies in Händen hatte, und wie's gemeint war, wird die leichtgläubige, manntolle Törin erfahren, sobald sie uns in der Kirche aufbieten hört!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Leonhard!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Kind! Kind! Sei du ohne Falsch, wie die Taube, ich will klug, wie die Schlange sein, dann genügen wir, da Mann und Weib doch nur eins sind, dem Evangelienspruch vollkommen. <stage>Lacht.</stage> Es kam auch nicht ganz von selbst, daß der junge Herrmann in dem wichtigsten Augenblick seines Lebens </p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Kein Wort.</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Um so leichter glückte mein Plan. Mit drei Gläsern wars getan. Ein paar Kameraden von mir mußten ihm auf den Leib rücken. »Darf man gratulieren?« Noch nicht! »O, das ist ja abgemacht! Dein Onkel –« Und nun: trink, mein Brüderlein, trink! Als ich heute morgen zu dir ging, stand er am Fluß, und guckte, übers Brückengeländer sich lehnend, schwermütig hinein. Ich grüßte ihn spöttisch und fragte, ob ihm etwas ins Wasser gefallen sei? »Ja wohl – sagte er, ohne aufzusehen – und es ist vielleicht gut, wenn ich selbst nachspringe.«</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Unwürdiger! Mir aus den Augen!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ja? <stage>Macht, als wollt er gehen.</stage></p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>O mein Gott, an diesen Menschen bin ich gekettet!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Sei kein Kind! Und nun noch ein Wort im Vertrauen. Hat dein Vater die tausend Taler noch immer in der Apotheke stehen?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich weiß nichts davon.</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Nichts über einen so wichtigen Punkt?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Da kommt mein Vater.</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Versteh mich! Der Apotheker soll nah am Konkurs sein, darum fragt ich!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich muß in die Küche! <stage>Ab.</stage></p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>sagt allein.</stage>
+            <p>Nun müßte hier nichts zu holen sein! Ich kam es mir zwar nicht denken, denn der Meister Anton ist der Art, daß er, wenn man ihm aus Versehen auch nur einen Buchstaben zu viel auf den Grabstein setzte, gewiß als Geist so lange umginge, bis er wieder ausgekratzt wäre, denn er würde es für unredlich halten, sich mehr vom Alphabet anzueignen, als ihm zukäme!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Fünfte Szene</head>
+          <sp who="#meister_anton">
+            <speaker>DER VATER, MEISTER ANTON</speaker>
+            <stage>sagt und tritt ein</stage>
+            <p>Guten Morgen, Herr Kassierer! <stage>Er nimmt seinen Hut ab, und setzt eine wollene Mütze auf.</stage> Ists einem alten Manne erlaubt, sein Haupt zu bedecken?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Er weiß also –</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Schon gestern abend. Ich hörte, als ich in der </p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Und Klara mußte es erst von mir erfahren?</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Wenn es Ihn nicht trieb, der Dirne die Freude zu machen, wie sollt es mich treiben? Ich stecke in meinem Hause keine Kerzen an, als die mir selbst gehören. Dann weiß ich, daß niemand kommen kann, der sie wieder ausbläst, wenn wir eben unsre beste Lust daran haben!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Er konnte doch von mir nicht denken –</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Denken? Über Ihn? Über irgendeinen? Ich hoble mir die Bretter wohl zurecht mit meinem Eisen, aber nie die Menschen mit meinen Gedanken. Über die Torheit bin ich längst hinaus. Wenn ich einen Baum grünen sehe, so denk ich wohl: nun wird er bald blühen! Und wenn er blüht: nun wird er Früchte bringen! Darin sehe ich mich auch nicht getäuscht, darum geb ich die alte Gewohnheit nicht auf. Aber über Menschen denke ich nichts, gar nichts, nichts Schlimmes, nichts Gutes, dann brauch ich nicht abwechselnd, wenn sie bald meine Furcht, bald meine Hoffnung täuschen, rot oder blaß zu werden. Ich mache bloß Erfahrungen über sie, und nehme mir ein Beispiel an meinen beiden Augen, die auch nicht denken, sondern nur sehen. Über Ihn glaubte ich schon eine ganze Erfahrung gemacht zu haben, nun finde ich Ihn hier, und muß bekennen, daß es doch nur eine halbe gewesen ist!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Meister Anton, Er macht es ganz verkehrt. Der Baum hängt von Wind und Wetter ab, der Mensch hat in sich Gesetz und Regel!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Meint Er? Ja, wir Alten sind dem Tod vielen Dank schuldig, daß er uns noch solange unter euch Jungen herumlaufen läßt, und uns Gelegenheit gibt, uns zu bilden. Früher glaubte die dumme Welt, der Vater sei dazu da, um den Sohn zu erziehen. Umgekehrt, der Sohn soll dem Vater die letzte Politur geben, damit der arme einfältige Mann sich im Grabe </p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Vielleicht war er unwohl –</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Möglich, ich brauche meine Frau nur zu fragen, dann hör ich ganz gewiß, daß er krank ist. Denn über alles in der Welt sagt sie mir die Wahrheit, nur nicht über den Jungen. Und wenn auch nicht krank – auch das hat die junge Welt vor uns Alten voraus, daß sie allenthalben ihre Erbauung findet, daß sie beim Vogelfangen, beim Spazierengehen, ja im Wirtshaus ihre Andacht halten kann. »Vater unser, der du bist im Himmel!« – Guten Tag, Peter, sieht man dich beim Abendtanz? – »Geheiligt werde dein Name!« – Ja, lach nur, Kathrine, es findet sich! – »Dein Wille geschehe!« – Hol mich der Teufel, ich bin noch nicht rasiert! – Und so zu Ende, und den Segen gibt man sich selbst, denn man ist ja ein Mensch, so gut, wie der Prediger, und die Kraft, die vom schwarzen Rock ausgeht, steckt gewiß auch im blauen. Ich habe auch nichts dagegen, und wollt Ihr sogar zwischen die sieben Bitten sieben Gläser einschalten, was tuts, ich kanns keinem beweisen, daß Bier und Religion sich nicht miteinander vertragen, und vielleicht </p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Er nimmts auch zu genau.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Gewiß! Ganz gewiß! Und heute, als ehrlicher Mann muß ichs gestehen, triffts nicht einmal zu, in der Kirche verlor ich die Andacht, denn der offene Platz neben mir verdroß mich, und draußen, unter dem Birnbaum in meinem Garten, fand ich sie wieder. Er wundert sich? Sieh Er, ich ging betrübt und niedergeschlagen zu Hause, wie einer, dem die Ernte verhagelt ist, denn Kinder sind wie Äcker, man sät sein gutes Korn hinein, und dann geht Unkraut auf. Unter dem Birnbaum, den die Raupen abgefressen haben, stand ich still. »Ja – dacht ich – der Junge ist, wie dieser da, leer und kahl!« Da kam es mir auf einmal vor, als ob ich sehr durstig wäre, und durchaus ins Wirtshaus müßte. Ich betrog mich selbst, mir war nicht um ein Glas Bier zu tun, nur darum, den Burschen aufzusuchen und auszuschmälen, im Wirtshaus, das wußte ich, hätte ich ihn ganz gewiß gefunden. Eben wollt ich gehen, da ließ der alte, vernünftige Baum eine saftige Birne zu meinen Füßen niederfallen, als wollt er sagen: die ist für den Durst, und weil du mich durch den Vergleich mit deinem Schlingel verschimpfiert hast! Ich besann mich, biß, hinein und ging ins Haus.</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Weiß Er, daß der Apotheker nah am Konkurs ist?</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Was kümmerts mich!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>So gar nichts?</p>
+            </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Doch! Ich bin ein Christ. Der Mann hat viele Kinder!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Und noch mehr Gläubiger. Auch die Kinder sind eine Art von Gläubigern.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Wohl dem, der keins von beiden ist!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ich glaubte, Er selbst –</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Das ist längst abgemacht.</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Er ist ein vorsichtiger Mann. Er hat sein Geld gewiß gleich eingefordert, als Er sah, daß es mit dem Kräuterhändler rückwärts ging!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Ja, ich brauche nicht mehr zu zittern, daß ich es verliere, denn ich habe es längst verloren.</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Spaß!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Ernst!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und sieht in die Tür</stage>
+            <p>Rief Er, Vater?</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Klingen dir schon die Ohren? Von dir war die Rede noch nicht!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Das Wochenblatt! <stage>Ab.</stage></p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Er ist ein Philosoph!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Was heißt das?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Er weiß sich zu fassen!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Ich trage einen <span>Mühlstein</span><span>Halskrause</span></p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Wers kann, machts nach!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Wer einen so wackern Mitträger findet, als ich in Ihm zu finden scheine, der muß unter der Last sogar tanzen können. Er ist ja ordentlich blaß geworden! Das nenn ich Teilnahme!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Er wird mich nicht verkennen!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Gewiß nicht! <stage>Er trommelt auf einer Kommode.</stage> Daß das Holz nicht durchsichtig ist, wie?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ich versteh Ihn nicht!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Wie einfältig war unser Großvater Adam, daß er die Eva nahm, ob sie gleich nackt und bloß war, und nicht einmal das Feigenblatt mitbrachte. Wir beide, Er und ich, hätten sie als Landstreicherin aus dem Paradies heraus gepeitscht! Was meint Er?</p>
+            </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Er ist ärgerlich auf seinen Sohn. Ich kam, Ihn um seine Tochter –</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Halt Er ein! Vielleicht sag ich nicht nein!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Das hoff ich! Und ich will Ihm meine Meinung sagen! sogar die heiligen Erzväter verschmähten nicht den Mahlschatz ihrer Weiber, Jacob liebte die Rahel und warb sieben Jahre um sie, aber er freute sich auch über die fetten Widder und Schafe, die er in ihres Vaters Dienst gewann. Ich denke, es gereicht ihm nicht zur Schande, und ihn übertreffen, heißt, ihn rot machen. Ich hätte es gern gesehen, wenn seine Tochter mir ein paar hundert Taler zugebracht hätte, und das war natürlich, denn um so besser würde sie selbst es bei mir gehabt haben, wenn ein Mädchen das Bett im Koffer mitbringt, so braucht sie nicht erst Wolle zu kratzen und Garn zu spinnen. Es ist nicht der Fall- was tuts? Wir machen aus der Fasten-Speise unser Sonntags-Essen, und aus dem Sonntags-Braten unsern Weihnachts-Schmaus! So gehts auch!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON</speaker>
+            <stage>sagt und reicht ihm die Hand</stage>
+            <p>Er spricht brav, und unser Herr Gott nickt zu seinen Worten, nun – ich wills vergessen, daß meine Tochter vierzehn Tage lang des Abends vergeblich beim Teetrinken eine Tasse für Ihn auf den Tisch gestellt hat. Und nun Er mein Schwiegersohn wird, will ich Ihm auch sagen, wo die tausend Taler geblieben sind!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>sagt beiseite.</stage>
+            <p>Also doch weg! Nun, so brauch ich mir von dem alten Werwolf auch nichts gefallen zu lassen, wenn er mein Schwiegervater ist!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Mir gings in jungen Jahren schlecht. Ich bin so wenig, wie Er, als ein borstiger Igel zur Welt gekommen, aber ich bin nach und nach einer geworden. Erst waren all die Stacheln bei mir nach innen gerichtet, da kniffen und drückten sie alle zu ihrem Spaß auf meiner nachgiebigen glatten Haut herum, und freuten sich, wenn ich zusammenfuhr, weil die Spitzen mir in Herz und Eingeweide drangen. Aber das Ding gefiel mir nicht, ich kehrte meine Haut um, nun fuhren ihnen die Borsten in die Finger, und ich hatte Frieden.</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>sagt für sich.</stage>
+            <p>Vor dem Teufel selbst, glaub ich!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Mein Vater arbeitete sich, weil er sich Tag und Nacht keine Ruhe gönnte, schon in seinem dreißigsten Jahre </p>
+            </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Kann Er auch weinen?</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON</speaker>
+            <stage>sagt und trocknet sich die Augen</stage>
+            <p>Ja, daran darf ich nicht denken, so gut der Tränenbrunnen auch in mir verstopft ist, das gibt jedes Mal wieder einen Riß. Nun, auch gut; wenn ich einmal wassersüchtig werde, so brauche ich mir wenigstens diese Tropfen nicht mit abzapfen zu lassen. <stage>Mit einer plötzlichen Wendung.</stage> Was meint Er? Wenn Er den Mann, dem Er alles verdankte, einmal an einem Sonntag-Nachmittag auf eine Pfeife Tabak besuchen wollte, und Er träfe ihn verwirrt und verstört, ein Messer in der Hand, dasselbe Messer, womit er ihm tausend Mal sein Vesperbrot abgeschnitten, blutig am Halse, und das Tuch ängstlich bis ans Kinn hinausziehend – –</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>So ging der alte Gebhard bis an sein Ende!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Der Narbe wegen. Und Er käme noch eben zur rechten Zeit, Er könnte retten und helfen, aber nicht bloß dadurch, daß Er ihm das Messer aus der Hand risse und die Wunde verbände, sondern Er müßte auch lumpige tausend Taler, die Er erspart hätte, hergeben, und das müßte sogar, um den kranken Mann nur zur Annahme zu bewegen, ganz in der Stille geschehen, was würde er tun?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ledig und los, wie ich bin, ohne Weib und Kind, würde ich das Geld opfern.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Und wenn Er zehn Weiber hätte, wie die Türken, und so viel Kinder, als dem Vater Abraham versprochen waren, und Er könnte Sich auch nur einen Augenblick bedenken, so wär Er – nun, Er wird mein Schwiegersohn! Jetzt weiß Er, wo das Geld geblieben ist, heute konnt ich es Ihm sagen, denn mein alter Meister ist begraben, vor einem Monat hätt ichs noch auf dem Sterbebett bei mir behalten. Die Verschreibung hab ich dem Toten, bevor sie den Sarg zunagelten, unter den Kopf geschoben, wenn ich schreiben könnte, hätt ich vorher ein: Ehrlich bezahlt! darunter gesetzt, unwissend, wie ich bin, blieb mir nichts übrig, als der Länge nach einen Riß ins Papier zu machen. Nun wird er ruhig schlafen, und ich hoffe, ich auch, wenn ich mich einst neben ihn hinstrecke.</p>
+            </sp>
+        </div>
+        <div type="scene">
+          <head>Sechste Szene</head>
+          <sp who="#mutter">
+            <speaker>DIE MUTTER</speaker>
+            <stage>sagt und tritt schnell ein</stage>
+            <p>Kennst mich noch?</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON</speaker>
+            <stage>sagt auf das Hochzeitskleid deutend.</stage>
+            <p>Den Rahmen, ja wohl, der hat sich gehalten, das Bild nicht recht. Es scheint sich viel Spinnweb darauf gesetzt zu haben, nun, die Zeit war lang genug dazu!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Hab ich nicht einen aufrichtigen Mann? Doch, ich brauch ihn nicht apart zu loben, Aufrichtigkeit ist die Tugend der Ehemänner.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Tuts dir leid, daß du mit 20 Jahren besser vergoldet warst, als mit 50?</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Gewiß nicht! Wärs anders, so müßt ich mich ja für die und mich schämen!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>So gibst du mir einen Kuß! Ich bin rasiert, und besser, wie gewöhnlich!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Ich sage ja, bloß um zu prüfen, ob du dich noch auf die Kunst verstehst. Das fiel dir lange nicht mehr ein!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Gute Hausmutter! Ich will nicht verlangen, daß du mir die Augen zudrücken sollst, es ist ein schweres Stück, ich wills für dich übernehmen, ich will dir den letzten Liebesdienst erweisen, aber Zeit mußt du mir lassen, hörst du, daß ich mich stähle und vorbereite, und nicht als Stümper bestehe. Noch wars viel zu früh!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Gott sei Dank, wir bleiben noch eine Weile beisammen.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Ich hoffs auch, du hast ja ordentlich wieder rote Backen!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Ein possierlicher Mensch, unser neuer Totengräber. Er machte ein Grab, als ich heute morgen über den Kirchhof ging, ich fragte ihn, für wen es sei. »Für wen Gott will, sagte er, vielleicht für mich selbst, es kann mir gehen, wie meinem Großvater, der auch mal eins auf den Vorrat gemacht hatte, und in der Nacht, als er aus dem Wirtshaus zu Hause kam, hineinfiel und sich den Hals brach.«</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>sagt der bisher im Wochenblatt gelesen hat.</stage>
+            <p>Der Kerl ist nicht von hier, er kann uns vorlügen, was ihm gefällt!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Ich fragte ihn, warum wartet Er denn nicht, bis man die Gräber bei Ihm bestellt? Ich bin heute auf eine Hochzeit gebeten, </p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Hans Wurst, hätt ich gesagt, wenn das Grab nun nicht paßt?</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Ich sagte es auch, aber der schüttelt die spitzen Antworten aus dem Ärmel, wie der Teufel die Flöhe. Ich habe das Maß nach dem Weber Veit genommen, sagte er, der ragt, wie König Saul, um einen Kopf über uns alle hinaus, nun mag kommen, wer will, er wird sein Haus nicht zu klein finden, und wenns zu groß ist, so schadets keinem, als mir, denn als ehrlicher Mann laß ich mir keinen Fuß über die Sarglänge bezahlen. Ich warf meine Blumen hinein und sprach: nun ists besetzt!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Ich denke, der Kerl hat bloß gespaßt, und das ist schon sündlich genug. Gräber im voraus machen, hieße vorwitzig die Falle des Todes aufstellen; den Halunken, der es täte, sollte man vom Dienst jagen. <stage>Zu dem lesenden Leonhard.</stage> Was Neues? Sucht ein Menschenfreund eine arme Witwe, die ein paar hundert Taler brauchen kann? Oder umgekehrt die arme Witwe den Menschenfreund, der sie gehen will?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Die Polizei macht einen Juwelen-Diebstahl bekannt. Wunderbar genug. Man sieht daraus, daß trotz der schlechten Zeiten noch immer Leute unter uns leben, die Juwelen besitzen.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Ein Juwelen-Diebstahl? Bei wem?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Beim Kaufmann Wolfram!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Bei – Unmöglich! Da hat mein Karl vor ein paar Tagen einen Sekretär poliert!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Aus dem Sekretär verschwunden, richtig!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER</speaker>
+            <stage>sagt zu Meister Anton.</stage>
+            <p>Vergebe dir Gott dies Wort!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Du hast recht, es war ein nichtswürdiger Gedanke!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Gegen deinen Sohn, das muß ich dir sagen, bist du nur ein halber Vater.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Frau, wir wollen heute nicht darüber sprechen!</p>
+            </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Er ist anders, als du, muß er darum gleich schlecht sein?</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Wo bleibt er denn jetzt? Die Mittagsglocke hat längst geschlagen, ich wette, daß das Essen draußen verkocht und verbrät, weil Klara heimliche Ordre hat, den Tisch nicht zu decken, bevor er da ist.</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Wo sollt er bleiben? Höchstens wird er Kegel schieben, und da muß er ja die entfernteste Bahn aufsuchen, damit du ihn nicht entdeckst. Dann ist der Rückweg natürlich lang. Ich weiß auch nicht, was du gegen das unschuldige Spiel hast.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Gegen das Spiel? Gar nichts! Vornehme Herren müssen einen Zeitvertreib haben. Ohne den Karten-König hätte der wahre König gewiß oft Langeweile, und wenn die Kegel nicht erfunden wären, wer weiß, ob Fürsten und Barone nicht mit unsern Köpfen bosseln würden! Aber ein Handwerksmann kann nicht ärger freveln, als wenn er seinen sauer verdienten Lohn aufs Spiel setzt. Der Mensch muß, was er mit schwerer Mühe im Schweiß seines Angesichts erwirbt, ehren, es hoch und wert halten, wenn er nicht an sich selbst irre werden, wenn er nicht sein ganzes Tun und Treiben verächtlich finden soll. Wie können sich alle meine Nerven spannen für den Taler, den ich wegwerfen will. <stage>Man hört draußen die Türklingel.</stage></p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Da ist er.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Siebente Szene</head>
+          <stage>Gerichtsdiener Adam und noch ein Gerichtsdiener treten ein.</stage>
+          <sp who="#adam">
+            <speaker>ADAM</speaker>
+            <stage>sagt zu Meister Anton.</stage>
+            <p>Nun geh Er nur hin und bezahl Er seine Wette! <span>Leute im roten Rock mit blauen
+                Aufschlägen</span><stage>Dies betont er stark.</stage> sollten Ihm nie ins Haus kommen? Hier sind wir unsrer zwei! <stage>Zum zweiten Gerichtsdiener.</stage> Warum behält Er seinen Hut nicht auf, wie ich? Wer wird Umstände machen, wenn er bei seinesgleichen ist?</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Bei deinesgleichen, Schuft?</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Er hat recht, wir sind nicht bei unsersgleichen, Schelme und Diebe sind nicht unsersgleichen! <stage>Er zeigt auf die Kommode.</stage> Aufgeschlossen! Und dann drei Schritt davon! Daß er nichts herauspraktisiert!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Was? Was?</p>
+            </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und tritt mit Tischzeug ein</stage>
+            <p>Soll ich – <stage>Sie verstummt.</stage></p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM</speaker>
+            <stage>sagt und zeigt ein Papier</stage>
+            <p>Kann Er geschriebene Schrift lesen?</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Soll ich können, was nicht einmal mein Schulmeister konnte?</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>So hör Er! Sein Sohn hat Juwelen gestohlen. Denn Dieb haben wir schon. Nun wollen wir Haussuchung halten!</p>
+          </sp>
+          <sp who="#mutter">
+            <speaker>MUTTER.</speaker>
+            <p>Jesus! <stage>Fällt um und stirbt.</stage></p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Mutter! Mutter! Was sie für Augen macht!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ich will einen Arzt holen!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Nicht nötig! Das ist das letzte Gesicht! Sahs hundert Mal. Gute Nacht, Therese! Du starbst, als dus hörtest! Das soll man dir aufs Grab setzen!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Es ist doch vielleicht – – <stage>Abgehend.</stage> Schrecklich! Aber gut für mich! <stage>Ab.</stage></p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON</speaker>
+            <stage>zieht und wirft ein Schlüsselbund hervor und es von sich</stage>
+            <p>Da! Schließt auf! Kasten nach Kasten! Ein Beil her! Der Schlüssel zum Koffer ist verloren! Hei, Schelmen und Diebe! <stage>Er kehrt sich die Taschen um.</stage> Hier find ich nichts!</p>
+          </sp>
+          <sp who="#zweiter_gerichtsdiener">
+            <speaker>ZWEITER GERICHTSDIENER.</speaker>
+            <p>Meister Anton, faß Er sich! Jeder weiß, daß Er der ehrlichste Mann in der Stadt ist.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>So? So? <stage>Lacht.</stage> Ja, ich hab die Ehrlichkeit in der Familie allein verbraucht! Der arme Junge! Es blieb nichts für ihn übrig! Die da – <stage>Er zeigt auf die Tote.</stage> war auch viel zu sittsam! Wer weiß, ob die Tochter nicht – <stage>Plötzlich zu Klara.</stage> Was meinst du, mein unschuldiges Kind?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Vater!</p>
+          </sp>
+          <sp who="#zweiter_gerichtsdiener">
+            <speaker>ZWEITER GERICHTSDIENER</speaker>
+            <stage>sagt zu Adam.</stage>
+            <p>Fühlt Er kein Mitleid?</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Kein Mitleid? Wühl ich dem alten Kerl in den Taschen? Zwing ich ihn, die Strümpfe auszuziehen und die Stiefel umzukehren? Damit wollt ich anfangen, denn ich hasse ihn, wie ich nur hassen kann, seit er im Wirtshaus sein Glas – Er kennt die Geschichte, und Er müßte sich auch beleidigt fühlen, wenn Er Ehre im Leibe hätte. <stage>Zu Klara.</stage> Wo ist die Kammer des Bruders?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und zeigt sie</stage>
+            <p>Hinten!</p>
+            <stage>Beide Gerichtsdiener ab.</stage>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Vater, er ist unschuldig! Er muß unschuldig sein! Er ist ja dein Sohn, er ist ja mein Bruder!</p>
+            </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Unschuldig, und ein Mutter- Mörder? <stage>Lacht.</stage></p>
+          </sp>
+          <sp who="#eine_magd">
+            <speaker>EINE MAGD</speaker>
+            <stage>sagt und tritt ein mit einem Brief zu Klara</stage>
+            <p>Von Herrn Kassierer Leonhard!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Du brauchst ihn nicht zu lesen! Er sagt sich von dir los! <stage>Schlägt in die Hände.</stage> Bravo, Lump!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt hat gelesen.</stage>
+            <p>Ja! Ja! O mein Gott!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Laß ihn!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Vater, Vater, ich kann nicht!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Kannst nicht? Kannst nicht? Was ist das? Bist du –</p>
+            <stage>Beide Gerichtsdiener kommen zurück.</stage>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM</speaker>
+            <stage>sagt hämisch.</stage>
+            <p>Suchet, so werdet ihr finden!</p>
+          </sp>
+          <sp who="#zweiter_gerichtsdiener">
+            <speaker>ZWEITER GERICHTSDIENER</speaker>
+            <stage>sagt zu Adam.</stage>
+            <p>Was fällt Ihm ein? Trafs denn heute zu?</p>
+          </sp>
+          <sp who="#adam">
+            <speaker>ADAM.</speaker>
+            <p>Halt Ers Maul! <stage>Beide ab.</stage></p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Er ist unschuldig, und du – du –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Vater, Er ist schrecklich!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON</speaker>
+            <stage>sagt und faßt sie bei der Hand sehr sanft</stage>
+            <p>Liebe Tochter, der Karl ist doch nur ein Stümper, er hat die Mutter umgebracht, was wills heißen? Der Vater blieb am Leben! Komm ihm zu Hülfe, du kannst nicht verlangen, daß er alles allein tun soll, gib du mir den Rest, der alte Stamm sieht noch so knorrig aus, nicht wahr, aber er wackelt schon, es wird dir nicht zu viel Mühe kosten, ihn zu fällen! Du brauchst nicht nach der Axt zu greifen, du hast ein hübsches Gesicht, ich hab dich noch nie gelobt, aber heute will ichs dir sagen, damit du Mut und Vertrauen bekommst, Augen, Nase und Mund finden gewiß Beifall, werde – du verstehst mich wohl, oder sag mir, es kommt mir so vor, daß dus schon bist!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>stürzt und ruft fast wahnsinnig , der Toten mit aufgehobenen Armen zu Füßen und wie ein Kind</stage>
+            <p>Mutter! Mutter!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Faß die Hand der Toten und schwöre mir, daß du bist, was du sein sollst!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich – schwöre – dir – daß – ich – dir – nie – Schande – machen – will!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Gut! <stage>Er setzt seinen Hut auf.</stage> Es ist schönes Wetter! Wir wollen Spießruten laufen, Straß auf, Straß ab! <stage>Ab.</stage></p>
+            </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>Zweiter Akt</head>
+        <stage>Zimmer im Hause des Tischlermeisters.</stage>
+        <div type="scene">
+          <head>Erste Szene</head>
+          <stage>Meister Anton steht vom Tisch auf.</stage>
+          <stage>Klara will abräumen.</stage>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Willst du wieder nicht essen?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Vater, ich bin satt.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Von nichts?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich aß schon in der Küche.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Wer keinen Appetit hat, der hat kein gut Gewissen! Nun, alles wird sich finden! Oder war Gift in der Suppe, wie ich gestern träumte? Einiger wilder Schierling, aus Versehen beim Pflücken ins Kräuterbündel hinein geraten? Dann tatst du klug!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Allmächtiger Gott!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Vergib mir, ich – Geh zum Teufel mit deiner blassen Leidensmiene, die du der Mutter des Heilands gestohlen hast! Rot soll man aussehen, wenn man jung ist! Nur einer darf Staat machen mit einem solchen Gesicht, und der tuts nicht! Hei! Jedem eine Ohrfeige, der noch Au sagt, wenn er sich in den Finger geschnitten hat! Dazu hat keiner das Recht mehr, dem hier steht ein Mann, der – Eigenlob stinkt, aber was tat ich, als der Nachbar über deiner Mutter den Sargdeckel zunageln wollte?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Er riß ihm den Hammer weg und tats selbst, und sprach: dies ist mein Meisterstück! Der Kantor, der eben mit den Chorknaben vor der Tür das Sterbelied absang, meinte, Er sei verrückt geworden!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Verrückt! <stage>Lacht.</stage> Verrückt! Ja, ja, das ist ein kluger Kopf, der sich selbst köpft, wenns Zeit ist. Der meinige muß dazu zu fest stehen, sonst – Man hockte in der Welt, und glaubte in einer guten Herberge hinterm Ofen zu sitzen, da wird plötzlich Licht auf den Tisch gestellt, und siehe da, man ist in einem Räuberloch, nun gehts piff, paff, von allen Seiten, aber es schadet nicht, man hat zum Glück ein steinernes Herz!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ja, Vater, so ists!</p>
+            </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Was weißt du davon? Meinst du, du hast ein Recht, mit mir zu fluchen, weil dein Schreiber davongelaufen ist? Dich wird ein anderer sonntags-nachmittags spazierenführen, ein anderer wird dir sagen, daß deine Backen rot sind und deine Augen blau, ein anderer wird dich zum Weibe nehmen, wenn dus verdienst. Aber, wenn du nun dreißig Jahre lang in Züchten und Ehren die Last des Lebens getragen, wenn du nie gemurrt, sondern Leid und Tod und jedes Mißgeschick in Geduld hingenommen hast, und dann kommt dein Sohn, der dir für dein Alter ein weiches Kopfkissen stopfen sollte, und überhäuft dich so mit Schande, daß du die Erde anrufen mögtest: verschlucke mich, wenn dich nicht ekelt, denn ich bin kotiger, als du! – dann magst du all die Flüche, die ich in meiner Brust zurückhalte, aussprechen, dann magst du dein Haar raufen und deine Brüste zerschlagen, das sollst du vor mir voraus haben, denn du bist kein Mann!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>O Karl!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Wundern soll michs doch, was ich tun werde, wenn ich ihn wieder vor mir sehe, wenn er abends vor Lichtanzünden mit geschorenem Kopf, denn im Zuchthaus sind die Frisuren nicht erlaubt, in die Stube tritt und einen Guten Abend herausstottert und die Klinke der Tür in der Hand behält. Tun werd ich etwas, das ist gewiß, aber was? <stage>Mit Zähneknirschen.</stage> Und ob sie ihn zehn Jahre behalten, er wird mich finden, ich werde so lange leben, das weiß ich, merk dirs, Tod, ich bin von jetzt an ein Stein vor deiner Hippe, sie wird eher zerspringen, als mich aus der Stelle rücken!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und faßt seine Hand</stage>
+            <p>Vater, Er sollte sich eine halbe Stunde niederlegen!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Um zu träumen, daß du in die Wochen gekommen seist? Um dann aufzufahren, und dich zu packen, und mich hinterdrein zu besinnen und zu sprechen: liebe Tochter, ich wußte nicht, was ich tat! Ich danke. Mein Schlaf hat den Gaukler verabschiedet und einen Propheten in Dienst genommen, der zeigt mir mit seinem Blutfinger häßliche Dinge, und ich weiß nicht, wie's kommt, alles scheint mir jetzt möglich. Hu, mich schauderts vor der Zukunft, wie vor einem Glas Wasser, das man durchs Mikroskop – ists richtig, Herr Kantor? </p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Werd Er doch wieder ruhig!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Werd Er doch wieder gesund! Warum ist Er krank! Ja, Arzt, reich mir nur den Trunk der Genesung! dein Bruder ist der schlechteste Sohn, werde du die beste Tochter! Wie ein nichtswürdiger Bankrottierer steh ich vor dem Angesicht der Welt, einen braven Mann, der in die Stelle dieses Invaliden treten könne, war ich ihr schuldig, mit einem Schelm hab ich sie betrogen. Werde du ein Weib, wie deine Mutter war, dann wird man sprechen: an den Eltern hats nicht gelegen, daß der Bube abseits ging, denn die Tochter wandelt den rechten Weg, und ist allen andern vorauf. <stage>Mit schrecklicher Kälte.</stage> Und ich will das meinige dazu tun, ich will dir die Sache leichter machen, als den übrigen. In dem Augenblick, wo ich bemerke, daß man auch auf dich mit Fingern zeigt, werd ich – <stage>Mit einer Bewegung an den Hals.</stage> mich rasieren, und dann, <span>das schwör ich dir zu</span></p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Barmherziger Gott, was soll ich tun!</p>
+            </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Nichts, nichts, liebes Kind, ich bin zu hart gegen dich, ich fühls wohl, nichts, bleib nur, was du bist, dann ists gut! O, ich hab so groß Unrecht erlitten, daß ich Unrecht tun muß, um nicht zu erliegen, wenns mich so recht anfaßt. Sieh, ich gehe vorhin über die Straße, da kommt der Pocken- Fritz daher, der Gaudieb, den ich vor Jahren ins Loch stecken ließ, weil er zum dritten Mal lange Finger bei mir gemacht hatte. Früher wagte der Halunke nicht, mich anzusehen, jetzt trat er frech auf mich zu und reichte mir die Hand. Ich wollte ihm einen hinter die Ohren geben, aber ich besann mich und spuckte nicht einmal aus, wir sind ja Vettern seit 8 Tagen, und es ist billig, daß Verwandte sich grüßen. Der Pfarrer, der mitleidige Mann, der mich gestern besuchte, meinte zwar, ein Mensch habe niemanden zu vertreten, als sich selbst, und es sei ein unchristlicher Hochmut von mir, daß ich auch noch für meinen Sohn aufkommen wolle; sonst müßte Adam es sich so gut zu Gemüte ziehen, wie ich. Herr, ich glaubs gern, daß es den Frieden des Erzvaters im Paradiese nicht mehr stört, wenn einer seiner Ur-Ur-Enkel zu morden oder zu rauben anfängt, aber raufte er sich nicht die Haare über Kain? Nein, nein, es ist zuviel! Ich könnte mich zuweilen nach meinem Schatten umsehen, ob er nicht schwärzer geworden ist! Denn alles, alles kann ich ertragen und habs bewiesen, nur nicht die Schande! Legt mir auf den <span>Nacken</span><span>Nerv</span></p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Vater, noch hat Karl ja nichts gestanden, und sie haben auch nichts bei ihm gefunden.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Was soll mir das? Ich bin in der Stadt herumgegangen und habe mich in den Schenken nach seinen Schulden erkundigt, da kam mehr zusammen, als er im nächsten Vierteljahr bei mir verdient hätte, und wenn er noch dreimal so fleißig wäre, als er ist. Nun weiß ich, warum er immer zwei Stunden später Feier-Abend machte, als ich, und warum er trotzdem auch noch vor mir aufstand, aber er sah ein, daß dies alles doch nichts half, oder es war ihm zu mühevoll und dauerte ihm zu lange, da griff er zu, als die Gelegenheit sich bot.</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Er glaubt von Karl immer das Schlimmste, Er hat es stets getan! Weiß Er wohl noch, wie –</p>
+            </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Du sprichst, wie deine Mutter sprechen würde, ich will dir antworten, wie ich ihr zu antworten pflegte, ich will stillschweigen!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Und wenn Karl doch frei gesprochen wird? Wenn die Juwelen sich wieder finden?</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Dann würd ich einen Advokaten annehmen, und mein letztes Hemd daransetzen, um zu erfahren, ob der Bürgermeister den Sohn eines ehrlichen Mannes mit Recht ins Gefängnis warf, oder nicht. Wär es, so würd ich mich beugen, denn was jedem widerfahren kann, das muß auch ich mir gefallen lassen, und mußte ich es zu meinem Unglück auch tausend Mal teurer bezahlen, als andere, es war ein Schicksal, und wenn Gott mich schlägt, so falte ich die Hände und spreche: Herr, du weißt warum! Wär es aber nicht, hätte der Mann mit der goldenen Kette um den Hals sich übereilt, weil er an nichts dachte, als daran, daß der Kaufmann, der die Juwelen vermißt, sein Schwager ist, so würde sichs finden, ob das Gesetzbuch ein Loch hat, und ob der König, der wohl weiß, daß er seinen Untertanen ihre Treu und ihren Gehorsam mit Gerechtigkeit bezahlen muß, und der dem Geringsten unter ihnen gewiß am wenigsten etwas schuldig bleiben will, dies Loch ungestopft ließe. Aber, das sind unnütze Reden! Der Junge wird so wenig rein aus diesem Prozeß hervorgehen, wie deine Mutter lebendig aus ihrer Gruft. Von dem kommt mir nun und nimmer ein Trost, darum vergiß du nicht, was du mir schuldig bist, halte du deinen Schwur, damit ich den meinigen nicht zu halten brauche! <stage>Er geht, kehrt aber wieder um.</stage> Ich komme heut abend erst spät zu Hause, ich gehe zu dem alten Holzhändler ins Gebirge. Das ist der einzige Mann, der mir noch, wie sonst, in die Augen sieht, weil er noch nicht von meiner Schande weiß. Er ist taub, keiner kann ihm was erzählen, ohne sich heiser zu schreien, und auch dann hört er alles verkehrt, darum erfährt er nichts. <stage>Ab.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Zweite Szene</head>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt allein.</stage>
+            <p>O Gott, o Gott! Erbarme dich! Erbarme dich über den alten Mann! Nimm mich zu dir! Ihm ist nicht anders zu helfen! Sieh, der Sonnenschein liegt so goldig auf der Straße, <span>ich</span></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Dritte Szene</head>
+          <sp who="#wolfram">
+            <speaker>DER KAUFMANN WOLFRAM</speaker>
+            <stage>sagt und tritt ein</stage>
+            <p>Guten Tag, Jungfer Klara, ist Ihr Vater nicht zu Hause?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Er ist eben fortgegangen.</p>
+          </sp>
+          <sp who="#wolfram">
+            <speaker>WOLFRAM.</speaker>
+            <p>Ich komme – – meine Juwelen haben sich wiedergefunden.</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>O Vater, wärst du da! Er hat seine Brille vergessen, dort liegt sie! Daß ers bemerkte und umkehrte! Wie denn? – Wo? – Bei wem?</p>
+          </sp>
+          <sp who="#wolfram">
+            <speaker>WOLFRAM.</speaker>
+            <p>Meine Frau – Sag Sie mir aufrichtig, Jungfer, hat Sie nicht auch schon etwas Wunderliches über meine Frau gehört?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ja!</p>
+          </sp>
+          <sp who="#wolfram">
+            <speaker>WOLFRAM.</speaker>
+            <p>Daß sie – <stage>Er deutet auf die Stirn.</stage> Nicht wahr?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Daß sie nicht recht bei sich ist, freilich!</p>
+          </sp>
+          <sp who="#wolfram">
+            <speaker>WOLFRAM</speaker>
+            <stage>sagt ausbrechend.</stage>
+            <p>Mein Gott! Mein Gott! Alles umsonst! Keinen Dienstboten, den ich einmal in mein Haus nahm, hab ich wieder von mir gelassen, jedem habe ich doppelten Lohn gegeben und zu allen Nachlässigkeiten die Augen zugedrückt, um mir ihr Stillschweigen zu erkaufen, dennoch – die falschen, undankbaren Kreaturen! O meine armen Kinder! Bloß euretwegen suchte ichs zu verbergen!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Schelt Er Seine Leute nicht! Die sind gewiß unschuldig! Seit das Nachbarhaus abbrannte, und Seine Frau aus dem geöffneten Fenster dazu lachte und in die Hände klatschte, ja </p>
+          </sp>
+          <sp who="#wolfram">
+            <speaker>WOLFRAM.</speaker>
+            <p>Es ist wahr. Nun, da die ganze Stadt mein Unglück kennt, so wäre es törigt, wenn ich Ihr das Versprechen abfordern wollte, es zu verschweigen. Höre Sie denn! Den Diebstahl, wegen dessen Ihr Bruder im Gefängnis sitzt, hat der Wahnsinn begangen!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Seine eigne Frau –</p>
+          </sp>
+          <sp who="#wolfram">
+            <speaker>WOLFRAM.</speaker>
+            <p>Daß sie, die früher die edelste, mitleidigste Seele von der Welt war, boshaft und schadenfroh geworden ist, daß sie jauchzt und jubelt, wenn vor ihren Augen ein Unglück geschieht, wenn die Magd ein Glas zerbricht, oder sich in den Finger schneidet, wußte ich längst; daß sie aber auch Sachen im Hause auf die Seite bringt, Geld versteckt, Papiere zerreißt, das habe ich leider zu spät erfahren, erst heute mittag. Ich hatte mich aufs Bett gelegt und wollte eben einschlafen, da bemerkte ich, daß sie sich mir leise näherte und mich scharf betrachtete, ob ich schon schliefe. Ich schloß die Augen fester, da nahm sie aus meiner über den Stuhl gehängten Weste den Schlüssel, öffnete den Sekretär, griff nach einer Goldrolle, schloß wieder zu und trug den Schlüssel zurück. Ich entsetzte mich, doch ich hielt an mich, um sie nicht zu stören, sie verließ das Zimmer, ich schlich ihr auf den Zehen nach. Sie stieg zum obersten Boden hinauf und warf die Goldrolle in eine alte Kiste hinein, die noch vom Großvater her leer da steht, dann sah sie sich scheu nach allen Seiten um und eilte, ohne mich zu bemerken, wieder fort. Ich zündete einen Wachsstock an und durchsuchte die Kiste, da fand ich die Spielpuppe meiner jüngsten Tochter, ein Paar Pantoffeln der Magd, ein Handlungsbuch, Briefe und leider, oder Gott Lob, wie soll ich sagen, ganz unten auch die Juwelen!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>O meine arme Mutter! Es ist doch zu schändlich!</p>
+          </sp>
+          <sp who="#wolfram">
+            <speaker>WOLFRAM.</speaker>
+            <p>Gott weiß, ich würde den Schmuck darum geben, könnt ich ungeschehen machen, was geschehen ist! Aber nicht ich bin schuld! Daß mein Verdacht, bei aller Achtung vor Ihrem Vater, auf Ihren Bruder fiel, war natürlich, er hatte den </p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Der Gerichtsdiener hat im Wirtshaus einmal sein Glas neben das meines Vaters auf den Tisch gestellt und ihm dabei zugenickt, als ob er ihn zum Anstoßen auffordern wolle. Da hat mein Vater das seinige weggenommen und gesagt: Leute im roten Rock mit blauen Aufschlägen mußten ehemals aus Gläsern mit hölzernen Füßen trinken, auch mußten sie draußen vor dem Fenster, oder, wenns regnete, vor der Tür stehenbleiben und bescheiden den Hut abziehen, wenn der Wirt ihnen den Trunk reichte; wenn sie aber ein Gelüsten trugen, mit jemandem anzustoßen, so warteten sie, bis der Gevatter Fallmeister vorüberkam. Gott! Gott! Was ist alles möglich auf der Welt! Das hat meine Mutter mit einem jähen Tode bezahlen müssen!</p>
+          </sp>
+          <sp who="#wolfram">
+            <speaker>WOLFRAM.</speaker>
+            <p>Man soll keinen reizen und die Schlimmen am wenigsten! Wo ist Ihr Vater?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Im Gebirg beim Holzhändler.</p>
+          </sp>
+          <sp who="#wolfram">
+            <speaker>WOLFRAM.</speaker>
+            <p>Ich reite hinaus und such ihn auf. Beim Bürgermeister war ich schon, leider traf ich ihn nicht daheim, sonst würde Ihr Bruder schon hier sein, aber der Sekretär hat sogleich einen Boten abgefertigt, Sie wird ihn noch vor Abend sehen. <stage>Ab.</stage></p>
+            </sp>
+        </div>
+        <div type="scene">
+          <head>Vierte Szene</head>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt allein.</stage>
+            <p>Nun sollt ich mich freuen! Gott, Gott! Und ich kann nichts denken, als: nun bist dus allein! Und doch ist mir zumut, als müsse mir gleich etwas einfallen, das alles wieder gut macht!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Fünfte Szene</head>
+          <sp who="#sekretaer">
+            <speaker>DER SEKRETÄR</speaker>
+            <stage>sagt und tritt ein</stage>
+            <p>Guten Tag!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und hält sich an einem Stuhl, als sollte sie umfallen</stage>
+            <p>Der! O, wenn der nicht zurückgekommen wäre –</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Der Vater ist nicht zu Hause?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Nein!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Ich bringe eine fröhliche Botschaft. Ihr Bruder – Nein, Klara, ich kann in diesem Ton nicht mit dir reden, mir deucht, Tische, Stühle, Schränke, all die alten Bekannten, – Guten Tag, du! <stage>Er nickt einem Schrank zu.</stage> Wie gehts? Du hast dich nicht verändert! – um die wir als Kinder so oft herumgehüpft sind, werden die Köpfe zusammenstecken, und den Narren ausspotten, wenn ich nicht schnell einen anderen anschlage. Ich muß du zu dir sagen, wie ehemals, wenns dir nicht gefällt, so denke: der große Junge träumt, ich will ihn aufwecken und vor ihn hintreten und mich <stage>Mit Gebärden.</stage> hoch aufrichten, damit er sieht, daß er kein kleines Kind mehr vor sich hat, – das war dein Maß im elften Jahr! <stage>Er deutet auf einen Schrammstrich in der Tür.</stage> – sondern ein gehörig erwachsenes Mädchen, das den Zucker auch dann erreichen kann, wenn er auf den Schrank gestellt wird. Du weißt doch noch? Das war der Platz, die feste Burg, wo er auch unverschlossen vor uns sicher war. Wir vertrieben uns, wenn er dort stand, die Zeit gewöhnlich mit Fliegenklatschen, weil wir den Fliegen, die lustig ab- und zuflogen, das unmöglich gönnen konnten, was wir selbst nicht zu erlangen wußten.</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich dächte, man vergäße solche Dinge, wenn man hundert und tausend Bücher durchstudieren müßte.</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Man vergißts auch! Freilich, was vergißt man nicht über Justinian und Gajus! Die Knaben, die sich so hartnäckig gegen das ABC wehren, wissen wohl, warum; sie haben eine </p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Und wie wirds dann gemacht? <stage>Abwesend, ohne allen Anteil.</stage></p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Darin sind die Temperamente verschieden. Einige arbeiten sich durch. Die kommen gewöhnlich in drei bis vier Jahren wieder ans Tageslicht, sind dann aber etwas mager und blaß, das muß man ihnen nicht übel nehmen. Zu diesen gehöre ich. Andere legen sich in der Mitte des Waldes nieder, sie wollen bloß ausruhen, aber sie stehen selten wieder auf. Ich habe selbst einen Bekannten, der nun schon drei Jahre im Schatten der Lex Julia sein Bier trinkt, er hat sich den Platz des Namens wegen ausgesucht, der ruft ihm angenehme Erinnerungen zurück. Noch andere werden desparat und kehren um. Die sind die Dümmsten, denn man läßt sie nur unter der Bedingung aus dem einen Dickigt heraus, daß sie sich spornstreichs wieder in ein anderes hineinbegeben. Und da gibts einige, die noch schrecklicher sind, die gar kein Ende haben! <stage>Für sich.</stage> Was man alles schwätzt, wenn man etwas auf dem Herzen hat und es nicht herauszubringen weiß!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Alles ist heute lustig und munter, das macht der schöne Tag!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Ja, bei solchem Wetter fallen die Eulen aus dem Nest, die Fledermäuse bringen sich um, weil sie fühlen, daß der Teufel sie gemacht hat, der Maulwurf bohrt sich so tief in die Erde ein, daß er den Weg zurück nicht mehr findet und jämmerlich ersticken muß, wenn er sich nicht bis zur anderen Seite durchfrißt und in Amerika wieder zum Vorschein kommt. Heute tut jede Korn-Ähre einen doppelten Schuß, und jede </p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ach, das ist so wahr, so wahr – ich könnte gleich zu weinen anfangen!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Es ist nicht gegen dich gesagt, daß du seit acht Tagen schwerer atmest, wie sonst, begreif ich wohl, ich kenne deinen Alten. Aber Gott Lob, ich kann deine Brust wieder frei machen, und eben darum bin ich hier. Du wirst deinen Bruder noch heut abend wieder sehen, und nicht auf ihn, sondern auf die Leute, die ihn ins Gefängnis geworfen haben, wird man mit Fingern zeigen. Verdient das einen Kuß, einen schwesterlichen, wenns denn kein anderer sein darf? Oder wollen wir Blindekuh darum spielen? Wenn ich dich nicht in zehn Minuten hasche, so geh ich leer aus, und bekomm noch einen Backenstreich obendrein.</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt für sich.</stage>
+            <p>Mir ist, als wär ich auf einmal tausend Jahr alt geworden, und nun stünde die Zeit über mir still, ich kann nicht zurück und auch nicht vorwärts. O, dieser festgenagelte Sonnenschein und all die Heiterkeit um mich her!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Du antwortest mir nicht. Freilich, das vergaß ich, du bist Braut! O Mädchen, warum hast du mir das getan! Und doch – habe ich ein Recht, mich zu beklagen? Sie ist, wie alles Liebe und Gute, alles Liebe und Gute hätte mich an sie erinnern sollen, dennoch war sie jahrelang für mich, wie nicht mehr in der Welt. Dafür hat sie – Wärs nur wenigstens ein </p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und plötzlich, wie sie den Namen hört</stage>
+            <p>Ich muß zu ihm – Das ists ja, ich bin nicht mehr die Schwester eines Diebes – o Gott, was will ich denn noch? Leonhard wird und muß – Er braucht ja bloß kein Teufel zu sein, und alles ist, wie vorher! <stage>Schaudernd.</stage> Wie vorher! <stage>Zum Sekretär.</stage> Nimms nicht übel, Friedrich! – Warum werden mir die Beine auf einmal so schwer?</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Du willst –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Zu Leonhard, wohin denn sonst! Nur den einen Weg hab ich auf dieser Welt noch zu machen!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>So liebst du ihn? Dann –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt wild.</stage>
+            <p>Lieben? Er oder der Tod! Wunderts wen, daß ich ihn wähle? Ich täts nicht, dächt ich an mich allein!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Er oder der Tod? Mädchen, so spricht die Verzweiflung, oder –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Mach mich nicht rasend! Nenne das Wort nicht mehr! Dich! Dich lieb ich! Da! Da! Ich rufs dir zu, als ob ich schon jenseits des Grabes wandelte, wo niemand mehr rot wird, wo sie alle nackt und frierend aneinander vorbei schleichen, weil Gottes furchtbare heilige Nähe in jedem den Gedanken an die anderen bis auf die Wurzel weggezehrt hat!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Mich? Noch immer mich? Klara, ich habs geahnt, als ich dich draußen im Garten sah!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Hast du? O, der andere auch! <stage>Dumpf, als ob sie allein wäre.</stage> Und er trat vor mich hin! Er oder ich! O, mein Herz, mein verfluchtes Herz! Um ihm, um mir selbst zu beweisen, daß es nicht so sei, oder ums zu ersticken, wenns so wäre, tat ich, was mich jetzt – <stage>In Tränen ausbrechend.</stage> Gott im Himmel, ich würde mich erbarmen, wenn ich du wäre, und du ich!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Klara, werde mein Weib! Ich kam zu dir, um dir noch einmal auf die alte Weise ins Auge zu sehen. Hättest du den Blick nicht verstanden, ich würde mich, ohne zu reden, wieder entfernt haben. Jetzt biet ich dir alles an, was ich bin, und was ich habe. Es ist wenig, aber es kann mehr werden. Längst wäre ich hier gewesen, doch deine Mutter war krank, dann starb sie.</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>lacht wahnsinnig.</stage>
+            </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Fasse Mut, Mädchen. Der Mensch hat dein Wort. Das ängstigt dich. Und freilich ists verflucht. Wie konntest du –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>O frag noch, was alles zusammenkommt, um ein armes Mädchen verrückt zu machen. Spott und Hohn von allen Seiten, als du auf die Akademie gezogen warst und nichts mehr von dir hören ließest. Die denkt noch an den! – Die glaubt, daß Kindereien ernsthaft gemeint waren! – Erhält sie Briefe? – Und dann die Mutter! Halte dich zu deinesgleichen! Hochmut tut nimmer gut! Der Leonhard ist doch recht brav, alle wundern sich, daß du ihn über die Achsel ansiehst. Dazu mein eignes Herz. Hat er dich vergessen, zeig ihm, daß auch du – o Gott!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Ich bin schuld. Ich fühls. Nun, was schwer ist, ist darum nicht unmöglich. Ich schaff dir dein Wort zurück. Vielleicht –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>O, mein Wort – da! <stage>Sie wirft ihm Leonhards Brief hin.</stage></p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR</speaker>
+            <stage>sagt und liest</stage>
+            <p>Ich als Kassierer – dein Bruder – Dieb – sehr leid – aber ich kann nicht umhin, aus Rücksicht auf mein Amt – – <stage>Zu Klara.</stage> Das schrieb er dir denselben Tag, wo deine Mutter starb? Er bezeugt dir ja zugleich sein Beileid über ihren jähen Tod!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich glaube, ja!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Daß dich! Lieber Gott, die Katzen, Schlangen und sonstigen Scheusale, die dir bei der Schöpfung so zwischen den Fingern durchgeschlüpft sind, haben Beelzebubs Wohlgefallen erregt, er hat sie dir nachgemacht, aber er hat sie besser herausgeputzt, wie du, er hat sie in Menschenhaut gesteckt, und nun stehen sie mit deinem Menschen in Reih und Glied, und man erkennt sie erst, wenn sie kratzen und stechen! <stage>Zu Klara.</stage> Aber es ist ja gut, es ist ja vortrefflich! <stage>Er will sie umarmen.</stage> Komm! Für ewig! Mit diesem Kuß –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und sinkt an ihn</stage>
+            <p>Nein, nicht für ewig, nur daß ich nicht umfalle, aber keinen Kuß!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Mädchen, du liebst ihn nicht, du hast dein Wort zurück –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt dumpf, sich wieder aufrichtend.</stage>
+            <p>Und ich muß doch zu ihm, ich muß mich auf Knieen vor ihm niederwerfen und stammeln: sieh die weißen Haare meines Vaters an, nimm mich!</p>
+            </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Unglückliche, versteh ich dich?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ja!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Darüber kann kein Mann weg! Vor dem Kerl, dem man ins Gesicht spucken mögte, die Augen niederschlagen müssen? <stage>Er preßt Klara wild an sich.</stage> Ärmste! Ärmste!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Geh nun, geh!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR</speaker>
+            <stage>sagt für sich, brütend.</stage>
+            <p>Oder man müßte den Hund, ders weiß, aus der Welt wegschießen! Daß er Mut hätte! Daß er sich stellte! Daß man ihn zwingen könnte! Ums Treffen wär mir nicht bange!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich bitte dich!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR</speaker>
+            <stage>sagt und indem er geht</stage>
+            <p>Wenns dunkel wird! <stage>Er kehrt wieder um und faßt Klaras Hand.</stage> Mädchen, du stehst vor mir – – <stage>Er wendet sich ab.</stage> Tausende ihres Geschlechts hättens klug und listig verschwiegen, und es erst dem Mann in einer Stunde süßer Vergessenheit in Ohr und Seele geschmeichelt! Ich fühle, was ich dir schuldig bin! <stage>Ab.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Sechste Szene</head>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt allein.</stage>
+            <p>Zu! Zu, mein Herz! Quetsch dich in dich ein, daß auch kein Blutstropfe mehr heraus kann, der in den Adern das gefrierende Leben wieder entzünden will. Da hatte sich wieder was, wie eine Hoffnung, in dir aufgetan! Jetzt erst merk ichs! Ich dachte – <stage>Lächelnd.</stage> Nein, darüber kann kein Mann weg! Und wenn – Könntest du selbst darüber hinweg? Hättest du den Mut, eine Hand zu fassen, die – Nein, nein, diesen schlechten Mut hättest du nicht! Du müßtest dich selbst einriegeln in deine Hölle, wenn man dir von außen die Tore öffnen wollte – du bist für ewig – O, daß das aussetzt, daß das nicht immer so fortbohrt, daß zuweilen ein Aufhören ist! Nur darum dauerts lange! Der Gequälte glaubt auszuruhen, weil der Quäler einhalten muß, um Odem zu schöpfen; es ist ein Aufatmen, wie des Ertrinkenden auf den Wellen, wenn der Strudel, der ihn hinunterzieht, ihn noch einmal wieder ausspeit, um ihn gleich wieder aufs neue zu fassen, er hat nichts davon, als den zwiefachen Todeskampf!</p>
+            <p>Nun, Klara? Ja, Vater, ich gehe, ich gehe! Deine Tochter wird <stage>Sie nimmt ihn.</stage> Drei Brunnen triffst du auf dem Weg zu ihm – Daß du mir an keinem stehenbleibst! Noch hast du nicht das Recht dazu! <stage>Ab.</stage></p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>Dritter Akt</head>
+        <stage>Zimmer bei Leonhard.</stage>
+        <div type="scene">
+          <head>Erste Szene</head>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>sagt an einem Tisch mit Akten, schreibend.</stage>
+            <p>Das wäre nun der sechste Bogen nach Tisch! Wie fühlt sich der Mensch, wenn er seine Pflicht tut! Jetzt könnte mir in die Tür treten, wer wollte, und wenns der König wäre – ich würde aufstehen, aber ich würde nicht in Verlegenheit geraten! Einen nehm ich aus, das ist der alte Tischler! Aber im Grunde kann auch der mir wenig machen! Die arme Klara! Sie dauert mich, ich kann nicht ohne Unruhe an sie denken! Daß der eine verfluchte Abend nicht wäre! Es war in mir wirklich mehr die Eifersucht, als die Liebe, die mich zum Rasen brachte, und sie ergab sich gewiß nur darein, um meine Vorwürfe zu widerlegen, denn sie war kalt gegen mich, wie der Tod. Ihr stehen böse Tage bevor, nun, auch ich werde noch viel Verdruß haben! Trage jeder das Seinige! Vor allen Dingen die Sache mit dem kleinen Buckel nur recht fest gemacht, damit die mir nicht entgeht, wenn das Gewitter ausbricht! Dann hab ich den Bürgermeister auf meiner Seite, und brauche vor nichts bange zu sein!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Zweite Szene</head>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und tritt ein</stage>
+            <p>Guten Abend, Leonhard!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Klara? <stage>Für sich.</stage> Das hätt ich nun nicht mehr erwartet! <stage>Laut.</stage> Hast du meinen Brief nicht erhalten? Doch – Du kommst vielleicht für deinen Vater und willst die Steuer bezahlen! Wie<stage>In einem Journal blätternd.</stage> Ich sollte es eigentlich aus dem Kopf wissen!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich komme, um dir deinen Brief zurückzugeben! Hier ist er! Lies ihn noch einmal!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>sagt und liest mit großem Ernst</stage>
+            <p>Es ist ein ganz vernünftiger Brief! Wie kann ein Mann, dem die öffentlichen Gelder anvertraut sind, in eine Familie heiraten, zu der <stage>Er verschluckt ein Wort.</stage> zu der dein Bruder gehört?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Leonhard!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Aber vielleicht hat die ganze Stadt unrecht? Dein Bruder sitzt nicht im Gefängnis? Er hat nie im Gefängnis gesessen? Du bist nicht die Schwester eines – deines Bruders?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Leonhard, ich bin die Tochter meines Vaters, und nicht als Schwester eines unschuldig Verklagten, der scholl wieder frei gesprochen ist, denn das ist mein Bruder, nicht als Mädchen, das vor unverdienter Schande zittert, denn <stage>Halblaut.</stage> ich zittre noch mehr vor dir, nur als Tochter des alten Mannes, der mir das Leben gegeben hat, stehe ich hier!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Und du willst?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Du kannst fragen? O, daß ich wieder gehen dürfte! Mein Vater schneidet sich die Kehle ab, wenn ich – heirate mich!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Dein Vater –</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Er hats geschworen! Heirate mich!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Hand und Hals sind nahe Vettern. Sie tun einander nichts zu Leide! Mach dir keine Gedanken!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Er hats geschworen – heirate mich, nachher bring mich um, ich will dir für das eine noch dankbarer sein wie für das andere!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Liebst du mich? Kommst du, weil dich dein Herz treibt? Bin ich der Mensch, ohne den du nicht leben und sterben kannst?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Antworte dir selbst!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Kannst du schwören, daß du mich liebst? Daß du mich so liebst, wie ein Mädchen den Mann lieben muß, der sich auf ewig mit ihr verbinden soll?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Nein, das kann ich nicht schwören! Aber dies kann ich schwören: ob ich dich liebe, ob ich dich nicht liebe, nie sollst dus erfahren! Ich will dir dienen, ich will für dich arbeiten, </p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ein Mensch, von dem du dies alles erwartest, überrascht dich doch nicht, wenn er nein sagt?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>So schaue Gott mich nicht zu schrecklich an, wenn ich komme, ehe er mich gerufen hat! Wärs um mich allein – ich wollts ja tragen, ich wollts geduldig hinnehmen, als verdiente Strafe für, ich weiß nicht was, wenn die Welt mich in meinem Elend mit Füßen träte, statt mir beizustehen, ich wollte mein Kind, und wenns auch die Züge dieses Menschen trüge, lieben, ach, und ich wollte vor der armen Unschuld so viel weinen, daß es, wenns älter und klüger würde, seine Mutter gewiß nicht verachten, noch ihr fluchen sollte. Aber ich bins nicht allein, und leichter find ich am Jüngsten Tag noch eine Antwort auf des Richters Frage: warum hast du dich selbst umgebracht? als auf die: warum hast du deinen Vater so weit getrieben?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Du sprichst, als ob du die erste und letzte wärst! Tausende haben das vor dir durchgemacht, und sie ergaben </p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>O, ich glaubs gern, daß du nicht begreifst, wie irgend einer in der Welt seinen Schwur halten sollte!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Dritte Szene</head>
+          <sp who="#ein_knabe">
+            <speaker>EIN KNABE</speaker>
+            <stage>sagt und tritt ein</stage>
+            <p>Da sind Blumen! Ich soll nicht sagen, wovon.</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ei, die lieben Blumen! <stage>Schlägt sich vor die Stirn.</stage> Teufel! Teufel! Das ist dumm! Ich hätte welche schicken sollen! Wie hilft man sich da heraus? Auf solche Dinge versteh ich mich schlecht, und die Kleine nimmts genau, sie hat an nichts anderes zu denken! <stage>Er nimmt die Blumen.</stage> Alle behalt ich sie aber nicht! <stage>Zu Klara.</stage> Nicht wahr, die da bedeuten Reue und Scham? Hast du mir das nicht einmal gesagt?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>nickt.</stage>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>sagt zum Knaben.</stage>
+            <p>Merk dirs, Junge, die sind für mich, ich stecke sie an, siehst du, hier, wo das Herz ist! Diese, die dunkelroten, die wie ein düsteres Feuer brennen, trägst du zurück. Verstehst du? Wenn meine Äpfel reif sind, kannst du dich melden!</p>
+          </sp>
+          <sp who="#ein_knabe">
+            <speaker>KNABE.</speaker>
+            <p>Das ist noch lange hin! <stage>Ab.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Vierte Szene</head>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ja, siehst du, Klara, du sprachst von Worthalten. Eben weil ich ein Mann von Wort bin, muß ich dir antworten, wie ich geantwortet habe. Dir schrieb ich vor acht Tagen ab, du kannst es nicht leugnen, der Brief liegt da. <stage>Er reicht ihr den Brief, sie nimmt ihn mechanisch.</stage> Ich hatte Grund, dein Bruder – Du sagst, er ist frei gesprochen, es freut mich! In diesen acht Tagen knüpfte ich ein neues Verhältnis an; ich hatte das Recht <stage>Für sich.</stage> ich wollt, es wär so – die andere ist schon mit dir in gleichem Fall, du dauerst mich, <stage>Er streicht ihr die Locken zurück, sie läßt es geschehen, als ob sie es gar nicht bemerkte.</stage> aber du wirst einsehen – mit dem Bürgermeister ist nicht zu spaßen!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt wie geistesabwesend.</stage>
+            <p>Nicht zu spaßen!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Siehst du, du wirst vernünftig! Und was deinen Vater betrifft, so kannst du ihm keck ins Gesicht sagen, daß er allein schuld ist! Starre mich nicht so an, schüttle nicht den Kopf, es ist so, Mädchen, es ist so! Sags ihm nur, er wirds schon verstehen und in sich gehen, ich bürge dir dafür! <stage>Für sich.</stage> Wer die Aussteuer seiner Tochter wegschenkt, der muß sich nicht wundern, daß sie sitzenbleibt. Wenn ich daran denke, so steift sich mir ordentlich der Rücken, und ich könnte wünschen, der alte Kerl wäre hier, um eine Lektion in Empfang zu nehmen. Warum muß ich grausam sein? Nur weil er ein Tor war! Was auch daraus entsteht, er hats zu verantworten, das ist klar! <stage>Zu Klara.</stage> Oder willst du, daß ich selbst mit ihm rede? Dir zu Liebe will ich ein blaues Auge wagen und zu ihm gehen! Er kann grob gegen mich werden, er kann mir den Stiefelknecht an den Kopf werfen, aber er wird die Wahrheit, trotz des Bauchgrimmens, das sie ihm verursacht, hinunterknirschen und dich in Ruhe lassen müssen. Verlaß dich darauf! Ist er zu Hause?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und richtet sich hoch auf</stage>
+            <p>Ich danke dir! <stage>Will gehen.</stage></p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Soll ich dich hinüberbegleiten? Ich habe den Mut!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich danke dir, wie ich einer Schlange danken würde, die mich umknotet hätte und mich von selbst wieder ließe und fort spränge, weil eine andere Beute sie lockte. Ich weiß, daß ich gebissen bin, ich weiß, daß sie mich nur läßt, weil es ihr nicht der Mühe wert scheint, mir das bißchen Mark aus den Gebeinen zu saugen, aber ich danke ihr doch, denn nun hab ich einen ruhigen Tod. Ja, Mensch, es ist kein Hohn, ich danke dir, mir ist, als hätt ich durch deine Brust bis in den Abgrund der Hölle hinuntergesehen, und was auch in der <span>könnt</span><span>dürfte</span><stage>Sie tut wild einen Schritt auf ihn zu.</stage> Doch, das ist Torheit, dir kanns ja nur willkommen sein, wenn sie alle stehen und die Köpfe schütteln und sich umsonst fragen: warum das geschehen ist!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Es kommen Fälle vor! Was soll man tun? Klara!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Fort von hier! Der Mensch kann sprechen! <stage>Sie will gehen.</stage></p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Meinst du, daß ichs dir glaube?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Nein!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Du kannst Gott Lob nicht Selbst-Mörderin werden, ohne zugleich Kindes-Mörderin zu werden!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Beides lieber, als Vater-Mörderin! O ich weiß, daß man Sünde mit Sünde nicht büßt! Aber was ich jetzt tu, das kommt über mich <span>allein</span><stage>Ab.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Fünfte Szene</head>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>sagt allein.</stage>
+            <p>Ich muß! Ich muß sie heiraten! Und warum muß ich? Sie will einen verrückten Streich begehen, um ihren Vater von einem verrückten Streich abzuhalten; wo liegt die Notwendigkeit, daß ich den ihrigen durch einen noch verrückteren verhindern muß? Ich kann sie nicht zugeben, wenigstens nicht eher, als bis ich denjenigen vor mir sehe, der mir wieder durch den allerverrücktesten zuvorkommen will, und wenn der ebenso denkt, wie ich, so gibts kein Ende. Das klingt ganz gescheut, und doch – Ich muß ihr nach! Da kommt jemand! </p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Sechste Szene</head>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR</speaker>
+            <stage>sagt und tritt ein</stage>
+            <p>Guten Abend!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Herr Sekretär? Was verschafft mir die Ehre –</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Du wirst es gleich sehen!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Du? Wir sind freilich Schulkameraden gewesen!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Und werden vielleicht auch Todeskameraden sein! <stage>Zieht Pistolen hervor.</stage> Verstehst du damit umzugehen?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ich begreife Sie nicht!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR</speaker>
+            <stage>sagt und spannt eine</stage>
+            <p>Siehst du? So wirds gemacht. Dann zielst du auf mich, wie ich jetzt auf dich, und drückst ab! So!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Was reden Sie?</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Einer von uns beiden muß sterben! Sterben! Und das sogleich!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Sterben?</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Du weißt, warum!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Bei Gott nicht!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Tut nichts, es wird dir in der Todesstunde schon einfallen!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Auch keine Ahnung –</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Besinne dich! Ich könnte dich sonst für einen tollen Hund halten, der mein Liebstes gebissen hat, ohne selbst etwas davon zu wissen, und dich niederschießen, wie einen solchen, da ich dich doch noch eine halbe Stunde lang für meinesgleichen gelten lassen muß!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Sprechen Sie doch nicht so laut! Wenn Sie einer hörte –</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Könnte mich einer hören, du hättest ihn längst gerufen! Nun?</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Wenns des Mädchens wegen ist, ich kann sie ja heiraten! Dazu war ich schon halb und halb entschlossen, als sie selbst hier war!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Sie war hier, und sie ist wieder gegangen, ohne dich in </p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Ich bitte Sie – Sie sehen einen Menschen vor sich, der zu allem bereit ist, was Sie vorschreiben! Noch heut abend verlobe ich mich mit ihr!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Das tu ich, oder keiner. Und wenn die Welt daran hinge, nicht den Saum ihres Kleides sollst du wieder berühren! Komm! In den Wald mit mir! Aber wohl gemerkt, ich faß dich unter den Arm, und wenn du unterwegs nur einen Laut von dir gibst, so – <stage>Er erhebt eine Pistole.</stage> Du wirst mirs glauben! Ohnehin nehmen wir, damit du nicht in Versuchung kommst, den Weg hinten zum Hause hinaus durch die Gärten!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD.</speaker>
+            <p>Eine ist für mich – geben Sie mir die.</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Damit du sie wegwerfen, und mich zwingen kannst, dich zu morden, oder dich laufen zu lassen, nicht wahr? Geduld, bis wir am Platz sind, dann teil ich ehrlich mit dir!</p>
+          </sp>
+          <sp who="#leonhard">
+            <speaker>LEONHARD</speaker>
+            <stage>geht und stößt und aus Versehen sein Trinkglas vom Tisch</stage>
+            <p>Soll ich nicht wieder trinken?</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Courage, mein Junge, vielleicht gehts gut, Gott und Teufel scheinen sich ja beständig um die Welt zu schlagen, wer weiß denn, wer gerade Herr ist! <stage>Faßt ihn unter den Arm, beide ab.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Siebente Szene</head>
+          <stage>Zimmer im Hause des Tischlers. Abend.</stage>
+          <sp who="#karl">
+            <speaker>KARL</speaker>
+            <stage>sagt und tritt ein</stage>
+            <p>Kein Mensch daheim! Wüßt ich das Rattenloch unter der Türschwelle nicht, wo sie den Schlüssel zu verbergen pflegen, wenn sie alle davongehen, ich hätte nicht hinein können. Nun, das hätte nichts gemacht! Ich könnte jetzt zwanzig Mal um die Stadt laufen und mir einbilden, es gäbe kein größeres Vergnügen auf der Welt, als die Beine zu brauchen. Wir wollen Licht anzünden. <stage>Er tuts.</stage> Das Feuerzeug ist noch auf dem alten Platz, ich wette, denn wir haben hier im Hause zwei Mal zehn Gebote. Der Hut gehört auf den dritten Nagel, nicht auf den vierten! Um halb zehn Uhr muß man müde sein! Vor Martini darf man nicht frieren, nach Martini <stage>Ruft.</stage> Mutter! Pfui! Als ob ichs vergessen hätte, daß sie da liegt, wo auch des Bierwirts Knecht sein Nußknackermaul nicht mehr mit einem Ja, Herr! aufzureißen braucht, wenn er gerufen wird! Ich habe nicht geweint, als ich die Totenglocke in meinem finstern Turmloch hörte, aber – Rotrock, du hast mich auf der Kegelbahn nicht den letzten Wurf tun lassen, obgleich ich die Boßel schon in der Hand hielt, ich lasse dir nicht zum letzten Atemzug Zeit, wenn ich dich allein treffe, und das kann heut abend noch geschehen, ich weiß, wo du um zehn zu finden bist. Nachher zu Schiff! Wo die Klara bleibt? Ich bin ebenso hungrig, als durstig! Heut ist Donnerstag, sie haben Kalbfleisch-Suppe gegessen. Wärs Winter, so hätts Kohl gegeben, vor Fastnacht weißen, nach Fastnacht grünen! Das steht so fest, als daß der Donnerstag wiederkehren muß, wenn der Mittwoch dagewesen ist, daß er nicht zum Freitag sagen kann: geh du für mich, ich habe wunde Füße!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Achte Szene</head>
+          <stage>Klara tritt ein.</stage>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Endlich! Du solltest auch nur nicht so viel küssen! Wo sich vier rote Lippen zusammenbacken, da ist dem Teufel eine Brücke gebaut! Was hast du da?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Wo? Was?</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Wo? Was? In der Hand!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Nichts!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Nichts? Sind das Geheinmisse? <stage>Er entreißt ihr Leonhards Brief.</stage> Her damit! Wenn der Vater nicht da ist, so ist der Bruder Vormund!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Den Fetzen hab ich festgehalten, und doch geht der Abendwind so stark, daß er die Ziegel von den Dächern wirft! Als ich an der Kirche vorbeiging, fiel einer dicht vor mir nieder, so daß ich mir den Fuß daran zerstieß. O Gott, dacht ich, noch einen! und stand still! Das wäre so schön gewesen, man hätte mich begraben und gesagt: sie hat ein Unglück gehabt! Ich hoffte umsonst auf den zweiten!</p>
+            </sp>
+          <sp who="#karl">
+            <speaker>KARL</speaker>
+            <stage>sagt der den Brief gelesen hat.</stage>
+            <p>Donner und – Kerl, den Arm, der das schrieb, schlag ich dir lahm! Hol mir eine Flasche Wein! Oder ist deine Sparbüchse leer?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Es ist noch eine im Hause. Ich hatte sie heimlich für den Geburtstag der Mutter gekauft und beiseite gestellt. Morgen wäre der Tag – <stage>Sie wendet sich.</stage></p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Gib sie her!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>bringt den Wein.</stage>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL</speaker>
+            <stage>sagt und trinkt hastig</stage>
+            <p>Nun könnten wir denn wieder anfangen. Hobeln, sägen, hämmern, dazwischen essen, trinken und schlafen, damit wir immerfort hobeln, sägen und hämmern können, sonntags ein Kniefall obendrein: ich danke dir, Herr, daß ich hobeln, sägen und hämmern darf! <stage>Trinkt.</stage> Es lebe jeder brave Hund, der an der Kette nicht um sich beißt! <stage>Er trinkt wieder.</stage> Und noch einmal: er lebe!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Karl, trink nicht so viel! Der Vater sagt, im Wein sitzt der Teufel!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Und der Priester sagt, im Wein sitzt der liebe Gott. <stage>Er trinkt.</stage> Wir wollen sehen, wer recht hat! Der Gerichtsdiener ist hier im Hause gewesen – wie betrug er sich?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Wie in einer Diebsherberge. Die Mutter fiel um und war tot, sobald er nur den Mund aufgetan hatte!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Gut! Wenn du morgen früh hörst, daß der Kerl erschlagen gefunden worden ist, so fluche nicht auf den Mörder!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Karl! Du wirst doch nicht –</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Bin ich sein einziger Feind? Hat man ihn nicht schon oft angefallen? Es dürfte schwer halten, aus so vielen, denen das Stück zuzutrauen wäre, den rechten herauszufinden, wenn dieser nur nicht Stock oder Hut auf dem Platz zurück läßt. <stage>Er trinkt.</stage> Wer es auch sei: auf gutes Gelingen!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Bruder, du redest –</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Gefällts dir nicht? Laß gut sein! Du wirst mich nicht lange mehr sehen!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt zusammenschaudernd.</stage>
+            <p>Nein!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Nein? Weißt dus schon, daß ich zur See will? Kriechen mir die Gedanken auf der Stirn herum, daß du sie lesen kannst? Oder hat der Alte nach seiner Art gewütet, und gedroht, mir das Haus zu verschließen? Pah! Das wär nicht viel anders, als</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Du verstehst mich nicht!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL</speaker>
+            <stage>sagt und singt</stage>
+            <lg>
+              <l>Dort bläht ein Schiff die Segel,</l>
+              <l>Frisch saust hinein der Wind!</l>
+            </lg>
+            <p>Ja, wahrhaftig, jetzt hält mich nichts mehr an der Hobelbank fest! Die Mutter ist tot, es gibt keine mehr, die nach jedem Sturm aufhören würde, Fische zu essen, und von Jugend auf wars mein Wunsch. Hinaus! Hier gedeih ich nicht, oder erst dann, wenn ichs gewiß weiß, daß das Glück dem Mutigen, der sein Leben aufs Spiel setzt, der ihm den Kupfer-Dreier, den er aus dem großen Schatz empfangen hat, wieder hinwirft, um zu sehen, ob es ihn einsteckt oder ihn vergoldet zurück gibt, nicht mehr günstig ist.</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Und du willst den Vater allein lassen? Er ist sechzig Jahr!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Allein? Bleibst du ihm nicht?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich?</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Du! Sein Schoßkind! Was wächst dir für Unkraut im Kopf, daß du fragst! Seine Freude laß ich ihm, und von seinem ewigen Verdruß wird er befreit, wenn ich gehe, warum sollt ichs denn nicht tun? Wir passen ein für allemal nicht zusammen, er kanns nicht eng genug um sich haben, er mögte seine Faust zumachen und hineinkriechen, ich mögte meine Haut abstreifen, wie den Kleinkinderrock, wenns nur ginge!</p>
+            <stage>Singt.</stage>
+            <lg>
+              <l>Der Anker wird gelichtet,</l>
+              <l>Das Steuer flugs gerichtet,</l>
+              <l>Nun fliegst hinaus geschwind!</l>
+            </lg>
+            <p>Sag selbst, hat er auch nur einen Augenblick an meiner Schuld gezweifelt? Und hat er in seinem überklugen: Das hab ich erwartet! Das hab ich immer gedacht! Das konnte nicht anders enden! nicht den gewöhnlichen Trost gefunden? Wärst dus gewesen, er hätte sich umgebracht! Ich mögt ihn sehen, wenn du ein Weiber-Schicksal hättest! Es würde ihm sein, als ob er selbst in die Wochen kommen sollte! Und mit dem Teufel dazu!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>O, wie das an mein Herz greift! Ja, ich muß fort, fort!</p>
+            </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Was soll das heißen?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Ich muß in die Küche – was wohl sonst? <stage>Faßt sich an die Stirn.</stage> Ja! Das noch! Darum allein ging ich ja noch wieder zu Hause! <stage>Ab.</stage></p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Die kommt mir ganz sonderbar vor!</p>
+            <stage>Singt.</stage>
+            <lg>
+              <l>Ein kühner Wasservogel</l>
+              <l>Kreist grüßend um den Mast!</l>
+            </lg>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt und tritt wieder ein</stage>
+            <p>Das Letzte ist getan, des Vaters Abendtrank steht am Feuer. Als ich die Küchentür hinter mir anzog, und ich dachte: Du trittst nun nie wieder hinein! ging mir ein Schauer durch die Seele. So werd ich auch aus dieser Stube gehen, so aus dem Hause, so aus der Welt!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL</speaker>
+            <stage>singt, er geht immer auf und ab, Klara hält sich im Hintergrund.</stage>
+            <lg>
+              <l>Die Sonne brennt herunter,</l>
+              <l>Manch Fischlein, blank und munter,</l>
+              <l>Umgaukelt keck den Gast!</l>
+            </lg>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Warum tu ichs denn nicht? Werd ichs nimmer tun? Werd ichs von Tag zu Tag aufschieben, wie jetzt von Minute zu Minute, bis – Gewiß! Darum fort! – Fort! Und doch bleib ich stehen! Ists mir nicht, als obs in meinem Schoß bittend Hände aufhöbe, als ob Augen – <stage>Sie setzt sich auf einen Stuhl.</stage> Was soll das? Bist du zu schwach dazu? So frag dich, ob du stark genug bist, deinen Vater mit abgeschnittener Kehle – <stage>Sie steht auf.</stage> Nein! Nein! – Vater unser, der du bist im Himmel – Geheiliget werde dein Reich- Gott, Gott, mein armer Kopf – ich kann nicht einmal beten – Bruder! Bruder! – Hilf mir –</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Was hast du?</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Das Vaterunser! <stage>Sie besinnt sich.</stage> Mir war, als ob ich schon im Wasser läge, und untersänke, und hätte noch nicht gebetet! Ich – <stage>Plötzlich.</stage> Vergib uns unsere Schuld, wie wir vergeben unsern Schuldigern! Da ists! Ja! Ja! ich vergeb ihm gewiß, ich denke ja nicht mehr an ihn! Gute Nacht, Karl!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Willst du schon so früh schlafen gehen? Gute Nacht!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt wie ein Kind, das sich das Vaterunser überhört.</stage>
+            <p>Vergib uns –</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Ein Glas Wasser könntest du mir noch bringen, aber es muß recht frisch sein!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA</speaker>
+            <stage>sagt schnell.</stage>
+            <p>Ich will es dir vom Brunnen holen!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Nun, wenn du willst, es ist ja nicht weit!</p>
+            </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Dank! Dank! Das war das letzte, was mich noch drückte! Die Tat selbst mußte mich verraten! Nun werden sie doch sagen: sie hat ein Unglück gehabt! sie ist hineingestürzt!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Nimm dich aber in acht, das Brett ist wohl noch immer nicht wieder vorgenagelt!</p>
+          </sp>
+          <sp who="#klara">
+            <speaker>KLARA.</speaker>
+            <p>Es ist ja Mondschein! – O Gott, ich komme nur, weil sonst mein Vater käme! Vergib mir, wie ich – sei mir gnädig – gnädig – <stage>Ab.</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Neunte Szene</head>
+          <sp who="#karl">
+            <speaker>KARL</speaker>
+            <stage>sagt und singt</stage>
+            <lg>
+              <l>Wär gern hineingesprungen,</l>
+              <l>Da draußen ist mein Reich!</l>
+            </lg>
+            <l>Ja! aber vorher – <stage>Er sieht nach der Uhr.</stage> Wieviel ists? Neun!</l>
+            <lg>
+              <l>Ich bin ja jung von Jahren,</l>
+              <l>Da ists mir nur ums Fahren,</l>
+              <l>Wohin? Das gilt mir gleich!</l>
+            </lg>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Zehnte Szene</head>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON</speaker>
+            <stage>sagt und tritt ein</stage>
+            <p>Dir hätt ich etwas abzubitten, aber wenn ichs dir verzeihe, daß du heimlich Schulden gemacht hast, und sie noch obendrein für dich bezahle, so werd ichs mir ersparen dürfen!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Das eine ist gut, das andere ist nicht nötig, wenn ich meine Sonntags-Kleider verkaufe, kann ich die Leute, die ein paar Taler von mir zu fordern haben, selbst befriedigen, und das werd ich gleich morgen tun, als Matrose, <stage>Für sich.</stage> da ists heraus! <stage>Laut.</stage> brauch ich sie nicht mehr!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Was sind das wieder für Reden!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Er hört sie nicht zum ersten Mal, aber Er mag mir heute darauf antworten, was Er will, mein Entschluß steht fest!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Mündig bist du, es ist wahr!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Eben weil ichs bin, trotz ich nicht darauf. Aber ich denke, Fisch und Vogel sollten sich nicht darüber streiten, obs in der Luft oder im Wasser am besten ist. Nur eins. Er sieht mich entweder nie wieder, oder Er wird mich auf die Schulter klopfen und sagen: Du hast recht getan!</p>
+            </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Wir wollens abwarten. Ich brauche den Gesellen, den ich für dich eingestellt habe, nicht wieder abzulohnen, was ists denn weiter?</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Ich dank Ihm!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Sag mir, hat der Gerichts-Diener, statt dich auf dem kürzesten Weg zum Bürgermeister zu führen, dich wirklich durch die ganze Stadt –</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Straßauf, straßab, über den Markt, wie den Fastnachts-Ochsen, aber zweifle Er nicht, auch den werd ich bezahlen, eh ich gehe!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Das tadle ich nicht, aber ich verbiet es dir!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Ho!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Ich werde dich nicht aus den Augen lassen, und ich selbst, ich würde dem Kerl beispringen, wenn du dich an ihm vergreifen wolltest!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Ich meinte, Er hätte die Mutter auch lieb gehabt.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Ich werds beweisen.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Elfte Szene</head>
+          <sp who="#sekretaer">
+            <speaker>DER SEKRETÄR</speaker>
+            <stage>tritt und drückt bleich und wankend herein , er ein Tuch gegen die Brust</stage>
+            <p>Wo ist Klara? <stage>Er fällt auf einen Stuhl zurück.</stage> Jesus! Guten Abend! Gott sei Dank, daß ich noch her kam! Wo ist sie?</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Sie ging zum – Wo bleibt sie? Ihre Reden – mir wird Angst! <stage>Ab.</stage></p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Sie ist gerächt – Der Bube liegt – Aber auch ich bin – Warum das, Gott? – Nun kann ich sie ja nicht –</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Was hat Er? Was ist mit Ihm?</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Es ist gleich aus! Geb Er mir die Hand darauf, daß Er seine Tochter nicht verstoßen will – Hört Er, nicht verstoßen, wenn sie –</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Das ist eine wunderliche Rede. Warum sollt ich sie denn – Ha, mir gehen die Augen auf! Hätt ich ihr nicht unrecht getan?</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Geb Er mir die Hand!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Nein! <stage>Steckt beide Hände in die Tasche.</stage> Aber ich werde ihr Platz machen, und sie weiß das, ich habs ihr gesagt!</p>
+            </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR</speaker>
+            <stage>sagt entsetzt.</stage>
+            <p>Er hat ihr – Unglückliche, jetzt erst versteh ich dich ganz!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL</speaker>
+            <stage>sagt und stürzt herein</stage>
+            <p>Vater, Vater, es liegt jemand im Brunnen! Wenns nur nicht –</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Die große Leiter her! Haken! Stricke! Was säumst du? Schnell! Und obs der Gerichtsdiener wäre!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Alles ist schon da. Die Nachbarn kamen vor mir. Wenns nur nicht Klara ist!</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Klara? <stage>Er hält sich an einem Tisch.</stage></p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Sie ging, um Wasser zu schöpfen, und man fand ihr Tuch.</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Bube, nun weiß ich, warum deine Kugel traf. Sie ists.</p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Sieh doch zu! <stage>Setzt sich nieder.</stage> Ich kann nicht! <stage>Karl ab.</stage> Und doch! <stage>Steht wieder auf.</stage> Wenn ich Ihn <stage>Zum Sekretär.</stage> recht verstanden habe, so ist alles gut.</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL</speaker>
+            <stage>sagt und kommt zurück</stage>
+            <p>Klara! Tot! Der Kopf gräßlich am Brunnenrand zerschmettert, als sie, – Vater, sie ist nicht hinein <span>gestürzt</span><span>gesprungen</span></p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Die soll sichs überlegen, eh sie spricht! Es ist nicht hell genug, daß sie das mit Bestimmtheit hat unterscheiden können!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Zweifelt Er? Er mögte wohl, aber Er kann nicht! Denk Er nur an das, was Er ihr gesagt hat! Er hat sie auf den Weg des Todes hinausgewiesen, ich, ich bin schuld, daß sie nicht wieder umgekehrt ist. Er dachte, als er ihren Jammer ahnte, an die <span>Zungen</span><span>Nichtswürdigkeit</span><span>Schlangen</span><span>schlechter</span><span>abhängig</span></p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Sie hat mir nichts erspart – man hats gesehen!</p>
+            </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Sie hat getan was sie konnte – <span>Er wars nicht wert, daß ihre Tat
+              gelang!</span></p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Oder <span>sie</span></p>
+            <stage>Tumult draußen.</stage>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL.</speaker>
+            <p>Sie kommen mit ihr – <stage>Will ab.</stage></p>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON</speaker>
+            <stage>sagt und fest, wie bis zu Ende, ruft ihm nach</stage>
+            <p>In die Hinterstube, wo die Mutter stand!</p>
+          </sp>
+          <sp who="#sekretaer">
+            <speaker>SEKRETÄR.</speaker>
+            <p>Ihr entgegen! <stage>Will aufstehen, fällt aber zurück.</stage> O! Karl!</p>
+          </sp>
+          <sp who="#karl">
+            <speaker>KARL</speaker>
+            <stage>hilft ihm auf und führt ihn ab.</stage>
+          </sp>
+          <sp who="#meister_anton">
+            <speaker>MEISTER ANTON.</speaker>
+            <p>Ich verstehe die Welt nicht mehr!</p>
+            <stage>Er bleibt sinnend stehen.</stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
