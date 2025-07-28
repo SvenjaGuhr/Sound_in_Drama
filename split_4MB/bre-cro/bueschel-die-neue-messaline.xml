@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xml:id="ger000483" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Die neue Messaline</title>
+        <title type="sub">Trauerspiel in einem Akt</title>
+        <author>
+          <persName>
+            <forename>Johann</forename>
+            <forename>Gabriel</forename>
+            <forename>Bernhard</forename>
+            <surname>Büschel</surname>
+          </persName>
+          <idno type="wikidata">Q23531388</idno>
+          <idno type="pnd">100062067</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://de.wikisource.org/wiki/Die_neue_Messaline_(1788)</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">Anonym (= <author>Johann Gabriel Bernhard Büschel</author>):
+              <title level="a">Die neue Messaline. Trauerspiel in einem Akt. Nach dem
+              Französischen</title>. In: <title level="s">Kanthariden</title>. Rom bei Giovanni
+            Tassoni (= <pubPlace>Berlin</pubPlace>: <publisher>Himburg</publisher>)
+              <date>1788</date>, S. <biblScope unit="page" from="105" to="136">105–136</biblScope>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="bella" sex="FEMALE">
+            <persName>Bella</persName>
+          </person>
+          <person xml:id="messaline" sex="FEMALE">
+            <persName>Messaline</persName>
+          </person>
+          <person xml:id="biribinker" sex="MALE">
+            <persName>Biribinker</persName>
+          </person>
+          <person xml:id="der_soldat_4" sex="MALE">
+            <persName>Der Soldat (Vierte Scene)</persName>
+          </person>
+          <person xml:id="fitzaldo" sex="MALE">
+            <persName>Fitzaldo</persName>
+          </person>
+          <person xml:id="hyacinth" sex="MALE">
+            <persName>Hyacinth</persName>
+          </person>
+          <person xml:id="baham" sex="MALE">
+            <persName>Baham</persName>
+          </person>
+          <person xml:id="der_soldat_7" sex="MALE">
+            <persName>Der Soldat (Siebente Scene)</persName>
+          </person>
+          <person xml:id="cantareth" sex="MALE">
+            <persName>Cantareth</persName>
+          </person>
+          <person xml:id="erster_soldat" sex="MALE">
+            <persName>Erster Soldat</persName>
+          </person>
+          <person xml:id="zweyter_soldat" sex="MALE">
+            <persName>Zweyter Soldat</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#cantareth" passive="#messaline"/>
+            <relation name="spouses" mutual="#messaline #biribinker"/>
+            <relation name="spouses" mutual="#messaline #fitzaldo"/>
+            <relation name="spouses" mutual="#messaline #baham"/>
+            <relation name="spouses" mutual="#messaline #hyacinth"/>
+            <relation name="associated_with" active="#bella" passive="#messaline"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2020-03-19">(ff) convert from source</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1786">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000483" passive="http://www.wikidata.org/entity/Q87986345"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Die neue Messaline</titlePart>
+          <titlePart type="sub">Trauerspiel in einem Akt.</titlePart>
+        </docTitle>
+        <note>Nach dem Französischen.</note>
+        <epigraph>
+          <l>Castos sequitur mala paupertas.</l>
+          <bibl>SENECA.</bibl>
+        </epigraph>
+      </titlePage>
+      <castList>
+        <head>Personen.</head>
+        <castItem><role>Cantareth,</role>
+          <roleDesc>Vater der</roleDesc></castItem>
+        <castItem><role>Messaline.</role></castItem>
+        <castGroup>
+          <castItem><role>Biribinker,</role></castItem>
+          <castItem><role>Fitzaldo,</role></castItem>
+          <castItem><role>Baham,</role></castItem>
+          <castItem><role>Hyacinth,</role></castItem>
+          <roleDesc>Prinzen, Messalinens Liebhaber.</roleDesc>
+        </castGroup>
+        <castItem><role>Bella,</role>
+          <roleDesc>Messalinens Kammermädchen.</roleDesc></castItem>
+        <castItem><role>Soldaten von der Leibwache.</role></castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="scene">
+        <head>Erste Scene.</head>
+        <stage>( Zimmer in Messalinens Pallast . )</stage>
+        <stage>Messaline . Bella .</stage>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Die Nachricht, Prinzeßin, die man Ihnen vom König, Ihrem Vater, gebracht hat, ist gegründet. Man hat ihn auf einer benachbarten Insel gesehn, und er kömmt nun, nach beynahe zehnjähriger Abwesenheit, in diese Stadt zurück, um seine Kinder zu umarmen. – Allein was soll ich von dem Verdruß denken in den ich Sie versunken sehe? Immer irren Sie unruhig im Pallast umher, hören mich nicht an und schliessen Ihre Augen zu, als ob Sie sich </p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Ach! wenn ich ausser mir vor Verdruß bin, so hab’ ich gewiß Ursach genug dazu. – Du kennst den Prinz Biribinker – dieser Mann, den ich für einen Helden hielt, den ich bewunderte, den mein Herz anbetete – ach es ist ein Elender!</p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Wodurch hat er Ihnen mißfallen? Warum sind Sie so gegen ihn aufgebracht?</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Weil – weil – o nur sein Tod kann die Beleidigung abbüssen die er mir anthat – Seit dem Tage an dem ich ihn zuerst sah hielt ich mich für unaussprechlich glücklich, dies weißt du – Sein ganzes Ansehn, seine starken breiten Schultern, seine lange vielversprechende Nase, alles dies nahm mich für ihn ein – o ich hatte ihn nur zu gut ins Auge gefaßt. – Er überraschte mich als ich eben auf </p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Mehr als zu viel Prinzeßin – was für ein ärgerer Schimpf hätte Ihnen widerfahren können? Allein so unerhört, so schmerzhaft er auch für Sie ist, so lassen Sie darum den Muth nicht ganz sinken, lassen Sie aus Scham und Traurigkeit über Biribinkers Schwäche das reizende Kleinod nicht ungebraucht liegen das Sie besitzen – fahren Sie fort damit zu wuchern. Thäten Sie nicht beßer, wenn Sie, um sich für Ihren Verlust zu entschädigen –</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Ich verstehe dich – von Stund an will ich darauf denken. Zu lange hab’ ich </p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Es ist Prinz Biribinker – er tritt schon herein.</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Sag’ ihm Bella, daß in dem Zustand worin ich jetzt bin, ihn sehen und ihn hassen eins sey. <stage>( geht ab . )</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Zweyte Scene.</head>
+        <stage>Biribinker . Bella .</stage>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Sie will mich nicht sehn – sie flieht mich – o wollüstiges Weib, ist das der Lohn für meine ganze Zärtlichkeit? – Aber sage mir, warum gieng sie fort?</p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Wie mein Herr? Das wissen Sie nicht? – Rühmen Sie sich nicht mehr Ihrer übergrossen Zärtlichkeit, Sie haben sie bis zur Schwachheit getrieben.</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Das gesteh’ ich gern – es ist aber kein Wunder wenn ein neunmal hinter einander abgeschossener Bogen ein wenig schlaff wird.</p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Und doch ist es das was die Prinzeßin zum äusersten Zorn reizt. Ach vielleicht würden Sie, mein Prinz, wenn Sie ein Frauenzimmer wären und einen solchen Schimpf erlitten hätten, einen weit grössern Verdruß empfinden, sich noch weit mehr schämen. – Aber rächen Sie sich, wählen Sie sich eine andere Geliebte – die Prinzeßin verlangt Ihre Opfer nicht mehr, verschmäht Ihren Weihrauch und sucht andern; suchen Sie nun einen andern Altar und verschmähen Sie den ihrigen. – Wenn Sie wollen so biet’ ich Ihnen den meinigen an – vielleicht hat er lange nicht so viel Reize als jener – ich weis auch wohl daß ein Krieger wie Sie edlere Waffen verlangt – aber untersuchen Sie nur erst den Werth dessen was ich Ihnen anbiete, und bedenken Sie, daß jede Veränderung des Gegenstandes der Begierde die schlummernde Begierde von neuem erregt.</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Ich würde deinem Rathe folgen, wenn du bey dieser Gelegenheit dem Triebe der Natur etwas weniger Gehör gegeben hättest. Ohne Zweifel ist es dieser der dich bestimmt, so mit mir zu reden, daher entschuldige ich deine Ausschweifungen, aber entferne dich – Ich könnte mich an dir wegen deiner unerhörten Kühnheit rächen; doch ich verzeihe dir, nur geh und verlaß mich. – Du bist genug gestraft da ich deine Anerbietungen verachte, da ich deine Lüste nicht befriedige, denen ich, wenn ich wollte, sogleich genug thun könnte – geh.</p>
+        </sp>
+        <stage>( Bella geht ab . )</stage>
+      </div>
+      <div type="scene">
+        <head>Dritte Scene.</head>
+        <stage>Biribinker allein .</stage>
+        <sp who="#biribinker">
+          <p>Jetzt erst empfind’ ich deine Macht, o Liebe! Spät oder früh zeigst du es, daß du uns bezähmen kannst. Bisher hatte ich Messalinen nur als ein Mädchen angesehen, mit dem ich mir die Zeit vertreiben, bey dem ich meine Begierden nach Gefallen stillen könnte; jetzt bemerke ich täglich neue Schönheiten an ihr, und </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Vierte Scene.</head>
+        <stage>Biribinker . Ein Soldat von der Leibwache .</stage>
+        <sp who="#der_soldat_4">
+          <speaker>Der Soldat.</speaker>
+          <p>Prinz! Messaline, im tiefsten Schmerz versunken, hat mir befohlen, jedermann aus den Pallast zu entfernen – sie kömmt hieher –</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Genug – ich fliehe, um ihr den Anblick desjenigen zu entziehn, den sie haßt.</p>
+        </sp>
+        <stage>( gehn ab )</stage>
+      </div>
+      <div type="scene">
+        <head>Fünfte Scene.</head>
+        <stage>Messaline . Fitzaldo . Hyacinth . Baham .</stage>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Kommt, ihr mit Ruhm gekrönte Helden, nehmt alle Platz! Eure Thaten </p>
+        </sp>
+        <sp who="#fitzaldo">
+          <speaker>Fitzaldo.</speaker>
+          <p>Ich bin es zufrieden, denn ich kenne die Stärke meiner Mannheit. Zwar ist sie vielleicht unter diesen dreyen die kleinste, aber was hindert dies, wenn sie nur deinen Wonnekelch mit Fluthen balsamischen Thaues überströmt? –</p>
+        </sp>
+        <sp who="#hyacinth">
+          <speaker>Hyacinth.</speaker>
+          <p>Haltet ein – laßt uns vorher ausmachen, wer den Reihen im Liebestanz mit Messalinen eröfnen soll.</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Derjenige, welcher von euch am ersten dazu bereit seyn wird.</p>
+        </sp>
+        <sp who="#fitzaldo #baham #hyacinth">
+          <speaker>Die drey Prinzen zugleich.</speaker>
+          <p>Sieh – das sind wir alle drey.</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>O welche glückliche Vorbedeutung! Welcher entzückende Anblick! Ich muß also etwas bessers erfinden, um diesen Handel zu endigen. – Hyacinth, reiß einige von diesen seidnen Härchen aus, die das Gestade der Wollust beschatten.</p>
+        </sp>
+        <sp who="#hyacinth">
+          <speaker>Hyacinth.</speaker>
+          <p>Ich habe deren.</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Du auch Fitzaldo.</p>
+        </sp>
+        <sp who="#fitzaldo">
+          <speaker>Fitzaldo.</speaker>
+          <p>Es ist geschehn.</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Gut. Nun ist es an dir Baham. Trage kein Bedenken, sie mir auszureissen; sie stehen sogleich wieder wie Phönix aus ihrer Asche auf – Nun zählt sie. Wie viel hast du, Hyacinth?</p>
+        </sp>
+        <sp who="#hyacinth">
+          <speaker>Hyacinth.</speaker>
+          <p>Neunzehn.</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Du Fitzaldo?</p>
+        </sp>
+        <sp who="#fitzaldo">
+          <speaker>Fitzaldo.</speaker>
+          <p>Vier mehr.</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Und wie viel hat denn der stumme Baham, dessen Zunge gelähmt zu seyn scheint, mit seiner rauhen Hand ergriffen?</p>
+        </sp>
+        <sp who="#baham">
+          <speaker>Baham.</speaker>
+          <p>Sieben und zwanzig – Und ihr sollt Zeugen seyn, meine Herren, daß meine Thaten reden, obgleich mein Mund schweigt.</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Diese verlang’ ich auch nur und keine Worte; darum laßt uns die Zeit nicht mit unnützen Gesprächen verschwenden. Baham soll zuerst die Süssigkeit meiner Umarmungen kosten, alsdann Fitzaldo, und endlich Hyacinth. Auf! Laßt uns dem Gott Priap dieses Opfer bringen. Folge mir Baham, dieses Bett soll uns zum Kampfplatz dienen, komm – beginne muthig den Streit. – – Schon schwinden meine Sinnen – in süsser Ohnmacht dahin – ich bin in Entzücken versunken – theilst du es nicht mit mir?</p>
+        </sp>
+        <sp who="#baham">
+          <speaker>Baham.</speaker>
+          <p>Ach! – Laß nur – laß –</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Himmel! Was seh’ ich? Deine Kraft hat dich schon verlassen? Ich traute dir wenigstens herculische Stärke zu, und du bist </p>
+        </sp>
+        <sp who="#fitzaldo">
+          <speaker>Fitzaldo.</speaker>
+          <p>Hier Prinzeßin.</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Grosse Götter! da komm ich aus dem Regen in die Traufe – Deine Lanze ist schon gesunken noch eh sie nach dem Ziele stach? – Himmel! Wie traurig ist mein Schicksal! <stage>( zu Hyacinth . )</stage> Wie? Und auch dir fehlt es auf einem so schönen Schlachtfeld an Muth?</p>
+        </sp>
+        <sp who="#hyacinth">
+          <speaker>Hyacinth.</speaker>
+          <p>Ich hatte deßen, Prinzeßin, aber – Vergänglichkeit ist das Loos aller Dinge – er ist dahin.</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>O das ist zu viel auf einmal! Zu viel Schmach mußt’ ich heut’ erdulten! – Flieht, Nichtswürdige – fort aus meinen Augen! – Ihr fühlt den Trieb der Natur nicht, </p>
+        </sp>
+        <stage>( Die drey Prinzen gehen ab . )</stage>
+      </div>
+      <div type="scene">
+        <head>Sechste Scene.</head>
+        <stage>Messaline allein .</stage>
+        <sp who="#messaline">
+          <p>Wuth und Verzweiflung zerreißen mein Herz. O grausame Venus, war ich zu dieser Schmach aufbehalten? Hab’ ich deswegen in deinem Tempel und auf deinen Altären geopfert um der Gegenstand des Unvermögens der Sterblichen zu seyn? – Du siehst mich heute von vier Schändlichen hintergangen die mir ihren Dienst versagt haben, und du machst nicht die Rache des weiblichen Geschlechts zu deiner eignen? Ist es denn nicht auch der größte Schimpf für dich, daß sie mich alle dahin gebracht haben, mit meiner eignen Hand ein Feuer mißlich zu dämpfen, das zu löschen sie gebohren sind, und meine eignen Reize zu schänden? – Räche dich, räche mich – Bitte Zeus um seine Donner und schlage damit ihre schlaffe Mannheit zu Staub – Erde </p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Siebente Scene.</head>
+        <stage>Messaline . Ein Soldat von der Leibwache .</stage>
+        <sp who="#der_soldat_7">
+          <speaker>Der Soldat.</speaker>
+          <p>Prinzeßin! Der König, Ihr Vater, ist in diesem Augenblick angekommen – <stage>( ab . )</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Achte Scene.</head>
+        <stage>Cantareth . Messaline .</stage>
+        <sp who="#cantareth">
+          <speaker>Cantareth.</speaker>
+          <p>O meine Tochter, wie freu’ ich mich dich wieder zu sehn! – Zehn Jahre sind es, daß ich von dir getrennt bin, und nun genieß ich wieder das so lang entbehrte Vergnügen –</p>
+        </sp>
+        <sp who="#messaline">
+          <speaker>Messaline.</speaker>
+          <p>Halten Sie ein mein Vater! Alle Ihre Liebkosungen sind an mir verschwendet – Man hat Sie auf das empfindlichste beleidigt – das grausame Schicksal hat während Ihrer Abwesenheit Messalinen nicht geschont. – Ich bin unwürdig Sie zu sehen und mich Ihnen zu nähern und darf künftig auf nichts denken als mich vor Ihren Augen zu verbergen.</p>
+        </sp>
+        <stage>( geht ab . )</stage>
+        <sp who="#cantareth">
+          <speaker>Cantareth.</speaker>
+          <p>So sonderbar empfängt mich meine Tochter – Was soll ich davon denken? – Sie verläßt mich schnell – Hierunter muß ein Geheimniß stecken. – Da kömmt Bella – von dieser will ich suchen es zu erfahren – An wen mag das Billet seyn das sie in der Hand hat?</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Neunte Scene.</head>
+        <stage>Cantareth . Bella .</stage>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Ew. Majestät, es ist an den Prinz Biribinker.</p>
+        </sp>
+        <sp who="#cantareth">
+          <speaker>Cantareth.</speaker>
+          <p>Sag mir, warum flieht denn meine Tochter vor meinem Anblick? Fürchtet sie meine Zärtlichkeit? Ihr Gesicht glüht von Zorn – ihre Augen rollen fürchterlich umher – Was treibt sie denn? Womit beschäftigt sie sich?</p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Mit den höchsten Genüssen der Liebe. Sie läßt sich – herab, um über alle Männer zu siegen.</p>
+        </sp>
+        <sp who="#cantareth">
+          <speaker>Cantareth.</speaker>
+          <p>Das ist ein sehr angenehmes Geschäft das uns glückliche Stunden gewährt. Ich bin weit davon entfernt diesen süssen Zeitvertreib </p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Ew. Majestät verzeihen – es führen verschiedene Wege auf die Bahn der Ehre; aber die Befriedigung der Triebe, die die Natur in uns legte, ist eine Tugend, die uns den glorreichsten Namen erwirbt – es ist die Tugend der Götter. Ja sie kennen keine andre, es ist ihr einziges Vergnügen und soll auch das unsre seyn. Kann man uns tadeln wenn wir ihrem Beyspiel folgen? – Wie? Wir wären Frauenzimmer, hätten alles was uns dazu macht, und sollten uns deßen nicht bedienen? Legen Sie Ihre irrige Meynung ab, großer König! Die Opfer, die wir Cytheren bringen, sind unsre größten Verdienste – durch sie allein können wir in den Tempel des Nachruhms gelangen.</p>
+        </sp>
+        <sp who="#cantareth">
+          <speaker>Cantareth.</speaker>
+          <p>Du hast recht. – Deine Vernunftgründe sind so stark, deine Reden so eindringend, </p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Nehmen Sie sich nur in Acht, daß Sie ihr nicht Beweise eines unvermögenden Alters statt Proben der Liebe geben.</p>
+        </sp>
+        <stage>( Der König geht ab . )</stage>
+      </div>
+      <div type="scene">
+        <head>Zehnte Scene.</head>
+        <stage>Bella allein .</stage>
+        <sp who="#bella">
+          <p>O Liebe! würdige mich nun deines Schutzes und begünstige das Vorhaben, das du mir eingabst. Laß Biribinkern nichts von dem Betruge ahnden, damit ich endlich die längst gewünschte Wollust in seinen Armen geniesse – Da kömmt er schon – o dürft’ ich ihn gleich an mich reissen, um ihn nicht eher wieder zu entlaßen, bis er alle meine Wünsche erfüllt hätte!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Eilfte Scene.</head>
+        <stage>Biribinker . Bella .</stage>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Ich habe Befehl Ihnen diesen Brief zu übergeben Prinz –</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Wo ist er?</p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Hier. – <stage>( vor sich )</stage> Nun, Gott der Liebe, deinen Beistand, damit er von meiner List nichts argwohne.</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker</speaker>
+          <stage>(sagt  ließt )</stage>
+          <p>„Angebeteter Prinz! Wenn dein Herz mich noch wie ehemals liebt, o so beschwör’ ich dich, gieb mir sogleich einen Beweis davon. Erwarte mich in diesem Zimmer, ich will dahin kommen, um dir tausendmal zu schwören, daß ich mit ganzer Seele die deinige bin. Mein Vater ist angekommen, damit er uns nun nicht von ungefehr überrasche, so sorge dafür, daß alles aufs beste verschloßen sey, und daß man uns weder sehen, hören noch belauschen könne.“ – <stage>( Biribinker , deßen Bewegungen immer sichtbarer geworden sind , zieht endlich sein Liebesinstrument hervor . )</stage> O Gütigkeit ohne Beyspiel! Wie, liebenswürdigste Prinzeßin! du </p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Gerechter Himmel, wie schön er ist! O dreymal glücklicher Käfig der diesen Vogel in sich hat!</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Mußt du denn meine Periode zu so ungelegner Zeit unterbrechen? Ach, wie überlästig ist oft ein Kammermädchen! – Und du mein Liebling und du! Glücklichster unter allen die je einen Mann zierten. Beginne nun den lebhaftesten Kampf und thue dich zu meiner Ehre durch unüberwindliche Stärke hervor, und weil man sie niemals ersättigen kann, so ermüde sie so, daß sie entkräftet dahin sinkt und mir endlich bekennt, daß ich allein im Stande sey die Lüsternheit die Cythere in ihren Schoos legte zu befriedigen. – Geh sogleich Bella und sag’ ihr daß ich sie hier mit Ungedult erwarte um auf ihrem laubumkränzten Altar den süßesten Weihrauch zu opfern.</p>
+        </sp>
+        <stage>( Bella geht ab . )</stage>
+      </div>
+      <div type="scene">
+        <head>Zwölfte Scene.</head>
+        <stage>Biribinker allein .</stage>
+        <sp who="#biribinker">
+          <p>Bella schielte dich gewaltig an – du machtest ihren Appetit rege – es ist wahr, ich hätte sie gleich aufs Bette werfen sollen, doch dazu ist noch Zeit – wenn ich Messalinen werde genug gethan haben, kann ich mir ja wohl mit ihrer lieben Bella die Zeit verkürzen. Sollte ich mich dadurch erniedrigen? Im mindesten nicht. Ich mache mir eine Ehre daraus alle Frauenzimmer zu liebkosen die mir vorkommen, und immer im Stande zu seyn es mit noch mehrern aufzunehmen. Und überdies giebt es gewiß fünfzig Männer für einen, die, wenn sie ihre Geliebte befriedigt haben, sich auch des Kammermädchens erbarmen. – Aber die Stunde meines Glücks schlägt – ich höre ein Geräusch – es nähert sich – ich muß die Vorhänge zuziehen, das Dunkel der Nacht ist den Liebenden günstig – Darf ich den Eingebungen meines Herzens trauen, so ist dies meine Prinzeßin.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Dreyzehnte Scene.</head>
+        <stage>Biribinker . Bella als Prinzeßin verkleidet .</stage>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Ich hintergehe Sie nicht, theuerster Prinz! Mein Versprechen ist erfüllt – hier bin ich.</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Aber was bedeutet denn das? Was ist das für ein Packet das Sie da tragen? – Ich möchte wissen –</p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Gemach, mein Herr! Es sind ohngefähr sechs und dreyßig große Schnupftücher.</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Vier mehr wären gerade vierzig gewesen. Aber was wollen Sie damit?</p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Ich habe sie mit Fleiß mit hieher gebracht, um mich nach geendigtem Liebesstreit wieder abzutrocknen, denn ich liebe die Reinlichkeit.</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Grosse Götter! wofür sehen Sie mich an? Sie glauben also die Stärke meiner Mannheit so groß, daß Sie mit dem Ueberfluß derselben alle diese Schnupftücher anfüllen können? Entledigen Sie sich dieses Wahns Madame, und suchen Sie anderwärts dergleichen ergiebige </p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Muß mich der Verräther auf diese Art erniedrigen? Du möchtest dich gern dem Vergnügen der Liebe überlaßen, aber du vermagst es nicht – bey meiner Nebenbuhlerin mußtest du schon mit Schande abziehen und bestundest so schlecht – ich weiß es wohl Treuloser. – Nun so erkenne mich dann, es ist Zeit – sieh wer ich bin, sieh zu welcher Unternehmung die Liebe mich verleitet hat – Du bist erstaunt? – Ich wollte dich überraschen – nun rächt mich dein Erstaunen, und bald, vielleicht in diesem Augenblick, wirst du noch eine viel wichtigere Sache erfahren.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Letzte Scene.</head>
+        <stage>Die Vorigen . Zwey Soldaten von der Leibwache .</stage>
+        <sp who="#erster_soldat">
+          <speaker>Erster Soldat.</speaker>
+          <p>O Prinz! –</p>
+        </sp>
+        <sp who="#zweyter_soldat">
+          <speaker>Zweyter Soldat.</speaker>
+          <p>Nein großer Prinz, <span>ich</span></p>
+        </sp>
+        <sp who="#erster_soldat">
+          <speaker>Erster Soldat.</speaker>
+          <p>Hören Sie <span>mich</span></p>
+        </sp>
+        <sp who="#zweyter_soldat">
+          <speaker>Zweyter Soldat.</speaker>
+          <p>Geruhen Sie <span>mich</span></p>
+        </sp>
+        <sp who="#erster_soldat">
+          <speaker>Erster Soldat.</speaker>
+          <p>Dieser kann seine Muttersprache nicht.</p>
+        </sp>
+        <sp who="#zweyter_soldat">
+          <speaker>Zweyter Soldat.</speaker>
+          <p>Der lispelt wenn er spricht.</p>
+        </sp>
+        <sp who="#erster_soldat">
+          <speaker>Erster Soldat.</speaker>
+          <p>Ich besitze die Gabe, sehr gut zu erzählen.</p>
+        </sp>
+        <sp who="#zweyter_soldat">
+          <speaker>Zweyter Soldat.</speaker>
+          <p>Ich habe eine Stimme wie ein Castrat.</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>O hört auf – ihr betäubt mich.</p>
+        </sp>
+        <sp who="#zweyter_soldat">
+          <speaker>Zweyter Soldat.</speaker>
+          <p>Alles aus Eifer, gnädigster Prinz.</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Ich will mit einem Wort euren Streit endigen. Du sollst die Erzählung anfangen, und du sie beschließen; ich werde hören wer von euch beyden den andern übertreffen wird. Bringt mir aber vorher einen Stuhl damit ich recht mit Bequemlichkeit zuhören kann.</p>
+        </sp>
+        <sp who="#erster_soldat">
+          <speaker>Erster Soldat.</speaker>
+          <p>Kaum hatte die Prinzeßin dieses Zimmer verlaßen, so sahn wir sie mit </p>
+        </sp>
+        <sp who="#zweyter_soldat">
+          <speaker>Zweyter Soldat.</speaker>
+          <p>Sie haben mir befohlen Ihnen den Ausgang der Geschichte zu melden, und ich werde mich bemühen in meiner Erzählung so deutlich als möglich zu seyn. – Die Prinzeßin, stolzer über ihre vollbrachten Thaten als ein Feldherr der siegreich aus einer zweifelhaften Schlacht kömmt, gieng schnell in ihr Zimmer zurück. Da ließ sie sich, wie wir hörten, von ihren Kammerweibern über und über, und besonders die Theile waschen, die den meisten Antheil bey dem Streit gehabt hatten. Nachdem diese Reinigung vollbracht war, sagte sie: Nun ist mein Entschluß gefaßt – ja, es ist ein edles Unternehmen dem ich entgegengehe und ich muß es ausführen. Man lasse sogleich die sechs Hengste anspannen und vorfahren. – Gesagt, gethan; sie setzt sich ein und bezeichnet den Weg und die Strasse wohin man sie führen soll. Auf ihren Befehl hält der Wagen </p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Sich einzuschließen! Wo denn?</p>
+        </sp>
+        <sp who="#zweyter_soldat">
+          <speaker>Zweyter Soldat.</speaker>
+          <p>In ein Mönchskloster. – Als sie von uns Abschied nahm, sagte sie noch: Ich folge dem unwiderstehlichen Triebe der Natur – die Wunderkraft womit Venus meinen Schoos ausschmückte geht durch die Ruhe verlohren, ich will ein Vorhaben ausführen das meines Muths würdig ist. Bisher hab’ ich von allem gekostet, habe erfahren was Marquis und Page, was Schweizer, Soldat und Großadmiral vermag; ich zwang sie mir allein zu opfern, alle ihre Schätze in meinen Busen auszuschütten. Ich will damit ein Ende machen und nun die Mönche versuchen – ich weiß gewiß, daß ich keinen üblen Tausch treffen werde. – Sie </p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Genug – ich will nichts mehr davon hören. <stage>( zu Bella . )</stage> Hier ist das was du von mir verlangt hast, der Vogel nach dem du schon längst dein Netz auswarfst – wenn du ihn haben willst so sey er von nun an dein.</p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Dies Geschenk kann ich nicht ausschlagen, und weil Sie befehlen so ist es meine Pflicht zu gehorchen.</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Man lasse uns allein – wir wollen Messalinen vergessen – nun komm, ohne uns weiter aufzuhalten –</p>
+        </sp>
+        <sp who="#bella">
+          <speaker>Bella.</speaker>
+          <p>Wohin Prinz?</p>
+        </sp>
+        <sp who="#biribinker">
+          <speaker>Biribinker.</speaker>
+          <p>Ins Bette.</p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>
