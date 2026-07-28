@@ -77,11 +77,8 @@ Sound_in_Drama/
 ├── 05_Sound_in_Drama_Analysis.ipynb
 ├── requirements.txt
 ├── data/
-│   ├── *.xml                  (sound-annotated plays)
-│   └── Metadata/
-│       ├── gerdracor_api_metadata.csv
-│       ├── genres.csv
-│       └── stage_counts.csv
+│   └── *.xml                  (sound-annotated plays)
+│   
 └── output/                    (created automatically)
 ```
 
