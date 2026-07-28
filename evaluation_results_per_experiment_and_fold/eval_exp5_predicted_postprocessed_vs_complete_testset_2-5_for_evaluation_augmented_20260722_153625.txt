@@ -1,0 +1,382 @@
+============================================================
+Evaluation output log
+PRED_DIR : /Users/sguhr/Desktop/Prediction_vs_test_Sound_in_GerDraCor/20260720_Predictions_and_Testsets/20260720_for_prediction_2-5_augmented/exp5_predicted_postprocessed
+GOLD_DIR : /Users/sguhr/Desktop/Prediction_vs_test_Sound_in_GerDraCor/20260720_Predictions_and_Testsets/20260720_for_prediction_2-5_augmented/20260720_testset_2-5/complete_testset_2-5_for_evaluation_augmented
+Saved    : 20260722_153625
+============================================================
+
+Output logging enabled (notebook capture preserved).
+Parser defined — supports namespaced and non-namespaced GerDraCor files.
+Paired files found : 12
+
+ayrer-fassnachtspil-wie-einem-weib-jhr-eygener-mann.xml       gold= 88 anns  pred= 72 anns  text: ✓ identical
+borchert-draussen-vor-der-tuer.xml                            gold=355 anns  pred=271 anns  text: ✓ identical
+chezy-der-neue-narziss.xml                                    gold= 62 anns  pred= 34 anns  text: ✓ identical
+dohm-ein-schuss-ins-schwarze.xml                              gold=177 anns  pred=145 anns  text: ✓ identical
+dovsky-mona-lisa.xml                                          gold= 54 anns  pred= 22 anns  text: ✓ identical
+ebner-eschenbach-die-veilchen.xml                             gold=131 anns  pred= 82 anns  text: ✓ identical
+guenderode-udohla.xml                                         gold= 36 anns  pred= 45 anns  text: ✓ identical
+lessing-emilia-galotti.xml                                    gold=202 anns  pred=205 anns  text: ✓ identical
+neuber-die-beschuetzte-schauspielkunst.xml                    gold= 34 anns  pred= 23 anns  text: ✓ identical
+sachs-eulenspiegel-mit-dem-blauen-hosentuch.xml               gold= 31 anns  pred= 25 anns  text: ✓ identical
+schiller-die-raeuber.xml                                      gold=549 anns  pred=326 anns  text: ✓ identical
+wedekind-fruehlings-erwachen.xml                              gold=109 anns  pred=136 anns  text: ✓ identical
+
+Loaded 12 file pair(s).
+Token-level metrics computed for 12 file(s).
+Span detection metrics computed for 12 file(s).
+Span classification metrics computed for 12 file(s).
+E-F1 computed for 12 file(s).
+  ayrer-fassnachtspil-wie-einem-weib-jhr-eygener-mann.xml: gamma=0.7648
+  borchert-draussen-vor-der-tuer.xml: gamma=0.6027
+  chezy-der-neue-narziss.xml: gamma=0.4029
+  dohm-ein-schuss-ins-schwarze.xml: gamma=0.6431
+  dovsky-mona-lisa.xml: gamma=0.4282
+  ebner-eschenbach-die-veilchen.xml: gamma=0.5878
+  guenderode-udohla.xml: gamma=0.4184
+  lessing-emilia-galotti.xml: gamma=0.6303
+  neuber-die-beschuetzte-schauspielkunst.xml: gamma=0.5022
+  sachs-eulenspiegel-mit-dem-blauen-hosentuch.xml: gamma=0.6616
+  schiller-die-raeuber.xml: gamma=0.5267
+  wedekind-fruehlings-erwachen.xml: gamma=0.6895
+
+Gamma computed for 12 file(s). Method: pygamma-agreement
+=== PER-FILE SUMMARY ===
+
+=== MACRO-AVERAGE ACROSS ALL FILES ===
+
+=== MACRO-AVERAGE ACROSS ALL FILES ===
+                           Metric Precision Recall     F1
+       Token Accuracy (all chars)         -      - 0.9741
+         Token F1 [ambient_sound]    0.4711 0.2389 0.2960
+       Token F1 [character_sound]    0.6999 0.4456 0.5328
+                   Token Macro F1    0.5855 0.3422 0.4144
+     Span Detection (any overlap)    0.7285 0.5668 0.6238
+      Span Detection (IoU >= 0.5)    0.6406 0.4984 0.5487
+Span Classification (any overlap)    0.6961 0.5415 0.5961
+ Span Classification (IoU >= 0.5)    0.6173 0.4792 0.5281
+        E-F1 (exact span + label)    0.5321 0.4152 0.4565
+             E-F1 [ambient_sound]    0.2133 0.1754 0.1856
+           E-F1 [character_sound]    0.5610 0.4467 0.4876
+            Gamma (Mathet et al.)         -      - 0.5715
+=== ERROR ANALYSIS ===
+
+--- ayrer-fassnachtspil-wie-einem-weib-jhr-eygener-mann.xml ---
+  False Positives (predicted but not in gold): 7
+    Annotation(label='character_sound', scene='scene1', chars=[4487,4491], parent='l', text='gnug')
+    Annotation(label='character_sound', scene='scene1', chars=[12539,12557], parent='l', text='Drumm sagt mir vor')
+    Annotation(label='character_sound', scene='scene1', chars=[20121,20136], parent='l', text='was er doch sag')
+    Annotation(label='character_sound', scene='scene1', chars=[21138,21158], parent='stage', text='Sie schlägt wider zu')
+    Annotation(label='character_sound', scene='scene1', chars=[26134,26147], parent='l', text='die Schlagung')
+    Annotation(label='character_sound', scene='scene1', chars=[26820,26854], parent='l', text='Dann sie bat mir mein Mann bekehrt')
+    Annotation(label='ambient_sound', scene='scene1', chars=[27178,27189], parent='l', text='Ihr kuppeln')
+  False Negatives (gold but not predicted): 23
+    Annotation(label='character_sound', scene='scene1', chars=[1341,1374], parent='l', text='Vnd speiß mein Weib mit Worten ab')
+    Annotation(label='character_sound', scene='scene1', chars=[2856,2896], parent='l', text='Du kanst nichts, dann zancken vnd gronen')
+    Annotation(label='character_sound', scene='scene1', chars=[2907,2939], parent='l', text='Vnd hest ein guten Prediger gebn')
+    Annotation(label='character_sound', scene='scene1', chars=[4067,4099], parent='l', text='Die letzt red must du allweg han')
+    Annotation(label='character_sound', scene='scene1', chars=[4897,4921], parent='l', text='dein Predig ist vmbsonst')
+    Annotation(label='character_sound', scene='scene1', chars=[5182,5215], parent='l', text='So sey dir heut ein Eyd geschworn')
+    Annotation(label='character_sound', scene='scene1', chars=[7815,7830], parent='l', text='last euch fragn')
+    Annotation(label='character_sound', scene='scene1', chars=[8320,8329], parent='l', text='Meint jhr')
+    Annotation(label='character_sound', scene='scene1', chars=[8690,8718], parent='l', text='Mein Bulerei zu halten still')
+    Annotation(label='character_sound', scene='scene1', chars=[11459,11463], parent='l', text='Sagt')
+    ... (13 more)
+
+--- borchert-draussen-vor-der-tuer.xml ---
+  False Positives (predicted but not in gold): 75
+    Annotation(label='character_sound', scene='scene2', chars=[10600,10614], parent='p', text='leise, ins Ohr')
+    Annotation(label='ambient_sound', scene='scene3', chars=[11064,11096], parent='stage', text='Man hört den Wind und das Wasser')
+    Annotation(label='character_sound', scene='scene3', chars=[13004,13009], parent='p', text='lacht')
+    Annotation(label='ambient_sound', scene='scene3', chars=[13339,13353], parent='p', text='gehumpelt wird')
+    Annotation(label='ambient_sound', scene='scene3', chars=[15603,15623], parent='p', text='Gehumpel und Gehinke')
+    Annotation(label='character_sound', scene='scene3', chars=[15749,15760], parent='p', text='Tisch Tisch')
+    Annotation(label='character_sound', scene='scene3', chars=[19922,19933], parent='p', text='Sie stummer')
+    Annotation(label='character_sound', scene='scene4', chars=[24247,24251], parent='stage', text='hart')
+    Annotation(label='character_sound', scene='scene4', chars=[27512,27513], parent='stage', text='(')
+    Annotation(label='ambient_sound', scene='scene4', chars=[28405,28437], parent='p', text='entsetzlich\n            still in')
+    ... (65 more)
+  False Negatives (gold but not predicted): 159
+    Annotation(label='ambient_sound', scene='scene1', chars=[51,86], parent='stage', text='Die Elbe schwappt gegen die Pontons')
+    Annotation(label='character_sound', scene='scene1', chars=[271,294], parent='stage', text='und sagt dabei jedesmal')
+    Annotation(label='character_sound', scene='scene1', chars=[307,311], parent='p', text='Rums')
+    Annotation(label='character_sound', scene='scene1', chars=[313,317], parent='p', text='Rums')
+    Annotation(label='character_sound', scene='scene1', chars=[329,333], parent='p', text='Rums')
+    Annotation(label='ambient_sound', scene='scene1', chars=[1342,1395], parent='stage', text='Es gluckst\n              einmal schwer und dunkel ')
+    Annotation(label='character_sound', scene='scene1', chars=[1431,1435], parent='p', text='Rums')
+    Annotation(label='character_sound', scene='scene1', chars=[1569,1573], parent='p', text='Rums')
+    Annotation(label='character_sound', scene='scene1', chars=[1890,1894], parent='p', text='Rums')
+    Annotation(label='character_sound', scene='scene1', chars=[2512,2532], parent='p', text='Warum weinst du denn')
+    ... (149 more)
+
+--- chezy-der-neue-narziss.xml ---
+  False Positives (predicted but not in gold): 15
+    Annotation(label='character_sound', scene='scene1', chars=[490,493], parent='emph', text='Ode')
+    Annotation(label='character_sound', scene='scene1', chars=[504,515], parent='l', text='Verhallt in')
+    Annotation(label='character_sound', scene='scene1', chars=[516,520], parent='emph', text='Oede')
+    Annotation(label='character_sound', scene='scene3', chars=[13338,13371], parent='l', text="hör' ich von fern nur ihre Stimme")
+    Annotation(label='character_sound', scene='scene3', chars=[18964,18987], parent='l', text='Sprach er von Liebe dir')
+    Annotation(label='character_sound', scene='scene4', chars=[26022,26033], parent='l', text='Ich schelte')
+    Annotation(label='ambient_sound', scene='scene5', chars=[27732,27743], parent='l', text='klopft mein')
+    Annotation(label='character_sound', scene='scene5', chars=[27952,27961], parent='l', text='und weint')
+    Annotation(label='character_sound', scene='scene6', chars=[29260,29285], parent='l', text='Hier in der stillen Nacht')
+    Annotation(label='character_sound', scene='scene6', chars=[30666,30676], parent='l', text='Sie seufzt')
+    ... (5 more)
+  False Negatives (gold but not predicted): 43
+    Annotation(label='ambient_sound', scene='scene1', chars=[263,286], parent='l', text='Sie höhnen mich nur aus')
+    Annotation(label='ambient_sound', scene='scene1', chars=[504,520], parent='l', text='Verhallt in Oede')
+    Annotation(label='character_sound', scene='scene2', chars=[3410,3422], parent='l', text="Was sagt' er")
+    Annotation(label='character_sound', scene='scene2', chars=[3961,3983], parent='l', text='So muß ich Ihm gestehn')
+    Annotation(label='character_sound', scene='scene2', chars=[5560,5569], parent='l', text='Ich meine')
+    Annotation(label='ambient_sound', scene='scene3', chars=[6377,6391], parent='speaker', text='Lied, mit Chor')
+    Annotation(label='ambient_sound', scene='scene3', chars=[6548,6575], parent='l', text='Mit Tanz und Sang und Klang')
+    Annotation(label='character_sound', scene='scene3', chars=[8575,8591], parent='l', text='Du spottest mein')
+    Annotation(label='character_sound', scene='scene3', chars=[8831,8852], parent='l', text='Was ich einmal gesagt')
+    Annotation(label='character_sound', scene='scene3', chars=[9459,9485], parent='l', text="Ich meint' es gar nicht so")
+    ... (33 more)
+
+--- dohm-ein-schuss-ins-schwarze.xml ---
+  False Positives (predicted but not in gold): 38
+    Annotation(label='ambient_sound', scene='scene1', chars=[706,732], parent='p', text='die Vögel singen so lustig')
+    Annotation(label='character_sound', scene='scene4', chars=[8714,8781], parent='p', text='Frau von Gersdorf in einer wichtigen, einer Geschä')
+    Annotation(label='character_sound', scene='scene5', chars=[12049,12053], parent='p', text='O ja')
+    Annotation(label='character_sound', scene='scene5', chars=[12483,12524], parent='p', text='Ich habe ihm von Deiner Schönheit erzählt')
+    Annotation(label='character_sound', scene='scene5', chars=[12530,12566], parent='p', text='Deiner\n            Liebenswürdigkeit')
+    Annotation(label='character_sound', scene='scene5', chars=[12872,12879], parent='p', text='schweig')
+    Annotation(label='character_sound', scene='scene5', chars=[16240,16254], parent='p', text='schlug er mich')
+    Annotation(label='character_sound', scene='scene5', chars=[19484,19518], parent='p', text='Und nun bitte ich Dich noch einmal')
+    Annotation(label='ambient_sound', scene='scene5', chars=[21437,21441], parent='stage', text='Laut')
+    Annotation(label='character_sound', scene='scene7', chars=[23753,23781], parent='p', text='Unterredung unter vier Augen')
+    ... (28 more)
+  False Negatives (gold but not predicted): 70
+    Annotation(label='character_sound', scene='scene2', chars=[2086,2116], parent='p', text='Ich sollte Sie benachrichtigen')
+    Annotation(label='character_sound', scene='scene2', chars=[2445,2453], parent='stage', text='Für sich')
+    Annotation(label='character_sound', scene='scene2', chars=[2898,2906], parent='stage', text='Für sich')
+    Annotation(label='character_sound', scene='scene2', chars=[3060,3091], parent='p', text='Was schwatzest Du da für Unsinn')
+    Annotation(label='ambient_sound', scene='scene2', chars=[3242,3257], parent='p', text='Die Leute sagen')
+    Annotation(label='character_sound', scene='scene2', chars=[3743,3747], parent='stage', text='laut')
+    Annotation(label='character_sound', scene='scene3', chars=[4360,4416], parent='p', text='in dem man seine Gleichgültigkeit\n            beth')
+    Annotation(label='character_sound', scene='scene3', chars=[4675,4767], parent='p', text='Schon\n            ertappe ich mich manchmal beim A')
+    Annotation(label='character_sound', scene='scene3', chars=[5016,5067], parent='stage', text='Singt in langsamen,\n              feierlichen Temp')
+    Annotation(label='character_sound', scene='scene4', chars=[5241,5294], parent='stage', text='fällt in lustiger Weise und im gewöhnlichen Tempo ')
+    ... (60 more)
+
+--- dovsky-mona-lisa.xml ---
+  False Positives (predicted but not in gold): 5
+    Annotation(label='character_sound', scene='act1', chars=[2455,2468], parent='l', text='sagt das Volk')
+    Annotation(label='character_sound', scene='act1', chars=[16396,16400], parent='l', text='Sagt')
+    Annotation(label='character_sound', scene='act1', chars=[16811,16815], parent='l', text='Sagt')
+    Annotation(label='ambient_sound', scene='act1', chars=[30568,30576], parent='l', text='klirrend')
+    Annotation(label='character_sound', scene='act1', chars=[40689,40698], parent='l', text='Ich bitte')
+  False Negatives (gold but not predicted): 37
+    Annotation(label='character_sound', scene='act1', chars=[2568,2577], parent='l', text="Ich mein'")
+    Annotation(label='character_sound', scene='act1', chars=[4380,4391], parent='l', text='ich zitiere')
+    Annotation(label='ambient_sound', scene='act1', chars=[4877,4897], parent='l', text='Tobte durch Florenz ')
+    Annotation(label='ambient_sound', scene='act1', chars=[7564,7583], parent='l', text='Schlagt die Cymbeln')
+    Annotation(label='ambient_sound', scene='act1', chars=[7585,7604], parent='l', text='Blast die Trompeten')
+    Annotation(label='ambient_sound', scene='act1', chars=[7618,7655], parent='l', text='Odem der Freude schwellt unsere Brust')
+    Annotation(label='ambient_sound', scene='act1', chars=[7809,7844], parent='l', text='Jubelnd folgt dir der trunkene Troß')
+    Annotation(label='character_sound', scene='act1', chars=[10779,10804], parent='l', text='Wie tönend Erz die Stimme')
+    Annotation(label='character_sound', scene='act1', chars=[14670,14717], parent='l', text='Als Stimulans laß ich sein Fluchen mir gefallen')
+    Annotation(label='character_sound', scene='act1', chars=[16583,16602], parent='l', text='Fragt nicht so lang')
+    ... (27 more)
+
+--- ebner-eschenbach-die-veilchen.xml ---
+  False Positives (predicted but not in gold): 18
+    Annotation(label='character_sound', scene='act1_scene1', chars=[5770,5791], parent='p', text='Sagst Du allen Deinen')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[5827,5852], parent='p', text='immer die blanke Wahrheit')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[9156,9175], parent='p', text='Deine siebente Lüge')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[9203,9217], parent='p', text='Du sagst nicht')
+    Annotation(label='ambient_sound', scene='act1_scene2', chars=[13925,13931], parent='stage', text=', laut')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[15398,15414], parent='p', text="Euch ruf' ich an")
+    Annotation(label='character_sound', scene='act1_scene3', chars=[16004,16024], parent='stage', text='Auguste verneigt hat')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[16026,16051], parent='stage', text='stürzt zum kleinen Tische')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[16086,16092], parent='stage', text='Worten')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[17798,17808], parent='stage', text='und stockt')
+    ... (8 more)
+  False Negatives (gold but not predicted): 67
+    Annotation(label='character_sound', scene='act1_scene1', chars=[488,500], parent='p', text='und anfragen')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[5159,5174], parent='p', text='was sie – reden')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[5415,5450], parent='p', text='Ich versichere Dich des Gegentheils')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[6765,6814], parent='p', text='Ich behaupte eine Thatsache ohne sie zu verdammen')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[6992,7015], parent='p', text='Bitte um Entschuldigung')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[8237,8268], parent='p', text='ich gebe Dir die Erlaubniß dazu')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[8620,8627], parent='stage', text='meldend')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[10086,10093], parent='stage', text='meldend')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[11858,11887], parent='p', text='Wir sagen es ja in einem fort')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[13906,13931], parent='stage', text='In der Liste lesend, laut')
+    ... (57 more)
+
+--- guenderode-udohla.xml ---
+  False Positives (predicted but not in gold): 28
+    Annotation(label='ambient_sound', scene='act1', chars=[1141,1179], parent='l', text='ist von Tönen auch die Luft durchzogen')
+    Annotation(label='character_sound', scene='act1', chars=[1973,1990], parent='l', text='Sprach finster er')
+    Annotation(label='character_sound', scene='act1', chars=[4310,4341], parent='l', text='denn es verräth dich deine Rede')
+    Annotation(label='ambient_sound', scene='act1', chars=[5295,5314], parent='l', text='Und sie erwiederten')
+    Annotation(label='character_sound', scene='act1', chars=[5561,5573], parent='l', text='Schmeichelei')
+    Annotation(label='character_sound', scene='act1', chars=[5613,5646], parent='l', text='Doch meine Stimme soll der Sultan')
+    Annotation(label='character_sound', scene='act1', chars=[13401,13437], parent='l', text='Warum ließ ich zur Lüge mich bereden')
+    Annotation(label='character_sound', scene='act1', chars=[18035,18052], parent='l', text='Was sprach ich da')
+    Annotation(label='character_sound', scene='act1', chars=[18410,18420], parent='l', text='dir klagen')
+    Annotation(label='character_sound', scene='act1', chars=[19755,19776], parent='l', text='er rede jetzt vor mir')
+    ... (18 more)
+  False Negatives (gold but not predicted): 19
+    Annotation(label='character_sound', scene='act1', chars=[5295,5314], parent='l', text='Und sie erwiederten')
+    Annotation(label='character_sound', scene='act1', chars=[15201,15235], parent='l', text='Ja seiner Liebe Worte sind mir süß')
+    Annotation(label='character_sound', scene='act1', chars=[15812,15842], parent='l', text='doch mit stillem trüben Sehnen')
+    Annotation(label='character_sound', scene='act1', chars=[16593,16634], parent='l', text='So nenn ich jammervoll mein prächtig Loos')
+    Annotation(label='ambient_sound', scene='act1', chars=[16805,16842], parent='l', text='Die zarten Halmen flüstern es sich zu')
+    Annotation(label='character_sound', scene='act1', chars=[20420,20434], parent='l', text='ich grüße dich')
+    Annotation(label='character_sound', scene='act1', chars=[22603,22628], parent='l', text='ich beweine deinen Jammer')
+    Annotation(label='character_sound', scene='act2', chars=[31567,31594], parent='l', text='so wie er sich dir genennet')
+    Annotation(label='character_sound', scene='act2', chars=[31986,32025], parent='l', text='Und als er flehend vor dir niederkniete')
+    Annotation(label='character_sound', scene='act2', chars=[35609,35645], parent='l', text='Der Aga hat mir ins Geheim gestanden')
+    ... (9 more)
+
+--- lessing-emilia-galotti.xml ---
+  False Positives (predicted but not in gold): 57
+    Annotation(label='character_sound', scene='act1_scene1', chars=[184,204], parent='stage', text='voller Briefschaften')
+    Annotation(label='character_sound', scene='act1_scene6', chars=[16208,16232], parent='p', text='Sie haben sie gesprochen')
+    Annotation(label='character_sound', scene='act1_scene6', chars=[18180,18204], parent='p', text='entfuhr ihr eine Wendung')
+    Annotation(label='character_sound', scene='act1_scene6', chars=[23811,23821], parent='stage', text='aufspringt')
+    Annotation(label='character_sound', scene='act1_scene6', chars=[23834,23842], parent='p', text='Verräter')
+    Annotation(label='character_sound', scene='act1_scene6', chars=[24601,24625], parent='p', text='Schwur dann gegen Schwur')
+    Annotation(label='character_sound', scene='act1_scene6', chars=[26058,26096], parent='p', text='Und ich soll Ihnen noch lange erzählen')
+    Annotation(label='character_sound', scene='act1_scene7', chars=[29420,29458], parent='p', text='das fromme Mädchen alle Morgen bei den')
+    Annotation(label='character_sound', scene='act1_scene7', chars=[29472,29490], parent='p', text='die Messe zu hören')
+    Annotation(label='character_sound', scene='act1_scene7', chars=[29494,29532], parent='p', text='Wie wenn ich sie da zu sprechen suchte')
+    ... (47 more)
+  False Negatives (gold but not predicted): 54
+    Annotation(label='ambient_sound', scene='act1_scene1', chars=[769,781], parent='stage', text='und klingelt')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[2023,2039], parent='p', text="wollt' ich sagen")
+    Annotation(label='character_sound', scene='act1_scene1', chars=[2133,2177], parent='stage', text='Bitter, indem er den Brief in die Hand nimmt')
+    Annotation(label='character_sound', scene='act1_scene4', chars=[14044,14058], parent='p', text='Und wie gesagt')
+    Annotation(label='character_sound', scene='act1_scene6', chars=[15812,15844], parent='stage', text='Nach einem kurzen Stillschweigen')
+    Annotation(label='character_sound', scene='act1_scene6', chars=[21888,21906], parent='p', text='Sie sagten ohnedem')
+    Annotation(label='character_sound', scene='act1_scene7', chars=[29050,29081], parent='p', text="geseufzet hab' ich lange genung")
+    Annotation(label='ambient_sound', scene='act1_scene7', chars=[29683,29694], parent='stage', text='Er klingelt')
+    Annotation(label='character_sound', scene='act2_scene4', chars=[43851,43886], parent='p', text='Er unterhielt sich mit ihr so lange')
+    Annotation(label='character_sound', scene='act2_scene6', chars=[48577,48593], parent='p', text='Es beschwor mich')
+    ... (44 more)
+
+--- neuber-die-beschuetzte-schauspielkunst.xml ---
+  False Positives (predicted but not in gold): 8
+    Annotation(label='character_sound', scene='act1_scene2', chars=[5663,5682], parent='l', text='Man läßt der Stimme')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[12865,12879], parent='l', text='Nichts von ihr')
+    Annotation(label='ambient_sound', scene='act1_scene5', chars=[15110,15135], parent='l', text='oft ein närrisch Stückgen')
+    Annotation(label='character_sound', scene='act1_scene6', chars=[18886,18890], parent='l', text='sagt')
+    Annotation(label='character_sound', scene='act1_scene8', chars=[31028,31037], parent='l', text='Ich bitte')
+    Annotation(label='ambient_sound', scene='act1_scene10', chars=[32853,32860], parent='l', text='Gehöret')
+    Annotation(label='character_sound', scene='act1_scene11', chars=[39549,39565], parent='l', text='und überschreyet')
+    Annotation(label='character_sound', scene='act1_scene12', chars=[41704,41753], parent='l', text='Ich muß den andern Theil mit seiner Antwort hören')
+  False Negatives (gold but not predicted): 19
+    Annotation(label='ambient_sound', scene='act1_scene2', chars=[5731,5783], parent='l', text='Und giebt mit sanften Tohn die Reitzung zu versteh')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[12145,12167], parent='l', text='als ich und du gemeint')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[13385,13399], parent='l', text='Ich schwör dir')
+    Annotation(label='character_sound', scene='act1_scene5', chars=[15267,15272], parent='l', text=' wein')
+    Annotation(label='ambient_sound', scene='act1_scene10', chars=[32978,33027], parent='l', text='Wie find ich dich alhier in Einsamkeit und Stille')
+    Annotation(label='character_sound', scene='act1_scene10', chars=[34811,34824], parent='l', text='daß ich frage')
+    Annotation(label='character_sound', scene='act1_scene10', chars=[34968,34984], parent='l', text='von dem ich sage')
+    Annotation(label='ambient_sound', scene='act1_scene10', chars=[37517,37571], parent='l', text='Wenn man gleich dann und wann zu meinem Nutzen spr')
+    Annotation(label='ambient_sound', scene='act1_scene11', chars=[39119,39144], parent='l', text='Find ich euch hier in Ruh')
+    Annotation(label='character_sound', scene='act1_scene11', chars=[39189,39214], parent='l', text='Daß man dich hat verklagt')
+    ... (9 more)
+
+--- sachs-eulenspiegel-mit-dem-blauen-hosentuch.xml ---
+  False Positives (predicted but not in gold): 6
+    Annotation(label='character_sound', scene='scene1', chars=[7604,7630], parent='l', text='Der Bauer wird dich bitten')
+    Annotation(label='character_sound', scene='scene1', chars=[7635,7641], parent='l', text='fragen')
+    Annotation(label='character_sound', scene='scene1', chars=[9214,9228], parent='l', text='Mein Bauer sag')
+    Annotation(label='character_sound', scene='scene1', chars=[10062,10081], parent='l', text='Was derselb spricht')
+    Annotation(label='character_sound', scene='scene1', chars=[15668,15677], parent='l', text='und fluch')
+    Annotation(label='character_sound', scene='scene1', chars=[16558,16581], parent='l', text='lauer troll dich fluchs')
+  False Negatives (gold but not predicted): 12
+    Annotation(label='character_sound', scene='scene1', chars=[2415,2449], parent='l', text='Um Steuern ich die Bauern anschrei')
+    Annotation(label='character_sound', scene='scene1', chars=[2505,2508], parent='l', text='Sag')
+    Annotation(label='character_sound', scene='scene1', chars=[6407,6429], parent='l', text='was ich dir sagen will')
+    Annotation(label='character_sound', scene='scene1', chars=[10269,10301], parent='l', text="Wie du jetzt selber hast gered't")
+    Annotation(label='character_sound', scene='scene1', chars=[11343,11373], parent='l', text='was dürft ihr mich drum fragen')
+    Annotation(label='character_sound', scene='scene1', chars=[12104,12140], parent='l', text='Habt vorher zusammen genommen Abrede')
+    Annotation(label='character_sound', scene='scene1', chars=[15290,15322], parent='l', text='So mich ich schweigen diese Zeit')
+    Annotation(label='character_sound', scene='scene1', chars=[15333,15366], parent='l', text='Und muß wohl glauben euren Worten')
+    Annotation(label='character_sound', scene='scene1', chars=[15820,15853], parent='l', text='Darein will ich dir wünschen dann')
+    Annotation(label='ambient_sound', scene='scene1', chars=[17111,17150], parent='l', text='Schlagt all auf ihn nach Leib und Leben')
+    ... (2 more)
+
+--- schiller-die-raeuber.xml ---
+  False Positives (predicted but not in gold): 92
+    Annotation(label='character_sound', scene='act1_scene1', chars=[8593,8602], parent='p', text='und sagen')
+    Annotation(label='ambient_sound', scene='act1_scene1', chars=[9095,9139], parent='p', text='in der heiligen Stille der Wälder residieret')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[11890,11904], parent='p', text='Das sagtet Ihr')
+    Annotation(label='ambient_sound', scene='act1_scene2', chars=[29456,29479], parent='stage', text='Auf den Boden stampfend')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[36200,36208], parent='p', text='lagst du')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[44240,44244], parent='p', text='läßt')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[44323,44330], parent='p', text='sagt er')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[44699,44714], parent='p', text='Er befiehlt mir')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[47042,47049], parent='p', text='und sag')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[53938,53959], parent='p', text='brummt er in den Bart')
+    ... (82 more)
+  False Negatives (gold but not predicted): 315
+    Annotation(label='character_sound', scene='act1_scene1', chars=[312,339], parent='p', text='was hattest du mir zu sagen')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[1175,1188], parent='stage', text='Halb vor sich')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[3154,3159], parent='stage', text='liest')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[3773,3808], parent='p', text='ich lese Euch nur das Glimpflichste')
+    Annotation(label='ambient_sound', scene='act1_scene1', chars=[8593,8602], parent='p', text='und sagen')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[12485,12497], parent='p', text='was sagst du')
+    Annotation(label='character_sound', scene='act1_scene1', chars=[18749,18774], parent='stage', text='mit Lachen ihm nachsehend')
+    Annotation(label='ambient_sound', scene='act1_scene1', chars=[22903,22993], parent='p', text='Ich habe Langes und Breites von\n              eine')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[29456,29479], parent='stage', text='Auf den Boden stampfend')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[34840,34861], parent='p', text='damit groß zu prahlen')
+    ... (305 more)
+
+--- wedekind-fruehlings-erwachen.xml ---
+  False Positives (predicted but not in gold): 48
+    Annotation(label='character_sound', scene='act1_scene2', chars=[9502,9520], parent='p', text='Aber du antwortest')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[13680,13698], parent='p', text='Er hat ihn gefragt')
+    Annotation(label='character_sound', scene='act1_scene2', chars=[16667,16716], parent='p', text='und wir plaudern gemütlich über die Fortpflanzung')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[19918,19925], parent='p', text='Während')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[20077,20100], parent='p', text='Papa schlägt mich krumm')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[26377,26386], parent='stage', text='und grüßt')
+    Annotation(label='character_sound', scene='act1_scene5', chars=[41549,41601], parent='p', text='ich muß oft mitten in der Nacht in die Kissen wein')
+    Annotation(label='character_sound', scene='act1_scene5', chars=[43763,43783], parent='p', text='Ich will dich bitten')
+    Annotation(label='character_sound', scene='act1_scene5', chars=[44455,44491], parent='stage', text='schlägt derart mit den Fäusten drein')
+    Annotation(label='character_sound', scene='act1_scene5', chars=[44570,44577], parent='stage', text='sondern')
+    ... (38 more)
+  False Negatives (gold but not predicted): 21
+    Annotation(label='character_sound', scene='act1_scene3', chars=[20904,20946], parent='p', text='Mama betet nämlich Abend für Abend mit uns')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[21732,21742], parent='p', text='und heulte')
+    Annotation(label='character_sound', scene='act1_scene3', chars=[27300,27348], parent='p', text='Ich habe mich immer ganz gut mit ihm unterhalten')
+    Annotation(label='character_sound', scene='act1_scene5', chars=[44740,44816], parent='stage', text='und stürzt, aus tiefster Seele jammervoll aufschlu')
+    Annotation(label='ambient_sound', scene='act2_scene1', chars=[47690,47753], parent='p', text='Wie sich dort im Mondschein der Garten dehnt, so s')
+    Annotation(label='ambient_sound', scene='act2_scene1', chars=[49849,49884], parent='p', text='Ich belausche den Reigen dort unten')
+    Annotation(label='ambient_sound', scene='act2_scene2', chars=[60445,60477], parent='p', text='fiedelt die Wacht am Rhein drauf')
+    Annotation(label='character_sound', scene='act2_scene2', chars=[61354,61376], parent='p', text='daß ich so etwas frage')
+    Annotation(label='character_sound', scene='act2_scene4', chars=[71606,71622], parent='p', text='hör ich schlagen')
+    Annotation(label='character_sound', scene='act2_scene7', chars=[83434,83452], parent='p', text='Er schwor Amnestie')
+    ... (11 more)
+=== ERROR BREAKDOWN BY SCENE ===
+=== LABEL CONFUSION ===
+
+ayrer-fassnachtspil-wie-einem-weib-jhr-eygener-mann.xml: 0 label confusion(s)
+
+borchert-draussen-vor-der-tuer.xml: 21 label confusion(s)
+
+chezy-der-neue-narziss.xml: 4 label confusion(s)
+
+dohm-ein-schuss-ins-schwarze.xml: 4 label confusion(s)
+
+dovsky-mona-lisa.xml: 0 label confusion(s)
+
+ebner-eschenbach-die-veilchen.xml: 3 label confusion(s)
+
+guenderode-udohla.xml: 5 label confusion(s)
+
+lessing-emilia-galotti.xml: 4 label confusion(s)
+
+neuber-die-beschuetzte-schauspielkunst.xml: 2 label confusion(s)
+
+sachs-eulenspiegel-mit-dem-blauen-hosentuch.xml: 0 label confusion(s)
+
+schiller-die-raeuber.xml: 17 label confusion(s)
+
+wedekind-fruehlings-erwachen.xml: 1 label confusion(s)

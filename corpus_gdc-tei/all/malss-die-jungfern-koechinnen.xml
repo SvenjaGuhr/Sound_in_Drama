@@ -1,0 +1,2585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000044" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Die Jungfern Köchinnen</title>
+        <title type="sub">Lokalposse in einem Akt</title>
+        <author>
+          <persName>
+            <forename>Karl</forename>
+            <surname>Malß</surname>
+          </persName>
+          <idno type="wikidata">Q1039634</idno>
+          <idno type="pnd">119098911</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:s8br.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Carl Malß: Volkstheater in Frankfurter Mundart. Dritte Auflage, Frankfurt a.M.:
+              J.D. Sauerländer’s Verlag, 1884.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="madame_hammel" sex="FEMALE">
+            <persName>Madame Hammel</persName>
+          </person>
+          <person xml:id="kohlentraeger" sex="MALE">
+            <persName>Kohlenträger</persName>
+          </person>
+          <person xml:id="herr_hammel" sex="MALE">
+            <persName>Herr Hammel</persName>
+          </person>
+          <person xml:id="frenz" sex="FEMALE">
+            <persName>Frenz</persName>
+          </person>
+          <person xml:id="peter" sex="MALE">
+            <persName>Peter</persName>
+          </person>
+          <person xml:id="frau_hannlapps" sex="FEMALE">
+            <persName>Frau Hannlapps</persName>
+          </person>
+          <person xml:id="dorthee" sex="FEMALE">
+            <persName>Dorthee</persName>
+          </person>
+          <person xml:id="lissbeth" sex="FEMALE">
+            <persName>Lißbeth</persName>
+          </person>
+          <person xml:id="susann" sex="FEMALE">
+            <persName>Susann</persName>
+          </person>
+          <person xml:id="schwaebin" sex="FEMALE">
+            <persName>Schwäbin</persName>
+          </person>
+          <person xml:id="schmidt" sex="MALE">
+            <persName>Schmidt</persName>
+            <persName type="variant">Johann</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#herr_hammel #madame_hammel"/>
+            <relation name="associated_with" active="#frenz" passive="#herr_hammel"/>
+            <relation name="associated_with" active="#frenz" passive="#madame_hammel"/>
+            <relation name="parent_of" active="#frau_hannlapps" passive="#frenz"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-05-28">(ff) work on IDs; add gender info; formalities</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1836">
+        <desc/>
+      </event>
+      <event type="premiere" when="1835">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000044" passive="http://www.wikidata.org/entity/Q54366286"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <div type="front">
+        <head>Karl Malß</head>
+        <head>Die Jungfern Köchinnen</head>
+        <head>Lokalposse in einem Akt</head>
+      </div>
+      <div type="Dramatis_Personae">
+        <castList>
+          <head><pb n="250"/> Personen.</head>
+          <castItem>Herr Hammel.</castItem>
+          <castItem>Madame Hammel.</castItem>
+          <castItem>Frenz, ihre Köchin.</castItem>
+          <castItem>Frau Hannlapps, ihre Mutter.</castItem>
+          <castItem>Peter, ein Metzgerknecht.</castItem>
+          <castGroup>
+            <castItem>Dorthee,</castItem>
+            <castItem>Lißbeth,</castItem>
+            <castItem>Susann,</castItem>
+            <roleDesc>Köchinnen.</roleDesc>
+          </castGroup>
+          <castItem>Die Schwäbin.</castItem>
+          <castItem>Schmidt, ein Kutscher.</castItem>
+          <castItem>Ein Kohlenträger.</castItem>
+        </castList>
+      </div>
+      <set>
+        <p>Ort der Handlung in der Wohnung des Herrn Hammel.</p>
+        <p>Die Bühne stellt das Innere einer bürgerlichen Küche vor. In der Mitte gegen das Publikum
+          ein großer Tisch die Anricht, links der Herd etc., rechts Küchenbänkel, Wasserzuber und
+          der Eingang in die Zimmer, im Hintergrund die Thüre auf den Vorplatz.</p>
+      </set>
+      <pb n="250"/>
+    </front>
+    <body>
+      <div type="scene">
+        <head>Scene 1.</head>
+        <stage>Beim Aufgehen des Vorhangs hört man auf dem Gang außerhalb klingeln.</stage>
+        <stage>Madame Hammel. Kohlenträger.</stage>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>in der Coullisse.</stage>
+          <p>Frenz! Frenz! – dreimol hot's schond geschellt – heert se dann gar nix! Mer meent se
+            hett Bänwoll in de Ohrn – <stage>Sie tritt auf.</stage> No, no, wo is dann des Weibsbild
+            nor? <stage>Es klingelt wieder.</stage> Wer is dann do?</p>
+        </sp>
+        <sp who="#kohlentraeger">
+          <speaker>KOHLENTRÄGER</speaker>
+          <stage>außerhalb.</stage>
+          <p>Ich bins, der Kohleträger. <stage>Nach geöffneter Thür.</stage> E Bitt Kohle! –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Schond widder Kohle, mer hawe jo erscht krigt.</p>
+        </sp>
+        <sp who="#kohlentraeger">
+          <speaker>KOHLENTRÄGER.</speaker>
+          <p>Die Jungfer Kechin hot se vor ere halwe Stunn bestellt – es deht gebiggelt wern.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Ach Gott, ich bin ganz allän; sie mißte ägentlich uff de Boddem – ich kann jetzt net;
+            mer hawwe heut Leut – liewer Mann, er kimmt mer recht ungelege.</p>
+          <pb n="251"/>
+        </sp>
+        <sp who="#kohlentraeger">
+          <speaker>KOHLENTRÄGER.</speaker>
+          <p>A, wisse se was – mer sinn kan Hanzeler – wanns Ihne geniere duht, ich brenge se der
+            Fra Kratz uff dem annern Gang, die kann se immer brauche – un morje früh frog ich emol
+            noch, wann ich Ihne e Bitt brenge derf. <stage>Ab.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 2.</head>
+        <stage>Madame Hammel allein.</stage>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Gar orndliche Leut, die Kohleträger. – Gott im Himmel! Wie sieht die Kich widder aus!
+            Beinah Essenszeit un noch net vom Mark zerick. – Wähs Gott! wann mer sich nor selbst
+            bediene kennt, mer sollts wahrlich duhn. – Awwer die Fraa von eme borjerliche
+            Gegeschreiwer kann doch, wähs Gott net mit eme Henkelkorb iwwer die Gaß gehn – so wie e
+            Schuhmacherschfraa – zu dem, wo mer so stolze Hausbewohner hat – un beim Licht betracht,
+            was is es? E ungeschworner Makler, e Holzmesser, e Littegraf, der duht, als ob er sunst
+            e Graf wär. – Was die sein, des sinn mer längst gewest – war mein Mann net vor Zeite
+            Platzmäster bei de Schitze un Vorsteher von ere Leichekaß – <emph>zur fröhliche
+              Abfahrt</emph>. Es is hart, wann mer sein Ehrnämter ablege muß.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HERR HAMMEL</speaker>
+          <stage>von innen.</stage>
+          <p>Frenz!</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Alleweil is mein Mann bei der Hand, der werd sein Rassier-Wasser hawwe wolle.
+              <stage>Geht an den Herd und sieht nach.</stage> Kän Dreppche warme Rege <stage>Sie
+              geht an den Wasserkessel.</stage> un ich gläb aach gar, de: Kessel is leer? <stage>Sie
+              geht an den Wasserkrug, füllt ein kleines Gefäß mit Wasser und setzt es ans
+              Feuer.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head><pb n="252"/> Scene 3.</head>
+        <stage>Madame Hammel. Herr Hammel in weißem Kamisölchen und Nachtkappe. Er bemerkt Madame
+          Hammel beim Feuer stehen und hält sie für Frenz, legt den Finger auf den Mund, schleicht
+          auf den Zehen zu ihr hin und giebt ihr einen leichten Klapps auf die Wangen.</stage>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Frenzemenche!</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>sich rückkehrend.</stage>
+          <p>No, no! Frenzemenche – Guck, guck!</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Ach mein Fraa – Wo hat ich denn mein Age? – odder mein Brill? wollt ich sage.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Mich hot der Herr hie net gesucht?</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Nän – awwer do beim Feier im Negligee hab ich Dich vor die Köchin gehalte, ha, ha, ha!
+            nemm's mer net iwwel, do vorm Feier mit der Kluft siehst de aus wie's
+            Eschepuddelche!</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>No, no, no! Mit Spaß will der Herr sich aus der Affaire ziehe. Ich wähs, was ich dervon
+            ze halte hab.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>No, awwer, wo is dann die Mähd?</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Sie is – Sie is noch net vom Mark zerick. –</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Ach so! Es is awwer aach e weiter Weeg.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>ironisch.</stage>
+          <p>So? – E halb Stunn, so weit wie noch Meenz, netwohr?</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Des freilich net. – Warum muß des Medche aach uff den Mark – wo do gleich e Hockin
+            sitzt, un die Gärtnerschweiber ähm jetzt des Gemies ins Haus bringe, ins Haus enein
+            schmeise, sellt mer sage.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Do sieht mer die Männer – dene is all äns, ob mer uff en Marktag e paar Koppstick spart
+            odder net.</p>
+          <pb n="253"/>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Was ich doch gleich sage wollt? Hast de denn der Frenz gesagt – –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>ihm nachspottend.</stage>
+          <p>Frenz! Frenz! und alsfort Frenz! Ja, ich hab der Frenz gesagt, was se wisse soll, un
+            damit Punktum, Sand drum.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Es is nor wege dem heutige Mittagesse, du wähst dann doch – es i kän Klänigkeit en Herr
+            Secretair zu tractirn. Ich hab mein Ursach, daß Alles gut ausfällt – du wähst ja, von
+            derntwege. –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Un ewe deswege bekimmre sich der Herr um nix. – Du hätt'st en awer aach wohl uff en
+            annern Tag inventire kenne.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Warum net gar! – Sunntags do prätendirn die Leut gleich e Traktement, un zu dem, siech
+            Mäusi, des mißt du ja besser wisse wie ich; den äne hot die Mähd ihrn Ausgehtag, un den
+            annern host du dein Madamme-Kränzi, do meegt ich um dausend Gulde wille net, un siech,
+            wann mer sich do Mittags – wie doch net zu vermeide is, so vollpropt, do hot mer Awends
+            –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Sei still – du host recht – die Hauptsach awwer, Herr Hammel is, daß mer am Mittwoch e
+            gut Stik Rindfläsch krigt, un mer so kän Bettelmannssupp ze mache braucht.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Zum Glick sinn mer ja in der Lag, daß for uns jeder Tag recht sein kann, es is ja net,
+            als wann mer bei der Hannelung wär, wo mer gleich des Mittags uffs Kontor muß. Mir
+            Staatsmänner, mer widme uns nor Vormittags dem Staat.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Zu was is dann aach der ganz Uhz, mit der Traktirerei?</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Des will ich der sage, Mäusi, die anner Woch do is e Wein-Versteigerung aus dem Herrn
+            Rohrspatz seelig seiner <pb n="254"/> Verlassenschaft seelig, un do wern die Browe noch
+            dem Erblasser seelig seim eigenhändige letzte Wille erst zwä Tage vor der Versteigrung
+            gewwe. Etzt is awwer unser Gast e guter Freund vom Herr Bennermäster Zopp, der die Wein
+            bei Lebzeite des Herrn Rohrspatz seelig, sämtlich behannelt hat, un durch sein Conexion
+            do krie ich sämtliche Browe jetzt schond ins Haus, un <emph>starke</emph> Br owe, un do
+            wolle mer heunt e bissi browire, un den 28te <emph>hujus</emph> browire mer noch emol am
+            Faß. Ha, ha, ha!</p>
+          <stage>Hammel nimmt das Gefäß mit heißem Wasser vom Feuer und will ab.</stage>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 4.</head>
+        <stage>Hammel. Madame Hammel. Frenz einen großen Marktkorb am Arm; sie setzt ihn im
+          Eintreten auf die Anricht nieder.</stage>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Krie die Krenk Offebach! Bald weer mersch ze schwer worn, Madam, – des is e Last! –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>ironisch.</stage>
+          <p>Sie werd sich wahrscheinlich dran verhowe hawwe; – ähnfällig Geschwätz.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL</speaker>
+          <stage>macht sich um Frenz zu thun und singt in den Bart.</stage>
+          <p>Tralera etc.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Host de bald ausgesunge? – Geh hin, rasir dich!</p>
+          <stage>Hammel ab.</stage>
+        </sp>
+      </div>
+      <div type="scene">
+        <head><pb n="255"/> Scene 5.</head>
+        <stage>Frenz. Madame Hammel.</stage>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Do hot jo de Herr sein häß Wässer –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Sie hot's wahrlich net beim Feier gehalte. – <emph>Sie</emph> hot sich heut recht
+            gedummelt – so e Ausbleiwerei is mer noch net vorkomme. – Etzt wolle mer emol die
+            Einkaferei begucke. – Was hat se dann scheenes mitgebracht? <stage>Sie untersucht den
+              Korb.</stage> Was is dann des? Kollerawe?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Nä, Madame! s'is Zellerie.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Was kost dann des Gewerzel?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Es is for 9 Kreuzer, do hab ich aach e bissi Rosekohl – e Staatsgemis for 14 Kreuzer –
+            do Madam – is e Raretät von Eskarol, von ere Owwerredern, den Kerwel – –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Weis se emol des Hinkel?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Es is e Pulatt! <emph>Poularde.</emph></p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Was is es? E alt Hinkel, weiter nix.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Die Fraa wollt mersch gar for en Kapaun verkaafe!?</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Was hot se dann dervor bezahlt?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Achtzehe Batze.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Achtzehe Batze. – Ich hab neulich erst ähns for 45 Kreuzer kaaft, des war e anner
+            Geschwetz. Ihr Weibsleut awwer, ihr loßt euch alles in die Händ stoppe. Na, un ich glaab
+            aach, sie hot sichs von der Hinkelroppern zerecht mache losse? <stage>Sie legt das Huhn
+              auf den Tisch.</stage></p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ei des versteht sich! Sie mäne gewiß, wann mer so viel ze thun hett, kennt mer sich
+            aach noch dodermit abgewe?! Awwer Madam, Sie zanke doch ewig.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>No, weiter! <stage>Sieht in den Korb.</stage> Ach! Do is der Nachtisch –
+              <stage>Ironisch.</stage> scheen Obst – was des widder vor verhutzelte <pb n="256"/>
+            Eppel sinn – un die Keste – die Niß wern aach nor zum vergolde gut sein – un da soll mer
+            aach net emol was sage. – Was is dann in dem Babier?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Des is der Permißionskäß for in die Supp.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Ah, halt se des Maul, wo is dann des Permesankäß, – der is jo ganz waich – Gott, Ihr
+            Leut, der Käß hot kän Aage, awwer mer meent, ihr hätt aach kän Aage.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Madam, mer kanns Ihne awwer aach mein Lebtag net recht mache – gehn Se doch lieber
+            selbst uff de Mark.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Wann ich nix bessersch ze duhn hett, ja, do geh ich hin. – Mein? Sei se net un nitzig –
+            un stell se ihr Dippe bei's Feier.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>thut das Fleisch in den Topf und setzt ihn ans Feuer.</stage>
+          <p>For was is dann des ewig zanke?</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Ich glab, sie will aach noch was eraus hawwe?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>bei Seite.</stage>
+          <p>Gott, wie werd mersch!</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>sich umdrehend.</stage>
+          <p>Noch net fertig? Ich sag ersch im Gute – duh se Ihr Arweit un loß se mich ungeschoren.
+              <stage>Sie geht ab und nimmt das Dessert mit.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 6.</head>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>allein.</stage>
+          <p>Gott sei's gelobt, gedankt, getrummelt un gepfiffe, sie is fort. Des Gekrammel alsfort
+            anzehere! – Wann unser Herr, die gut Haut, net wehr – sollt's der Deiwel hole! den
+            bedient mer mit Pläsir. Wann mer awwer mein Mutter den gute Dienst ausmecht, den se for
+            mich suche duht, do bleib ich doch kän Ageblick bei dene Leut. – Heut traktirn se emol,
+            do will ich en emol <pb n="257"/> weise, was ich kann. – Wo bleibt awwer der Musje Peter
+            ich muß jo noch zwä derre Brotwertscht zur Beilag hawwe, un Filsel for mein Klesercher.
+            – Ich kann en gut leide es is e spaßiger Mensch. – So e Art Doscheva (Don Juan) von de
+            Mexter. <stage>Sie kocht und singt während der Arbeit die Barcarole aus der
+              Stumme.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 7.</head>
+        <stage>Frenz. Peter in elegantem Metzgercostüm, kurze Jacke, legère Halsbinde, blendend
+          weiße Schürze, seinen Fleischen-Narden Arten auf der Schulter.</stage>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>den Narden niedersetzend.</stage>
+          <p>Gute Morje, Junfer Köchin!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ah, do sein Se jo, alleweil dacht ich bei mir selbst wo Se bleiwe dehte? Sie komme net
+            ze früh heunt?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ich hab schond mein ganz Tour gemacht, un hab gedacht, <stage>Galant.</stage> des best
+            Bissi hebst de der zuletzt uff. <stage>Er will sie um den Leib fassen.</stage></p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Here Se uff ze ruhe – ich hab kän Zeit zum Babbele, ich muß mein Esse mache – Etzt
+            allé, mache Se fort, un gewwe Se mer Ihr Werscht.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Da sinn se – Frenzi! des sein der Ihne, Gott verdamm mich, Werschtercher, wann mer do
+            enein beißt, do spritzt's die Brih eraus, grad wie bei unsrer neu Wasserleitung. –
+            Frenzi, gewwe se mer ihr Messer, ich will's Ihne e bissi scharf mache. <stage>Nimmt das
+              Messer und wetzt es mit der linken Hand.</stage> Frenzi, merke Se dann nix, ich bin ja
+            links, aber des mecht nix, wann ich Ihr Mann bin, will ich Ihne schon rechts komme. –
+            Apripo, wo sin dann mein Daskalia?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Hier <stage>Sie sucht ein Packet Zeitungen unter dem Wasserstein hervor.</stage> liewer
+            Freund; Gott, wie scheen! Ich hab gelese bis halb zwä, do fiele mer die Aage zu. Gott
+            was is der Alfonso for e<pb n="258"/> Mensch! – Nä! <emph>zu</emph> ächt! – Un der die
+            Geschicht gemacht hot, des is e rechter Schmeicheldichter. – Der redd ähm – Mitte dorchs
+            Herz, un widder eraus, un was mer nit versteht, des fiehlt mer, un was mer nit fiehlt,
+            des empfind mer. O! Peter, Sie hawwe viel aus mir gemacht, seit ich Ihne kenne, dorch
+            Ihne <emph>Ihre</emph> so delikat Lectir.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Netwohr? des Lese is e angenehm Leidenschaft?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Deiwelmäßig angenehm!</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Des häßt die Dichtung, un mit Wahrheit vermischt, so werd's jetzt allgemän verlangt.
+            –</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Warum awwer hot mer Ihne dann gestern Awend mit käm Aag ze sehe krigt?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ach Frenz! – Des misse se sich verzehle losse. Gestern Awend, wie ich ebe Feierabend
+            mache wollt, dacht ich, – du schlenderst noch emol über den Nikelose-Mark; – wie ich do
+            geh, so begegnet mer die scheen Berschtebennern, die Junfer Steckbohn.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>verächtlich.</stage>
+          <p>Die do?!</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ich grieß se dersche, natirlich, un sie dankt. Des sieht äner, der sie vielleicht aach
+            gern kenne gemecht hätt, melirt sich enein; – do fährt mer des Wort Nation eraus. –
+            Vorher awwer muß ich sage, da er sich aach gege mich Ausdrick bedient hot.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Peter, des hette se nicht thun selle.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>fortfahrend.</stage>
+          <p>Er hott dann gleich gesag: »ich verbitt mir alle Anziglichkeit Herr N.N. oder wer Se
+            sonst sein möge.« – Es war e Fremder, e Preiß. – Sie denke wohl, Se <emph>seind</emph>
+            was? Ja, dieses denke ich, sagt ich – un wie sagt ich'?! mit Anstand – Gott verdopp –
+            Sie kenne mich darin, Frenz!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No, un er?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Un er? Er sagte: »Was Sie seind, des sind man schon lang gewesen.« Ich hatt nemlich
+            ähnfälliger Kerl gesagt.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Net meglich? un Sie?</p>
+          <pb n="259"/>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ich sagte gar nix.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Gar nix? Peter, no, un er?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Er, er sagte aach nix.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Aach nix? No, un Sie?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ich? – ich hab, bei mer selbst gedacht: des sinn so growe Flegel, als wäre se
+              <stage>Mit der Pantomime des Herauswerfens.</stage> aus dem Schubkärcherkolleg enaus
+            ballotirt worn. Aber sage – ich sagt aach nix!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Recht so! – So Mensche treiwe sich in Eppelweinhäuser erum un hawwe kän Bildung.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>O! es is noch net all – do kimmt etzt e Kammerdiener von der Gesandtschaft und frogt ob
+            er die Ehr hawwe kennt, die Mamsell nach Haus ze fihre? – nemlich die Mamsell Steckbohn?
+            – Ich sagt etwas spitzig – »Mamsell sind schon begleitet« und ging meiner Weg.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Das war charmant von Ihne, Mosie Peter!</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ja, es bekam mer schlecht, denn der nemlich Kammerdiener klotzt mich an und segt. – Ich
+            schäme mich ordentlich es ze sage.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No, eraus dermit!</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>herausplatzend.</stage>
+          <p><emph>Knote</emph> sagt' er! gemäner Limmel!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Wos sich so Mensche erausnemme! – No, dem hawwe Se wohl recht gut bedient?!</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Des will ich meene! – Ich gab dem Stinkbock en Stumper, daß er in de erste beste
+            Glaserker enein gefahre is.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No, un was sagt er?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Entschuldige Sie, – sagt er – ich heiße <emph>Blifsky</emph>; wo ich bin, können Sie
+            mir allemal finden, un mecht sich pleede.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No, un die Junfer Steckbohnin?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Die geht aach pleede, dann ich glab, die hot's mit'm gehatt! – Ich dacht bei mir
+            selbst, du host dein Thäl, mit Finne geb ich mich net ab – Apripo! Frenzche – wie is es
+            dann dodermit?</p>
+          <pb n="260"/>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Wodermit?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ich meene – No Sie wisse schond.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No, wie ähnfällig?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>No, ich meene, wann denke Se dann, daß mer uns heurathe kennte?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ach Gottche! – des werd lang dauern.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Warum?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Sie misse doch erst Ihne Ihr Wittfraa geheurath hawwe, un dernochender misse merscht
+            erscht abwarte, un wer wähs, wie lang des dauert. Ja, wann Se hie e Schern krije kennte,
+              <emph>ohne</emph> Wittfraa? –</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Frenzche, etzt will ich Ihne emol ebbes stecke. – <emph>Sie</emph> duhts – awer der
+            Deiwel kennt sein Spiel dreiwe – so ähn is im Stand un lebt als elf Johr. – Ich gehn
+            her, un wern Mexter in Butschbach – do kenne mer ehnder vom heurothe redde.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ach ja? E Herr Landmexter, is aach net bitter. – Die Wittfraa is noch frisch – un warte
+            soll der Deiwel – Netwohr Herr Peter, Sie sinn jo e Borjerschsohn aus Butschbach? un des
+            is jo doch aach e Stadt, so gut als wie Frankfort? <stage>Zärtlich.</stage> Un gucke Se,
+            mer mache dernochender Schwartemäge un schmuckle se noch Frankfort.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Losse Se mich nor mache – Vielleicht arweit ich mich doch noch in die Profession, aach
+            ohne Wittfraa – denn ohne Profession kän Lieb.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Sie hawwe Recht – die Lieb is gut, sie muß awwer Brod hawwe.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ja, un wo möglich aach Fläsch derzu. – Mir zwä gewwe awwer aach e scheen Paar. In
+            Butschbach – odder hie uff ähn Art muß es gehn.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>schäumt das Fleisch im Topfe.</stage>
+          <p>Ich kann Ihne noch kän Tass' Fläschbrih anbiete, – es kocht kaum.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Anerlä; gewwe Se mer eweil e Glas Wein, wann Se hawwe?</p>
+          <pb n="261"/>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Da hab ich – es is freilich nor Kochwein, awwer Sie wisse, eme geschenkte Gaul guckt
+            mer net ins Maul.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Guckt mer net ins Maul – awwer der Wein soll mer enein gucke – do is e Glas – des mit
+            dem Renftche, do hab ich schond mehr draus gedrunke.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>schenkt ihm das Glas halb ein.</stage>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ganz voll – Schätzi! Mache Se kän Sache.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>schenkt das Glas voll.</stage>
+          <p>Eile Se sich – wann die Madam käm. –</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ach Herr Jeses – die Herrschafte sein aach alleweil gar ze interessant! Un uff
+            Morje?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>E Schweinebredche von so drei Pund.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ich brengs vielleicht heint Awend noch?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>So is recht – do kenne Se noch e bissi mit uns krusteliere.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Brav! – Komme aach die annern Medercher? Die Lisbeth un die Dorthee?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ja, aus'm ganze Haus. –</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Do wolle mer recht fidel sein – No, Adje Frenz! Gewwe Se mer aach e Kissi. <stage>Er
+              will sie küssen.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 8.</head>
+        <stage>Vorige. Herr Hammel.</stage>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL</speaker>
+          <stage>er ist frisirt und trägt die Wasserbouteille in der Hand.</stage>
+          <p>Ei, ei, ei!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>zieht sich zurück und Peter nimmt seinen Narden auf die Schulter.</stage>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>im Abgehen.</stage>
+          <p>Es war des Fläsch! Verzeihe Se. <stage>Ab.</stage></p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Des seh ich wohl, daß es hie Fläsch war.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head><pb n="262"/> Scene 9.</head>
+        <stage>Frenz. Hammel.</stage>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Sag emol – was duht dann der Kerl immer bei Dir? –</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Es is ja der Mexter – der so spaßig is.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Der Mexter, un als der Mexter, als wann e Mexter – korz ich leid des net.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Awwer Sie wisse doch – daß der mit alle Medercher in der ganze Gaß scheen duht.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Siech! Frenz, du hast's gut bei uns; awwer nemm dich in Acht – des Gegaaler mit dene
+            Leut, die so Sache brenge – des fihrt zu gar nix; mag's etzt Mexter, Becker odder
+            Schornsteinfeger sein, nemm en in Zukunft ihr Sach ab – zahl se – un loß se gehn. Ich
+            rathe dersch – dann siech, du bist schön un angreiflich, un wann de der so en Anhang in
+            der Kich mechst, so fihrt des zu beese Häuser.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Herr Hammel, warn Se so gut, un hawwe Se mer desjenige besorgt? –</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Ja, ich hab dein goldene Ohrring dorch en gute Freund von mer, im Pandhaus auslese
+            losse. – Etzt bleib awwer dervon un halt dein Sach zu roth – da, un do leg ich noch e
+            Schnall derzu – die geht mit drein.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Sie sinn awwer aach e recht guter Mann.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Netwohr?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Was die Auslag is, des derfe Se nor der Madam sage, die hält mersch an meim Lohn
+            zerick.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Gott bewahr! meiner Fraa? Do käm ich scheen an.</p>
+          <pb n="263"/>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No – wann des is, so leese Se mer aach dorch Ihne Ihrn gute Freund noch 10 Ehle Tuch,
+            die ich noch drin hab, aus.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>No, no, heer, mein Fraa gibt mer als net so viel Sackgeld, daß ich des kennt; awwer den
+            nechste Monat kannst de druff rechne. – Awwer ich rechne aach uff dich, mein Schatz
+              <stage>Schmunzelnd.</stage> uff e bissi Dankbarkeit – du wähst!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Do is der Pandschein. <stage>Gibt ihm ein Lotterieloos.</stage></p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL</speaker>
+          <stage>nimmt es.</stage>
+          <p>Herrjeche – des is jo e Vertelche in der Frankforter? – Also aach in der Lotterie
+            spielst de? brav!?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No, was is dann do? mer muß dem Glick den Weg net verspern, un derzu, ich hab die
+            Nummer geträmt.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Schon gut; sei awwer nor e bissi ordentlicher gege mein Fraa, se beschwert sich sehr.
+            Guck, net emol Wasser in meiner Boutell! –</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>lachend.</stage>
+          <p>Do im Zuwwer is ja genug, un hette mer die Wasserleitung, do kennte Se sich selbst
+            fille.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Du host Recht! –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>von innen.</stage>
+          <p>Hammel! komm doch – du werscht ja mein Lebtag net fertig anziehe.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Ich komme gleich – ich hol mer no Wasser.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Alsfort in der Kich! es is e Schann, so e Kichetreppel!</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Ich komme gleich. Es is jo so e halwer Feiertag. <stage>Geht noch einmal zu Frenz, im
+              Begriff ihr in die Backen zu kneifen, ruft.</stage></p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Hammel!</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL</speaker>
+          <stage>wendet sich erschrocken um.</stage>
+          <p>Ja! <stage>Geht ab.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head><pb n="264"/> Scene 10.</head>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>allein.</stage>
+          <p>Des arm Mennche! – Der muß scheen ducke, – un doch hot er den Deiwel mit scharmire. –
+            No, mein Ohrring hab ich. – Bei dem Kichefeier werd ähm ganz schwach – ich gläb, jetzt
+            kann ich schond e Tass Fläschbrih drinke, e bissi Muschcatnuß druff. – <stage>Sie füllt
+              eine Tasse reibt Muscatnuß darauf, stellt den Topf wieder ans Feuer und trinkt; sie
+              hört ihre Mutter husten.</stage> Aha! do hust jo mein Mutter, glab ich.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 11.</head>
+        <stage>Frenz. Frau Hannlapps.</stage>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Gout Zeit, Frenz!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ei Mutter, was fihrt Sie dann her?</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Dau sullst's hiern! Gih mer en Staul, daß eich mich setze! – <stage>Setzt sich.</stage>
+            des ose Frankfort werd su gruß, weïs Sprichwort seht. – No, dou eßt Sopp? –</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>ihre Bouillon trinkend.</stage>
+          <p>No, habt Ihr mer was ausgemacht?</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Su gaut wei richtig – gaute Leit – No, am Laafe hun eich's net fehle losse. Dou willst
+            also werklich aus deim Dienst?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Je eher, je liewer – sie wolle mer nix zulege.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Schwierhacke – do kriest de 80 Gille, des is aach mehr wei 40 – <stage>Sie
+              lacht.</stage> weïs Sprichwort seht.</p>
+          <pb n="265"/>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Hot Se was gesse?</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Beileib; eich gung zou dir, do docht eich, dau gihst zu deiner Frenz, do wäre eich
+            schond en Bisse esse, weïs Sprichwort seht.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Setz Se sich do hin, – do an den Tisch – viel hab ich net, dann bei dere Herrschaft
+            bleibt nix iwwrig – es is Alles so genau. – Ich hab awwer do noch en Fliggel von ere
+            Gans. <stage>Sie holt einen Gansflügel aus dem Schrank.</stage></p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Als her dermit. – No su genaa is se doch aach net.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ach, Mutter – es geht heut bei mir drunner un driwwer, mer hawwe heut Leut, ägentlich
+            nor ähn Gast. –</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Gout, do komm eich gegen Owend wirrer un helf der speile.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Desto besser – do kimmt der Peter aach – do kann Se em emol einredde, daß er ennlich
+            emol seegt, ob er mich dann nemmt.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Gewiß <emph>muß</emph> er dich nemme, er giht jo schund lang genug mit dir; er muß
+            jetzt met der Sproch eraus, do heeßts: bekennt orrer getrompt, weïs Sprichwort seht. –
+            Host de net e wing Babeir?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Jo Mutter! <stage>Sie gibt ihr Papier.</stage></p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Sah! Host de net e bissi ze drinke? eich hunn Dorscht; eich kumm bald um vor
+            Dorscht!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>holt einen Krug.</stage>
+          <p>Do, Mutter! loßts Euch schmecke; do hab ich noch en Krug baierisch Bier vom Herrn. –
+            No, wie is es dann sonst mit dem neue Dienst?</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Gout, ganz gout! – dei Kippesinn, dei Wartfraa in der Stelzegaß von der eich des
+            Kostkenn gehatt – dei hot en ausgemacht.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Des is e brav Fraa, die Fraa Kippesinn.</p>
+          <pb n="266"/>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Es is beieme gruße Kaafmann; sei hunn en Lade in der Schnurgaß; du bist do, wie der
+            Vuggel im Hanfsome, weïs Sprichwort seht.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Wann des so is do sag ich <emph>meine</emph> Morje uff.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Mer muß net su an der Herrschaft henke; sie henke aach net an unser ähm. Gihts s
+            schlecht bekimmre se sich den Deiwel drumm. No du host jo dein Uhring wedder.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Der Herr hot mer se aus dem Pandhaus besorgt.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Dei Herrschafte sein den Deiwel naut nutz! – Dau host jo do e neu Halstichelche?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Die Madam hot mersch gewwe.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Net mihr wei billig. – Dou host genung meten auszestihn. –</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Etzt Mutter, steck Se des Dippche mit Schmalz in Sack, un den halwe Krug Bier nemm Se
+            unner ihrn Scherz – do sinn aach zwä Gutlichter. Des fällt als for die Köchin ab.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS</speaker>
+          <stage>steckt alles ein.</stage>
+          <p>Hoste net ebbes for de Mage, ei eich hun su s'Drickens?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ei ich kann ihr nix, als wie e Gläsi Rum gewwe.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>No, her dermit!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>schenkt ihr ein Gläschen Rum ein, welches sie rasch austrinkt.</stage>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Ach, des is e schlechter Dienst. No, sellt werd's besser, Frenz.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>bringt Teller, Glas etc. wieder in Ordnung; Frau Hannlapps schickt sich zum
+            Fortgehen.</stage>
+        </sp>
+      </div>
+      <div type="scene">
+        <head><pb n="267"/> Scene 12.</head>
+        <stage>Vorige. Madame Hammel.</stage>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>No, Frenz, allé, werd's bald, es is jo schond halb Eins. – Sie hat ja ihrn Spinat noch
+            net ausgemacht?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Nor ruhig, Madam, – wanns Essenszeit is, werd nix fehle.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Ach! Sich emol do, do is jo ihr Mutter? Wie siehts aus Fraa Hannlapps? Ei sie hot ja
+            gar ze schwer, was hot se denn in dem Krug?</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Ei, eich hunn mer e wing Ihl (Oel) geholt, un do sein eich aach emol widder in der
+            Stadt, un do hab eich emol heit bei meiner Frenz eingesproche, un wollt Ihne aach mein
+            Empfehl mache.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>stellt während des Gesprächs den Kapann in den Bratosen.</stage>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Recht so.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>No, sein Se dann aach met dem Medche zefridde?</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>So passabel – No, wo is e Mensch in der Welt, der sein Fehler net hot; awwer sonst is
+            se e brav Medche –</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>No, des frat meich, daß Sei zefridde sein. – Im Ageblick hunn eich erscht noch gesaht,
+            daß wann mer e gaut Herrschaft hot, mer bleiwe muß, des Witschele is den Deiwel nix nutz
+            – un zemol wege e paar Batze Geld.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Ich wähs gewiß, daß ihr eurer Tochter nor zum Guthe rothe duht.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Oh, Se derfe Se froge – was eich ehr alleweil gesaht hunn. – Netwohr, Frenz? sah – was
+            hunn eich der gesaht?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Wähs Gott un wahrhaftig, so is es Mada.</p>
+          <pb n="268"/>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Un wann se brav is, so is es am Enn nor doch for sich. – Dann wann se gaut daut, se
+            werd's er gaut gihn, wes Sprichwort seht.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Frenz, hot se dann ihrer Mutter was ze esse gewwe?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ach gehn Se! des deht ich mer net erlawe ohne die Madam vorher ze froge.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Eich bedanke meich! – Eich brauche nix ze esse.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Awwer, wann se – – doch, doch, Frenz, guck se emol im Kicheschank noch, es muß noch e
+            Restche von dere Gans da sein.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Ach, Sie sinn gar ze gut, Madam, eich hab awwer schun gesse. – Adies Frenz!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Adies Mutter!</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Schreib dersch hinnersch Uhr, was eich der gesaht hnnu, un denk, Herr un Fraa Hammel in
+            alle Sticke zefridde zu stelle, un bleib bei en im Dienst, so lang de kannst; – dann des
+            Sprichwort seeht: »<emph>Ehrlich währt am längste!</emph>« Adies Madam Hammel, mein
+            Empfehl an Herrn Hammel. – Hot er dann noch immer den bise Huste?</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Net so arg mehr.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>No, Gottlob. – Den vorige Winter hots'en recht gehatt.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>No Adies.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Adies beisamme! <stage>Grüßt im Abgehen.</stage></p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Adies, Adies.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>begleitet ihre Mutter und verweilt einige Augenblicke bei ihr.</stage>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Jetzt Frenz, mach se, daß ihr Esse fertig werd. <stage>Ab.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head><pb n="269"/> Scene 13.</head>
+        <stage>Frenz allein.</stage>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Mein Esse, ach Gottche! des is so gut als wie fertig. – Des Dunnerwetter, ich hab mer
+            vergesse frisch Butter mitzebrenge – <stage>Öffnet den Schrank.</stage> un do is aach
+            kän mehr. – No, ich lehn mer bei der Dorthée. <stage>Ruft durch die Mittelthüre.</stage>
+            Dorthée! Dorthée!</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE</speaker>
+          <stage>von außen.</stage>
+          <p>Was soll's? Jungfer Frenz!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Lehn Se me doch e bissi Butter, ich muß mein Spinat schmelze.
+              <stage>Zurückkehrend.</stage> Der osig Spinat, des is e rechter Butterfresser.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 14.</head>
+        <stage>Dorthee. Frenz.</stage>
+        <sp who="#dorthee">
+          <speaker>DORTHEE</speaker>
+          <stage>nach einer kleinen Pause die Butter auf einem Teller bringend.</stage>
+          <p>Hier Frenz, do bring ich er en Butterweck – nem' se sich dervon was se braucht. – No,
+            ihr habt ja Leit? – Sie hett mer nor e Wort sage derfe, ich bin heut ze hawwe; mein Herr
+            ißt aus, un sie kann sich wohl einbilde, daß do die Madam – –</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>geheimnißvoll.</stage>
+          <p>Hot se dann der gewisse Jemand abgeholt?</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Nän, sie ißt bei ihrer Fra Dante – odder wo annerscht. – Lang bleib ich net in dem
+            Dienst, ich kann des Gelähf net leide.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Mach' s'es wie ich, stell s'en den Stuhl vor die Thier.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>So? Sie will eweck von do? werd se geschickt?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Gott bewahr – Ich sage uff – sie wisse ewens noch nix dervon.</p>
+          <pb n="270"/>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE</speaker>
+          <stage>bei Seite.</stage>
+          <p>Gut, daß ich des wähs! unser Madam hot mer uffgesagt – wann des ging? – do hett ich net
+            weit, blos iwwern Gang eniwwer.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Dorthée – awwer alles unner uns, dann siech se, Sie is e brav Person, deswege schenk
+            ich er mein Vertraue – Gott – un dann unser Herr is immer hinner mer, un hert der uff,
+            so fengt die Madam an.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Sie hot recht, daß se geht. Apribos, wie steht se dann mit ihrem Peter? ei ich wähs gar
+            net, sie segt mer gar nix mehr?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ei, no, des geht net so geschwind, wie sie mehnt, e gut Ding will Weil hawwe.
+              <stage>Sie sieht nach dem Rindfleisch im Topfe.</stage></p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Des is e scheen Stick Rindfläsch.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>tritt auf.</stage>
+          <p>No, Frenz, richt se dann net bald an, es is ja schon halb zwä?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Alleweil.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HERR HAMMEL</speaker>
+          <stage>kommt unmittelbar nach seiner Frau.</stage>
+          <p>Du Fraa geh doch enein, der Herr Sekretär is do, un empfang en.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>im begriff abzugehen, sieht sich noch einmal um und ruft ihrem Manne, welcher noch
+            in der Küche verweilen will, mit barscher Stimme zu.</stage>
+          <p>Hammel, allons, als mit enein!</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Ja. <stage>Beide gehen ab.</stage></p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>richtet die Suppe an und trägt sie hinein.</stage>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Gott, was is des e Dorchenanner in dere Kich, was sieht des Kuppergescherr aus, es is e
+            Schann, do käm ich meiner Madam scheen an, wann ich so e Unordnung het.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>kommt zurück und richtet das Rindfleisch an.</stage>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Duht se kän Petersilie dran?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ich hab kän, – sie kennes ohne Petersilie esse. – Dorthée, in der Zeit, wo ich des
+            Rindfläsch ufftrag, guck se mer e bissi nach meiner Poulard un rihr se mer e bissi mein
+            Spinat. <stage>Ab.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head><pb n="271"/> Scene 15.</head>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Soll mer sage, so e Medche geht aus so eme Dienst! – es is doch aach kän Hund, nor zwä
+            Persone ze bediene ze hawwe, un kän Kinner, – un owwedrein kriet se 50 Gulde, un ich
+            krie bei meine Leit nor 38. – Still! mir geht e Licht uff – <emph>die</emph> geht – ich
+            muß an ihrn Platz – awwer Dorthée, nor gescheid. – Des is jo alleweil an der
+            Tagesordnung, daß äner uff dem annern sein Platz spekulirt – des duhn jetzt die
+            scheenste Leid; König un Ferschte – warum sollt unser ähns –</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 16.</head>
+        <stage>Frenz. Dorthee.</stage>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>hereinlaufend.</stage>
+          <p>Ach, Heer Je! – Ich hab's doch drinn geroche, daß mein Poulard anbrennt. – Sie hot se
+            also net gewendt un geträfelt?</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Des duht nix, mer mecht, daß die verbrennt Seit unne hin kimmt.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Was werd die Madam sage?</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>A loß! sie bleibt ja doch net bei ihr.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>nach dem Herd gehend.</stage>
+          <p>So ganz gewiß is es noch net. – Ach etzt guck emol! mein Spinat is aach angebrennt.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Ach, des schmeckt mer gar net.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>thut ihn in die Schüssel.</stage>
+          <p>Den Deiwel aach – <emph>Sie</emph> is werklich kurios – nä – die Gemiethsruh von ihr!
+            –</p>
+          <pb n="272"/>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Des Koche ist ewe mein Sach net. – Bei uns kimmt's gar ze wenig vor.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>leichtsinnig.</stage>
+          <p>No, ich trag's ewens enein. – Wann se's net esse, so losse ses stehn. <stage>Trägt den
+              Spinat und Poulard ab.</stage></p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE</speaker>
+          <stage>allein.</stage>
+          <p>Un des war gut. – Du werscht gut ankomme, <stage>Sie horcht.</stage> ich glab, sie werd
+            gezankt – aach recht. – Des brengt die Sach in Gang.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>von innen.</stage>
+          <p>Un wann ich er sag – sie is e Köchin, daß Gott erbarms. Des is ja net erlabt, so
+            anzerichte!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>außerhalb.</stage>
+          <p>Awwer Madam! –</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Alleweil komme Se!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 17.</head>
+        <stage>Dorthee. Madame Hammel. Frenz bringt den Braten zurück und hat ein Licht in der
+          Hand.</stage>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Ich sagen ersch, Sie mecht immer ze viel Feier.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Awwer Madam, es war'n kaum e paar Kehlercher drinn.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Daß du! – E Feier forn Ochs ze brote! – Was is es – mer esse desmol unfern Sallat ohne
+            Brate – des muß ich sage – e scheen Esse, wann mer emol e Fremdes hot! Do laf Se eniwwer
+            zum Herr Leredde, un hol Se zwä Portione kalt Hase-Pastet.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Madam, Ihne kann mer awwer aach nix recht mache – wie mersch aach mecht. – Wenn sie
+            allenfalls net ze fridde sinn. – – No, ich will mein Schaal umhenke.</p>
+          <pb n="273"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Ach noch e Schaal! – um zwä Häuser weit ze gehn?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Warum net – mer werd wie e Nickel iwwer die Gaß laafe. <stage>Geht brummend
+            ab.</stage></p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Infame Weibsbilder!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 18.</head>
+        <stage>Dorthee. Madame Hammel.</stage>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Sie war do?</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Ja, Madam – un ich sagt ihr frei noch, Frenz, wenn' dein Brate, es is gar ze viel Feier
+            in dem Ofe.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>No Sie! – des glab ich, Sie is aach e perfect Köchin.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Ich muß es wohl sein. Ach so was derft mer net bassirn. Mer is net immer so glicklich,
+            en Herr un Madam Hammel zur Herrschaft ze hawwe.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Ich kann sage, – ich bin die Frenz satt.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Sie is doch sonst e gut Medche; sie muß Feind im Haus hawwe, dann die sagen er nix gut
+            noch.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Bah!</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Vielleicht, daß ihr die Fraa Baier do gleicher Erd net gut is, un die des iwrig Gesinn
+            uffgehetzt hot.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Wähs sie dann ebbes von ihr?</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Sehn Se, ich bin kän Zuträgern, un es kimmt mer hart an, von meim Newemensche beeses ze
+            redde, – un dann sinn mer gute Freund zesamme. – Sie is e bissi vergeßlich, des is wohr;
+            no do helf ich er als aus mit Allem, was se vergeßt; awwer, was wohr is, deß muß wohr
+            sein, sie gibt alles pinktlich widder zerick.</p>
+          <pb n="274"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Sie will er ewens nix nachsage, aach gut. – Awwer Dorthee – was sage dann die annern
+            Leut von er?</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Es thut mer werklich läd, daß ich sage muß, daß mer von er seegt, sie deht sich ewe
+            viel eraus nemme, sie deht zwar kän Kloppheller mache –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Was? Kän Kloppheller? am Dinstag erscht hab ich se erwischt. – Hot mer des Weibsbild
+            net vorgerechent, zwä Groscheläbcher, acht Kreuzer?!</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Wie dumm! <stage>Fortfahrend.</stage> Awwer sie deht als tractirn in ihrer Kich. Die
+            Mähd aus dem Haus, den Mexter; un ihr Mutter deht alle 8 Tag e Dippe mit Schmalz häm
+            nemme. – Awwer, ich glabs net.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>bei Seite.</stage>
+          <p>Do erfahr ich scheene Sache.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Des iwrig – will ich verschweije.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Bosse! – als eraus dermit.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Es häßt aach – daß – daß – der Herr Hammel sie gar net zankt – sonnern sie – sie – sehr
+            angenehm – aartlich – wollt ich sage, tractirn deht, un sie deht sich vor Ihrem Mann so
+            stelle, als wann <emph>Sie</emph> se gewiß net fortzeschicke gedraute. Ich glab awwer
+            alles net es is Geschwätz.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Was? Ich gedraut mich net, se fortzeschicke – alleweil muß se fort! – Morje des Tags! –
+            Sie is bestimmt nix nutz.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Des hawwe Se net nöthig Madam; ihr Mutter hat er schond en Platz verschafft – un do
+            werd se Ihne uffsage.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Aha! Sie denkt mich in Verlegenheit ze bringe! Gott wie schadd is es, daß
+              <emph>Sie</emph> noch net frei is, Dorthée! – dann Sie scheint mer e ordentlich
+            Weibsbild.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>kommt mit der Pastete zurück und geht in das Nebenzimmer ab.</stage>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Zu gut gefällt mersch aach net bei der Madam Kratz.</p>
+          <pb n="275"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Dann is ja unser Sach uff änmol in der Reih – un wanns Ihr recht is, do is der
+            Miethpennig, e preußischer Thaler. <stage>Gibt ihr einen Thaler.</stage></p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE</speaker>
+          <stage>nach einigem Sträuben.</stage>
+          <p>Es is mer recht angenehm, wann ich bei Ihne eintrete kann, Madam Hammel, awwer sage se
+            um Gotteswille nix der Frenz – net eher als bis ich meiner Madam uffgesagt hab. Mer derf
+            doch ere Herrschaft aach net grad zu – –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Des is aach recht, Dorthée. Morje is aach noch Zeit, un zudem brauch ich die Frenz heut
+            noch. Ich hoffe etzt net, Dorthée, daß Se mer, wie mein Frenz, wie die bei mer eingange
+            is, mit ere nußbamerne Komod, von zwä Schreinerschgeselle getrage, angestoche kimmt. Sie
+            werd ihr Kist hawwe.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Gewiß nix annerschter. Ja, Madam, Sie hawwe recht, es is gar ze arg, wie's alleweil die
+            dienend Klaß treibt, mer sellt sich scheme, daß mer e Dienstbot is; sonst hot mer Gott
+            gedankt, wann mer Jungfer is gehäße worn, un e katunern Kläd uff dem Leib gehatt hot.
+            Jetzt muß es Mamsell un Merino sein.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Sonst – muß ich sage – is die Frenz ziemlich nach dem alte Schnitt, sie is doch etzt
+            annerdhalb Jahr bei mer, un geht immer noch mit ähm un demselbe Borsch.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 19.</head>
+        <stage>Frenz. Dorthee. Madame Hammel.</stage>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Un dann soll se doch sehn, wer hie Herr is, – ich odder mein Mann!?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>tritt von innen ein.</stage>
+          <p>Der Herr Hammel erwart Ihne, Madam, zum Ausgehn.</p>
+          <pb n="276"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Alles in der Ordnung, etzt geht ich. <stage>Bei Seite.</stage> Morje kriest de dein
+            Laafbaß. <stage>Geht ab.</stage></p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>bei Seite.</stage>
+          <p>Gott sei Dank, sie geht. Fahr ab mit deiner Halbchaise! – Etzt soll's los gehn, das
+            ganze Haus soll erbei, mer wolle lustig sein.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE</speaker>
+          <stage>bei Seite.</stage>
+          <p>Awwer zum letztemal – dann morje sollst de ze sehe krieje, ob die annern Dienste besser
+            sein, als der.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>ihren Shawl ablegend.</stage>
+          <p>Ich hoff Dorthée, sie komme so bald net häm. Geht Sie jetzt zum Esse, Dorthée?</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Ja, ich muß en Muffel esse. Ihr Madam hot awwer kän kläne Zorn uff Sie.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Sie hot also mit er geredt?</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Versteht sich, ich hab er awwer gesagt, was se wisse soll. – Des is e Drache, bei
+              <emph>der</emph> mecht ich um kän Preiß diene.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Sie hot Recht. – Lang dauert's mit uns aach net mehr. – Ah! der Musje Peter!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 20.</head>
+        <stage>Vorige. Peter geputzt.</stage>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Fellmichihne allerseits. Alleweil hab ich Ihne Ihre Herrn un Madam unner der Katharine-
+            Port begegnet – sie gehn wahrscheinlich ins Theater – dann heut fängt's frih an.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No ja, Robert der Deiwel, der dauert bis 11 Uhr, do sinn mer ungestört. Ich will noch e
+            zwät Licht anstecke, in dere Kich is es um drei Uhr schon dunkel – kän Wunner, des klän
+            Höfche. – Mer muß ze seiner Arweit doch ebbes sehn. – <stage>Stellt die beiden Lichter
+              auf den Tisch.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head><pb n="277"/> Scene 21.</head>
+        <stage>Peter. Frenz. Lißbeth. Dorthee.</stage>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH</speaker>
+          <stage>öffnet leise die Thür.</stage>
+          <p>Nix for ungut, Frenz, ich hab geglabt du wärscht allein.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Nor erein, des is der Musje Peter, un die Dorthée, du kennst se ja.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH</speaker>
+          <stage>stellt ihr Licht auf den Tisch neben die annern.</stage>
+          <p>Ich hab unserm Herrn die oosig dunkel Trepp enunner leuchte misse, es is e Schand – er
+            is in Schwane.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Aha, etzt bist du Madam</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH</speaker>
+          <stage>lacht.</stage>
+          <p>Ich bins aach ohne dem.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Sie kann von Glick sage, bei eme Junggesell ze diene.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Es is kän Junggesell, mein Herr, es is e Wittmann. – Er hot mich oft versichert, daß so
+            lang ich bei ihm blieb, er niemals nicht heurathe deht.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>lachend.</stage>
+          <p>So, So! – guck emol an!</p>
+        </sp>
+        <sp who="#susann">
+          <speaker>SUSANN</speaker>
+          <stage>ruft außerhalb.</stage>
+          <p>Jungfer Frenz!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ach! – die Susann, was werd dann <emph>die wolle</emph>? <stage>Sie öffnet.</stage> Was
+            is Susann?</p>
+        </sp>
+        <sp who="#susann">
+          <speaker>SUSANN.</speaker>
+          <p>Komm se eruff! – ich hab en Rest Zuckerteig – mer wolle uns Kreppele backe.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>schreit hinaus.</stage>
+          <p>Breng se ihrn Täg erunner, ich hab Besuch – mer backe se hunne.</p>
+        </sp>
+        <sp who="#susann">
+          <speaker>SUSANN.</speaker>
+          <p>Gut – ich komme enunner.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Frenz! Ich wähs net, was de an der Susann hast, ich kann se der net rieche.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Warum?</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Ach, weil se iwwer alle Dreck gleich so e Fahrt hot. Sie duht jo wähs Gott, als ob kän
+            Mensch koche <pb n="278"/> kennt. – Ach! <emph>die</emph> will sich for e Gesandeköchin
+            verkaafe, un wo hot se gedient, in eme elende Speißhaus in der Erbsegaß.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Sie seegt doch, daß Se drowe achtzig Gulde kriejt. – Wersch glabt, wird seelig.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Ja, proßt die Mahlzeit, ich wähs besser wie die Gäul im Stall stehn – 36 Gulde, daß
+            bufft, un nix hinne un nix vorne.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Do kimmt se, esse mer ihr Kreppel un halte mer des Maul.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 22.</head>
+        <stage>Vorige. Susann ein Licht in der einen Hand, welches sie auf den Tisch zu den übrigen
+          stellt; in der andern das Gefäß mit Teig. Sie stellt letzteres auf den Herd.</stage>
+        <sp who="#susann">
+          <speaker>SUSANN</speaker>
+          <stage>tritt zwischen Frenz und Lißbeth.</stage>
+          <p>Do is mein Zuckertaig. – Die Drowe hawwe Eppelkuche esse wolle – was e Einfall,
+            alleweil Eppelkuche?! – Da sag ich awwer – ich will Kreppele. – Ich hab noch drei gute
+            Eierdotter mehr enein gedahn, daß der Taig leichter werd.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Bald fällt die Welt ein, daß <emph>die</emph> sich emol in Unkoste gesteckt hawwe.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE</speaker>
+          <stage>lachend.</stage>
+          <p>Des kimmt net oft vor.</p>
+        </sp>
+        <sp who="#susann">
+          <speaker>SUSANN.</speaker>
+          <p>Heut hot awwer der bewußte Unkel mitgesse.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Ah, der Herr Unkel – hm, hm – Ihr Herrschaft – des sinn kuriose Heilige.</p>
+        </sp>
+        <sp who="#susann">
+          <speaker>SUSANN.</speaker>
+          <p>Redd se mer net dodervon – do megt mer sich en Buckel lache iwwer so Leut, – grad so
+            ungefähr wie Ihr – Frenz!</p>
+          <pb n="279"/>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Gott, es gibt ere so viel von dem Schlag. – E klän Einkommens – un dann wolle se doch
+            duhn, als wann's noch so dick seß.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Do werd des Geld enaus geschmisse for Wind ze mache – un dann solls am arme Gesinn
+            gespart wern. – Es wer viel gescheidter, sie ließe die Bosse, was en doch Niemand glabt,
+            un legte's uns uff unsern Lohn zu.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Her se emol, es hehst ja, die Ihrig deht ja die Rester selbst in Kicheschank
+            einschließe, un die Schlissel mitnemme.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Ja, wann ich net erscht iwwer Seit brecht, was ich braucht. Un von Euerm Herrn hält's,
+            daß er selbst in Keller geht un sich sein Wein hölt.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Vor mir! – Ich trink doch kän Wasser.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>No, no, ihr verarweit awwer euer Herrschafte gut. – Loßt se jetzt e bissi ruhe.</p>
+          <stage>Es klingelt von außen.</stage>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Nor erein.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 23.</head>
+        <stage>Die Vorigen. Die Schwäbin.</stage>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN</speaker>
+          <stage>bleibt schüchtern vor der Thüre stehen.</stage>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ach! des is die Schwäbin! – Die Neu, zwä Steege hoch.</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN.</speaker>
+          <p>Ischt's erlaubt, daß ich mein Lichtle anzinde, Ihr Jungfern?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Nor erein. – Stell se sich net so ebsch.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Ich glab die schämt sich?</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN</speaker>
+          <stage>tritt gesenkten Kopfes ein.</stage>
+          <p>Wann mer Koins kennt?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Do lernt mer sich kenne. Mer sein all Kreuzfidel!</p>
+          <pb n="280"/>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN</speaker>
+          <stage>steckt ihr Licht an.</stage>
+          <p>Mit Erlaubniß. <stage>Verneigt sich und will gehen.</stage></p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No! die geht schond? – Is dein Herrschaft ze Haus?</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN.</speaker>
+          <p>Nai! awwer d'Madam hot mer Tiechle z'wäsche gäe un dann muß i au spinne.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Du kannst dein Tichle morje wäsche, un jetzt kannst de mit uns Kreppe esse.</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN</speaker>
+          <stage>lacht.</stage>
+          <p>Nai, nai, awwer wann des isch – jo! so will ich mein Lichtle auslösche.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>O, Olwel! – wann de jo des Licht net brenne leßt, do sicht jo dein Fraa, da de aus
+            warscht.</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN.</speaker>
+          <p>Sel isch nu wohr. – <stage>Sie stellt ihr Licht neben die andern.</stage></p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>No, die is aach noch passabel ähnfällig.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Sie is aach erscht nach Frankfurt komme.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Sie is erscht am Mittwoch eingange.</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN</speaker>
+          <stage>lacht.</stage>
+          <p>Jo. –</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Was hot se Lohn?</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN.</speaker>
+          <p>25 Gulde.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>O wie miserabel.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Fünf und zwanzig Gulde – nix hinne, nix vorne? Kän Kaffe?</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN.</speaker>
+          <p>Wasser.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Fünf un zwanzig Gulde!? Es is wähs Gott im Himmel schändlich – so e arm Unschuldche, –
+            do nemmt des Osezeug so Orschele vom Land – mit dene meene se dann, kennte se umspringe
+            wie se wollte.</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN.</speaker>
+          <p>I bleib awwer nit z'lang do. Wann i e bisle koche kann, do gag i wiederum haim. Mei
+            Freindschaft hat mer g'sait, sie könnte mi dann selbst zu Bopsinge brauche.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Des loß ich mer gefalle.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>No, wer duht dann jetzt die Krepple backe?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>A, wer dann annerscht, als die Dorthée?</p>
+          <pb n="281"/>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>No, wißt'r was? – domit ich doch aach was duhn, so will ich die Sach beim Feir
+            halte.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Nemme <emph>Sie</emph> die Pann. – Die Dorthée nimmt den Taig und backt se – do is Fett
+            in dem Kroppe.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>No un Frenz! Sie singe uns was derzu.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Erst wolle mer Kreppele esse.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Soll ich vielleicht e Restche kalt Pastet derzu brenge, um ze zeige, daß die Madam net
+              <emph>Alles</emph> einschließt. <stage>Nimmt ihr Licht und geht ab.</stage></p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ja. –</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Un ich – ich liwwer den Wein derzu, um Euch ze zeige, daß unser Herr net immer die
+            Kellerschlissel im Sack hot.</p>
+        </sp>
+        <sp who="#susann">
+          <speaker>SUSANN.</speaker>
+          <p>Wollt er verleicht e Tass Kaffe nach dem Esse trinke? – ich hab en schond for Morje füh
+            fertig – ich derf en nor erunner hole. <stage>Ab.</stage></p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No? un du Schwäbin?</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN</speaker>
+          <stage>mit den Armen schlenkernd.</stage>
+          <p>I hab nix – d'Frau schließt alleweil Alles ein.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ach! was e Unschuld! – Du werscht's aach noch lerne. – No, uff en annermol werd se
+            schond noch was brenge.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Jetzt will ich doch e bissi e Tischtuch ufflege. – No, alle! – Angegriffe! – Halt kän
+            Maulaffe fäl, helft mer e bissi. <stage>Sie rücken den Tisch ins Proscenium.</stage></p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN.</speaker>
+          <p>Wo sein dann d' Teller?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Des will ich schon mache. Geh nor enein un hol Stihl erbei.</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN</speaker>
+          <stage>geht nach der Seite ab und holt Stühle heraus.</stage>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Ich bin wahrhaftig heut Hahn im Korb hier, – wer Courage hätt?!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head><pb n="282"/> Scene 24.</head>
+        <stage>Frenz. Johann. Schwäbin. Peter.</stage>
+        <sp who="#schmidt">
+          <speaker>JOHANN</speaker>
+          <stage>ein Licht in der Hand.</stage>
+          <p>Guten Awend, Mamsell Frenz! – drunne hawwe se gesagt, die Lißbeth wär hier.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>dreht sich um und fragt im Tone der Eifersucht.</stage>
+          <p>Wer is des, Mamsell Frenz?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ach der Kutscher von's Herr Braune, der hot sein Stall in unserm Hof.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>wie oben.</stage>
+          <p>Kimmt er wege Ihne?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Na – er kimmt for die Lißbeth.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Des wollt ich ewe meene!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Nor erein Herr Schmidt. – Sie is Wein hole gange, un Sie drinke e Glas mit.</p>
+        </sp>
+        <sp who="#schmidt">
+          <speaker>SCHMIDT.</speaker>
+          <p>Ich bin derbei. Sehn Se, ich hab grad e leer Boutaille bei mer – ich wollt mer ewe bei
+            ihr fille. <stage>Zieht eine Flasche aus der Tasche und stellt sie auf den
+              Tisch.</stage></p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>läßt das Fett sieden.</stage>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 25.</head>
+        <stage>Vorige. Dorthee, Susann, Lißbeth kommen nacheinander.</stage>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Hie is mein Pastet.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Do is Wein.</p>
+        </sp>
+        <sp who="#susann">
+          <speaker>SUSANN.</speaker>
+          <p>Do is Kaffe, ich brauch en nor ze wärme. <stage>Stellt ihn ans Feuer.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head><pb n="283"/> Scene 26.</head>
+        <stage>Vorige. Frau Hannlapps.</stage>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS</speaker>
+          <stage>außer Athem.</stage>
+          <p>Hoi! was Besuch – Frenz, eich hun der was ze sahe.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Nor eraus dermit! – Ich hawwe kän Gehämniß vor dene Leut.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Eich will der nor sahn, daß der Dienst –</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No ja, daß er fest ausgemacht is?</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Im Gegethal. – Sie hunn e neu Köchin sitter Gestern. – Ihr Beckerschfraa hot en än
+            recumandirt. Die Fraa Wissilier is des Deiwels driwwer. So Beckerschweiber melirn sich
+            in Alles.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Mer wähs aach warum, – es is ihr Vorthel e Köchin ze recumandirn. No etzt net den Kopp
+            gehenkt, Mutter, do driwwer, zum Glick hab ich meine noch nix gesagt.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Des war gescheid! Mer muß sich net iwwereile, weïs Sprichwort seht.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE</speaker>
+          <stage>bei Seite.</stage>
+          <p>Ich hab awwer recht gehatt mich ze eile. – Die kimmt gut an.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Allons, vorwärts, gesse jetzt! – Herr Johann, do nebe der Lißbeth.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>Des is scheen von Ihne, daß e aach komme sinn, Herr Schmidt.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>No, un ich? – ich vielleicht net? Die Mamselle babbele un ich mach hie den Koch.
+              <stage>Alle setzen sich an den Tisch, alle Lichter, welche die Köchinnen mitgebracht
+              haben, stehen auf demselben.</stage></p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN</speaker>
+          <stage>hält sich schüchtern im Hintergrund oder an der Seite.</stage>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>zur Schwäbin.</stage>
+          <p>No, setz dich do evor uff des Hackklotz.</p>
+        </sp>
+        <sp who="#schwaebin">
+          <speaker>SCHWÄBIN</speaker>
+          <stage>setzt sich auf das am Herd stehende Hackklotz.</stage>
+          <pb n="284"/>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>die Krapfen austheilend.</stage>
+          <p>Mir leide heut kän Noth! – nor, her mit de Teller. <stage>Gibt, nachdem er sich und den
+              Andern die Krapfen gegeben die übrig gebliebenen sammt der Schüssel an die
+              Schwäbin.</stage> Da Schwäbin.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Allons, etzt aach en Schluck Wein.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Zwä wann ich bitte derf! – No! Herr Kutscher!</p>
+        </sp>
+        <sp who="#schmidt">
+          <speaker>JOHANN.</speaker>
+          <p>Gesundheit! – No, ich mache Alles wett; wann mein Herrschaft emol verräßt is, do fahr
+            ich Ihne allerseits emol noch Bernem.</p>
+        </sp>
+        <sp who="#frenz #schmidt #schwaebin #peter #dorthee #susann #lissbeth #frau_hannlapps">
+          <speaker>ALLE.</speaker>
+          <p>Es is e Wort.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>No, trinkt emol Beschäd, Fraa Hannlapps.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Eich danke! weïs Sprichwort seht!</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Allons, Mamsell Frenz, gewwe Se uns emol des bewußt Liedche zum Beste.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ach, des is ja ganz gemän! Des bloße schond die Postilion.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Es is awwer doch scheen, un Sie singe wähs Gott, wie die Fischer.<note place="foot">Frau Fischer-Achten eine damalige Sängerin auf dem Frankfurter Theater.</note></p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Warum net gar wie die Sunntag?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Awwer erscht misse Se uns was verzehle, so aus dem Theater ebbes. Sie kennes, sie lese
+            jo all die Programmer, un kenne die Geschichte von dene Opern.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Verzehle Se uns vom Robert dem Deiwel, aus dere Geschicht kann doch Niemand klug
+            wern.</p>
+        </sp>
+        <sp who="#lissbeth">
+          <speaker>LISSBETH.</speaker>
+          <p>War denn werklich der Robert e Sohn vom Deiwel?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Guck emol an? – Der Deiwel war sein Großvatter.</p>
+        </sp>
+        <sp who="#susann">
+          <speaker>SUSANN.</speaker>
+          <p>Ach gehn Se! Der Deiwel hot ja gar kein Großvatter gehatt.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>E Großmutter hat er awwer doch gehatt, dann mer segt jo, der Deiwel un sein Großmutter,
+            un do hot er aach en Großvatter gehatt.</p>
+          <pb n="285"/>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ach, Sie wisse ja nix, verzehle Se was annerscht vom Gustav und dem Maskebahl.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>No, ich will's verzehle, uffgebaßt! – Etzt dererscht geht der Vorhang uff, un do is
+            schon viel heller wie gewehniglich, da werd »ah!« gemacht, dernoch stehn all die
+            Hofkavellier beisamme, mit ferchterliche Hoorzepp; links, do stehn ere, die schneide
+            grimmige Gesichter, worum? des werd sich finne. Etzt kimmt der König erein, aach in eme
+            Hoorzopp, dem leit desmol die Audienz net uff, dann es geht em e schwedisch Gräfin im
+            Kopp erum. Etzt kimmt e klän lieb Medche erein, die hot Hose an un singt scharmant.
+            Dernochender singe se widder allerlä dorchenanner. Etzt kimmt äner erein, e scheener
+            Mann, e Jenneral, aach im e Hoorzopp, mit eme Staatsschnorrbart, un eme gewickste noch
+            derzu. Etzt sagt der dem alte Schwedekönig ebbes ins Ohr, do glotzt der en an, als wollt
+            ersch net glawe, dann die Geschworne wollenem de Garaus mache. Etzt kimmt awwer des
+            Scheinst. Etzt is Brob von em Ballet – do kimmt der Gustav Wasa – net der, den als der
+            Herr Becker spielt – e Annerer, un werft sich wie e fauler Schäfer vor den König hin un
+            schläft un treimt; do kimmt der falsch Dänekönig, der dem Gustav sein Reich strenze
+            will, un wie der en schlofe sieht, will erem e Messer ins Herz steche; do komme awwer
+            die Schutzgeister mit Fahneln un Kette, un nemmen en mit; er geht aach gutwillig, un
+            doderzu werd gedanzt un uff schwedisch Hochzeit gehalte, Alles mit Musik. – Etzt geht
+            der Vorhang widder uff! –</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Er war ja noch net hunne?</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Naseweis Gefrog – do nett – awwer im Theater war er awwer doch hunne. – Etzt sein se in
+            so eme alte Gelerch mit ere Bodemtrepp, un hinne sieht mer Schiff; do leßt sich der
+            König verkläd als Schiffmann die gut Wahrheit sage von so ere Art Karteschlegerin, un
+            plakleziert ähm e Roll Dukate in Sack, -des wern awwer nordst Dantes gewese sein.
+            Dernochender versteckelt er sich, un wie er widder zum Vorschein kimmt, so singe <pb n="286"/> die Choriste: Es lebe der König, un die Kinner leckenem die Hänn ab, als
+            hette se Lattwerkbutterrahm un Alles geht enaus. – Etzt geht widder der Vorhang uff.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Wann er erscht zu war.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Schweie Se doch. – Etzt sinn mer gar am Gallje – hawwe Se den Hanauer Gallje schond
+            gesehe? – grad so äner steht do! – Es is ferchterlich, es leit Schnee un is Nacht – do
+            geht aach widder allerlä vor, der Ankerstrem sattelt um, un will den König, dem er sein
+            guter Freund vorher geweßt is, umbrenge, un do derzu werd widder viel gesunge un die
+            Choriste lache ha! ha! ha! un kän Mensch wähs warum. – Etzt fällt der Vorhang, wann's
+            widder uffgeht, do stellt's e Stub vor, die ich schond wo annerschter gesehe hab, in
+            dere Stub werd widder allerlä gesunge von dem ich nix verrothe will. Hernochender loose
+            se, wer den König todtschieße sol, der mit dem Schnorrbart (der Jenneral) zieht's, sein
+            Fraa krigt bald die Dichter; etzt kimmt des Medche widder un singt sehr freundlich; do
+            werd ferchterlich geklatscht. Un do is es widder aus, un wann's widder uffgeht, do
+            mißt'r gucke, do gehn Sache vor! Erschtlich emol, mehr wie 2000 Wachslichter un ähnzige
+            Collisse un Dekeratione! – Korz e ganzer Maskebahl, wie mern hie net ze sehe kriejt. –
+            Ich war emol uff ähm hinner der Roos – der war awwer Bummer! – Wie ich in Mannem
+            gearweit hab, do warsch so ungefähr uff dem Foxhall uff Fassenacht. – Hernochender danze
+            die Gickel – des is um die Krenk ze krieje – un e Kallopad – wann die angeht, do bleibt
+            kän Bän ruhig, – do sellte Se emol des Gewitschel uff dere Gallerie sehe! – Hernochender
+            werd ferchterlich geklatscht. – Etzt komme die Geschworne – do geht's widder ernsthaft
+            zu, die hawwe weise Binne uff ihre Aerm gebunne, un bischbele ganz beducht mit enanner.
+            Uff ähnmol, wupp dich, geht der Ankerstrem uff den König los, un eh mer sich's versicht
+            – Buff – hot er e Kuggel im Leib un sterbt, un der Uhz hot e Enn. – Sicht, des is der
+            Gustav! –</p>
+          <pb n="287"/>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Jetzt will ich aach was schönes singe, awwer net des, was ich Euch die Pingste im
+            Weldche gesunge hab, des is ähnzig neu, mich hot's e musikalisch Biggeljungfer gelernt.
+              <stage>Singt nach der Melodie »Das Auge voll Muth«.</stage></p>
+          <lg>
+            <l>Du, du, du mit dem Feierblick,</l>
+            <l>Weis', weis', weis' du mich nicht zurück</l>
+            <l>Krö-, krö-, kröne mein Liebesglück,</l>
+            <l>Schnell eh' die Rosen verblühn.</l>
+            <l>Man, man, man sagt ein Männerherz</l>
+            <l>Treibt, treibt, treibt mit der Liebe Scherz,</l>
+            <l>Sein's, sein's, sein's ist wie Silber treu,</l>
+            <l>Schlägt alle vierzehn Tage neu.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 27.</head>
+        <stage>Vorige. Herr und Madame Hammel öffnen die Mittelthüre und bleiben erstarrt über das,
+          was sie erblicken, stehen.</stage>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>erhebt sich sehr animirt.</stage>
+          <p>Jungfer Frenz, ich muß Ihne küsse!</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ach, gehn Se weg!</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>No, allons Frenz! er beißt dich net, wes Sprichwort seht.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>strenge.</stage>
+          <p>Was geht vor in meim Haus? des is jo ganz scharmant! –</p>
+        </sp>
+        <sp who="#frenz #schmidt #schwaebin #peter #dorthee #susann #lissbeth #frau_hannlapps">
+          <speaker>ALLE</speaker>
+          <stage>ergreifen ihre Lichter.</stage>
+          <p>Ach, die Herrschaft! <stage>Die Frau Hannlapps ist beim Anblick der Madame Hammel wie
+              versteinert.</stage></p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Wer hot mich also doch mit der Wahrheit bericht? – Des geht scheen her, wann ich net
+            dehäm bin?</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>No? un was is dermehr? – Wann mer sein Arweit gethan hot, do is mer sein Herr, un kann
+            sich uff sein Hand amisire.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>So? uff Unkoste der Herrschaft?</p>
+          <pb n="288"/>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>patzig.</stage>
+          <p>Wann Se vielleicht glawe, Madam Hammel, mer eeßte hie <emph>Ihr</emph> Sach, – do errn
+            Se sich. Es hot e jedes sein Sach mitgebrocht.</p>
+        </sp>
+        <sp who="#schmidt #schwaebin #peter #dorthee #susann #lissbeth #frau_hannlapps">
+          <speaker>ALLE.</speaker>
+          <p>Ja, Madam, e jedes hot sein Esse mitgebracht.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Un die, die kän Esse gebracht hawwe, hawwe ihr angenehm Gegewart gebracht.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Un in meiner Kich, do hab ich doch was ze sage.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Wann werklich jedes sein Esse mitgebracht hot, do kann mer doch – –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Ich bitt dich, schwei! – ich wähs doch, was ich wähs.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Was wolle Se domit sage, Madam?</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Weil ich mich von ihr net zwische zwä Stihl setze losse wollt, so hab ich mich
+            vorgesehe. – Morje des Tags kann se gehn.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Was? Sie wolle mein Dochter uff die Gaß brenge?</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Gott bewahre – weil se doch en Dienst hat.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ</speaker>
+          <stage>schluchzend.</stage>
+          <p>Wer kann Ihne so was gesagt hawwe? – Nän, Madame, wahrhaftig ich hab kän Dienst.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Des duht mer läd, ich hab die Dorthée gedunge.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Sie hot mer ja doch gesagt, daß se uffsage deht; – wähs Se was, nem se mein Platz bei
+            der Fraa Kratz.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Ja! 25 Gulde weniger – ich danke.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL</speaker>
+          <stage>zu seiner Frau.</stage>
+          <p>Awwer Fraa, wann se dann doch kän Platz hot, so kannst de doch wahrlich net –</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Ich rothe der, schwei! Was hab ich in Ihne Ihrm Gillet gefunne?! <stage>Zeigt ihm
+              Frenzens Pfandschein.</stage> Kenne Se desjenige?</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Des is e Pandschein, weil ich den Taxator zum Freund am Pandhaus hab, so hat mich die
+            Frenz gebitt. –</p>
+          <pb n="289"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Sie soll ihr Potenteträgern selbst sein, sie soll ihr Brief selbst trage. <stage>Sie
+              gibt ihr den Schein.</stage></p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>Madame, wann Se erlawe. – Mer muß Niemand beschimpe. Wann mein Dochter Schulde gemacht
+            hot, su warsch um ihrer Freundschaft behilflich ze sein. – No, was sah ich? – Do der
+            Herr Peter – se werd heurothe misse – su kanns allans sein.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>No, ich wußt doch, daß <emph>ich</emph> for <emph>ebbes</emph> herkomme bin.</p>
+        </sp>
+        <sp who="#frau_hannlapps">
+          <speaker>FRAU HANNLAPPS.</speaker>
+          <p>A, freilich. –</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Mein Sach – is so zimmlich in der Reih – wann's dann net annerscht is, so gehn mer
+            morje des Dags noch Butschbach. – Mein Mutter gibt mer zwar erscht überschs Johr des
+            Geschäft – bis dohin braucht se awwer en brav Mäd – Jungfer Frenz, ich hab an Ihne
+            gedacht. – Korz, des kimmt druff eraus, daß mer unner ähm Dach wohne, un iwwersch Johr,
+            wann unser Herr Parre copelirt, werd all ihr Verdruß verschwunne sein.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Sehn Se Madam, daß ich doch net plott sitz. – Un da Se mer nix vorzewerfe hawwe, so
+            bitt ich um e gut Lob. Ich bin dann so frei, Ihne als dann un wann ze besuche, mit Ihrer
+            Erlaubniß.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>No, es werd uns angenehm sein. Sprech Se emol zu, zukünftig Fraa, wie häßt der Mann?
+            –</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER.</speaker>
+          <p>Kalbfläsch.</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Fraa Kalbfläsch. <stage>Er sagt ihr etwas ins Ohr.</stage></p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>No, no, Hammel, dauert's noch lang, die hämlich Conferenz?</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Schätzi, ich komm gleich.</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>nachspottend.</stage>
+          <p>Ich komm der gleich noch. – <stage>Gebieterisch.</stage> Voraus!</p>
+        </sp>
+        <sp who="#herr_hammel">
+          <speaker>HAMMEL.</speaker>
+          <p>Awwer! – –</p>
+          <pb n="290"/>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL.</speaker>
+          <p>Nix Awwer! – <stage>Stößt ihn vor sich hin.</stage> Voraus! sag ich.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Madam, wann Se vielleicht mein Kist wolle uffmache losse, un nochsehe losse?</p>
+        </sp>
+        <sp who="#madame_hammel">
+          <speaker>MADAME HAMMEL</speaker>
+          <stage>im Abgehen.</stage>
+          <p>Dozu is morje Zeit, bei Tageslicht.</p>
+        </sp>
+        <sp who="#peter">
+          <speaker>PETER</speaker>
+          <stage>nachrufend.</stage>
+          <p>Un ihr Bichelche einschreiwe, wann's Ihne gefällig wär!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene 28.</head>
+        <stage>Alle, außer Herr und Madame Hammel.</stage>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Sag se emol an, Dorthée, Sie is e Fuchsschwänzern.</p>
+        </sp>
+        <sp who="#dorthee">
+          <speaker>DORTHEE.</speaker>
+          <p>Den Deiwel aach, Sie hot mer jo gesagt, sie ging.</p>
+        </sp>
+        <sp who="#frenz">
+          <speaker>FRENZ.</speaker>
+          <p>Dorthée, sich se, ich will's gut sein losse. Ich trag ersch net noch, was duht's? Ich
+            bin ja versorgt. Awwer die Alte sein fort, losse mer des gut sein un verzehre mer etzt
+            volligst unser Sach in Ruh. Un – wißt Ihr was? Hawwe mer dann so viel heunt angestellt,
+            so wolle mer aach noch ganz des Deiwels sein – den Kopp reise se ähm doch net erunner.
+            Mer singe noch emol: »Ein freies Leben fihren wir, ein Leben voller Wonne!«</p>
+        </sp>
+        <sp who="#frenz #schmidt #schwaebin #peter #dorthee #susann #lissbeth #frau_hannlapps">
+          <speaker>ALLE</speaker>
+          <stage>wiederholen den Gesang.</stage>
+        </sp>
+        <stage>Plötzlich zeigt sich Madame und Herr Hammel an der Seitenthüre und ruft aus.</stage>
+        <sp who="#herr_hammel #madame_hammel">
+          <p>Satansgezeig!</p>
+        </sp>
+        <stage>Der Vorhang fällt.</stage>
+        <pb n="291"/>
+      </div>
+    </body>
+  </text>
+</TEI>

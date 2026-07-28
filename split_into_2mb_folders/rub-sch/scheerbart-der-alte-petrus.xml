@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xml:id="ger000030" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der alte Petrus oder Im Himmel spukt es auch</title>
+        <title type="sub">Ein himmlisches Schauspiel</title>
+        <author>
+          <persName>
+            <forename>Paul</forename>
+            <surname>Scheerbart</surname>
+          </persName>
+          <idno type="wikidata">Q62435</idno>
+          <idno type="pnd">118606816</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:tvc5.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <author>Paul Scheerbart</author>: <title level="a">Der alte Petrus oder Im Himmel spukt
+              es auch. Ein himmlisches Schauspiel</title>. Herausgegeben von Mechthild Rausch. Band
+              <biblScope unit="volume">1</biblScope>: Revolutionäre Theater-Bibliothek.
+              <pubPlace>München</pubPlace>: <publisher>edition text + kritik</publisher>
+            <date>1977</date>, S. <biblScope unit="page" from="199" to="205">199–205</biblScope>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="michael" sex="MALE">
+            <persName>Michael</persName>
+          </person>
+          <person xml:id="petrus" sex="MALE">
+            <persName>Petrus</persName>
+          </person>
+          <person xml:id="moritz" sex="MALE">
+            <persName>Moritz</persName>
+          </person>
+          <person xml:id="erika" sex="FEMALE">
+            <persName>Erika</persName>
+          </person>
+          <person xml:id="hannemann" sex="MALE">
+            <persName>Hannemann</persName>
+          </person>
+          <person xml:id="hennemann" sex="MALE">
+            <persName>Hennemann</persName>
+          </person>
+          <person xml:id="ein_beamter" sex="MALE">
+            <persName>Ein Beamter</persName>
+          </person>
+          <personGrp xml:id="die_postbeamten" sex="MALE">
+            <name>Die Postbeamten</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-12-23">(ff) formalities</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1904">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000030" passive="http://www.wikidata.org/entity/Q51393397"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">Der alte Petrus oder Im Himmel spukt es auch</titlePart>
+        <titlePart type="sub">Ein himmlisches Schauspiel</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personen.</head>
+        <castItem><role>Petrus,</role>
+          <roleDesc>Portier des Paradieses.</roleDesc></castItem>
+        <castItem><role>Michael,</role>
+          <roleDesc>grosser Engel.</roleDesc></castItem>
+        <castItem><role>Moritz,</role>
+          <roleDesc>artiges Kind aus Deutschland.</roleDesc></castItem>
+        <castItem><role>Erika,</role>
+          <roleDesc>artiges Kind aus Deutschland.</roleDesc></castItem>
+        <castItem><role>Hannemann,</role>
+          <roleDesc>portugiesischer Geheimpolizist aus Lissabon.</roleDesc></castItem>
+        <castItem><role>Hennemann,</role>
+          <roleDesc>portugiesischer Geheimpolizist aus Lissabon.</roleDesc></castItem>
+        <castItem><role>Diverse Engel und paradiesische Postbeamte.</role></castItem>
+      </castList>
+      <set>
+        <p>Die Handlung spielt in der Portierstube des alten Petrus.</p>
+        <p>Links eine Türe, rechts eine Türe – und hinten ein altes sehr breites Fenster mit Aussicht aufs Paradies, in dem viele bunte Wolken und ein paar Palmen zu sehen sind.</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene">
+        <head>[Stücktext]</head>
+        <stage>Vorne links Tisch und Sopha , ein grosses Kleiderspind hinten rechts . Viele alte Möbel . Viel altes Gerümpel .</stage>
+        <stage>Die Darstellenden sind sämtlich unter fünfzehn Jahren – oder tun so , als wären sie 's .</stage>
+        <stage>Der Engel Michael ist ein grösseres Mädchen mit goldenem Brustharnisch , zweischneidigem Schwert , blonden Locken und weissen Flügeln . Dieser Engel steht mitten in der Stube , während der alte Petrus mit weissem Bart- und Haupthaar aufm Sopha sitzt . Der grosse Schlüssel liegt vor Petrus aufm Tisch .</stage>
+        <sp who="#michael">
+          <speaker>MICHAEL.</speaker>
+          <p>Petrus, ich sage Dir: Du hast nicht ordentlich aufgepasst! Du hast ins Paradies Leute hineingelassen, die nicht hergehören.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS</speaker>
+          <stage>sagt auf den Tisch schlagend .</stage>
+          <p>Da schlag das Donnerwetter rein: ich weiss von nichts.</p>
+        </sp>
+        <sp who="#michael">
+          <speaker>MICHAEL.</speaker>
+          <p>Im Himmel spukt es auch.</p>
+          <stage>Links durch die Türe heftig ab .</stage>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Jetzt lass ich überhaupt Keinen mehr rein. <stage>Es klopft rechts .</stage> Wer ist da?</p>
+        </sp>
+        <sp who="#moritz #erika">
+          <speaker>MORITZ UND ERIKA</speaker>
+          <stage>sagen rechts draussen zusammen .</stage>
+          <p>Zwei artige Kinder aus Deutschland sind wir. Moritz und Erika heissen wir.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Seid Ihr auch nicht Gespenster?</p>
+        </sp>
+        <sp who="#moritz">
+          <speaker>MORITZ.</speaker>
+          <p>Ich bin kein Gespenst.</p>
+        </sp>
+        <sp who="#erika">
+          <speaker>ERIKA.</speaker>
+          <p>Ich bin auch kein Gespenst.</p>
+          <stage>Petrus schliesst rechts auf mit dem grossen Schlüssel und lässt sie eintreten .</stage>
+        </sp>
+        <sp who="#moritz">
+          <speaker>MORITZ.</speaker>
+          <p>Guten Morgen, Onkel Petrus!</p>
+          <stage>Hand reichend .</stage>
+        </sp>
+        <sp who="#erika">
+          <speaker>ERIKA.</speaker>
+          <p>Guten Morgen, Onkel Petrus! <stage>Knixend und Hand reichend .</stage> Wir sollten auch herzlich grüssen von Mama und Papa.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Danke schön! <stage>Er kuckt zum Fenster raus und kraut sich erschrocken hinter den Ohren .</stage> Kinder, ich muss erst draussen mit dem alten Gabriel reden; er winkt mir. Stellt Euch so lange in den Kleiderschrank und verhaltet Euch ruhig.</p>
+          <stage>Die Kinder tuns , Petrus schliesst den Schrank zu und geht ab ; der Schrank-Schlüssel bleibt stecken .</stage>
+        </sp>
+        <sp who="#moritz">
+          <speaker>MORITZ</speaker>
+          <stage>sagt im Schranke .</stage>
+          <p>Erika, sei ganz still!</p>
+          <stage>Es klopft sieben Mal unterm Fussboden , der sich dann auftut und die beiden Geheimpolizisten Hannemann und Hennemann aus der Versenkung aufsteigen lässt . Die Geheimpolizisten haben grosse Schlapphüte , schwarze Bärte und schwarze lange Röcke .</stage>
+        </sp>
+        <sp who="#hannemann">
+          <speaker>HANNEMANN.</speaker>
+          <p>Wir wollen hier überall ordentlich herumspuken.</p>
+        </sp>
+        <sp who="#hennemann">
+          <speaker>HENNEMANN.</speaker>
+          <p>Wir wollen schon sehen, ob hier Alle – ordentliche Patrioten sind. Nimm den Schlüssel.</p>
+        </sp>
+        <sp who="#hannemann">
+          <speaker>HANNEMANN</speaker>
+          <stage>sagt der zum Fenster raussah</stage>
+          <p>Lass ihn liegen; Petrus <stage>Er öffnet ihn und sperrt den Mund auf .</stage></p>
+        </sp>
+        <sp who="#moritz">
+          <speaker>MORITZ.</speaker>
+          <p>Onkel Petrus! Onkel Petrus!</p>
+        </sp>
+        <sp who="#hennemann">
+          <speaker>HENNEMANN.</speaker>
+          <p>Ruhig! Sonst schneiden wir Euch die Gurgel ab. Ihr seid verhaftet.</p>
+          <stage>Sie reissen Moritz und Erika aus dem Schrank raus und binden ihnen die Hände auf dem Rücken zusammen .</stage>
+        </sp>
+        <sp who="#hannemann">
+          <speaker>HANNEMANN.</speaker>
+          <p>Dass Ihr nichts sagt! Marsch! Zurück in den Schrank!</p>
+          <stage>Die Kinder steigen abermals in den Schrank , der hinter ihnen wieder zugeschlossen wird . Und die beiden Geheimpolizisten steigen durchs Fenster ins Paradies , während gleich darauf der alte Petrus wieder von links durch die Türe hereinkommt und gleich den Schrank öffnet .</stage>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Nanu? Wer hat Euch denn die Hände zusammengebunden?</p>
+        </sp>
+        <sp who="#moritz">
+          <speaker>MORITZ.</speaker>
+          <p>Das dürfen wir nicht sagen.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Ah! Jetzt geht mir ein Licht auf. Sagt man: Gespenster waren hier. Nicht wahr?</p>
+        </sp>
+        <sp who="#erika">
+          <speaker>ERIKA.</speaker>
+          <p>Sie haben uns aber gesagt, wir sollten nicht sagen, dass sie uns gebunden haben.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Ha! Ha! Ha! Wo sind sie?</p>
+        </sp>
+        <sp who="#moritz">
+          <speaker>MORITZ.</speaker>
+          <p>Durchs Fenster sind sie gegangen.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS</speaker>
+          <stage>klingelt heftig mit einer Tischklingel , worauf sofort mehrere Engel mit kleinen Flügeln erscheinen</stage>
+          <p>Lasst die Glocken läuten! Gespenster sind im Himmel! <stage>Zwei Engel eilig wieder ab , zu den Kindern .</stage> Wie sahen denn die Gespenster aus?</p>
+        </sp>
+        <sp who="#moritz">
+          <speaker>MORITZ.</speaker>
+          <p>Schwarze Schlapphüte hatten sie – und schwarze Bärte und schwarze Röcke.</p>
+        </sp>
+        <sp who="#erika">
+          <speaker>ERIKA.</speaker>
+          <p>Und sie wollten schon sehen, ob hier auch Alle – ordentliche Patrioten sind.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS</speaker>
+          <stage>sagt zu den Engeln .</stage>
+          <p>Geht schnell und teilt durch Ferndrucker allen Himmelsbewohnern mit, was Ihr gehört habt. Und dann seht zu, dass Ihr die beiden Gespenster gefesselt herbringt. <stage>Alle Engel ab , Petrus macht den beiden Kindern die Hände frei .</stage></p>
+        </sp>
+        <sp who="#michael">
+          <speaker>MICHAEL</speaker>
+          <stage>sagt durchs Fenster sprechend , während die Glocken läuten</stage>
+          <p>Siehst du, verdammter alter Peter: also zwei Gespenster haben sich doch eingeschlichen. Warte nur: Du bist die längste Zeit Portier gewesen. Das werde ich Dir ordentlich einsalzen. <stage>Faustschüttelnd ab , während vorne durch die linke Türe himmlische Postbeamte eine grosse Kiste hereinbringen .</stage></p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS</speaker>
+          <stage>sagt zu den Beamten , die blaue Hemdröcke , rote kleine Flügel , blonde Locken und gelbe Trompeten haben</stage>
+          <p>Was wollt <span>Ihr</span></p>
+        </sp>
+        <sp who="#ein_beamter">
+          <speaker>EIN BEAMTER.</speaker>
+          <p>Aber Onkel Petrus! Heute geht doch wieder die Post an den Onkel Satanas ab.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Richtig! Das hatte ich ja ganz vergessen.</p>
+          <stage>Hannemann und Hennemann werden mit auf den Rücken gefesselten Händen von den anderen Engeln lärmend herbeigebracht – die Engel und Kinder freuen sich mächtig – der Michael sieht wieder durchs Fenster – es wird dann still – und die Glocken verhallen .</stage>
+        </sp>
+        <sp who="#hannemann">
+          <speaker>HANNEMANN.</speaker>
+          <p>Ich heisse Hannemann <stage>Schreiend .</stage> und hier mein Freund heisst Hennemann. Wir sind Geheimpolizisten aus Lissabon und berechtigt, alle diejenigen, die in verdächtiger Weise auffällig werden, zu verhaften. Und wenn Sie, Herr Petrus, uns nicht sofort befreien – so werden wir Sie auch verhaften.</p>
+        </sp>
+        <sp who="#hennemann">
+          <speaker>HENNEMANN.</speaker>
+          <p>Wir haben vorhin jene beiden Kinder im Schrank angetroffen. War das, Herr Petrus, noch nicht verdächtig genug?</p>
+        </sp>
+        <sp who="#hannemann">
+          <speaker>HANNEMANN.</speaker>
+          <p>Wer hat denn den beiden Kindern die Fesseln abgemacht?</p>
+        </sp>
+        <sp who="#moritz">
+          <speaker>MORITZ.</speaker>
+          <p>Das hat Onkel Petrus getan.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Junge, Du scheinst eine mächtige Angst vor diesen Geheimpolizisten zu haben.</p>
+        </sp>
+        <sp who="#erika">
+          <speaker>ERIKA.</speaker>
+          <p>Onkel Petrus, ich hab' nicht ein bischen Angst. <stage>Die Engel und die Postbeamten müssen schmunzeln .</stage></p>
+          <stage>Petrus hat währenddem sein Schreibzeug vorgeholt und schreibt auf dem Sopha sitzend einen grossen Brief , während</stage>
+        </sp>
+        <sp who="#hannemann">
+          <speaker>HANNEMANN.</speaker>
+          <p>Ihr werdet allesamt verhaftet!</p>
+        </sp>
+        <sp who="#hennemann">
+          <speaker>HENNEMANN.</speaker>
+          <p>Wisst Ihr denn nicht, dass wir Beamte sind?</p>
+        </sp>
+        <sp who="#michael">
+          <speaker>MICHAEL</speaker>
+          <stage>sagt im Fensterrahmen .</stage>
+          <p>Hier gibt es <span>auch</span></p>
+        </sp>
+        <sp who="#die_postbeamten">
+          <speaker>DIE POSTBEAMTEN</speaker>
+          <stage>sagt alle durch einander wichtig .</stage>
+          <p>Wir sind <span>auch</span><span>auch</span></p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS</speaker>
+          <stage>hört mit Schreiben auf</stage>
+          <p>Hannemann und Hennemann, was wolltet Ihr im Himmel?</p>
+        </sp>
+        <sp who="#hennemann">
+          <speaker>HENNEMANN.</speaker>
+          <p>Wir wollten sehen, ob auch alle Himmelsbewohner ordentliche Patrioten sind.</p>
+        </sp>
+        <sp who="#hannemann">
+          <speaker>HANNEMANN.</speaker>
+          <p>Wir haben die Befugnis, alle Diejenigen, die nicht ordentliche Patrioten sind,</p>
+        </sp>
+        <sp who="#hennemann">
+          <speaker>HENNEMANN.</speaker>
+          <p>oder sich sonst so wie jene beiden Kinder verdächtig machen,</p>
+        </sp>
+        <sp who="#hannemann">
+          <speaker>HANNEMANN.</speaker>
+          <p>zu verhaften.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Ich wollte eigentlich überhaupt Keinen mehr in den Himmel hineinlassen, und so kamen die Kinder in den Schrank – da ich zu gutmütig bin. Ich ärgerte mich nämlich, dass ich so gutmütig gewesen war, sie doch noch hineinzulassen – und deshalb <span>mussten</span></p>
+        </sp>
+        <sp who="#hannemann">
+          <speaker>HANNEMANN.</speaker>
+          <p>Unsre Legitimationspapiere befinden sich in unsrer Brusttasche.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Ihr zweifelt also an dem aufrichtigen Patriotismus der Himmelsbewohner?</p>
+        </sp>
+        <sp who="#hannemann">
+          <speaker>HANNEMANN.</speaker>
+          <p>Wir tun nur unsre Pflicht.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS.</speaker>
+          <p>Wie könnt Ihr aber die Himmelsbewohner derartig durch Euren Zweifel beleidigen?</p>
+        </sp>
+        <sp who="#hennemann">
+          <speaker>HENNEMANN.</speaker>
+          <p>Wir tun, was unsres Amtes ist.</p>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS</speaker>
+          <stage>nimmt seinen Brief in die Hand</stage>
+          <p>Passt auf! Ich werde Euch mal vorlesen, was ich an den Onkel Satanas geschrieben habe – denn Ihr müsst wissen, dass heute wieder verschiedene Postsachen an den Onkel Satanas geschickt werden. Passt auf! Ich schrieb hier: »Lieber Onkel Satanas! Ich schicke Dir mit beifolgender Post zwei ganz bösartige Leute, die sich hier im Himmel als Gespenster mausig machen wollten; sie behaupten, </p>
+        </sp>
+        <sp who="#michael">
+          <speaker>MICHAEL.</speaker>
+          <p>Streu Sand rauf!</p>
+          <stage>Verschwindet am Fenster und kommt nachher durch die Türe links herein .</stage>
+        </sp>
+        <sp who="#petrus">
+          <speaker>PETRUS</speaker>
+          <stage>sagt während er Sand auf den Brief streut</stage>
+          <p>Postbeamte! Schmeisst die beiden Kerls in die Kiste und befördert die Kiste in die Hölle. Diesen Brief müsst Ihr auch mitnehmen. <stage>Die Postbeamten tun , wie ihnen befohlen ward .</stage></p>
+        </sp>
+        <sp who="#hannemann #hennemann">
+          <speaker>HANNEMANN UND HENNEMANN</speaker>
+          <stage>sagen durch einander mehrere Male .</stage>
+          <p>Hilfe! Gewalt! Wir verhaften Euch sämtlich! Ihr werdet Alle geköpft. <stage>Sie schreien noch , nachdem die Kiste schon zugemacht ist .</stage></p>
+        </sp>
+        <sp who="#michael">
+          <speaker>MICHAEL</speaker>
+          <stage>sagt umarmt den Petrus</stage>
+          <p>Alter Petrus, das hast Du brav gemacht. Jetzt wollen wir uns wieder vertragen. <stage>Die Postbeamten gehen mit der Kiste rechts durch die Türe , die umständlich mit dem grossen Schlüssel geöffnet wird , ab . Die anderen Engel ziehen den Moritz und die Erika nach hinten zum Fenster , wobei viel Lachen und Lärmen zu hören und viel Bewegung zu sehen ist .</stage></p>
+          <stage>Während nun draussen rechts die Posthörner ertönen , Moritz und Erika mit den Engeln recht umständlich durchs Fenster ins Paradies steigen und Petrus dem Michael einen grünen Likör einschänkt , fällt langsam der Vorhang .</stage>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

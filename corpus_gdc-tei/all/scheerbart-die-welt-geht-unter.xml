@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000429" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Die Welt geht unter!</title>
+        <title type="sub">Ein Tableau</title>
+        <author>
+          <persName>
+            <forename>Paul</forename>
+            <surname>Scheerbart</surname>
+          </persName>
+          <idno type="wikidata">Q62435</idno>
+          <idno type="pnd">118606816</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:tv65.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode"
+                >Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <author>Paul Scheerbart</author>: <title level="a">Die Welt geht unter! Ein
+              Tableau</title>. Herausgegeben von Mechthild Rausch. Band <biblScope unit="volume"
+              >1</biblScope>: Revolutionäre Theater-Bibliothek. <pubPlace>München</pubPlace>:
+              <publisher>edition text + kritik</publisher>
+            <date>1977</date>, S. <biblScope unit="page" from="144" to="147"
+            >144–147</biblScope>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="der_erzengel_gabriel" sex="MALE">
+            <persName>Der Erzengel Gabriel</persName>
+          </person>
+          <person xml:id="ein_regierungsbeamter" sex="MALE">
+            <persName>Ein Regierungsbeamter</persName>
+            <persName type="variant">Der Regierungsbeamte von vorhin</persName>
+          </person>
+          <person xml:id="ein_millionaer" sex="MALE">
+            <persName>Ein Millionär</persName>
+            <persName type="variant">Der Millionär von vorhin</persName>
+          </person>
+          <personGrp xml:id="die_aufgeregten_leute" sex="UNKNOWN">
+            <name>Die aufgeregten Leute</name>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-12-20">(ff) formalities</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1904">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000429"
+        passive="http://www.wikidata.org/entity/Q51393922"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <pb n="144"/>
+    <front>
+      <docTitle>
+        <titlePart type="main">Die Welt geht unter!</titlePart>
+        <titlePart type="sub">Ein Tableau</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personen.</head>
+        <castItem><role>Der Erzengel Gabriel.</role></castItem>
+        <castItem><role>Ein Regierungsbeamter.</role></castItem>
+        <castItem><role>Ein Millionär.</role></castItem>
+        <castItem><role>Volk.</role></castItem>
+        <castItem><role>Theaterleute.</role></castItem>
+      </castList>
+      <set>
+        <p>Ort der Handlung: Berlin.</p>
+        <p>Zeit: Gegenwart.</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene">
+        <head>[Stücktext]</head>
+        <stage>Zwei weisse Wände stehen im rechten Winkel zu einander – so, dass die Bühne mit der
+          Lampenreihe ein rechtwinkliges Dreieck bildet, dessen rechter Winkel hinten ist.</stage>
+        <stage>In der Mitte von jeder der beiden Wände eine türartige Oeffnung, durch die viele
+          Leute aufgeregt raus- und reinlaufen. Es donnert.</stage>
+        <stage>Und die aufgeregten Leute, die Säcke, Warenballen und Pretiosen mit sich schleppen
+          und teilweise hinten zu verbergen suchen oder herumwerfen, schreien sämtlich in allen
+          möglichen Tonarten »Die Welt geht unter!« ringen die Hände, lamentieren fürchterlich und
+          tun ganz verzweifelt; unter den aufgeregten Leuten befinden sich Millionäre, Portiers,
+          Regierungsbeamte, Witwen, Droschkenkutscher, Jungfrauen, Chinesen und
+          Zirkuskünstler.</stage>
+        <stage>Wie der Donner und das Volksgeschrei seinen Höhepunkt erreicht hat, gehen plötzlich
+          die Wände hinten auseinander; sie drehen sich um den Punkt, der an die Lampenreihe stösst,
+          so weit – bis sie zu dieser im rechten Winkel stehen.</stage>
+        <pb n="145"/>
+        <stage>Die aufgeregten Leute fallen vor Schreck zum grossen Teil um oder auf die Kniee und
+          starren in entsetzter Haltung zum Hintergrunde hinauf.</stage>
+        <stage>Im Hintergrunde steht vor einer anderen weissen Wand, die vorhangartig hinten den
+          Bühnenraum abschliesst, sodass dieser ganz rechteckig wird, der Erzengel Gabriel in
+          preussischer Gardeleutnantsuniform – breitbeinig seinen Säbel vor sich, auf den er sich
+          mit seinen beiden grossen Händen stützt.</stage>
+        <stage>Der Erzengel ist mindestens drei und einen halben Meter gross, trägt weisse
+          Beinkleider, Monocle und Infanteriemütze; der Kopf ist naturgemäss sehr klein, da ja der
+          Darsteller mit seinem ganzen Leibe im Leutnantsrumpfe stecken muss.</stage>
+        <sp who="#der_erzengel_gabriel">
+          <speaker>DER ERZENGEL GABRIEL.</speaker>
+          <p>Sagt mal, meine guten Leute, wo bin ich denn hier eigentlich?</p>
+        </sp>
+        <sp who="#ein_regierungsbeamter">
+          <speaker>EIN REGIERUNGSBEAMTER.</speaker>
+          <p>In Berlin.</p>
+        </sp>
+        <sp who="#der_erzengel_gabriel">
+          <speaker>DER ERZENGEL GABRIEL.</speaker>
+          <p>So! So! Na sagt mal, meine guten Leute, merkt Ihr noch nicht, dass ich der Erzengel
+            Gabriel bin?</p>
+        </sp>
+        <sp who="#ein_millionaer">
+          <speaker>EIN MILLIONÄR.</speaker>
+          <p>Ich merks!</p>
+        </sp>
+        <sp who="#der_erzengel_gabriel">
+          <speaker>DER ERZENGEL GABRIEL.</speaker>
+          <p>Na was ist denn los? Warum seid Ihr denn so aufgeregt?</p>
+          <stage>Wieder leises Donnern.</stage>
+        </sp>
+        <sp who="#die_aufgeregten_leute">
+          <speaker>DIE AUFGEREGTEN LEUTE</speaker>
+          <stage>alle durch einander mehrfach.</stage>
+          <p>Die Welt geht doch unter!</p>
+        </sp>
+        <sp who="#der_erzengel_gabriel">
+          <speaker>DER ERZENGEL GABRIEL.</speaker>
+          <p>Ach so! Deshalb seid Ihr so aufgeregt. Deshalb! Ja aber, meine guten Leute, Ihr sagtet
+            doch, ich wäre hier in Berlin, nicht wahr?</p>
+        </sp>
+        <sp who="#ein_regierungsbeamter">
+          <speaker>DER REGIERUNGSBEAMTE VON VORHIN.</speaker>
+          <p>Jawohl, Herr Erzengel, Euer Gnaden sein hier in Berlin – zu Befehl!</p>
+        </sp>
+        <sp who="#der_erzengel_gabriel">
+          <speaker>DER ERZENGEL GABRIEL.</speaker>
+          <p>Aber Kinder, wozu regt Ihr Euch denn blos so auf! Wenn auch die Welt untergeht, eine
+            Stadt wie Berlin <emph>kann</emph> doch garnicht untergehen – <emph>kann</emph> doch
+            garnicht!</p>
+          <stage>Die aufgeregten Leute sehen sich sehr verblüfft gegenseitig an, schütteln die Köpfe
+            und zucken die Achseln.</stage>
+        </sp>
+        <sp who="#ein_millionaer">
+          <speaker>DER MILLIONÄR VON VORHIN.</speaker>
+          <p>Warum denn nicht, mein Herr?</p>
+        </sp>
+        <sp who="#der_erzengel_gabriel">
+          <speaker>DER ERZENGEL GABRIEL.</speaker>
+          <p>Ihr habt doch noch das Theater ... <stage>Hier <pb n="146"/> wird das Theater genannt,
+              in dem dieses Stück gespielt wird.</stage> Gegen eine Stadt, die noch ein solches
+            Theater hat, das sich immer noch in aufsteigender Linie befindet – gegen eine solche
+            Stadt können doch sämtliche Erschütterungen des Weltraumes nichts ausrichten. Das ist
+            doch so klar wie Klossbrühe. Das hätten Sie sich doch gleich selber sagen können.</p>
+          <stage>Nach diesen Worten tut sich die hintere Wand aus einander und zwar so, dass sie in
+            der Mitte hinter dem Engel plötzlich auseinander reisst und nach beiden Seiten zu
+            verschwindet; die Wand kann wie die beiden anderen Wände blos aus stärkerem Papier
+            bestehen.</stage>
+          <stage>Nun ist hinter dem Engel eine grosse ganz breite Treppe zu sehen, die so hoch
+            hinaufführt, dass ihr oberes Ende nicht mehr sichtbar ist – oder von Wolken verschleiert
+            wird.</stage>
+          <stage>Und auf dieser Treppe, die weiss sein und Bühnenbreite haben muss, steigen
+            Theaterleute in allen möglichen Kostümen langsam empor; die Theaterleute schlagen sich
+            immerzu vor die Brust, zeigen sich natürlich zumeist im Kostüm ihrer Hauptrollen und
+            gestikulieren sich ihre kolossale Bedeutung gegenseitig recht handgreiflich pantomimisch
+            vor.</stage>
+          <stage>Da werden die aufgeregten Leute im Vordergrunde von wildem Begeisterungstaumel
+            ergriffen – sie küssen dem Erzengel die weissen Hosen, Stiebel und Säbel und umarmen die
+            Theaterleute und drücken sie an ihr Herz – und danken ihnen mit Tränen der Freude – und
+            sind einfach närrisch vor Glück und Seligkeit.</stage>
+          <stage>Während der Erzengel wie ein altes Denkmal ganz unbeweglich in all dem Trubel
+            bleibt, fällt allmählich der Vorhang.</stage>
+        </sp>
+      </div>
+      <pb n="147"/>
+      <div type="postface">
+        <head>Postscriptum!</head>
+        <p>Da die Vorführung derartiger Selbstberäucherung auch dem besten Theater auf die Dauer
+          beschwerlich werden dürfte, so empfiehlt sich, das Thema sehr bald zu variieren.</p>
+        <p>Wird das Stück in der Provinz aufgeführt, so wird natürlich die Provinzstadt und ihr
+          Theater ebenso in den Himmel gehoben wie im Vorstehenden die Residenzstadt Berlin.</p>
+        <p>An die Stelle der Theaterleute können natürlich alle möglichen andern Leute und
+          Verhältnisse treten und auch in aufsteigender Linie die Treppe zum Himmel hinan
+          hinaufsteigen.</p>
+        <p>Das Stück kann somit <emph>auch</emph> eine Art Pranger werden; man braucht blos die
+          lächerlich zu machenden Persönlichkeiten die Treppe hinaufsteigen lassen – und die Ironie
+          wird gleich verständlich sein und unter Umständen <emph>nicht</emph> liebenswürdig wirken
+          – man kann gelegentlich auch einen ganzen Stand die Treppe hinaufsteigen lassen – und auch
+          die verantwortlichen Vertreter von Verhältnissen und Zuständen.</p>
+        <p>Es lassen sich auch sämtliche Tagesereignisse durch dieses Tableau leicht in eine fatale
+          Beleuchtung rücken – sodass immer wieder neue Treppenbilder arrangiert werden könnten.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

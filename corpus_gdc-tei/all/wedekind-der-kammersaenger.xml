@@ -1,0 +1,2148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000003" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der Kammersänger</title>
+        <author>
+          <persName>
+            <forename>Frank</forename>
+            <surname>Wedekind</surname>
+          </persName>
+          <idno type="wikidata">Q57619</idno>
+          <idno type="pnd">118629867</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:x39r.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Frank Wedekind: Werke in drei Bänden. Herausgegeben und eingeleitet von Manfred
+              Hahn, Berlin und Weimar: Aufbau, 1969.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="der_hoteldiener" sex="MALE">
+            <persName>Der Hoteldiener</persName>
+            <persName type="variant">Der Bediente</persName>
+          </person>
+          <person xml:id="der_liftjunge" sex="MALE">
+            <persName>Der Liftjunge</persName>
+          </person>
+          <person xml:id="gerardo" sex="MALE">
+            <persName>Gerardo</persName>
+          </person>
+          <person xml:id="miss_coeurne" sex="FEMALE">
+            <persName>Miss Cœurne</persName>
+          </person>
+          <person xml:id="duehring" sex="MALE">
+            <persName>Dühring</persName>
+          </person>
+          <person xml:id="helene" sex="FEMALE">
+            <persName>Helene</persName>
+          </person>
+          <person xml:id="mueller" sex="MALE">
+            <persName>Müller</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2019-01-03">(ff) formalities</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1899">
+        <desc/>
+      </event>
+      <event type="premiere" when="1899">
+        <desc/>
+      </event>
+      <event type="written" when="1897">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000003" passive="http://www.wikidata.org/entity/Q56256400"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <div type="front">
+        <head>Frank Wedekind</head>
+        <head>Der Kammersänger</head>
+        <pb n="392"/>
+      </div>
+      <div type="Dramatis_Personae">
+        <castList>
+          <head>Personen.</head>
+          <castItem>Gerardo, k.k. Kammersänger.</castItem>
+          <castItem>Frau Helene Marowa.</castItem>
+          <castItem>Professor Dühring.</castItem>
+          <castItem>Miss Isabel Cœurne.</castItem>
+          <castItem>Müller, Hotelwirt.</castItem>
+          <castItem>Ein Hoteldiener.</castItem>
+          <castItem>Ein Liftjunge.</castItem>
+          <castItem>Eine Klavierlehrerin.</castItem>
+        </castList>
+      </div>
+      <set>
+        <head>Szenerie</head>
+        <p>Salonähnliches Zimmer im Hotel.</p>
+        <p>Mitteltür, Seitentüren. Links vorn ein Fenster mit schweren, geschlossenen Gardinen.
+          Rechts ein Flügel.</p>
+        <p>Hinter dem Flügel ein japanischer Paravent, der den Kamin deckt.</p>
+        <p>Große, offene Koffer stehen umher, riesige Lorbeerkränze liegen über die Fauteuils
+          gelehnt.</p>
+        <p>Eine Unmenge Blumenbuketts stehen im Zimmer verteilt.</p>
+        <p>Ein Stoß Buketts liegt aufeinander-geschichtet auf dem Flügel.</p>
+        <p>Rechts und links vom Zuschauer aus.</p>
+      </set>
+    </front>
+    <body>
+      <div type="scene">
+        <head>Erster Auftritt</head>
+        <stage>Ein Hoteldiener, dann ein Liftjunge.</stage>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE</speaker>
+          <stage>kommt mit einem Arm voll Kleider aus dem Nebenzimmer und packt sie in einen der
+            großen Koffer. Da es klopft, sich aufrichtend.</stage>
+          <p>Na? – – Herein!</p>
+        </sp>
+        <sp who="#der_liftjunge">
+          <speaker>EIN LIFTJUNGE.</speaker>
+          <p>Es ist ein Frauenzimmer unten, ob der Herr Kammersänger zu Hause sei.</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE.</speaker>
+          <p>Ist nicht zu Hause.</p>
+        </sp>
+        <sp who="#der_liftjunge">
+          <speaker>DER LIFTJUNGE</speaker>
+          <stage>ab.</stage>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE</speaker>
+          <stage>geht ins Nebenzimmer und kommt mit einem Arm voll Kleider zurück. Da es klopft, die
+            Kleider weglegend und zur Tür gehend.</stage>
+          <p>Na, wer ist denn das wieder? <stage>Öffnet die Tür und nimmt drei oder vier große
+              Buketts entgegen, kommt damit nach vorn und legt sie vorsichtig auf den Flügel; macht
+              sich wieder daran, den Koffer zu packen; es klopft, er geht zur Tür und öffnet, nimmt
+              eine Handvoll Briefe in allen Farben in Empfang, kommt damit nach vorn und mustert die
+              Adressen.</stage> »Mister Gerardo.« – »Herrn Kammersänger.« – »Monsieur Gerardo.« –
+            »Gerardo Esqu.« – »Hochwohlgeboren Herrn.« Das ist das Kammermädchen! – »Herrn k.k.
+            Kammersänger.« – <stage>Legt die Briefe in eine Schale und packt weiter.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Zweiter Auftritt</head>
+        <stage>Gerardo, der Hoteldiener, später der Liftjunge.</stage>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Sie haben noch nicht fertig gepackt? – Wie lange brauchen Sie denn zum Packen?</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE.</speaker>
+          <p>Gleich bin ich fertig, Herr Kammersänger.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Aber rasch. Ich habe noch zu tun. Lassen Sie sehen. <stage>In einen der Koffer
+              langend.</stage> Du barmherziger Himmel! Wissen Sie nicht, wie man eine Hose
+            zusammenlegt? <stage><pb n="393"/> Das Kleidungsstück herausnehmend.</stage> Nennen Sie
+            das Packen? – Sehen Sie, da können Sie noch was lernen von mir. Sie müßten das doch
+            besser wissen als ich. So nimmt man eine Hose. Dann hakt man hier oben zu. Dann nimmt
+            man diese beiden Knöpfe. Sehen Sie diese Knöpfe hier, auf die kommt es an; dann – –
+            zieht man die Hose straff. So! So! – Und dann legt man sie in – zwei – – Teile –
+            zusammen. Sehen Sie, so! So behält die Hose ihre Fasson, und wenn sie hundert Jahr alt
+            wird!</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE</speaker>
+          <stage>sehr ehrfurchtsvoll, mit niedergeschlagenen Augen.</stage>
+          <p>Herr Kammersänger sind ja vielleicht einmal Schneider gewesen.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Was?! – Das gerade nicht – Dummkopf!! <stage>Ihm die Hose gebend.</stage> Da, packen
+            Sie ein, aber etwas rasch.</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE</speaker>
+          <stage>über den Koffer gebeugt.</stage>
+          <p>Es sind auch noch Briefe angekommen für Herrn Kammersänger.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>nach rechts gehend.</stage>
+          <p>Ja, ich habe sie schon gesehen.</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE.</speaker>
+          <p>Und Blumen!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ja, ja. – – <stage>Er nimmt die Briefe aus der Schale und wirft sich vor dem Flügel in
+              einen Faulteuil.</stage> – Machen Sie jetzt nur um Gottes willen, daß Sie fertig
+            werden!</p>
+          <stage>Der Bediente ins Nebenzimmer ab.</stage>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>öffnet die Briefe, durchfliegt sie mit strahlendem Lächeln, zerknittert sie und
+            wirft sie unter den Sessel. In einem der Briefe liest er laut.</stage>
+          <p>»... Ihnen, meinem Gotte gehören! Für mein ganzes Leben mich unendlich glücklich
+            machen, wie wenig Sie das kostet! Bedenken Sie ...« <stage>Dann für sich.</stage>
+            Allmächtiger Himmel! Ich soll morgen abend in Brüssel den Tristan singen und weiß nicht
+            eine Note mehr! – Nicht eine Note! – <stage>Nach der Uhr sehend.</stage> Halb vier. –
+            Noch dreiviertel Stunden. – <stage>Da es klopft.</stage> Herrrrrein!</p>
+        </sp>
+        <sp who="#der_liftjunge">
+          <speaker>DER LIFTJUNGE</speaker>
+          <stage>einen Korb Champagner hereinschleppend.</stage>
+          <p>Ich soll das dem Herrn Kammersänger ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Was? – Wer ist unten?</p>
+        </sp>
+        <sp who="#der_liftjunge">
+          <speaker>DER LIFTJUNGE.</speaker>
+          <p>Ich solle das dem Herrn Kammersänger aufs Zimmer stellen.</p>
+          <pb n="394"/>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>sich erhebend.</stage>
+          <p>Was hast du denn? <stage>Ihm den Korb abnehmend.</stage> Danke.</p>
+        </sp>
+        <sp who="#der_liftjunge">
+          <speaker>DER LIFTJUNGE</speaker>
+          <stage>ab.</stage>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>den Korb nach vorn schleppend.</stage>
+          <p>Du barmherziger Gott, was soll ich damit anfangen! <stage>Liest die beigelegte Karte
+              und ruft.</stage> Georg!</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE</speaker>
+          <stage>den Arm voll Kleider, aus dem Nebenzimmer.</stage>
+          <p>Es ist das letzte, Herr Kammersänger. <stage>Verteilt es in die verschiedenen Koffer
+              und schließt sie.</stage></p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Gut. – Ich bin für niemanden hier!</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE.</speaker>
+          <p>Weiß ich, Herr Kammersänger.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Für niemanden!</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE.</speaker>
+          <p>Herr Kammersänger können ruhig sein. <stage>Ihm die Kofferschlüssel gebend.</stage> Die
+            Schlüssel, Herr Kammersänger.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>die Schlüssel einsteckend.</stage>
+          <p>Für niemanden!</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE.</speaker>
+          <p>Die Koffer werden sofort heruntergetragen.</p>
+          <stage>Will gehen.</stage>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Warten Sie ...</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE</speaker>
+          <stage>kommt zurück.</stage>
+          <p>Herr Kammersänger ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>gibt ihm ein Trinkgeld.</stage>
+          <p>Für niemanden!!</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER BEDIENTE.</speaker>
+          <p>Danke gehorsamst. <stage>Ab.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Dritter Auftritt</head>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>allein, nach der Uhr sehend.</stage>
+          <p>Ein halbe Stunde. <stage>Sucht den Klavierauszug des »Tristan« unter den Blumen auf dem
+              Piano hervor und singt auf und ab gehend mit halber Stimme.</stage></p>
+          <lg>
+            <l>»Isolde! Geliebte! Bist du mein?</l>
+            <l>Hab ich dich wieder? Darf ich dich fassen?«</l>
+          </lg>
+          <stage>Räuspert sich, greift zwei Terzen auf dem Flügel und beginnt von neuem.</stage>
+          <lg>
+            <l>»Isolde! Geliebte! Bist du mein?</l>
+            <l>Hab ich dich wieder? ...«</l>
+          </lg>
+          <p><stage>Räuspert sich.</stage> Das ist eine infernalische Luft hier! –
+              <stage>Singt.</stage></p>
+          <l><pb n="395"/> »Isolde! – Geliebte!«</l>
+          <p>Mir liegt etwas wie Blei auf den Nerven! – Luft! Luft! <stage>Geht nach links und sucht
+              an den Gardinen die Zugschnur.</stage> Wo ist denn das? – Auf der anderen Seite. –
+            Hier! <stage>Zieht rasch die Gardinen auf und wendet, da er Miß Cœurne vor sich sieht,
+              in einer Art gelinder Verzweiflung den Kopf zurück.</stage> – Allgütige Vorsehung!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Vierter Auftritt</head>
+        <stage>Miß Cœurne. Gerardo.</stage>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>sechzehn Jahr, in halblangem Kleid, offenem, blonden Haar, einen Strauß roter Rosen
+            in der Hand, spricht mit englischem Akzent, Gerardo klar in die Augen sehend.</stage>
+          <p>Ich bitte, schicken Sie mich nicht fort.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Was soll ich denn anders mit Ihnen tun? Ich habe Sie, weiß der Himmel, nicht gebeten,
+            hierherzukommen. Sie sind ungerecht, mein Fräulein, wenn Sie mir das übelnehmen wollen,
+            aber morgen abend muß ich singen! Ich gestehe Ihnen offen, ich glaubte diese halbe
+            Stunde für mich zu haben. Ich habe eben noch extra den Auftrag erteilt, niemanden, wer
+            es auch sein möge, zu mir hereinzulassen.</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>vortretend.</stage>
+          <p>Schicken Sie mich nicht fort. Ich habe Sie gestern als Tannhäuser gehört, und ich
+            bringe Ihnen nur diese Rosen.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Und? – – Na? – – Und?</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Mich! – – Ich weiß nicht, sag ich es recht.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>faßt die Lehne eines Sessels, nach kurzem Kampfe, den Kopf schüttelnd.</stage>
+          <p>Wer sind Sie?</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Miß Cœurne.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>So – ja.</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Ich bin noch sehr dumm.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Das weiß ich. Aber kommen Sie, mein Fräulein – <stage>Sich in einen Fauteuil setzend
+              und sie zwischen seine Knie ziehend.</stage> –, sprechen wir ein ernstes Wort, wie Sie
+            es in <pb n="396"/> Ihrem kurzen Leben noch nicht gehört haben und – wie es Ihnen sehr
+            not zu tun scheint. – Ich habe deswegen, weil ich Künstler bin – verstehen Sie mich
+            bitte recht; Sie sind – wie alt sind Sie?</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Zweiundzwanzig.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Sie sind sechzehn, höchstens siebzehn. Sie machen sich einige Jahre älter, um
+            begehrenswerter für mich zu erscheinen. – Nun? – Sie sind noch sehr dumm. Und ich habe
+            in meiner Eigenschaft als Künstler doch wahrhaftig nicht die Pflicht, Ihnen, mein
+            Fräulein, über Ihre Dummheit hinwegzuhelfen! Nehmen Sie mir das nicht übel. – Nun? Warum
+            starren Sie jetzt vor sich hin?</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Ich habe gesagt, daß ich noch sehr dumm bin, weil man das hier in Deutschland bei einem
+            jungen Mädchen hochschätzt.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich bin nicht Deutscher, mein Kind, aber trotzdem ...</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Nun? – – Ich bin gar nicht so dumm.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich bin auch schließlich kein Kindermädchen! – Der Ausdruck ist falsch, ich fühle es,
+            denn – Sie sind allerdings kein Kind mehr?</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Nein! – Gott sei Dank! – Jetzt nicht!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Aber sehen Sie, mein wertes Fräulein – Sie haben Lawn-Tennis-Partien, Sie haben
+            Skating-Klubs, Sie können radfahren, Sie können mit Ihren Freundinnen Bergpartien
+            machen, Sie können schwimmen, reiten, tanzen. Sie haben jedenfalls alles, was sich ein
+            junges Mädchen wünschen kann. <emph>Warum, mein Fräulein, kommen Sie denn dann zu
+              mir?!</emph></p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Weil mir das alles abscheulich ist und weil ich es furchtbar langweilig finde.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Da haben Sie recht; das will ich Ihnen gar nicht bestreiten. Ich selber, das muß ich
+            Ihnen offen gestehen, ich kenne das Leben von einer anderen Seite. Aber, mein Kind, ich
+            bin ein Mann und bin sechsunddreißig Jahre alt. Für Sie kommt auch die Zeit, wo Sie
+            Anspruch auf einen höheren Lebensinhalt haben. Werden Sie zwei Jahre älter, dann findet
+            sich gewiß jemand für Sie, und Sie brauchen sich nicht bei mir hier, bei jemandem, der –
+            Sie nicht hergebeten hat und den Sie nicht<pb n="397"/> näher kennen, als wie ihn – das
+            ganze Europa kennt, hinter den Fenstervorhängen zu verbergen, um das Leben von seiner –
+            erhabenen Seite zu kosten.</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>atmet schwer.</stage>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Nun? – Haben Sie aufrichtigen, herzlichen Dank für Ihre Rosen! – <stage>Ihr die Hand
+              drückend.</stage> Wollen Sie sich für heute damit zufrieden geben?</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Ich habe an einen Herrn noch nie gedacht, so alt ich bin, bis ich Sie gestern auf der
+            Bühne als Tannhäuser gesehen habe. – – Und ich verspreche Ihnen auch ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Oh, versprechen Sie mir nichts, mein Kind! Was kann mir das gelten, was Sie mir jetzt
+            versprechen wollen? Der Nachteil wäre einzig auf Ihrer Seite. – Sie sehen, ich rede mit
+            Ihnen, wie der liebevollste Vater nicht liebevoller reden kann. Danken Sie Gott, daß Sie
+            mit Ihrer Unbesonnenheit nicht einem andern Künstler in die Hände gefallen sind.
+              <stage>Drückt ihr die Hand.</stage> Ziehen Sie für Ihr Leben eine Lehre daraus und
+            lassen Sie sich das genügen.</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>ihr Taschentuch vor dem Gesicht, mehr für sich, aber ohne Tränen.</stage>
+          <p>Bin ich so häßlich!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Häßlich? – Häßlich sind Sie doch deswegen nicht! – Sie sind jung und Sie sind
+            unbesonnen! <stage>Erhebt sich nervös, geht nach rechts, kommt zurück, legt den Arm um
+              ihre Taille und ergreift ihre Hand.</stage> Hören Sie mich, mein Kind! Sind Sie denn
+            darum häßlich, weil ich zu singen habe, weil ich Künstler bin von Beruf! – Da heißt es
+            gleich, ich bin häßlich, ich bin häßlich; ich kann hinkommen, wo ich will! Wenn ich eben
+            auf dem Sprung bin, abzureisen, und morgen abend den Tristan ...! Verstehen Sie mich
+            nicht falsch, aber ich bin, weil ich singe, doch wirklich nicht verpflichtet, Ihnen Ihre
+            Jugendfrische und Ihre Schönheit zu bestätigen. Sind Sie deswegen häßlich, mein Kind?
+            Appellieren Sie an andere Männer, die weniger angestrengt sind! Können Sie mir zutrauen,
+            mein Fräulein, daß ich Ihnen je in meinem Leben so etwas sagen würde!</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Sagen, das nicht, aber denken.</p>
+          <pb n="398"/>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Aber sagen Sie mir doch, bitte, das eine! Fragen Sie nicht nach meinen Gedanken Ihnen
+            gegenüber; die kommen hier in diesem Augenblick nicht im geringsten in Betracht. Ich
+            versichere Sie und bitte Sie, es mir auf mein Wort als Künstler zu glauben, weil ich
+            ehrlich mit Ihnen rede: Ich bin <emph>leider</emph> ein Mensch, der kein Geschöpf auf
+            dieser Welt, und sei es noch so armselig, <emph>leiden</emph> sehen kann. <stage>Sie
+              musternd, aber mit Würde.</stage> Und Sie, mein Kind, Sie tun mir aufrichtig
+              <emph>leid</emph>; ich kann Ihnen die Versicherung geben, nachdem Sie Ihre
+            Mädchenwürde soweit niedergekämpft, um hier auf mich zu warten. Aber rechnen Sie bitte,
+            mein Fräulein, nur mit meinen Lebensverhältnissen! Rechnen Sie einfach mit meiner
+              <emph>Zeit</emph>! Es haben mich gestern wenigstens zweihundert, vielleicht
+            dreihundert hübsche, liebenswerte, junge Mädchen in Ihrem Alter in meiner Rolle als
+            Tannhäuser auf der Bühne gesehen. Wenn nun jedes dieser jungen Mädchen dieselben
+            Ansprüche stellen wollte wie Sie? – Was in aller Welt würde dann aus meinem Gesang? –
+            Was würde aus meiner Stimme? – Wohin käme ich denn mit meiner Kunst?</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>sinkt in einen Sessel, bedeckt ihr Gesicht und weint.</stage>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>auf der Lehne ihres Sessels, über sie gebeugt, freundlich.</stage>
+          <p>Sie versündigen sich, mein Kind, wenn Sie darüber weinen, daß Sie noch jung sind. Das
+            ganze Leben liegt vor Ihnen. Gedulden Sie sich. Schätzen Sie sich vielmehr glücklich.
+            Wie gerne begänne unsereiner – auch wenn er als Künstler lebt, gleichviel – alles das
+            noch einmal von vorn! – Seien Sie, bitte, nicht undankbar dafür, daß Sie mich gestern
+            gehört. Erlassen Sie mir dieses <emph>traurige Nachspiel</emph>. Trage ich die Schuld
+            daran, daß Sie sich in mich verliebt haben? Das tun alle. Dazu bin ich ja da. Mein
+            Impresario verlangt von mir, daß ich mich dem Publikum in dieser Erhabenheit zeige. Das
+            Singen allein tut es nicht. Als Tannhäuser kann ich nicht anders er scheinen. – Seien
+            Sie <emph>lieb</emph>, mein Kind. Lassen Sie mir die paar Augenblicke, die ich noch
+            habe, für morgen.</p>
+          <pb n="399"/>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>erhebt sich, trocknet ihre Tränen.</stage>
+          <p>Ich kann es mir gar nicht denken, daß ein anderes Mädchen so würde getan haben wie
+            ich.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>sie gegen die Tür dirigierend.</stage>
+          <p>Ganz recht, mein Kind ...</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>sich sanft sträubend, unter Schluchzen.</stage>
+          <p>Wenigstens nicht – wenn ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Wenn mein Diener nicht unten stände!</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>wie oben.</stage>
+          <p>– wenn –</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Wenn das Mädchen so hübsch und jugendfrisch ist wie Sie!</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>wie oben.</stage>
+          <p>– wenn –</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Wenn es mich nur ein einziges Mal als Tannhäuser gehört hat!</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>mit erneutem Anfall.</stage>
+          <p>Wenn es <emph>so anständig</emph> ist wie ich!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>auf den Flügel deutend.</stage>
+          <p>Dann sehen Sie sich, mein Kind, zum Abschied die Blumen an. Sei Ihnen das eine Warnung
+            für den Fall, daß Sie sich noch einmal versucht fühlen, sich in einen Sänger zu
+            verlieben. Sehen Sie, wie frisch das noch alles ist. Ich lasse sie verwelken, zugrunde
+            gehen oder – schenke sie dem Portier. Und sehen Sie diese Briefe. <stage>Nimmt eine
+              Handvoll Briefe aus der Schale.</stage> Ich kenne keine der Schreiberinnen; seien Sie
+            ganz außer Sorge. Ich überlasse sie ihrem Schicksal. Was will ich anderes tun! Aber,
+            glauben Sie mir, <emph>jede</emph> Ihrer liebenswürdigen jungen Freundinnen ist
+            dabei.</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>bittend.</stage>
+          <p>Well, ich will mich nicht ein zweites Mal verbergen. – Ich will es nicht wieder tun
+            ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Aber meine Zeit, mein Kind! Wenn ich nicht im Begriff wäre, abzureisen! Ich habe Ihnen
+            ja schon gesagt, daß Sie mir leid tun! Aber in fünfundzwanzig Minuten geht mein Zug. Was
+            wollen Sie denn da noch!</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Einen Kuß.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>sich hoch aufrichtend.</stage>
+          <p>Von mir?</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Yes.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>sie um die Taille haltend, mit Würde, aber freundlich.</stage>
+          <p>Sie entwürdigen die Kunst, mein Kind. Sind Sie wirklich der Ansicht, daß man meine
+            Person <emph>deshalb</emph>
+            <pb n="400"/> mit Gold aufwiegt? Werden Sie erst älter und lernen Sie etwas mehr Respekt
+            vor der <emph>keuschen Göttin</emph> hegen, der ich mein Leben und meine Arbeit weihe. –
+            – Sie wissen gar nicht, wen ich damit meine?</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Nein.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Das sehe ich. Ich will Ihnen, nur um nicht unmenschlich zu sein, mein Bild schenken.
+            Geben Sie mir Ihr Wort, daß Sie mich dann verlassen?</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>Yes.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Gut. <stage>Geht hinter den Tisch, eine seiner Photographien unterschreibend.</stage>
+            Versuchen Sie doch, sich für die <emph>Oper</emph> zu interessieren, statt für die
+              <emph>Männer</emph>, die auf der Bühne stehen. Wer weiß, vielleicht empfinden Sie doch
+            einen höheren Genuß dabei.</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE</speaker>
+          <stage>für sich.</stage>
+          <p>Ich bin noch zu jung.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Opfern Sie sich der <emph>Musik</emph>! <stage>Kommt nach vorn und gibt ihr die
+              Photographie.</stage> Sie sind noch zu jung, aber – es gelingt Ihnen vielleicht doch.
+            Sehen Sie in mir keinen berühmten Sänger, sondern das unwürdige <emph>Werkzeug</emph> in
+            der Hand eines erhabenen <emph>Meisters</emph>. Blicken Sie um sich unter den
+            verheirateten Frauen Ihrer Umgebung: Alles Wagnerianerinnen! Studieren Sie seine Texte,
+            lernen Sie seine Leitmotive empfinden. – Das schützt Sie vor Unschicklichkeiten.</p>
+        </sp>
+        <sp who="#miss_coeurne">
+          <speaker>MISS CŒURNE.</speaker>
+          <p>I thank you.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>geleitet sie hinaus und drückt beim Hinausgehen die Klingel. Er kommt zurück und
+            nimmt den Klavierauszug zur Hand; geht nach links. – Es klopft.</stage>
+          <p>Herein!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Fünfter Auftritt</head>
+        <stage>Gerardo. Der Hoteldiener.</stage>
+        <sp who="#der_hoteldiener">
+          <speaker>DER HOTELDIENER</speaker>
+          <stage>keuchend und atemlos eintretend.</stage>
+          <p>Befehlen, Herr – Kammersänger ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Stehen Sie am Haustor?</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER HOTELDIENER.</speaker>
+          <p>Augenblicklich nicht.</p>
+          <pb n="401"/>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Das merk ich – Dummkopf! Aber Sie lassen niemanden herauf?</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER HOTELDIENER.</speaker>
+          <p>Es waren drei Damen da und fragten nach Herrn Kammersänger.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Unterstehen Sie sich nicht, eine heraufzulassen – sage sie, was sie wolle!</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER HOTELDIENER.</speaker>
+          <p>Und dann sind die Briefe gekommen.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ja – schon gut.</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER HOTELDIENER</speaker>
+          <stage>legt die Briefe in die Schale.</stage>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>– Unterstehen Sie sich nicht, eine heraufzulassen!</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER HOTELDIENER</speaker>
+          <stage>in der Tür.</stage>
+          <p>Sehr wohl, Herr Kammersänger.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Und wenn sie Ihnen eine lebenslängliche Leibrente dafür aussetzen will!</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER HOTELDIENER.</speaker>
+          <p>Sehr wohl. <stage>Ab.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Sechster Auftritt</head>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>allein, versucht zu singen.</stage>
+          <l>»Isolde! Geliebte! – Bist du ...«</l>
+          <p>Ich begriffe es, wenn die Frauen meiner endlich satt würden! – Aber die Welt hat ihrer
+            so viele! – Und ich bin allein. – Jeder trägt sein Joch und muß es tragen! – <stage>Geht
+              ans Piano und schlägt zwei Terzen an.</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Siebenter Auftritt</head>
+        <stage>Gerardo. Professor Dühring. Dann eine Klavierlehrerin. Prof. Dühring, siebzig Jahre
+          alt, ganz in Schwarz, langer, weißer Bart, weingerötete Adlernase, goldene Brille, Gehrock
+          und Zylinder, eine Opernpartitur unter dem Arm, tritt ein, ohne anzuklopfen.</stage>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>sich zurückwendend.</stage>
+          <p>Was wollen Sie!!</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Herr Kammersänger, ich – ich habe ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Wie kommen Sie hier herein!</p>
+          <pb n="402"/>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Ich habe zwei Stunden unten auf dem Trottoir gelauert, Herr Kammersänger.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>sich besinnend.</stage>
+          <p>Ach, Sie sind ...</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Zwei volle Stunden habe ich unten auf dem Trottoir gestanden. Was soll ich anderes
+            tun!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Aber liebster, bester Herr, ich habe keine Zeit.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Ich will Ihnen jetzt nicht die ganze Oper durchspielen.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich habe auch gar keine Zeit mehr dazu ...</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Sie haben keine Zeit! Was soll ich denn sagen! Sie sind dreißig Jahre alt. Sehen Sie,
+            Sie haben Glück gehabt in der Kunst. Sie können sich ausleben noch ein ganzes Leben
+            lang, das vor Ihnen liegt. Hören Sie sich nur Ihre Rolle in der Oper an. Sie haben es
+            mir doch versprochen, als Sie herkamen.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Was hilft mir das! Ich bin nicht mein eigener Herr ...</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Ich bitte Sie, ich bitte Sie, mein Herr, ich bitte Sie! Sehen Sie, hier liegt ein Greis
+            vor Ihnen, auf den Knien, der nichts anderes auf der Welt gekannt hat als seine Kunst.
+            Ich weiß, was Sie mir entgegnen, als junger Mann, der wie auf Engelsschwingen
+            emporgehoben ward. Man darf das Glück nicht suchen, wenn es einen finden soll. Glauben
+            Sie, wenn man fünfzig Jahre lang nur <emph>einen</emph> Gedanken hat, man könnte ein
+            menschliches Mittel anzuwenden vergessen haben? Man wird ein frivoler Mensch und dann
+            wird man wieder ein ernster Mensch; man ist Streber gewesen, man ist ein leichtherziges
+            Kind gewesen und man wird wieder ein ernster Künstler – nicht aus Ehrgeiz, nicht aus
+            Überzeugung, sondern weil man nicht anders kann, weil man dazu verflucht und verdammt
+            ist von einer grausamen Allmacht, der der lebenslängliche Todeskampf ihrer Kreatur ein
+            wohlgefälliges Opfer ist! Ein wohlgefälliges Opfer, sage ich, denn unsereiner empört
+            sich so wenig gegen sein Künstlerlos, wie ein Weiberknecht gegen seine Verführerin, wie
+            der Hund, der die Peitsche bekommt, gegen seinen Herrn.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>verzweifelt.</stage>
+          <p>Ich bin machtlos ...</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Sehen Sie, mein lieber Herr, die Tyrannen des Altertums, Sie wissen, die ihre Sklaven
+            zu ihrer Unterhaltung langsam zu Tode foltern ließen, das waren Kinder, <pb n="403"/>
+            das waren harmlose, unschuldige Engelskinder gegenüber der himmlischen Vorsehung, die
+            diese Tyrannen zu ihrem Ebenbild hat schaffen wollen!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich begreife Sie ja vollkommen ...</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING</speaker>
+          <stage>während ihn Gerardo mehrmals vergeblich zu unterbrechen sucht, ihm durch das Zimmer
+            folgend und ihm wiederholt den Weg zur Tür vertretend.</stage>
+          <p>Sie begreifen mich nicht. Sie können mich nicht begreifen. Wo hätten Sie denn die Zeit
+            hernehmen wollen, um mich zu begreifen. Fünfzig Jahre fruchtloser Arbeit, mein Herr,
+            begreifen sich nicht, wenn man ein Lieblingskind des Glückes ist wie Sie. Aber ich will
+            Ihnen ein annäherndes Verständnis zu geben suchen. Sehen Sie, ich bin zu alt, um mir
+            noch das Leben zu nehmen. Das tut man mit fünfundzwanzig Jahren, und da habe ich es
+            versäumt. Ich muß jetzt zu Ende leben, ich habe die sichere Hand nicht mehr. Aber was
+            man in meinem Alter noch tut? Sie fragen mich, wie ich hier hereingekommen. Sie haben
+            Ihren Diener vor die Hoteltür gestellt. Ich habe nicht versucht, vorbeizuschlüpfen, ich
+            weiß seit fünfzig Jahren, daß er mir sagt: der Herr ist nicht zu Hause. Aber ich habe
+            zwei Stunden im Regen mit meiner Partitur hier unten an der Hausecke gestanden, bis er
+            für einen Augenblick hinaufging. Da bin ich ihm nachgegangen, und während Sie hier
+            drinnen mit ihm sprachen, hielt ich mich auf der Treppe verborgen – <emph>wo</emph>,
+            brauche ich Ihnen nicht zu sagen. Und dann, als er wieder hinunter war, kam ich herein.
+            Das tut ein Mann von <emph>meinem</emph> Alter gegenüber einem, der sein Enkel sein
+            könnte. Ich bitte Sie, ich bitte Sie, mein Herr, ich bitte Sie, lassen Sie den Moment
+            nicht fruchtlos für mich sein, wenn er Sie auch einen Tag, wenn er Sie eine ganze Woche
+            kostet. Es handelt sich doch auch um <emph>Ihren</emph> Vorteil. Vor acht Tagen, als Sie
+            zu Ihrem Gastspiel hierherkamen, da versprachen Sie mir, sich die Oper von mir
+            vorspielen zu lassen; und seither bin ich jeden Tag hiergewesen. Entweder hatten Sie
+            Probe oder Damenbesuch. Und jetzt stehen Sie im Begriff, abzureisen, und ich alter Mann
+            soll eine ganze Woche umsonst auf der Straße zugebracht haben! Dabei kostet es <pb n="404"/> Sie ein einziges Wort: »Ich will den <emph>Hermann</emph> singen.« Dann ist
+            die Oper aufgeführt. Dann danken Sie Gott, daß ich so zudringlich war, denn – Sie singen
+            den <emph>Siegfried</emph>, Sie singen den <emph>Florestan</emph> – aber eine dankbarere
+            Partie, gerade für Ihre Mittel dankbarer als den <emph>Hermann</emph> haben Sie nicht
+            auf Ihrem Repertoir. Mich zieht man dann mit Geschrei aus dem Dunkel hervor, und ich
+            habe vielleicht noch Gelegenheit, der Welt einen Teil dessen zu geben, was ich ihr hätte
+            geben können, wenn sie mich nicht wie einen Aussätzigen von sich gestoßen hätte. Aber
+            der große materielle Ertrag meines Ringens, der fällt doch nur Ihnen ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>hat sich schließlich an den Kamin gelehnt und scheint, während er mit der Rechten
+            auf der Marmorplatte trommelt, etwas hinter dem Paravent zu bemerken. Nachdem er sich
+            neugierig orientiert, reckt er plötzlich die Hand aus und zieht eine Klavierlehrerin in
+            grauer Toilette hervor, die er, mit vorgestreckter Faust am Kragen haltend, vor dem
+            Flügel durch zur Mitteltür führt. Nachdem er die Tür hinter ihr geschlossen, zu
+            Dühring.</stage>
+          <p>Bitte, sprechen Sie ruhig weiter!</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Sehen Sie, es werden alljährlich zehn schlechte Novitäten aufgeführt, die nach der
+            zweiten Vorstellung unmöglich geworden sind, und alle zehn Jahre einmal eine gute, die
+            sich hält. Und diese <emph>Oper ist</emph> gut, sie <emph>ist</emph> bühnenfähig, sie
+              <emph>ist</emph> ein Kassenerfolg. Wenn Sie wollen, ich kann Ihnen Briefe zeigen, von
+            Liszt, von Wagner, von Rubinstein, in denen diese Männer wie zu einem höheren Wesen zu
+            mir aufblicken. Und warum ist sie bis heute nicht aufgeführt worden? Weil ich nicht auf
+            dem <emph>Markte</emph> stehe. Ich sage Ihnen, das ist wie bei einem jungen Mädchen, das
+            drei Jahre auf Tanzkränzchen brilliert und sich dabei zu verloben vergißt. Es kommt eine
+            andere Generation. Und Sie kennen ja unsere <emph>National-Theater</emph>. Das sind
+            Festungswerke, kann ich Ihnen sagen, gegen welche die Bepanzerungen von Metz und Rastatt
+            Botanisierbüchsen sind. Lieber graben sie zehn Leichen aus, als daß sie einen Lebendigen
+            einlassen. Und diese Festungsmauern sind <pb n="405"/> es, über die Sie mir die Hand
+            reichen sollen. Sie sind drinnen mit dreißig Jahren, und ich alter Mann stehe draußen.
+            Sie kostet mein Einlaß ein Wort, und ich kann mir umsonst meinen eisgrauen Schädel
+            einrennen. Deshalb bin ich hier <stage>Sehr leidenschaftlich.</stage> und wenn Sie kein
+            völliger Unmensch sind, wenn das Glück nicht die letzte Spur künstlerischen
+            Mitempfindens in Ihnen ertötet hat, dann können Sie mich nicht unerhört lassen.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich werde Ihnen in acht Tagen Bescheid sagen. Ich werde Ihre Oper durchspielen. Geben
+            Sie sie mir mit.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Dazu bin ich zu alt, Herr Kammersänger. In acht Tagen, nach Ihrer Zeitrechnung, liege
+            ich längst unter dem Boden. Das habe ich zu oft erlebt. <stage>Mit der Faust auf den
+              Flügel schlagend.</stage> Hic Rhodus, hic salta! Sehen Sie, vor fünf Jahren wende ich
+            mich an unseren Intendanten, den Grafen Zedlitz. Was bringen Sie mir, mein liebster,
+            bester Herr Professor? – Eine Oper, Exzellenz. – So, Sie haben eine neue Oper
+            geschrieben. Das ist ja prächtig. – Exzellenz, ich habe keine neue Oper geschrieben. Ich
+            habe eine alte Oper geschrieben. Ich habe die Oper vor dreizehn Jahren geschrieben. – Es
+            war nicht diese hier, es war meine »Maria de' Medici«. – Aber warum bringen Sie sie uns
+            denn nicht her? Wir suchen ja was Neues. Wir können uns ja mit dem Alten nicht länger
+            durchschwindeln. Mein Sekretär reist an allen Bühnen herum, ohne daß er was findet, und
+            Sie, der Sie hier leben, Sie entziehen uns Ihre Produktion in vornehmer Weltverachtung!
+            – Exzellenz, sage ich, ich entziehe niemandem etwas, der Himmel ist mein Zeuge. Ich habe
+            die Oper vor dreizehn Jahren Ihrem Vorgänger, dem Grafen Tornow, eingereicht und mußte
+            sie nach drei Jahren selber wieder von der Intendanz abholen, ohne daß jemand einen
+            Blick hineingetan hätte. – Aber so lassen Sie sie uns doch hier, bester Herr Professor.
+            In acht Tagen spätestens haben Sie Bescheid. – Und dabei nimmt er mir meine Partitur
+            unter dem Arm weg und feuert sie – schrumm! – unten in die unterste Tischlade hinein,
+            und da liegt sie noch heute! Da liegt sie noch heute, mein Herr! Ich weißhaariges Kind
+            sage <pb n="406"/> noch zu Hause zu meiner Grete: Man braucht eine neue Oper hier am
+            Theater. Ich bin schon so gut wie aufgeführt! – Ein Jahr vergeht und sie stirbt mir weg
+            – die einzige, die noch ihre Entstehungszeit miterlebt hatte. <stage>Schluchzt und
+              trocknet seine Tränen.</stage></p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich muß das lebhafteste Bedauern mit Ihnen haben, aber ...</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Da liegt sie noch heute!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Vielleicht sind Sie wirklich das Kind in weißen Haaren. Ich zweifle in der Tat daran,
+            daß ich Ihnen helfen kann.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING</speaker>
+          <stage>in höchster Wut.</stage>
+          <p>Aber Sie können einen Greis wie mich auf demselben Pfad, auf dem Sie Ihren Siegesflug
+            zur Sonne tun, neben sich herächzen sehen! Morgen vielleicht liegen <emph>Sie</emph> vor
+              <emph>mir</emph> auf den Knien und rühmen sich, mich zu <emph>kennen</emph>, und heute
+            ist Ihnen des schaffenden Künstlers qualvolles Röcheln ein <emph>trauriger
+            Irrtum</emph>, und Sie können Ihrer <emph>Goldgier</emph> nicht die halbe Stunde
+            abknausern, die es bedürfte, um mich meiner <emph>Kettenlast</emph> zu entledigen!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Spielen Sie bitte, mein Herr! Kommen Sie!</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING</speaker>
+          <stage>setzt sich an den Flügel, öffnet seine Partitur und schlägt zwei Akkorde
+            an.</stage>
+          <p>– Nein, so heißt es nicht. Ich kann es nicht mehr recht lesen. <stage>Schlägt drei
+              Akkorde an, dann weiterblätternd.</stage> Das ist die Ouvertüre; ich will Sie nicht
+            damit aufhalten. – Hier, sehen Sie, erste Szene ... <stage>Schlägt zwei Akkorde
+              an.</stage> Hier stehen Sie am Totenbett Ihres Vaters! – Einen Augenblick; ich muß
+            mich erst zurechtfinden ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Vielleicht haben Sie auch vollkommen recht. Auf jeden Fall täuschen Sie sich über meine
+            Stellung.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING</speaker>
+          <stage>spielt eine wirre Orchestration und singt dazu mit tiefer schnarrender
+            Stimme.</stage>
+          <lg>
+            <l>Der Tod, der Tod, auch hier im Schlosse,</l>
+            <l>Wie er in unseren Hütten hauset!</l>
+            <l>So mäht er groß wie klein ...</l>
+          </lg>
+          <p><stage>Sich unterbrechend.</stage> Nein, das ist der Chor. Ich wollte Ihnen den nur
+            vorspielen, weil er sehr gut ist. Jetzt kommen <emph>Sie</emph>. <stage>Setzt mit der
+              Begleitung wieder ein und singt krächzend.</stage></p>
+          <lg>
+            <l><pb n="407"/> Was ich gelebt bis zu dieser Stunde,</l>
+            <l>War Morgengrauen. Von tückischen Geistern</l>
+            <l>Aufs Blut gefoltert, irrt ich umher.</l>
+            <l>Mein Aug ist tränenleer!</l>
+            <l>Laß mich nur einmal noch die weißen Haare küssen ...</l>
+          </lg>
+          <p><stage>Sich unterbrechend.</stage> Nun?! <stage>Da Gerardo nicht antwortet, in wilder
+              Gereiztheit.</stage> Diese blutarmen, fadenscheinigen <emph>Ochsgenies</emph>, die
+            sich heute breitmachen! Die vor lauter sublimer Technik mit zwanzig Jahren steril,
+            impotent geworden! <emph>Meistersinger</emph>, <emph>Philisterseelen</emph>, ob im Elend
+            oder in Amt und Würden! Stillen den Hunger aus dem <emph>Kochbuch</emph> statt aus der
+            Natur! Haben es ihr glücklich abgelauscht – <emph>Naivität</emph>! Ha, ha! – Schmeckt
+            wie plattiertes Messingbesteck! Fangen damit an, <emph>Kunst</emph> zu machen statt
+              <emph>Leben</emph>! – Musizieren für Künstler statt für hungrige Menschen! – Blinde,
+            beschränkte Eintagsfliegen! Jugendliche Greise, denen die Sonne <emph>Wagners</emph> das
+            Mark aus den Knochen gesogen hat! <stage>Ihn heftig am Arm packend.</stage> Wenn ich
+            einen Künstler vor mir habe, wissen Sie, wohin ich ihm dann zuerst greife?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>weicht ängstlich zurück.</stage>
+          <p>Na?</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING</speaker>
+          <stage>sich mit der rechten Hand am Handgelenk der Linken den Puls fühlend.</stage>
+          <p>Dann greife ich ihm vor allem <emph>hierher</emph>! Sehen Sie, <emph>hierher</emph>!
+            Und wenn er <emph>hier</emph> nichts hat – bitte, hören Sie weiter.
+              <stage>Blätternd.</stage> Ich will Ihnen den Monolog nicht fertig spielen. Wir haben
+            ja doch keine Zeit. Hier, Szene drei, Schluß des ersten Aktes. Da kommt das
+            Tagelöhnerkind, das mit Ihnen auf dem Schlosse aufgewachsen, plötzlich zu Ihnen herein.
+            Hören Sie – nachdem Sie von Ihrer hochgeehrten Frau Mutter schon Abschied genommen
+            haben. <stage>In der Partitur rasch überlesend.</stage> Dämon, wer bist du? – Darf man
+            herein? – <stage>Zu Gerardo.</stage> Das sagt sie! – <stage>Liest weiter.</stage>
+            Bärbel! – Ja, ich bin's. Dein Vater ist gestorben? – Dort liegt er. – <stage>Spielt und
+              singt in der höchsten Fistel.</stage></p>
+          <lg>
+            <l>Hat mir gar oft meine Locken gestreichelt,</l>
+            <l>Wo er mich sah, war er freundlich zu mir.</l>
+            <l><pb n="408"/> O weh, das ist der Tod,</l>
+            <l>Die Augen sind geschlossen ...</l>
+          </lg>
+          <p><stage>Sich unterbrechend, Gerardo groß ansehend.</stage> Ist das Musik??</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Möglich!</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING</speaker>
+          <stage>zwei Akkorde anschlagend.</stage>
+          <p>Ist das nicht mehr als der »Trompeter von Säckingen«?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ihr Vertrauen zwingt mich, aufrichtig zu sein. Ich kann mir nicht vorstellen, wie meine
+            Verwendung für Sie von Vorteil sein sollte.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Sie wollen mit andern Worten damit sagen, daß es veraltete Musik ist.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Im Gegenteil! Ich möchte weit eher sagen, daß es <emph>moderne</emph> Musik ist.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Oder daß es moderne Musik ist. Verzeihen Sie gütigst, Herr Kammersänger, daß ich mich
+            versprochen habe. Das kann einem in meinem Alter schon passieren. Der eine Intendant
+            schreibt: Wir können die Oper nicht geben, es ist veraltete Musik – und der andere
+            schreibt: Wir können sie nicht geben, es ist moderne Musik. – Auf deutsch heißt das
+            beides dasselbe: Wir wollen keine Oper von Ihnen, weil Sie als Komponist <emph>nicht in
+              Frage kommen</emph>.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich bin Wagnersänger, mein Herr; ich bin nicht Kritiker. Wenn Sie aufgeführt werden
+            wollen, dann wenden Sie sich wohl am besten an diejenigen Herrschaften, die dafür
+            bezahlt werden, daß Sie wissen, was gut und was schlecht ist. Von meinem
+              <emph>Urteil</emph> in diesen Dingen hält man ebensowenig, davon können Sie fest
+            überzeugt sein, wie man mich als Sänger würdigt und hochschätzt.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Mein lieber Herr Kammersänger, Sie dürfen mir getrost glauben, daß <emph>ich</emph>
+            auch nichts von Ihrem Urteil halte. Was kümmert mich Ihr Urteil! Ich kenne doch die
+            Tenoristen. Ich spiele Ihnen die Oper hier vor, damit Sie sagen: Ich will den
+              <emph>Hermann</emph> singen! Ich will den <emph>Hermann</emph> singen!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Das hilft Ihnen nichts. Ich muß tun, was man von mir verlangt; dazu bin ich
+            kontraktlich verpflichtet. Sie können eine Woche lang unten auf der Straße stehen. Auf
+            einen Tag mehr oder weniger braucht es Ihnen dabei <pb n="409"/> nicht anzukommen. Wenn
+            ich mit dem nächsten Zuge nicht reise, dann bin ich für diese Welt ruiniert. Vielleicht,
+            daß man in einer anderen Welt <emph>kontraktbrüchige</emph> Sänger engagiert! Meine
+            Ketten sind enger bemessen als das Geschirr, in dem ein Equipagenpferd geht. Ich habe
+            für den Fremdesten, der mich um materielle Hilfe angeht, eine offene Hand, obschon das,
+            was ich meinem Beruf an <emph>Lebensglück</emph> opfere, mit fünfmalhunderttausend
+            Francs im Jahr nicht bezahlt ist. Aber verlangen Sie die kleinste Äußerung persönlicher
+              <emph>Freiheit</emph> von mir, so ist das von einem Sklaven, wie ich es bin, zu viel
+            verlangt. Ich <emph>kann</emph> Ihren Hermann nicht singen, solange Sie als Komponist
+            nicht in Frage kommen.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Hören Sie, bitte, weiter. Es wird Ihnen die Lust dazu kommen.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>knöpft sich den Rock zu.</stage>
+          <p>Wenn Sie wüßten, zu wie vielem mir die <emph>Lust</emph> kommt, was ich mir
+              <emph>versagen</emph> muß, und wie vieles ich auf mich nehmen muß, wozu ich nicht die
+            geringste Lust habe! Es gibt für mich gar nichts anderes als diese zwei Eventualitäten.
+            Sie waren Ihrer Lebtag ein freier Mann. Wie können Sie sich darüber beklagen, daß Sie
+            nicht auf dem Markte stehen? Warum <emph>gehen</emph> Sie nicht auf den Markt?</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Der Schacher – das Geschrei – die Gemeinheit – ich habe es hundertmal versucht.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Man muß das tun, was man <emph>kann</emph>, und nicht das, was man <emph>nicht</emph>
+            kann.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Es will alles gelernt sein.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Man muß das lernen, was man lernen kann. Wer bürgt mir dafür, daß es sich mit Ihren
+            Kompositionen nicht ebenso verhält!</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Ich <emph>bin</emph> Komponist, Herr Kammersänger!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Sie wollen damit sagen, daß Sie Ihre ganze geistige Kraft darauf verwendet haben, um
+            Ihre Opern zu schreiben.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Ganz recht.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Und es blieb Ihnen natürlich nichts mehr übrig, um Ihre <emph>Aufführungen</emph>
+            zustande zu bringen.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Ganz recht.</p>
+          <pb n="410"/>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Die Komponisten, die ich kenne, machen es umgekehrt. Die Opern schreiben sie herunter,
+            und ihre geistigen Kräfte bewahren sie sich, um die Aufführungen zustande zu
+            bringen.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Das sind Künstler, die ich nicht beneide.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Das beruht auf Gegenseitigkeit, mein Herr. Diese Leute kommen <emph>in Betracht</emph>.
+            Irgend etwas muß man sein. Nennen Sie mir doch einen berühmten Mann, der
+              <emph>nicht</emph> in Betracht gekommen wäre! Wenn man nicht Komponist ist, dann ist
+            man eben etwas anderes und braucht deswegen noch nicht unglücklich zu sein. Ich war,
+            bevor ich Wagnersänger wurde, auch etwas anderes, worin mir niemand meine Tüchtigkeit
+            bemängeln durfte und womit ich vollkommen zufrieden war. Das hängt nicht von
+              <emph>uns</emph> ab, wofür wir in dieser Welt bestimmt sind. Da könnte jeder kommen!
+            Wissen Sie, was ich war, bevor man mich entdeckte? – Ich war Tapeziergehilfe. Sie
+            wissen, was das ist? <stage>Geste.</stage> Ich klebte die Tapeten an die Wände – mit
+            Kleister. Ich mache vor niemandem ein Geheimnis aus meiner niedrigen Herkunft. Nun
+            denken Sie sich einmal, wenn ich mir nun als Tapeziergehilfe hätte in den Kopf setzen
+            wollen, durchaus Wagnersänger zu werden! – Wissen Sie, was man mit mir getan hätte?</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Man hätte Sie ins Irrenhaus gesteckt.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Und mit vollem Recht. Wer sich nicht mit dem begnügt, was er ist, der bringt es seiner
+            Lebtag zu nichts. Ein gesunder Mensch tut das, worin er <emph>Glück</emph> hat; hat er
+            Unglück, dann wählt er einen anderen Beruf. Sie führen das Urteil Ihrer Freunde an. Es
+            ist nicht schwer, Anerkennungen zu erhalten, die demjenigen, der sie ausstellt, nichts
+            kosten. Ich bin seit meinem fünfzehnten Jahre für jede Arbeit <emph>bezahlt</emph>
+            worden und hätte es mir zur Schande angerechnet, wenn ich irgend etwas
+              <emph>umsonst</emph> hätte tun müssen. – Fünfzig Jahre fruchtlosen Ringens! Das müßte
+            doch den Starrköpfigsten von der Unmöglichkeit seiner Träume überzeugen. Was haben Sie
+            denn dann von Ihrem Leben genossen? Sie haben es sündhaft vergeudet! – Ich habe
+              <emph>nie</emph> etwas Außergewöhnliches angestrebt; aber das <emph>eine</emph> kann
+              <pb n="411"/> ich Ihnen versichern, mein Herr, daß ich seit meiner frühesten Kindheit
+            nicht soviel Zeit übrig gehabt habe, um acht Tage auf der Straße zu stehen. Und wenn ich
+            denke, daß ich als alter Mann dazu gezwungen sein sollte – ich spreche nur für meine
+            Person – aber ich kann mir nicht vorstellen, wo ich dann den Mut hernehmen wollte,
+            jemandem unter die Augen zu treten.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Mit einer solchen <emph>Oper</emph> in der Hand! – Ich tue es ja nicht für mich, ich
+            tue es für meine <emph>Kunst</emph>.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>hohnlachend.</stage>
+          <p>Sie überschätzen die Kunst, mein verehrter Herr! Lassen Sie sich von mir sagen, daß die
+            Kunst ganz etwas anderes ist, als was man sich in den Zeitungen darüber weismacht.</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING.</speaker>
+          <p>Sie ist mir das <emph>Höchste</emph> auf Erden!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Die Ansicht besteht nur bei Leuten wie <emph>Sie</emph>, die ein Interesse daran haben,
+            diese Ansicht zur Geltung zu bringen. Sonst glaubt Ihnen kein Mensch daran! – Wir
+            Künstler sind ein <emph>Luxusartikel</emph> der Bourgeoisie, zu dessen Bezahlung man
+            sich gegenseitig überbietet. Wenn <emph>Sie</emph> recht hätten, wie wäre denn dann zum
+            Beispiel eine Oper wie die »<emph>Walküre</emph>« möglich, die sich um Dinge dreht,
+            deren Bloßstellung dem Publikum in tiefster Seele zuwider ist. Singe ich aber den
+              <emph>Siegmund</emph>, dann führen die besorgtesten Mütter ihre dreizehn- und
+            vierzehnjährigen Töchterchen hinein. Und ich auf der Bühne habe auch die absolute
+            Gewißheit, daß nicht ein Mensch im Zuschauerraum mehr auf das achtet, was bei uns oben
+            gespielt wird. Wenn die Menschen darauf achteten, würden sie hinauslaufen. Das haben sie
+            getan, solange die Oper neu war. Jetzt haben sie sich daran gewöhnt, es zu
+              <emph>ignorieren</emph>. Sie bemerken es so wenig, wie sie die <emph>Luft</emph>
+            bemerken, die sie von der Bühne trennt. <emph>Das, sehen Sie, ist die Bedeutung dessen,
+              was Sie Kunst nennen!</emph> Dem haben Sie fünfzig Jahre Ihres Lebens geopfert! Wir
+            Künstler hingegen haben die Aufgabe, uns Abend für Abend dem zahlenden Publikum unter
+            diesem oder jenem Vorwand zu produzieren. Das Interesse klammert sich an unser
+            Privatleben ebenso krampfhaft, wie an unser Auftreten. <emph><pb n="412"/> Man gehört
+              mit jedem Atemzuge dem Publikum</emph>; und weil wir uns für Geld dazu hergeben, weiß
+            man nie, ob man uns höher vergöttern oder tiefer verachten soll. Erkundigen Sie sich,
+            wie viele gestern im Theater waren, um mich <emph>singen</emph> zu hören, und wie viele,
+            um mich <emph>anzugaffen</emph>, wie sie den Kaiser von China angaffen würden, wenn er
+            morgen hierher käme. Wissen Sie, was die künstlerischen Bedürfnisse des Publikums sind?
+            Bravo zu rufen, Blumen und Kränze zu werfen, Unterhaltungsstoff zu haben, sich sehen zu
+            lassen, ah und oh zu sagen, auch mal Pferde auszuspannen – das sind die reellen
+            Bedürfnisse, die <emph>ich</emph> befriedige. Wenn man mich mit einer halben Million
+            bezahlt, so setze ich dafür eine Legion von Droschkenkutschern, von Schriftstellern, von
+            Putzmacherinnen, von Blumenzüchtern, von Bierwirten in Brot. Das Geld kommt in Umlauf.
+            Das Blut kommt in Umlauf. Die jungen Mädchen verloben sich, die alten Jungfern
+            verheiraten sich, die Gattinnen fallen dem Hausfreund zum Opfer, und die Großmütter
+            bekommen eine Unmenge Stoff zum klatschen. Unglücksfälle und Verbrechen geschehen. An
+            der Kasse wird ein Kind totgetreten, einer Dame wird das Portemonnaie gestohlen, ein
+            Herr im Theater wird vom Wahnsinn befallen. Dadurch verdienen die Ärzte, die Advokaten
+            ... – <stage>Bekommt einen Hustenanfall.</stage> Und dabei soll ich morgen in Brüssel
+            den »Tristan« singen! – – Ich erzähle Ihnen das alles nicht aus Eitelkeit, sondern um
+            Sie von Ihrem Wahn zu heilen. Der Maßstab für die Bedeutung eines Menschen ist die
+              <emph>Welt</emph> und nicht die innere Überzeugung, die man sich durch jahrelanges
+            Hinbrüten aneignet. Ich habe mich auch nicht auf den Markt gestellt; man hat mich
+            entdeckt. <emph>Es gibt keine verkannten Genies.</emph> Wir sind nun einmal nicht die
+            Herren unseres Geschickes; <emph>der Mensch ist zum Sklaven geboren</emph>!</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING</speaker>
+          <stage>der in seiner Partitur geblättert hat.</stage>
+          <p>Hören Sie sich bitte noch die erste Szene vom zweiten Akt an. Eine Parklandschaft,
+            wissen Sie, wie auf dem berühmten Bild: Embarquement pour Cythère ...</p>
+          <pb n="413"/>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Aber ich sage Ihnen ja, daß ich <emph>keine Zeit</emph> habe! Und was soll ich denn aus
+            diesen paar abgerissenen Szenen ersehen?</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING</speaker>
+          <stage>langsam seine Partitur zusammenpackend.</stage>
+          <p>Sie beurteilen mich doch wohl nicht ganz richtig, mein Herr. So unbekannt wie Ihnen bin
+            ich doch der übrigen Welt nicht. Man kennt und nennt mich. Sie finden mich auch oft
+            genug von <emph>Wagner</emph> selber in seinen Schriften erwähnt. Und, sehen Sie, wenn
+            ich heute sterbe, werde ich morgen aufgeführt. Das ist so sicher, wie meine Musik ihren
+            Wert behalten wird. Mein Berliner Verleger schreibt mir auch jeden Tag: Warum sterben
+            Sie denn nun nicht endlich mal!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich kann Ihnen nur das eine sagen, daß seit <emph>Wagners</emph> Tod noch nirgends ein
+            Bedürfnis nach neuen Opern besteht. Mit neuer Musik haben Sie von vornherein sämtliche
+            Kunstinstitute, sämtliche Künstler und das gesamte Publikum zu <emph>Feinden</emph>.
+            Wenn Sie an die Bühne gelangen wollen, dann schreiben Sie eine Musik, die der heutigen
+            zum Verwechseln ähnlich sieht; kopieren Sie einfach; stehlen Sie Ihre Oper aus allen
+            Wagnerschen Opern zusammen. Dann können Sie mit ziemlicher Wahrscheinlichkeit darauf
+            rechnen, daß Sie aufgeführt werden. Mein Bombenerfolg von gestern beweist Ihnen, daß die
+            alte Musik noch auf Jahre hinaus vorhält. Und darin denke ich nicht anders als jeder
+            andere Künstler, als jeder Intendant und als das gesamte zahlende Publikum: Warum soll
+            ich mir unnötigerweise Ihre neue Musik einprügeln lassen, nachdem mich die alte <emph>so
+              unmenschliche Prügel</emph> gekostet hat?!</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING</speaker>
+          <stage>reicht ihm seine zitternde Hand.</stage>
+          <p>Ich fürchte nur, daß ich zu alt dazu bin, um noch <emph>stehlen</emph> zu lernen. Mit
+            so was muß man als junger Mann anfangen, sonst lernt man es nie.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Seien Sie nicht beleidigt. – Aber – mein verehrter Herr – wenn ich Ihnen – der Gedanke,
+            daß Sie mit dem Leben zu kämpfen haben – <stage>Sehr rasch.</stage> Ich habe nämlich aus
+            Zufall fünfhundert Mark zuviel bekommen ...</p>
+        </sp>
+        <sp who="#duehring">
+          <speaker>DÜHRING</speaker>
+          <stage>der ihn groß angesehen hat, sich plötzlich zur Tür wendend.</stage>
+          <p><pb n="414"/> Nein, nein, ich bitte, nein. – Sprechen Sie das nicht aus. – Nein, nein,
+            nein! Dazu bin ich nicht hergekommen. – Nein, nein! – Wissen Sie, es hat mal ein großer
+            Weiser gesagt: – <emph>Gutmütig sind sie alle!</emph> – Nein, Herr Kammersänger – ich
+            habe Ihnen die Oper da nicht vorspielen wollen, um eine – Erpressung zu üben. Dazu ist
+            mir mein Kind zu lieb. – Nein, Herr Kammersänger ... <stage>Durch die Mitte
+            ab.</stage></p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>der ihn zur Tür geleitet.</stage>
+          <p>O bitte. – War mir sehr angenehm.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Achter Auftritt</head>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>allein, kommt zurück und sinkt, dem Champagnerkorb gegenüber, in einen Sessel, die
+            Champagnerflaschen betrachtend.</stage>
+          <p>Für wen raffe ich all das Geld zusammen? – Für meine Kinder? – Wenn ich Kinder hätte! –
+            Für meine alten Tage? – Wenn ich in zwei Jahren nicht aufgebraucht bin! – Dann heißt
+            es:</p>
+          <lg>
+            <l>»Denn ach, denn ach,</l>
+            <l>Vergessen ist das Steckenpferd!«</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Neunter Auftritt</head>
+        <stage>Gerardo, Helene Marowa, dann der Hoteldiener.</stage>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>blendende Schönheit, zwanzig Jahre, Straßentoilette, Muff; sehr erregt.</stage>
+          <p>Ich werde mir von dem Menschen den Weg vertreten lassen! – Er steht wohl unten, damit
+            ich nicht zu dir kann?!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>ist aufgesprungen.</stage>
+          <p>Helene!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Du wußtest ja, daß ich noch kommen werde!</p>
+        </sp>
+        <sp who="#der_hoteldiener">
+          <speaker>DER HOTELDIENER</speaker>
+          <stage>in der offengebliebenen Tür, sich die Backe haltend.</stage>
+          <p>Ich habe getan, was ich konnte, Herr Kammersänger, aber die Dame hat mich ...</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Geohrfeigt!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Helene!</p>
+          <pb n="415"/>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ich soll mich wohl insultieren lassen?!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>zum Hoteldiener.</stage>
+          <p>Gehen Sie.</p>
+          <stage>Der Hoteldiener ab.</stage>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>legt ihren Muff in den Polstersessel.</stage>
+          <p>Ich kann nicht mehr ohne dich leben. Entweder nimmst du mich mit oder ich gehe in den
+            Tod.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Helene!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ich gehe in den Tod! Du zerschneidest mir die Lebensnerven, wenn du dich von mir
+            trennst. Ich bin ohne Hirn und Herz. Einen Tag wie gestern, einen ganzen Tag, ohne dich
+            zu sehen, das überlebe ich nicht mehr. Dazu bin ich nicht stark genug. Ich bitte dich,
+            Oskar, nimm mich mit! Ich bitte dich um mein Leben!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich kann nicht.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Du kannst, was du willst! Wie wolltest du das nicht können! Du kannst dich nicht von
+            mir trennen, ohne mich zu töten. Das sind keine Worte; ich drohe dir damit nicht; es ist
+            so! Ich weiß es so bestimmt, wie ich mein Herz hier fühle: Ich bin tot, wenn ich dich
+            nicht mehr habe. Deshalb nimm mich mit! Es ist deine Menschenpflicht! Sei es nur auf
+            kurze Zeit.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich gebe dir mein Ehrenwort, Helene, ich kann es nicht. – Ich gebe dir mein Ehrenwort
+            darauf.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Du mußt es tun, Oskar! Ob du es kannst oder nicht, du mußt die Folgen deiner Handlungen
+            tragen. Ich hänge an meinem Leben, und du und mein Leben sind eins. Nimm mich mit,
+            Oskar! Nimm mich mit, wenn du mein Blut nicht vergießen willst!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Erinnerst du dich an das, was ich dir am ersten Tage in diesen vier Wänden sagte?!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja, ja! – Was hilft mir das?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Daß von Gefühlen zwischen uns nicht die Rede sein kann?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Was hilft mir das! Kannte ich dich denn?! Ich habe ja nicht gewußt, was ein Mann sein
+            kann, ehe ich dich kannte! Du hast es gewußt, daß es so kommen werde! Du hättest mir
+            sonst vorher das Versprechen nicht abgenommen, dir keine Abschiedsszene zu machen. Und
+            was hätte ich dir denn nicht versprochen, wenn du es verlangt <pb n="416"/> hättest! –
+            Mein Versprechen bringt mich um. Du hast mich um mein Leben betrogen, wenn du mich
+            zurückläßt!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich kann dich nicht mitnehmen!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>O Gott, das wußte ich im voraus, daß du das sagen wirst. Das wußte ich ja, als ich
+            hierherkam. Das ist so selbstverständlich! Das sagst du jeder. Und was bin ich Besseres!
+            Ich bin eine von Hunderten. Ich bin ein Weib, wie es Millionen gibt. Das weiß ich ja
+            alles. – Aber ich bin krank, Oskar! Ich bin krank auf den Tod! Ich bin liebeskrank! Ich
+            bin dem Tode näher als dem Leben! Das ist dein Werk, und du kannst mich retten, ohne ein
+            Opfer zu bringen, ohne dir etwas aufzubürden. Warum kannst du es nicht!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>jedes Wort betonend.</stage>
+          <p>Weil mein Kontrakt mich verpflichtet, mich weder zu verheiraten, noch in Begleitung von
+            Damen zu reisen.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>perplex.</stage>
+          <p>Wer kann dir das verbieten!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Mein Kontrakt.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Du darfst ...?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich darf mich nicht verheiraten, bevor seine Gültigkeit abgelaufen ist.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Und darfst ...?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Und darf nicht in Begleitung von Damen reisen.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Das ist mir unverständlich. – Wen auf der Welt kann das kümmern?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Meinen Unternehmer.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Deinen Unternehmer? – Was kommt denn für <emph>den</emph> dabei in Frage?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Sein Geschäft.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Weil es vielleicht – deine Stimme – beeinflussen könnte?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Das ist doch kindisch! – Beeinflußt es denn deine Stimme?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Nein.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Glaubt denn dein Unternehmer an diesen Unsinn?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Nein, er glaubt nicht daran.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Das ist mir unverständlich. – Ich begreife nicht, wie ein – – anständiger Mensch einen
+            solchen Kontrakt unterschreiben kann!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich bin in erster Linie Künstler und dann bin ich Mensch!</p>
+          <pb n="417"/>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja, das bist du. Ein <emph>großer</emph> Künstler! Ein <emph>eminenter</emph> Künstler!
+            Begreifst du denn nicht, <emph>wie</emph> ich dich lieben muß! Ist denn das das einzige,
+            was du kluger Mensch nicht begreifen kannst! – Alles, was mich jetzt dir gegenüber
+            verachtenswert erscheinen läßt, entspringt doch nur der Tatsache, daß ich in dir den
+            einzigen mir <emph>überlegenen</emph> Menschen sehe, den ich bis jetzt gefunden, und dem
+            zu gefallen mein einziges Trachten war. Ich habe die Zähne zusammengebissen, um dich
+            nicht merken zu lassen, <emph>was</emph> du für mich bist, aus Angst, dir langweilig zu
+            werden. Aber der gestrige Tag hat mich in einen Seelenzustand versetzt, den kein Weib
+            erträgt. Wenn ich dich nicht so wahnsinnig liebte, Oskar, du würdest mehr von mir
+            halten. Das ist das Furchtbare an dir, daß du das Weib, das eine Welt in dir schätzt,
+            verachten mußt! Ich bin mir nichts mehr, nichts als ein <emph>leeres</emph> Nichts. Und
+            jetzt, nachdem deine Leidenschaft mich ausgeglüht hat, willst du mich hierlassen! Du
+            nimmst mein Leben mit, Oskar! Nimm dies Fleisch und Blut, das dir gehört hat, auch noch
+            mit, wenn es nicht umkommen soll!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Helene ...!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Kontrakte! Was sind dir Kontrakte! Gibt es denn einen Kontrakt, der sich nicht
+              <emph>umgehen</emph> läßt! Wozu macht man denn Kontrakte! Gebrauch deinen Kontrakt
+            nicht als Waffe, um mich zu morden! Ich glaube an keine Kontrakte! Laß mich mit dir
+            gehen, Oskar! Du wirst sehen, ob er ein Wort von Kontraktbruch sagt. Er wird es nicht
+            tun, ich kenne die Menschen. Und sagt er etwas, dann ist es immer noch Zeit für mich zu
+            sterben.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Wir haben aber kein Recht aufeinander, Helene! – Es steht dir so wenig frei, mir zu
+            folgen, wie es mir freisteht, eine derartige Verantwortlichkeit auf mich zu nehmen. –
+            Ich gehöre nicht mir selber; ich gehöre meiner <emph>Kunst</emph> ...</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Laß mich mit deiner <emph>Kunst</emph> in Ruhe! Was kümmert mich deine
+              <emph>Kunst</emph>! – Ich habe mich an deine Kunst geklammert, um von dir beachtet zu
+            werden. Hat der Himmel einen Menschen wie du geschaffen, damit er sich allabendlich zum
+            Hanswurst macht! Schämst du <pb n="418"/> dich nicht, damit noch zu prahlen! Du siehst,
+            daß ich mich darüber hinwegsetze, daß du Künstler bist. Worüber sieht man bei einem
+            Halbgott, wie du es bist, nicht hinweg! Und wenn du ein Sträfling wärest, Oskar, ich
+            könnte nicht anders fühlen! Ich habe ja keine Gewalt mehr über mich! Ich läge vor dir
+              <emph>hier</emph> im Staube, wie ich hier liege! Ich würde deine Barmherzigkeit
+            erflehen, wie ich es jetzt tue! Ich wäre an dich verloren, wie ich an dich verloren bin!
+            Ich hätte den Tod vor Augen, wie ich ihn vor Augen habe!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>lachend.</stage>
+          <p>Du, Helene, den Tod vor Augen! – Frauen, die so reich wie du für den Genuß des Lebens
+            begabt sind, bringen sich nicht um. Du kennst den Wert des Daseins besser als ich. Du
+            bist glücklich genug organisiert, um das Leben nicht wegzuwerfen. Das tun andere –
+            Halbmenschen, Zwerggeschöpfe – die die Natur wie Stiefkinder bedacht hat.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Oskar – ich habe ja nicht gesagt, daß ich mich erschießen werde! Wann habe ich das
+            gesagt? Wo sollte ich denn den Mut dazu hernehmen! Ich sage, ich werde
+              <emph>sterben</emph>, wenn du mich nicht mitnimmst, sterben, wie man an jeder
+            Krankheit stirbt, weil ich nur lebe, wenn ich bei dir bin! Ich kann ohne alles leben –
+            ohne Heim, ohne Kinder, aber nicht ohne <emph>dich</emph>, Oskar! Ich kann nicht ohne
+              <emph>dich</emph> leben!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>beklommen.</stage>
+          <p>Helene – – wenn du dich jetzt nicht beruhigen kannst! – Du setzt mich einer furchtbaren
+            Notwendigkeit aus! Ich habe noch zehn Minuten. Ich kann die Szene, die du mir hier
+            machst, nicht als eine Force majeure ins Feld führen! Ich kann mich mit deiner Aufregung
+            vor keinem Richter rechtfertigen. – Ich kann dir noch zehn Minuten widmen! Wenn du dich
+            derweil nicht beruhigst, Helene – – ich kann dich in dem Zustand nicht <emph>dir selber
+              überlassen</emph>!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Soll mich die ganze Welt hier liegen sehen!!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Bedenke, was du damit aufs Spiel setzt!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Als hätte ich noch etwas aufs Spiel zu setzen!!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Du kannst deine gesellschaftliche Stellung dabei verlieren!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p><emph>Dich</emph> kann ich verlieren!!</p>
+          <pb n="419"/>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Und deine Angehörigen?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ich <emph>kann</emph> keinem andern mehr angehören als dir!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich gehöre dir aber nicht!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ich habe nichts mehr zu verlieren als mein Leben!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Und deine <emph>Kinder</emph>?!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>emporfahrend.</stage>
+          <p>Wer hat mich ihnen geraubt, Oskar! Wer hat mich meinen Kindern geraubt!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Habe ich mich dir angetragen?!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>in höchster Leidenschaftlichkeit.</stage>
+          <p>Nein, nein! Glaub das nicht! Ich habe mich dir an den Hals geworfen und würde mich dir
+            heute wieder an den Hals werfen! Kein Mann, keine Kinder hielten mich zurück! Wenn ich
+            sterbe, dann habe ich gelebt, Oskar! Durch dich gelebt! Das danke ich <emph>dir</emph>,
+            daß ich mich erkannt habe! Das danke ich <emph>dir</emph>, Oskar!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>– Helene – höre mich ruhig an ...</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja, ja – noch zehn Minuten ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Höre mich ruhig an ...</p>
+          <stage>Beide auf dem Diwan.</stage>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>ihn anstarrend.</stage>
+          <p>Das danke ich dir ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Helene – –</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ich will ja gar nicht von dir geliebt sein! Nur dieselbe Luft mit dir atmen ...!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>nach Fassung ringend.</stage>
+          <p>Helene – – auf einen Mann wie mich lassen sich keine bürgerlichen Begriffe anwenden.
+            Ich habe in allen Ländern Europas Frauen aus der Gesellschaft gekannt. Man hat mir
+            Abschiedsszenen gemacht – aber man wußte schließlich, was man seiner Stellung schuldet.
+            Einem Gefühlsausbruch wie bei dir stehe ich heute zum erstenmal in meinem Leben
+            gegenüber. – Helene – – an mich tritt täglich die Versuchung heran, mich mit dieser oder
+            jener Frau in ein <emph>idyllisches Arkadien</emph> zurückzuziehen. Aber der Mensch hat
+            seine <emph>Pflichten</emph>; du hast deine Pflichten geradesogut wie ich meine
+            Pflichten habe; und die Pflicht ist das höchste Gebot ...</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Das muß ich jetzt wohl besser wissen, Oskar, was das höchste Gebot ist!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Was denn? – Vielleicht gar deine Liebe zu mir?? – Das sagt jede! – Was eine Frau
+            durchsetzen will, nennt sie <emph>gut</emph>, und wer sich ihr nicht fügt, ist ein
+            schlechter <pb n="420"/> Mensch. Das kommt von den Komödienschreibern. Um volle Häuser
+            zu haben, stellen sie die Welt auf den Kopf und nennen es großherzig, wenn eine Frau
+            Kinder und Familie ins Verderben stürzt, um ihrem Sinnengenuß nachzulaufen. Ich lebe
+            auch gern wie die Turteltauben. Aber seit ich auf der Welt bin, habe ich erst meiner
+            Pflicht gehorcht. Wenn sich dann Gelegenheit bot, habe ich allerdings in vollen Zügen
+            genossen. Aber wer seiner Pflicht nicht nachkommt, ist nicht berechtigt, auch nur die
+              <emph>geringsten Anforderungen</emph> an andere Menschen zu stellen.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>abgewandt traumhaft.</stage>
+          <p>Das gibt keinem Toten das Leben wieder ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>nervös.</stage>
+          <p>Helene, ich will dir ja dein Leben zurückgeben! Ich will dir ja wiedergeben, was du mir
+            geopfert hast! Nimm es doch nur um Gottes willen! Zum Teufel nochmal, soviel ist es doch
+            nicht! – Helene, wie kann sich eine Frau so schmachvoll <emph>erniedrigen</emph>! Wo ist
+            dein Selbstgefühl! – Mit welcher Verachtung hättest du mich in meine Schranken
+            zurückgewiesen, wenn ich mich in dich <emph>verliebt</emph> hätte, wenn ich hätte
+            eifersüchtig sein wollen! Was bin ich in den Augen deiner Gesellschaft! Ein Mensch, der
+            sich allabendlich zum <emph>Hanswurst</emph> macht! – Helene, willst du dich für einen
+            Mann hinschlachten, den hundert Frauen vor dir geliebt haben, den hundert Frauen nach
+            dir lieben werden, ohne sich eine Sekunde in ihrer Behaglichkeit stören zu lassen! Soll
+            dich dein warm vergossenes Blut vor Gott und der Welt <emph>lächerlich</emph>
+            machen?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>abgewandt.</stage>
+          <p>Ich weiß sehr wohl, daß ich Ungeheures von dir verlange, aber – – was soll ich anderes
+            tun ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>beruhigend.</stage>
+          <p>Ich habe dir gegeben, Helene, was ich zu geben habe. Mehr als ich dir war, kann ich
+            keiner Prinzessin sein. Ich könnte dich höchstens noch todunglücklich machen. – Gib mich
+            jetzt frei! – – Ich verstehe ja, wie schwer es dich ankommt, aber – man fürchtet oft,
+            sterben zu müssen. Ich zittre auch oft für mein Leben – reizbar, wie man als Künstler
+            durch seinen Beruf wird! – Man glaubt gar nicht, wie rasch man darüber wegkommt. – –
+            Finde dich doch damit ab, Helene, daß <pb n="421"/> unser Leben <emph>Zufall</emph> ist.
+            – Wir haben uns ja nicht gesucht, weil wir uns liebten; wir haben uns geliebt, weil wir
+            uns fanden! Wir haben einander nicht einmal nach dem Vornamen gefragt. – – – <stage>Die
+              Achseln zuckend.</stage> Ich soll die Folgen meiner Handlungen tragen, Helene? –
+            Wolltest du es mir im Ernste verdenken, daß ich dich nicht <emph>abweisen</emph> ließ,
+            als du unter dem Vorwand hierherkamst, deine Stimme von mir prüfen zu lassen? – Dafür
+            schätzest du deine Vorzüge doch wohl zu hoch; dazu kennst du dich zu gut; dazu bist du
+            zu stolz auf deine Schönheit. – Warst du dir denn deines Sieges nicht vollkommen gewiß,
+            als du hereinkamst?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>abgewandt.</stage>
+          <p>Was war ich vor acht Tagen! Und was – was bin ich jetzt!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>sehr sachlich.</stage>
+          <p>Helene, leg dir selber die <emph>Frage</emph> vor: Welche Wahl bleibt einem Manne in
+            einem solchen Falle. Du giltst allgemein als die <emph>schönste</emph> Frau der Stadt.
+            Soll ich mir nun als Künstler den Ruf eines Bärenhäuters zuziehen, der sich in seinen
+            vier Wänden vor jedem Damenbesuch abschließt? – Die <emph>zweite</emph> Eventualität ist
+            die, daß ich dich empfange und mich so stelle, als <emph>verstände</emph> ich nicht, was
+            du von mir willst. Dadurch bringe ich <emph>mich</emph>, ohne es im geringsten zu
+            verdienen, in den Ruf eines <emph>Dummkopfes</emph>. – Dritte Eventualität: – Aber das
+            ist <emph>äußerst</emph> gefährlich! – ich erkläre dir gleich bei deinem ersten Besuch
+            in ruhiger, höflicher Weise dasselbe, was ich dir jetzt sage. Das ist aber
+              <emph>sehr</emph> gefährlich! Denn ganz davon abgesehen, daß du mir sofort in
+            beleidigendem Ton entgegnest, ich sei ein eitler, eingebildeter Tropf, kann es mich,
+            wenn es bekannt wird, in <emph>ganz kuriosem Lichte</emph> erscheinen lassen. – Und was
+            ist die Folge im besten Fall, wenn ich die mir dargebotene Ehre zurückweise? – Daß ich
+            in deinen Händen zum verächtlichen, ohnmächtigen Spielball werde, zur Zielscheibe deines
+            weiblichen Witzes, zum Popanz, den du, solange es dir gefällt, <emph>ungestraft</emph>
+            necken, verhöhnen, bis zum Wahnsinn reizen und auf die Folter spannen wirst. – – Sag mir
+            selber, Helene: – Was blieb mir zu tun übrig?</p>
+          <pb n="422"/>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>starrt ihn an, wendet hilfeflehend die Augen umher, schaudert und ringt nach
+            Worten.</stage>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich habe in solchem Falle nur <emph>eine</emph> Wahl: – mir eine Feindin zu schaffen –
+            die mich <emph>verachtet</emph>, oder – mir eine Feindin zu schaffen, die – – –
+            wenigstens <emph>Respekt</emph> vor mir hat. – Und <stage>Ihr das Haar
+              streichelnd.</stage> Helene! – von einer so allgemein anerkannt schönen Frau, wie du
+            es bist, läßt man sich nicht verachten. – – – – Kann sich dein Stolz auch jetzt noch zu
+            der Bitte verstehen, ich möge dich mitnehmen?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>Ströme von Tränen vergießend.</stage>
+          <p>O Gott, o Gott, o Gott, o Gott, o Gott ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Deine gesellschaftliche Stellung gab dir die Möglichkeit, mich zu
+              <emph>provozieren</emph>. Du hast davon Gebrauch gemacht. – Ich kann dir das natürlich
+            am wenigsten verdenken. – – Aber verdenke es <emph>mir</emph> nicht, wenn ich meine
+            Rechte gewahrt wissen möchte. – – – Kein Mann kann <emph>aufrichtiger</emph> gegen eine
+            Frau sein, als ich gegen dich war: – Ich habe dir gesagt, daß von Gefühlen zwischen uns
+            nicht die Rede sein kann. Ich habe dir gesagt, daß mein Beruf mich hindert, mich zu
+            binden. Ich habe dir gesagt, daß mein – Gastspiel heute zu Ende ist ...</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>sich erhebend.</stage>
+          <p>Mir dröhnt der Kopf! Ich höre Worte, Worte, Worte, Worte! – Aber <stage>Sich an Herz
+              und Kehle fassend.</stage> mich würgt es hier und mich würgt es hier! Oskar – es steht
+            schlimmer, als du denkst! Ein Weib wie ich mehr oder weniger – ich habe meine Pflicht
+            getan, ich habe zwei Kindern das Leben geschenkt. Was würdest du sagen ... was würdest
+            du sagen, Oskar, wenn ich morgen hingehe und einen – und einen andern ebenso glücklich
+            sein lasse, wie du es bei mir warst! Was würdest du dazu sagen, Oskar! – – Sprich!! – –
+            Sprich ...</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Nichts. – – – <stage>Nach der Uhr sehend.</stage> Helene ...</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Oskar!! – <stage>Auf den Knien.</stage>
+            <emph>Leben</emph> erflehe ich von dir! Leben! Das letztemal, daß ich dich darum bitte!
+            Verlang, was du willst! Nur das nicht! Nur nicht <emph>sterben</emph>! Du weißt nicht,
+            was du tust! Du bist von Sinnen! <pb n="423"/> Du bist deiner nicht mächtig! Das
+              <emph>letztemal</emph>! Du verabscheust mich, weil ich dich liebe! Laß die Zeit nicht
+            vergehen! – Rette mich! Rette mich!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>zieht sie mit Gewalt empor.</stage>
+          <p>Hör auf ein liebes Wort! – Hör auf ein – ein liebes Wort ...</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>für sich.</stage>
+          <p>Sei's denn!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Helene – wie alt sind deine Kinder?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Das eine sechs und das andere vier Jahre alt.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Beides Mädchen?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Nein.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Das vierjährige ein Knabe?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Das sechsjährige ein Mädchen?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Nein.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Beides Knaben??</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Hast du denn kein Mitleid mit ihnen?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Nein.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Wie glücklich wäre ich, wenn sie mir gehörten! – Helene – willst du sie mir
+            überlassen?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>halb scherzhaft.</stage>
+          <p>Wenn ich nun ebenso anspruchsvoll wäre wie du – mir in den Kopf setzte: Ich liebe die
+            und die bestimmte Frau und kann keine andere lieben! – Heiraten kann ich sie nicht.
+            Mitnehmen kann ich sie nicht. Reisen muß ich. – Was wollte ich denn dann mit mir
+            anfangen?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>von jetzt an immer ruhiger.</stage>
+          <p>Ja, ja. – Gewiß. – Ich verstehe dich.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Sei überzeugt, Helene, es gibt noch eine <emph>Unmenge</emph> Männer wie ich auf dieser
+            Welt. Ich bin gar kein solches Prachtexemplar von Mann!! Laß dir unsere Begegnung eine
+              <emph>Weisung</emph> sein. Du sagst, du kannst ohne mich nicht leben. Wie viele Männer
+              <emph>kennst</emph> du denn? Je <emph>mehr</emph> du kennenlernst, um so tiefer sinken
+            sie im Wert. Dann nimmst du dir keines Mannes wegen mehr das Leben. Du schätzest sie
+            nicht höher, als ich die Frauen.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Du hältst mich für <emph>deinesgleichen</emph>. Das bin ich nicht.</p>
+          <pb n="424"/>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Ich spreche in vollem Ernst, Helene. Keiner von uns liebt diesen oder jenen bestimmten
+            Menschen außer den Dummköpfen, die nur einen kennen. Jeder liebt seine <emph>Art</emph>,
+            die er überall wiederfindet, sobald er einmal Bescheid weiß.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Und wenn man seine Art antrifft, dann ist man auch immer sicher, wiedergeliebt zu
+            werden?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Du hast kein Recht, Helene, dich über deinen Gatten zu beklagen! Warum
+              <emph>kanntest</emph> du dich nicht besser! Jedes junge Mädchen hat seine
+              <emph>freie</emph> Wahl. Keine Macht der Erde kann ein Mädchen zwingen, einem Manne zu
+            gehören, der ihr nicht gefällt. Es gibt keine Vergewaltigung an Frauen. Das ist ein
+            Unsinn, den nur diejenigen Frauen der Welt einreden wollen, die sich für den oder jenen
+            materiellen Gewinn <emph>verkauft</emph> haben und sich nachher gern ihren
+            Verpflichtungen entziehen möchten.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>lächelnd.</stage>
+          <p>Sie werden kontraktbrüchig?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>sich in die Brust werfend.</stage>
+          <p>Wenn <emph>ich</emph> mich verkaufe, dann hat man es wenigstens mit einem ehrlichen
+            Menschen zu tun!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>lächelnd.</stage>
+          <p>Wer <emph>liebt</emph>, der ist nicht ehrlich?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Nein! – Die <emph>Liebe</emph> ist eine verdammt bürgerliche Tugend! Geliebt sein will
+            der <emph>Bauer</emph>, der sein Weib mit dem Ochsen zusammen vor den Pflug spannt. Die
+            Liebe ist eine Zufluchtsstätte für Ofenhocker und Feiglinge! – In der <emph>großen
+              Welt</emph>, in der ich lebe, hat jeder Mensch seinen anerkannten reellen Wert. Wenn
+            sich zwei zusammentun, dann wissen sie ganz genau, <emph>wieviel</emph> sie voneinander
+            zu halten haben. Brauchen keine <emph>Liebe</emph> dazu!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>noch einmal sanft bittend.</stage>
+          <p>Willst du mich in deine große Welt denn nicht einführen?</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Helene – willst du dein ganzes Lebensglück und das Glück der Deinigen für einen
+            flüchtigen Genuß hingeben?!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Nein.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p><emph>Versprichst du mir</emph>, daß du jetzt ruhig zu den Deinen zurückkehren
+            willst?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja.</p>
+          <pb n="425"/>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Daß du nicht sterben wirst – auch nicht, wie man an einer Krankheit stirbt?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Versprichst du mir das?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Daß du deinen Pflichten als Mutter und als – Gattin genügen wirst?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Helene!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja. – Was willst du mehr! – Ich verspreche es dir.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Daß ich ruhig reisen kann?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>sich erhebend.</stage>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Noch einen Kuß?</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Ja – ja – ja – ja – ja.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>nachdem er sie weitläufig abgeküßt.</stage>
+          <p>Übers Jahr, Helene, singe ich hier wieder.</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE.</speaker>
+          <p>Übers Jahr! – Wie ich mich darauf freue!</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>gefühlvoll.</stage>
+          <p>Helene!</p>
+        </sp>
+        <sp who="#helene">
+          <speaker>HELENE</speaker>
+          <stage>drückt ihm die Hand, nimmt ihren Muff vom Sessel, zieht einen Revolver heraus,
+            knallt ihn sich vor den Kopf und bricht zusammen.</stage>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO.</speaker>
+          <p>Helene! <stage>Wankt nach vorn, wankt nach rückwärts und sinkt in einen Sessel.</stage>
+            Helene! –</p>
+          <stage>Pause.</stage>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Zehnter Auftritt</head>
+        <stage>Die Vorigen. Der Liftjunge. Der Hotelwirt Müller. Der Hoteldiener.</stage>
+        <sp who="#der_liftjunge">
+          <speaker>DER LIFTJUNGE</speaker>
+          <stage>eintretend, sieht auf Gerardo und Helene.</stage>
+          <p>Herr – Herr Kammersänger!</p>
+          <stage>Gerardo rührt sich nicht.</stage>
+          <stage>Der Liftjunge tritt an Helene heran.</stage>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>springt auf, rennt zur Tür und platzt auf Hotelwirt Müller. Ihn nach vorn
+            ziehend.</stage>
+          <p>Schicken Sie auf die <pb n="426"/> Polizei! Ich muß verhaftet werden! Wenn ich abreise,
+            bin ich ein Unmensch, und wenn ich hierbleibe, bin ich ruiniert, bin ich
+            kontraktbrüchig! Ich habe noch <stage>Auf die Uhr sehend.</stage> eine Minute und zehn
+            Sekunden. Rasch. Ich muß vorher verhaftet sein!</p>
+        </sp>
+        <sp who="#mueller">
+          <speaker>MÜLLER.</speaker>
+          <p>Fritz, den nächsten Schutzmann!</p>
+        </sp>
+        <sp who="#der_liftjunge">
+          <speaker>DER LIFTJUNGE.</speaker>
+          <p>Jawohl, Herr Müller!</p>
+        </sp>
+        <sp who="#mueller">
+          <speaker>MÜLLER.</speaker>
+          <p>Lauf, was du kannst!</p>
+        </sp>
+        <sp who="#der_liftjunge">
+          <speaker>DER LIFTJUNGE</speaker>
+          <stage>ab.</stage>
+        </sp>
+        <sp who="#mueller">
+          <speaker>MÜLLER</speaker>
+          <stage>zu Gerardo.</stage>
+          <p>Beunruhigen Sie sich nicht, Herr Kammersänger. So was kommt öfters bei uns vor.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>kniet neben Helene nieder, ergreift ihre Hand.</stage>
+          <p>Helene! – – Sie lebt noch! Sie lebt noch! <stage>Zu Müller.</stage> Wenn ich verhaftet
+            bin, gilt es als Force majeure! – Und meine Koffer?! – Steht der Wagen unten?</p>
+        </sp>
+        <sp who="#mueller">
+          <speaker>MÜLLER.</speaker>
+          <p>Seit zwanzig Minuten, Herr Kammersänger!</p>
+          <stage>Geht an die Tür und läßt den Hoteldiener herein, der einen Koffer
+            hinunterträgt.</stage>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>über Helene gebeugt.</stage>
+          <p>Helene! – <stage>Für sich.</stage> Schaden kann es mir nicht! – <stage>Zu
+              Müller.</stage> Haben Sie denn keinen Arzt rufen lassen?</p>
+        </sp>
+        <sp who="#mueller">
+          <speaker>MÜLLER.</speaker>
+          <p>Der Doktor ist sofort antelefoniert worden. Wird wohl gleich hier sein.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>Helene unter die Arme fassend und halb aufrichtend.</stage>
+          <p>Helene! – Kennst du mich denn nicht mehr, Helene! – Der Arzt wird ja im Augenblick hier
+            sein! – Dein Oskar, Helene! – – Helene!!</p>
+        </sp>
+        <sp who="#der_liftjunge">
+          <speaker>DER LIFTJUNGE</speaker>
+          <stage>in der offengebliebenen Mitteltür.</stage>
+          <p>Nirgends ein Schutzmann zu finden.</p>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <stage>alles vergessend, springt auf, indem er Helene auf den Teppich zurückfallen
+            läßt.</stage>
+          <p>Ich muß morgen abend in Brüssel den »Tristan« singen! <stage>An verschiedene
+              Möbelstücke anrennend, durch die Mitte ab.</stage></p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

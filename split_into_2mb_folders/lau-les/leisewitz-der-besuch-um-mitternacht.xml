@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xml:id="ger000447" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der Besuch um Mitternacht</title>
+        <author>
+          <persName>
+            <forename>Johann</forename>
+            <forename>Anton</forename>
+            <surname>Leisewitz</surname>
+          </persName>
+          <idno type="wikidata">Q64063</idno>
+          <idno type="pnd">118571370</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:rfx8.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <author>Johann Anton Leisewitz</author>: <title level="a">Der Besuch um
+              Mitternacht</title>. In: <title level="s">Sturm und Drang. Dichtungen und theoretische
+              Texte</title>. Ausgewählt und mit einem Nachwort versehen von <editor>Heinz
+              Nicolai</editor>. Band <biblScope unit="volume">II</biblScope>.
+              <pubPlace>München</pubPlace>: <publisher>Winkler</publisher>
+            <date>1971</date>. (S. <biblScope unit="page" from="1592" to="1593">1592–1593</biblScope>.)</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="der_fuerst" sex="MALE">
+            <persName>Der Fürst</persName>
+          </person>
+          <person xml:id="der_kammerherr" sex="MALE">
+            <persName>Der Kammerherr</persName>
+          </person>
+          <person xml:id="der_geist" sex="UNKNOWN">
+            <persName>Der Geist</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-01-02">(ff) formalities; add gender info</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1774">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000447" passive="http://www.wikidata.org/entity/Q56449014"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docAuthor>Johann Anton Leisewitz</docAuthor>
+        <docTitle>
+          <titlePart type="main">Der Besuch um Mitternacht</titlePart>
+        </docTitle>
+      </titlePage>
+    </front>
+    <body>
+      <div type="scene">
+        <stage>Der Fürst und Der Kammerherr am Schachbrett .</stage>
+        <sp who="#der_fuerst">
+          <speaker>Der Fürst</speaker>
+          <stage>sagt nach einigen Zügen .</stage>
+          <p>Schachmatt ... Wahrhaftig es ist Mitternacht, und die Gorgone ist noch nicht da! Weiß sie denn nicht, daß ich morgen mit dem frühesten mustre? ... Eh ich's vergesse, Herr Kammerherr, ziehn Sie mir morgen die Halsbinde etwas fest. Man sieht bei dergleichen Gelegenheiten gerne ein bißchen braun \150\ ein bißchen martialisch aus. Die Gorgone hält doch nie Wort!</p>
+        </sp>
+        <sp who="#der_kammerherr">
+          <speaker>Der Kammerherr.</speaker>
+          <p>Eure Durchlauchten belieben sich zu erinnern, daß Ihre Gemahlin noch auf ist, und daß sie dorten vorbei muß.</p>
+        </sp>
+        <sp who="#der_fuerst">
+          <speaker>Der Fürst.</speaker>
+          <p>Sie haben recht. Und ich muß jetzt mit meiner Frau so behutsam umgehen, wie mit einem überlaufenden Gefäße.</p>
+        </sp>
+        <sp who="#der_kammerherr">
+          <speaker>Der Kammerherr.</speaker>
+          <p>Aber in der Tat, ich begreife nicht, was die gute Dame will. Sie haben ja einmal einen Erbprinzen von ihr: und wenn Sie den auf eine andre Weise hätten bekommen können, so hätten Sie keine Gemahlin genommen.</p>
+        </sp>
+        <sp who="#der_fuerst">
+          <speaker>Der Fürst.</speaker>
+          <p>Ich weiß nicht. Eine Gemahlin ist doch immer eine <stage>Es erscheint ein Geist . Der Fürst fällt in Ohnmacht . Wie er sich nach einer langen Pause erholt , zum Kammerherrn .</stage> Gott! wer ist das?</p>
+        </sp>
+        <sp who="#der_geist">
+          <speaker>Der Geist.</speaker>
+          <p>Hermann, der Cherusker! Siehe, hier klebt das Blut des Varus, und hier das meinige; beides nicht vergossen, daß du der Tyrann von Sklaven, und der Sklave einer Hure seist!</p>
+        </sp>
+        <sp who="#der_kammerherr">
+          <speaker>Der Kammerherr</speaker>
+          <stage>sagt ganz leise .</stage>
+          <p>Ein respektwidriger Ausdruck!</p>
+        </sp>
+        <sp who="#der_geist">
+          <speaker>Der Geist</speaker>
+          <stage>sagt zum Fürsten .</stage>
+          <p>Edelknabe, hast du je die geweihte Last gefühlt, die auf deinen Schultern ruhen sollte? Glaubst du, daß süßer essen und trinken wie andre, sein Leben unter Weibern, verschnittenen und unverschnittenen Halbmännern vertändeln – daß das heiße ein Fürst sein? Und diese Üppigkeit in einem Lande, wo man in keinem Hause lacht, als in deinem! Und doch deucht mir das Jauchzen deines Hofes in deinem verwüsteten Gebiete, wie der Schall einer Trompete in einem Lazarett, daß man das Winseln der Sterbenden und Verstümmelten nicht höre!</p>
+        </sp>
+        <sp who="#der_fuerst">
+          <speaker>Der Fürst.</speaker>
+          <p>Geist, warum kamst du zu mir?</p>
+        </sp>
+        <sp who="#der_geist">
+          <speaker>Der Geist.</speaker>
+          <p>Um zu reden! – Hier hat noch niemand geredet! Alles, was du je gehört hast, war Widerschall deiner Begierden. Dies verdient es, daß ein Geist sichtbaren Stoff anziehe, und die Sonne noch einmal sehe. – Sie ist das einzige in Deutschland, was ich noch kenne! Aber Jüngling, höre, was ich rede! So gewiß jetzt dein Knie vor einem Geist und der Wahrheit zittert, so gewiß kommt eine Zeit, in der es Hermannen nicht gereuen wird, daß er für Deutschland starb! Verstehst du mich? – Nicht? – Despotismus ist der Vater der Freiheit! – Verstehst du mich jetzt?</p>
+          <stage>Er verschwindet .</stage>
+        </sp>
+        <sp who="#der_fuerst">
+          <speaker>Der Fürst.</speaker>
+          <p>Ungarisch Wasser, Herr Kammerherr!</p>
+        </sp>
+        <sp who="#der_kammerherr">
+          <speaker>Der Kammerherr.</speaker>
+          <p>Ich – ich – habe nichts bei mir.</p>
+        </sp>
+        <sp who="#der_fuerst">
+          <speaker>Der Fürst.</speaker>
+          <p>Sie sind ein Freigeist, und haben in der Gespensterstunde kein ungarisch Wasser!</p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

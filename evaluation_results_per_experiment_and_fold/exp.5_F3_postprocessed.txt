@@ -1,0 +1,17 @@
+
+=== MACRO-AVERAGE ACROSS ALL FILES ===
+
+=== MACRO-AVERAGE ACROSS ALL FILES ===
+                           Metric Precision Recall     F1
+       Token Accuracy (all chars)         -      - 0.9758
+         Token F1 [ambient_sound]    0.2772 0.2194 0.2433
+       Token F1 [character_sound]    0.6680 0.4839 0.5592
+                   Token Macro F1    0.4726 0.3516 0.4012
+     Span Detection (any overlap)    0.6777 0.6196 0.6382
+      Span Detection (IoU >= 0.5)    0.6071 0.5473 0.5673
+Span Classification (any overlap)    0.6501 0.5900 0.6101
+ Span Classification (IoU >= 0.5)    0.5850 0.5221 0.5440
+        E-F1 (exact span + label)    0.5337 0.4729 0.4943
+             E-F1 [ambient_sound]    0.1960 0.2190 0.2062
+           E-F1 [character_sound]    0.5435 0.4770 0.5002
+            Gamma (Mathet et al.)         -      - 0.5786

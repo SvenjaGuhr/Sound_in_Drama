@@ -1,0 +1,1742 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xml:id="ger000650" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der Seelenretter</title>
+        <title type="sub">Lustspiel in einem Act</title>
+        <author>
+          <persName>
+            <forename>Hedwig</forename>
+            <surname>Dohm</surname>
+          </persName>
+          <idno type="wikidata">Q71491</idno>
+          <idno type="pnd">11852643X</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>ULB Münster</name>
+          <idno type="URL">https://nbn-resolving.org/urn:nbn:de:hbz:6:1-215596</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <author>Hedwig Dohm</author>: <title>Der Seelenretter. Lustspiel in einem Act</title>.
+              <pubPlace>Berlin</pubPlace>: <publisher>Krause</publisher>
+            <date>1875</date>. (S. <biblScope unit="page" from="1" to="46">1–46</biblScope>.)</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="lotte" sex="FEMALE">
+            <persName>Lotte</persName>
+          </person>
+          <person xml:id="franz" sex="MALE">
+            <persName>Franz von Gerhardt</persName>
+          </person>
+          <person xml:id="paul" sex="MALE">
+            <persName>Paul Morbach</persName>
+          </person>
+          <person xml:id="diener_august" sex="MALE">
+            <persName>Diener (August)</persName>
+          </person>
+          <person xml:id="lucie" sex="FEMALE">
+            <persName>Lucie</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#franz #lucie"/>
+            <relation name="siblings" mutual="#franz #lotte"/>
+            <relation name="friends" mutual="#franz #paul"/>
+            <relation name="associated_with" active="#diener_august" passive="#franz"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2023-08-29">(erre) file conversion from source</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1875">
+        <desc/>
+      </event>
+      <event type="premiere" when="1875-10-28">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000650" passive="http://www.wikidata.org/entity/Q120199468"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Der Seelenretter.</titlePart>
+          <titlePart type="sub">Lustspiel in einem Act</titlePart>
+        </docTitle>
+        <docAuthor>von Hedwig Dohm.</docAuthor>
+        <note>(Zum ersten Mal aufgeführt im Königlichen Schauspielhaus zu Berlin am 28. October
+          1875.)</note>
+        <note>Den Bühnen gegenüber als Manuscript gedruckt.</note>
+        <docImprint>
+          <pubPlace>Berlin.</pubPlace>
+          <publisher>Druck von Eduard Krause.</publisher>
+          <docDate>1875.</docDate>
+        </docImprint>
+      </titlePage>
+      <div type="Dramatis_Personae">
+        <castList>
+          <head>Personen.</head>
+          <castItem>
+            <role>Franz von Gerhardt,</role>
+            <roleDesc>Gutsbesitzer.</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Lucie,</role>
+            <roleDesc>seine Frau.</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Lotte,</role>
+            <roleDesc>seine Schwester.</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Paul Morbach.</role>
+          </castItem>
+          <castItem>
+            <role>August,</role>
+            <roleDesc>Diener.</roleDesc>
+          </castItem>
+        </castList>
+      </div>
+      <set>
+        <p>Ort der Handlung: Ein Landgut; elegant möblirter Salon.</p>
+      </set>
+      <note>(Der Professor <span>Morbach</span></note>
+    </front>
+    <body>
+      <div type="scene">
+        <head>Scene I.</head>
+        <stage>Franz ( an seinem Schreibtisch , eifrig schreibend ) . Lotte ( steckt den Kopf durch die Thür ) .</stage>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Mein Gott, er steckt noch immer mit der Nase in den Büchern – ein gräulicher Mensch! <stage>( Geht wieder zurück . Gleich darauf hört man draußen singen : » Ich weiß nicht , was soll es bedeuten , daß ich so traurig bin « . )</stage></p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz</speaker>
+          <stage>(sagt  steht ärgerlich auf )</stage>
+          <p>Das ist zu arg, nicht eine halbe Stunde hat man vor diesem Quälgeist Ruhe! <stage>( Macht die Thür auf . )</stage>Lotte, willst du gefälligst deine Gesangsübungen wo anders vornehmen? <stage>( Kommt zurück . )</stage></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt die Thür aufreißend ) .</stage>
+          <p>Was? Ich soll auch nicht mehr singen? Was in aller Welt willst du Brummbär von Bruder denn, daß ich beginnen soll? Ich komme ja um vor Langerweile! Bist du denn noch nicht mit deiner Schreiberei fertig? Werden wir endlich ausreiten?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Nur noch 5 Minuten, liebe Lotte. Dieser Pachtcontract muß heut noch abgeschickt werden. Ich stehe gleich zu deiner Verfügung.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Nun, dann schreibe nur ruhig weiter, ich werde unterdessen einmal Ordnung in deinen Kasten machen. <stage>( Zieht Schubläden auf und wirft verschiedene Sachen heraus . )</stage> Was so ein Mann unordentlich ist, – da liegt Alles durcheinander, <foreign xml:lang="fre">pêle-mêle</foreign>! Hier ein Cigarrenkasten <stage>( Nimmt einen Brief , unschlüssig , ob sie ihn lesen soll . )</stage> Nein, ich werde lieber nicht – und hier ein Paar Handschuh, und an den Handschuhen fehlen natürlich die Knöpfe. <stage>( Tritt zu Franz heran . )</stage> Franz, wo sind die Knöpfe von deinen Handschuhen? Ich will sie dir annähen.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz</speaker>
+          <stage>(sagt  springt ärgerlich auf . )</stage>
+          <p>Nein, es ist nicht möglich zu arbeiten, wenn du in der Nähe bist! Kannst du dich denn gar nicht nützlich beschäftigen? Was treibt dich denn zu all' dem Unfug?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ach, Franz – die Langeweile.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>So? Das ist ja recht höflich – in meinem Hause!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt sich über seinen Stuhl beugend ) .</stage>
+          <p>Ist es ein Wunder, wenn ich mich langweile? Bester Bruder, versetze dich doch in meine Lage. Ich bin jung, hübsch – nicht wahr?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Das Letztere ist Geschmackssache.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und Witwe. Ich amüsire mich ausgezeichnet in Berlin; ich stehe am Vorabend der Ankunft von zwei neuen Roben aus Paris und dito Hüten; das eine Kleid ist seegrün, das andere rosa – da kommt dein entsetzlicher Brief an: der alte Onkel ist todt – – –</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Einmal mußte er doch sterben! Denke, 80 Jahre!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Uns Beiden hat er sein Vermögen vermacht – – –</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Jedenfalls ein hübscher Zug aus seinem Leben. Was du für Glück mit Erbschaften hast! Als armes Mädchen kamst du zur Welt, heirathest einen Mann – – –</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Reich an Geld und Jahren, war das nicht unrecht von mir? Glaube nur, ich habe mir oft genug im Stillen Vorwürfe darüber gemacht. Doch laß ruhen die alten – – –</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Herren?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Geschichten – wollte ich sagen. Also ich soll sofort kommen, mit dir die Erbschaftsangelegenheiten reguliren und dabei mit Anstand meine 4 Wochen über den alten Onkel, den ich kaum kannte, an deiner Seite abtrauern. Da bin ich nun und traure schon an die 14 Tage!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Armes Kind – und das Rosa und Seegrüne, die unterdessen aus der Mode kommen und als Opfer der Convenienz fallen!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Du hast gut spotten! Bezahlst du etwa die Rechnung?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Gott behüte mich – für diesen Lebensgenuß sorgt meine Frau.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Apropos deine Frau! – Nun denke ich doch wenigstens diese liebenswürdige Schwägerin, die ich noch gar nicht kenne, hier zu finden, um den Schmerz der Langenweile mit ihr theilen zu können. Gott bewahre! Deine Frau hat natürlich Nerven und muß nach Franzensbad, um Kräfte für die Strapazen einer Schweizerreise zu sammeln; und ich muß mich behelfen mit einem langweiligen Bruder Gutsbesitzer, der über Viehzucht und Maschinen brütet!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Und was für Maschinen! Hast du schon meine Kartoffellegemaschine gesehen? Sie arbeitet mit einer Zuverlässigkeit, sage ich dir – – –</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>(sagt  unterbricht ihn )</stage>
+          <p>Ein Bruder, der nicht einmal gewahr wird, daß er eine der liebenswürdigsten Berlinerinnen seine Schwester nennt! Hör' einmal, </p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Willst du ihn heirathen?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Nein, nur so zum Plaudern.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Was heißt Plaudern? Du solltest heirathen. Geld hast du – – –</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und hübsch bist du – vergiß das ja nicht. Aber heirathen? Weiter fehlte mir nichts! Gott soll mich bewahren, mein junges Leben an so einen Mann fortzuwerfen!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Du drückst dich ja recht stark aus!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Das thue ich nur so unter uns Brüdern.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Im Allgemeinen scheinen die Frauen durchaus nicht deiner Meinung; wenigstens so viel ich mich aus meiner Junggesellenzeit erinnere – – –</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Weißt du, Franz, das ist so unsere Art. Wir loben euch ins Gesicht, wir haben nämlich unsere guten Gründe dazu; im Herzen aber denken wir von euch, wie ihr es verdient: schlecht.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Ich begreife gar nicht, was du an uns Männern auszusetzen hast.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Was ich an euch auszusetzen habe, das kann ich dir in zwei Worten sagen. Ihr seid Alle, aber Alle, entweder Gecken oder Pedanten.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Zu welcher Kategorie du <span>mich</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Bruder Franz – soll ich dir Enthüllungen machen? Ich weiß nicht, ob ich nicht Unrecht thue, in Dein argloses Gemüth einen Stachel zu senken.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Stich nur zu, kleine Wespe.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>So höre denn: Franz, ich schwöre dir, wenig junge Leute sind während meiner kurzen Ehe in mein Haus gekommen, die sich nicht in mich verliebt hätten; und diese Männer – zum Theil waren sie verheirathet, und diese Männer – zum Theil waren sie die besten Freunde meines Mannes!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Und sie verliebten sich in dich? – Abscheulich!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Gar nicht abscheulich. Das Verlieben hätte ich ja ganz natürlich gefunden; aber Franz, daß sie Alles aufboten, mich von meiner Pflicht abwendig zu machen, – nicht Ehre, nicht Pflicht und Gewissen hielt sie ab, mich mit ihren Liebesanträgen zu verfolgen.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Das klingt unglaublich.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Denke – eines Abends bringt mich ein junger Mensch, den ich kaum kenne, und der einige Zeit in Paris gelebt hatte, aus einer Gesellschaft nach Hause, und unterwegs, unter dem reinen Sternenhimmel, beim bleichen Schimmer der Laternen, im kalten Schnee der Siegesallee im Thiergarten macht er mir eine heiße Liebeserklärung. Du kannst dir meine Entrüstung denken! Ich fahre auf ihn los – und was glaubst du, was dieser Mensch zu seiner Entschuldigung vorbringt?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Ein bischen angesäuselt – Champagnerlaune –</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Nicht im mindesten. In Paris, meinte er, gälte es für gradezu unhöflich, wenn man mit einer jungen Dame, die man </p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz</speaker>
+          <stage>(sagt  lacht )</stage>
+          <p>Ich gewiß nicht, liebe Lotte.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Du hast vielleicht noch nicht oft Gelegenheit gehabt, hübsche junge Damen bei Nachtzeit nach Hause zu bringen. Genug, ich kann euch nicht achten, also auch nicht heirathen. Ich habe gesprochen.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Nimm es mir nicht übel, liebe Lotte, aber ich glaube, du befindest dich in einem großen Irrthum. Ich bin seit 3 Jahren verheirathet, und Niemand hat bis jetzt gewagt, sich meiner Frau mit einer Liebeserklärung zu nahen, und Niemand wird es auch in Zukunft wagen.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Nun, wart' es nur ab!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Daß man dich belästigt hat, Lotte, das hat an deinem Manne gelegen – verzeih' mir das unfreundliche Wort – er war ein guter, aber schwacher und beschränkter Herr, dem gegenüber man sich nicht genirte. Ich will mich nicht rühmen; aber wehe dem Manne, der es wagen sollte – ich würde ihn niederschießen wie einen Hund!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ach, du Einfalt vom Lande! Ich merke nun wohl, du bist nicht nur ein Pedant, sondern ein Geck dazu. <stage>( Diener bringt einen Brief . )</stage></p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz</speaker>
+          <stage>(sagt  nimmt den Brief )</stage>
+          <p>Du erlaubst, Lotte. <stage>( Liest . )</stage></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>(sagt  sieht ihm über die Schulter )</stage>
+          <p>Vielleicht steht etwas Interessantes darin. <stage>( Liest . )</stage> »Lieber Freund.« Er hat Freunde. Das ist die erste gute Eigenschaft, die ich an ihm bemerke.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz</speaker>
+          <stage>(sagt  springt auf )</stage>
+          <p>Das ist etwas für dich, Lotte: ein junger Mann in Sicht, ein Prügelknabe für deine Langeweile. Dieser Freund, mein </p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Wie heißt er denn?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Paul Morbach.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Kein sehr aufregender Name! Und was ist er?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Ein gelehrtes Haus, Docent der Kirchengeschichte in Halle. Charakter: Bücherwurm, äußerste Ehrbarkeit, Geist immens.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ist er verheirathet? Hat er Kinder?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Kinder hat er zwar nicht, aber ab und zu beschenkt er die Welt mit einem dicken gelehrten Buch.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Wie heißt denn sein neuestes Werk?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Ich glaube: »Die Geschichte der Eucharistie und ihre heilige Symbolik.« Aber wozu willst du das wissen?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Das geht dich gar nichts an. <stage>( Für sich . )</stage> Es ist mitunter zweckmäßig, das <foreign xml:lang="fre">Menu</foreign> zu einer Conversation im Voraus festzustellen. <stage>( Nimmt ein Notizbuch heraus ; laut . )</stage> Wie war der Titel? Noch einmal.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Die »Geschichte der Eucharistie und ihre heilige Symbolik.« <stage>( Sie notirt ihn . )</stage> Siehst du, dieser Morbach, das ist einer von den Menschen – den ließe ich jahrelang in intimster Vertraulichkeit neben meiner Frau leben, ohne daß ein Schatten von Eifersucht in meine Seele käme. Das ist ein reiner Mensch, für den stehe ich ein.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Weißt du was, Brüderchen? Ich möchte dir einmal eine Lection geben und zugleich deiner Menschenkenntniß ein wenig aufhelfen. Du bist ja das reine Kind und weißt von der Welt so gut wie Nichts. Ich habe einen köstlichen Einfall, der dich von deiner Geckenhaftigkeit und mich von meiner Langenweile heilen soll. Kennt dein Freund deine Frau?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Bewahre; ich sage dir ja, daß ich ihn seit drei Jahren nicht gesehen habe.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und kein Austausch von Photographien und dergleichen hat stattgefunden?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Nichts dergleichen; aber warum fragst du das?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ahnst du nichts, du ahnungsloser Engel du? Eine teuflische Intrigue will ich anspinnen. Ich werde auf 24 Stunden deine Frau sein.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Gott bewahre mich!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Was? Du verdienst mich gar nicht! Ich sage dir, ich werde deine Frau spielen und werde dir zeigen, wie dein Freund und Bücherwurm mir im Handumdrehen die Cour macht.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Auf einen solchen frivolen Scherz sollte ich mich einlassen? Niemals!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Aha, man fürchtet sich zu blamiren!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Ich, Furcht?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Du langweiliger Tugendspiegel du!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Du Eulenspiegel!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Du bist ein unausstehlicher Mensch!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Und du bist grob!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt schmeichelnd ) .</stage>
+          <p>Franz, laß uns doch den harmlosen kleinen Scherz ausführen. Kein Mensch riskirt etwas dabei. Wir amüsiren uns, dein Freund amüsirt sich, Lucie lacht, wenn sie's erfährt und – ach, siehst du, liebster bester Franz, thu' es doch!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Schmeichelkatze! Das will nun eine verständige Witwe sein!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Lieber, guter Franz, du mußt Ja sagen, sonst – ich gieße dir hier die schwarze Tinte über deinen reinlichen Pacht-Contract.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Nun meinetwegen; du bist ein tolles Frauenzimmer – aber betrage dich mit Anstand.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich bin vor Entzücken außer mir; laß dich umarmen Herzensbruder, wir werden uns herrlich amüsiren – ach, wäre er nur schon hier! Wie lieb ich dich habe, guter Franz! Ich will nur schnell hinaus und den August instruiren, damit er uns nicht verräth. Und du Franz, um Gottes Willen, verschnappe dich nicht. <stage>( Schnell ab . )</stage></p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Es scheint wirklich, als hätten diese Frauen nichts zu thun, als die vernünftigen Männer unvernünftig zu machen. Mich eifersüchtig zu machen, soll ihr aber nicht gelingen – eifersüchtig auf meine kleine, liebliche, harmlose Lucie! Warum nicht gar!</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene II.</head>
+        <stage>Paul . Franz .</stage>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Lieber Franz, bist du es wirklich?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Paul, Herzensfreund, tausendmal willkommen!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Und wie gut du aussiehst, wie blühend. Die Würde und das Glück eines Hausvaters leuchten dir aus den Augen.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Ich bin auch glücklich, Paul. Ich habe eine allerliebste kleine Frau, ein schönes Gut, eine Thätigkeit, die mich kräftigt und erfrischt, eine Brennerei, eine Zuckerfabrik und Maschinen – ich sage dir – erst vorige Woche – aber was schwatze ich da immer von mir! Nun sprich du, Paul, wie geht es dir, wie lebst du, was treibst du?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Du siehst in mir einen neugebackenen Professor von acht Tagen.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Du hast gewiß schwer arbeiten müssen, um so jung schon zu so hohen Würden zu kommen?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich habe gelernt, studirt, gedacht, wohl an die zehn Jahre, und mich dabei von der Außenwelt fast völlig abgeschlossen. Als ich aber nun mein letztes Buch herausgegeben hatte, da seufzte ich tief.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Warum?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Warum? Ungefähr aus demselben Grunde, der Faust zu der Koketterie mit seinem Krystallfläschchen veranlaßte. Ich erlaube mir das abgedroschenste aller Citate zu gebrauchen: »Grau, theurer Freund, ist alle Theorie, und grün des Lebens goldner Baum.«</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Nicht bloß <span>goldene</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich begriff mit einem Male, daß das Leben nicht zu uns in die Studirstube kommt, sondern daß wir zu ihm hinaus müssen. Ich »sehnte mich nach des Lebens Bächen, ach! nach des Lebens Quellen hin«, ich sehnte mich, »die ird'sche Brust in Morgenroth zu baden«. Mit einem Wort, ganz <span>Faust</span></p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Weißt du, das ist beim Vieh ganz dasselbe; das will auch seine Freiheit haben. Die Weidegangskälber sind stets größer und stärker als Stallfütterungskälber; das kommt von der freieren Bewegung und stärkeren Uebung der Kräfte beim Weidegang.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich danke Dir für den Vergleich mit den Wiederkäuern!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Du bist bei einem Landwirth.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich nehme es dir auch nicht übel. Siehst du Freund, wie ich nun an der zweiten Seele in meiner Brust nicht mehr zweifeln konnte, da nahm ich einen Urlaub auf drei Monate, und du siehst mich am Anfang einer Vergnügungsreise, auf der ich mich fabelhaft, ungeheuer amüsiren will.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Da kannst du keinen besseren Anfang machen, als mit der Besichtigung meiner Brennerei; weißt du, wie hoch wir jetzt die Schlempe bezahlen? Ganz enorm; sie steht aber wirklich in ihrem Nährwerth den Runkelrüben nicht viel nach. Willst du mitkommen?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Aufrichtig gestanden, für Schlempe kann ich mich nur mäßig begeistern.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Aber womit willst du dich denn hier auf dem Lande amüsiren?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Weißt du, am liebsten möchte ich mich verlieben. Sage, hast du nicht eine Schwester, eine Cousine, eine Tochter, eine Frau – – –</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Was, <span>Frau</span><span>Frau</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Laß mich doch ausreden. Ich wollte sagen: eine Frau für mich. <stage>( Diener kommt . )</stage></p>
+        </sp>
+        <sp who="#diener_august">
+          <speaker>Diener.</speaker>
+          <p>Der Herr Verwalter lassen den gnädigen Herrn bitten; ein nothwendiger Gang in die Brennerei – – –</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Ach ja, ich weiß; entschuldige mich eine kleine halbe Stunde, lieber Paul, wir haben nachher noch Zeit, uns gründlich auszusprechen. Nimm vorläufig von dem Nebenzimmer hier Besitz, bis das Deinige hergerichtet ist. Oder willst du vielleicht doch mitkommen?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Nein, nein, laß dich nicht stören; ich ruhe mich unterdessen ein wenig aus.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Auf Wiedersehen also! <stage>( Ab . )</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene III.</head>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Frei! Ganz frei! Und in langen vollen Zügen will ich das Leben nun genießen. Wäre nur schon die Gelegenheit da, damit ich sie an der Stirnlocke ergreifen könnte! Hoffentlich brauche ich mich nicht dem Teufel zu verschreiben, damit er mir den Augenblick herbeischaffe, zu dem ich sagen kann: »Verweile doch, du bist so schön!«</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene IV.</head>
+        <stage>Paul . Lotte .</stage>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Sie sind Herr Professor Morbach, der Freund meines Mannes? Seien Sie uns herzlich willkommen.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Hoffentlich, gnädige Frau, betrachten Sie mich nicht als einen Störenfried, der die schöne Stille Ihres Landlebens unliebsam unterbricht.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Im Gegentheil, ich freue mich Ihrer Bekanntschaft. In unserer Einsamkeit ist jeder neue Mensch doppelt willkommen.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Glauben Sie mir, gnädige Frau, das Verlangen nach Menschen ist überall dasselbe und wird überall gleich wenig befriedigt, wir mögen in Abgeschiedenheit auf dem Lande oder im Gewühl großer Städte leben. Auf die <span>Quantität</span><span>Qualität</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Sie mögen Ihre Ansprüche an die Menschen etwas hoch spannen, und gewiß, Sie haben ein Recht dazu. Ich weiß, Sie studiren nicht bloß, Sie lehren nicht nur, Sie <span>schaffen</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Wie, gnädige Frau? Sie lesen derartige Bücher?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Kann ich etwas Besseres thun? Und als ich es zu Ende gelesen hatte, da fragte ich mich: Was kannst du nach einem solchen Werk noch lesen?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Und Sie antworteten?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich – werde es <span>noch einmal lesen</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich gestehe beschämt als eitler Mensch, daß Ihr Lob mich hoch erfreut.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und ich gestehe Ihnen, daß, ehe ich Ihre Bücher gelesen hatte, mir schon der <span>Gedanke</span><span>Kirchengeschichte</span><stage>( Für sich . )</stage> Herr Gott, wie heißt's doch gleich? – <stage>( Laut . )</stage> Eucharistie –</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt sie verbessernd ) .</stage>
+          <p>»Geschichte der Eucharistie und ihre heilige Symbolik«, wenn Sie erlauben.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt bei Seite ) .</stage>
+          <p>Er scheint ein bißchen pedantisch. <stage>( Laut . )</stage> Ihr Werk hat mich wahrhaft bereichert.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Wie wenige Frauen gleichen Ihnen! <stage>( Küßt ihre Hand . )</stage> Das ist eine große Genugthuung für uns, wenn wir sehen, wie unsere Gedanken Verständniß finden bei edlen Menschen.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und doch, trotz alledem kann ich mich nicht ganz von der Vorstellung frei machen, daß Wissenschaft und Leben eine Art Gegensatz bilden, und es würde mich gar nicht wundern, wenn Ihnen die Menschen, die so lebendig uneingebunden umherlaufen, nur als Hülsen erscheinen, Ihres Interesses unwerth; haben Sie doch den Kern ihrer Geister, den Extract ihrer Seelen eingebunden in Ihrer Bibliothek!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>So meinen Sie, daß ich die ganze Welt nur wie eine Bibliothek ansehe, und statt eines <span>gelebten</span><span>gelesenes</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt schalkhaft ) .</stage>
+          <p>Man hat Beispiele! Es sollen wirklich einzelne liebenswürdige Exemplare mit unterlaufen. Und so wäre die Wissenschaft nach Ihrer Meinung nicht nur eine Begeisterung des <span>Kopfes</span><span>Herzens</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt nach und nach sich begeisternd ) .</stage>
+          <p>Meine gnädige Frau, es ist kein todtes, abstractes Wissen, das der ächte Jünger der Wissenschaft auf seinem Lehrstuhle lehrt, in seinen Büchern verkündigt. Das ist jenes wissenschaftliche Denken, das zu allen Zeiten <span>die</span><span>Wissenschaft</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und sie, die Träger dieser Wissenschaft, die immer nur für das Ganze, für Andere, nie für sich selbst leben – sind sie glücklich?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Sie find es; denn sie athmen die erquickende Luft reiner Bergeshöhen, über sich nichts als die Sterne. Der Wissenschaft leben, das ist wie das Schauen Gottes von Angesicht zu Angesicht, und keine Freude, kein Genuß ist jener beseligenden Empfindung höherer Kräfte vergleichbar.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt für sich ) .</stage>
+          <p>Was für ein liebenswerther Mensch! <stage>( Laut . )</stage> Was Sie sagen, macht mich fast traurig. Ich finde es nun so ganz begreiflich, <span>Frau</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Gar nichts? Welche Frauen? Sind <span>Sie</span><span>Sie</span><stage>( Sich unterbrechend . )</stage> Wie heißen Sie, gnädige Frau?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Lotte – ein sehr einfacher Name.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Lotte – ein schöner Name! – Das sind Stunden, wo ich auffahre wie aus einem Traum – ich blicke um mich – ich strecke die Arme aus, und – <stage>( Sieht sie an und stockt . )</stage> Wie schön Sie sind!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Sind Sie verlobt?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Verlobt? Wer würde sich mit mir verloben wollen?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Halten Sie uns Frauen für arme kleine Motten, die sich fürchten, in Ihrem Glanze zu verbrennen?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Gnädige Frau!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>In vollem Ernst – Sie müssen sich verheirathen.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich werde mich niemals verheirathen. Ja, hätte ich eine Frau gefunden – eine Frau – – <stage>( Sieht sie an . )</stage> Die besten Frauen sind ja schon alle verheirathet!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Wie müßte eine Frau Sie lieben und verehren!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Und Sie glauben, daß man einen solchen Bücherwurm wie ich bin, gut sein kann? Glauben Sie es wirklich?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich kann mir kein größeres Glück denken, als an der Seite eines Mannes zu leben, zu dem ich in Bewunderung aufschauen dürfte. – Verheirathen Sie sich! Stellen Sie sich einmal vor, Sie säßen in Ihrem Studirzimmer über ein dickes Buch gebeugt; da öffnet sich die Thür, sie tritt ein – aber erschrecken Sie nicht, sie stört Sie gar nicht, sie bewegt sich leise, ganz leise, sie sieht mit Ihnen in das Buch und streicht Ihnen das Haar aus der Stirn. <stage>( Fährt mit der Hand über seinen Scheitel , aber ohne ihn zu berühren ; er ergreift die Hand und küßt sie ) .</stage> Mein Gott, Sie haben ja schon Falten auf der Stirn!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Wirklich? Und gerade auf der Stirn?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und sie – Ihre Frau – bringt Ihnen eine Blume, oder eine Erfrischung – oder ein herzliches Wort – oder – –</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Oder einen Kuß.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ja, warum nicht? – Sagen wir, einen Kuß. Sie glauben gar nicht, was eine Frau alles für den Mann, den sie liebt, zu thun im Stande ist.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Wie glücklich muß Franz sein!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Wenn der Mann, den ich liebte, zu mir sagte: Lotte, jetzt setze dich ein Paar Stunden dicht neben mich und rühre dich nicht von der Stelle, ich kann dabei besser arbeiten – dasitzen würde ich wie eine Mauer, <stage>( Setzt sich dicht neben ihn . )</stage> und die Augen würde ich nicht von ihm abwenden. <stage>( Sieht ihn an . )</stage></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Da könnte er gewiß nicht arbeiten. <stage>( Für sich . )</stage> Märchenhafte Augen!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Oder wenn er zu mir sagte: Lotte, hier schreibe mir einmal dieses Manuscript von 500 Seiten ab – ich sage Ihnen, ich würde schmieren – – –</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p><span>Schmieren</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <stage>( sagt bei Seite ) .</stage>
+          <p>Ein bißchen pedantisch ist er doch. <stage>( Laut . )</stage> Ich meine damit nur: schnell schreiben. Mir sind Handarbeiten zuwider; aber ich glaube, wenn ein Mann, den ich liebte, sich Löcher in die Strümpfe risse, ich könnte sie ihm stopfen.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Und dieser Mensch, dieser Franz ist im Stande, sich absichtlich welche zu reißen, damit diese zarten Hände – – –</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Schmeicheln dürfen Sie nicht! Und wenn der Mann, den ich liebte, mich fragte: Lotte, bist du mir gut? So würde ich ihm um den Hals fallen und sagen: Von Herzen lieb' ich dich, du lieber Paul!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt seufzend ) .</stage>
+          <p>Er heißt ja <span>Franz</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt seufzend ) .</stage>
+          <p>Ach ja – er heißt Franz. <stage>( Wendet sich traurig ab . )</stage></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Sie wenden sich ab, gnädige Frau? Sie zittern? Lassen Sie mich wissen – – –</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Kein Wort weiter! Fragen Sie nichts. Es gibt einen Kummer, der keinen Vertrauten haben darf. <stage>( Lächelt schelmisch bei Seite . )</stage></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt bei Seite ) .</stage>
+          <p>Sie ist unglücklich, die Aermste. <stage>( Laut . )</stage> Und mich sollte eine Frau so lieben? Ja, wenn ich diese Frau fände! <stage>( Mit einem</stage> Ich werde sie nicht finden – sie ist für mich verloren!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Jemanden so von ganzem Herzen lieben – zum ersten Mal – mit voller Seele, das muß entzückend sein! <stage>( Seufzt . )</stage></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Oder qualvoll! Blicken Sie mich nicht so an, gnädige Frau; ich bin nur ein Mensch – Ihre Augen thun mir weh.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich wollte mich nur überzeugen – – – nein, Sie sind wirklich gar nicht hübsch.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>O nein, ich bitte um Verzeihung.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und doch, wie zärtlich würde eine Frau an Ihren klugen Lippen hängen, an Ihren Blicken – Ihre Augen sind <span>blau</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Wohl kaum grau.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Nein, dunkelblau. Sie sind entschieden das Beste an Ihnen – das heißt, Ihre Bücher abgerechnet. Aber ich glaube, mein Mann erwartet mich im Felde. Wissen Sie was, Herr Professor? Begleiten Sie mich, ich will nur Shawl und Hut aus meinem Zimmer holen. Nicht wahr, wir sind schon recht gute Freunde geworden? <stage>( Reicht ihm die Hand und geht schnell ab . )</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene V.</head>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Recht gute Freunde? – Ich fürchte: <span>nein</span><stage>( Tritt ans Fenster , dem Zuschauer den Rücken kehrend . )</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene VI.</head>
+        <stage>Paul . Lucie ( in Hut und Shawl ) .</stage>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Wie mir das Herz klopft – wie ich mich freue! <stage>( Nimmt ihre Sachen ab . )</stage> Die Sehnsucht hat mich einige Tage früher zurückgetrieben – ich will ihn überraschen – und er – er wird erst eine Freude haben, daß ich wieder da bin! <stage>( Gewahrt Paul . )</stage> Ach, da ist er ja! – Franz, lieber Franz! <stage>( Umfaßt ihn . Paul wendet sich um , sie tritt schnell zurück . )</stage> Mein Gott – ein fremder Herr! – Ich bitte tausendmal um Entschuldigung – ein Irrthum! <stage>( Sie machen sich gegenseitig eine Verbeugung . Kleine Pause . )</stage> Mein Herr!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Gnädige Frau! <stage>( Machen sich eine zweite stumme Verbeugung , während der Eine vom Andern erwartet , daß er zuerst spreche . )</stage></p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Mit wem habe ich die Ehre?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Mein Name ist Paul Morbach.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt bei Seite ) .</stage>
+          <p>Ah, der Universitätsfreund meines Mannes.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich bin hier wie zu Hause. Wenn Sie befehlen, lasse ich der gnädigen Frau melden, daß eine Dame sie zu sprechen wünscht.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt erstaunt ) .</stage>
+          <p>Welcher gnädigen Frau?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Natürlich der Frau vom Hause. Wenn Sie sie nicht kennen sollten, eine der trefflichsten reizendsten Frauen.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Woher wissen Sie denn das? Sie ist ja verreist.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Verreist? Gott bewahre. Erst diesen Augenblick hat sie das Zimmer verlassen. Wenn Sie einen Augenblick verziehen wollen, sie wird gleich wieder hier sein, um in meiner Begleitung ihren Mann auf dem Felde aufzusuchen.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Ihren Mann? – Wer ist ihr Mann? Um Gottes willen, wer ist ihr Mann? – Träume ich denn? – Ist denn das nicht mein Haus? Bin ich nicht ich? Oder <stage>( bei Seite . )</stage> sollte dieser Herr vielleicht – – <stage>( Zieht sich scheu von ihm zurück ) .</stage></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt bei Seite ) .</stage>
+          <p>Sollte diese arme Dame am Ende – – – <stage>( Ausdruck des Bedauerns ; laut . )</stage> Ihr Mann ist natürlich der Herr des Hauses, mein Freund Franz von Gerhardt. Gestatten Sie mir – – <stage>( Er nähert sich Lucien ) .</stage></p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt ängstlich ) .</stage>
+          <p>Bleiben Sie, wo Sie sind, und beantworten Sie mir einige Fragen.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Sehr gern.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt ängstlich und schnell ) .</stage>
+          <p>Wo kommen Sie her? Wo gehen Sie hin? Was wollen Sie hier?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich komme aus Halle, wo ich an der Universität Professor der Kirchengeschichte bin.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Kirchengeschichte? In welchem Jahre hat Gregor VII. – –</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Heinrich den Vierten zu Canossa knien lassen? – Im Jahre 1077 am 4. December, Vormittags – – –</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt immer ängstlicher ) .</stage>
+          <p>Und wo gehen Sie hin?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Nach Oberitalien.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt halb für sich ) .</stage>
+          <p>Ach Gott, ach Gott, er scheint bei Verstande! Schrecklich, schrecklich!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt bei Seite . ) .</stage>
+          <p>Die arme Frau – total gestört – kein Zweifel. Vielleicht kann ich ihr mit einem Glas Wasser dienen. <stage>( Reicht ihr das Wasser . )</stage> Darf ich bitten?</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Und Franz, Ihr Freund, gibt eine <span>Dame</span><span>Gattin</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ja – erlauben Sie – ein weibliches Wesen pflegt doch in diesen Beziehungen – – – <stage>( Bietet ihr abermals Wasser an . )</stage></p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Eine <span>fremde</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Doch wohl sehr unwahrscheinlich, daß seine eigene Gattin ihm fremd sein sollte. Wenn Sie mir Ihren Namen nennen wollten, gnädige Frau – – –</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Ja, ich will Ihnen meinen Namen nennen: mein Name ist Lucie, Lucie von Gerhardt, und ich bin die Frau Ihres – Ihres ehrlosen Freundes! – Ja, ehrlos!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>(sagt  reicht ihr schnell das Wasser )</stage>
+          <p>Darf ich bitten?</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Fort mit Ihrem ewigen Wasser! Halten Sie mich für fieberkrank? – Ich langweile mich zu Tode in Franzensbad, und <span>er</span><span>mich</span><stage>( Sinkt weinend in einen Stuhl . )</stage></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Wie? – Ich verstehe nicht – <span>Sie</span></p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Gewiß. Würde ich es denn sonst sagen?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Unmöglich! Die Frau meines Freundes ist so reizend, so klug und voll edlen Anstandes.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Ich danke für Ihre Complimente, aber ich bin nicht in der Stimmung – – –</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich meine ja die <span>andere</span><stage>( Bei Seite . )</stage> Ich weiß nicht, was ich denke und spreche, so verwirrt bin ich.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( klingelt heftig ) .</stage>
+          <p><stage>( August kommt . )</stage> August, man hat mir gesagt, du hättest dein Gedächtniß verloren.</p>
+        </sp>
+        <sp who="#diener_august">
+          <speaker>August.</speaker>
+          <p>Was, ich?</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Wer bin ich?</p>
+        </sp>
+        <sp who="#diener_august">
+          <speaker>August.</speaker>
+          <p>Aber gnädige Frau – Sie sind unsere gnädige Frau – Frau Lucie von Gerhardt! Was mein Gedächtniß betrifft – – –</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Und wer ist mein Mann?</p>
+        </sp>
+        <sp who="#diener_august">
+          <speaker>August.</speaker>
+          <p>Der gnädigen Frau ihr gnädiger Mann, unser gnädiger Herr, wollte ich sagen – ist der gnädige – ich wollte sagen Herr Franz von Gerhardt! Mein Gedächtniß aber – – –</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Wo ist mein Mann?</p>
+        </sp>
+        <sp who="#diener_august">
+          <speaker>August.</speaker>
+          <p>Auf dem Felde mit dem Verwalter. Mein Gedächtniß – –</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Es ist gut, du kannst gehen; man hat dich verleumdet. <stage>( August ab . )</stage> <stage>( Zu Paul :)</stage> Sind Sie jetzt überzeugt?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt erregt ) .</stage>
+          <p>Ich kann kaum mehr zweifeln. <stage>( Sie gehen Beide in größter Aufregung an einander vorüber , ohne einander zu beachten . )</stage></p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Eine Geliebte – mein Franz! Mich schaudert's!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Und sie – so schön – so klug – ich kann's nicht fassen.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Unglaublich – unerhört!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Man könnte rasend werden!</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>(sagt  hält inne , unter Thränen )</stage>
+          <p>Ist sie schön?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Sehr.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>(sagt  tritt zu Paul heran )</stage>
+          <p>Herr Paul Morbach, ich erinnere mich jetzt, daß mein Mann stets von Ihnen wie von seinem besten Freunde und einem der edelsten Menschen gesprochen hat; und <span>Sie</span><stage>( Halb zu sich selber sprechend . )</stage> Vor vier Wochen bin ich abgereist – wir hatten Abschied genommen – und ich fuhr in den Wald hinein – und wie ich an die Chaussee komme – da steht er da – der Franz, heiß, glühend, athemlos. Bei 24 Grad Reaumur war er den näheren Weg über die heißen Wiesen gelaufen, um mich noch einmal zu sehen. Und er riß den Wagenschlag auf – und ich sprang heraus und fiel ihm um den Hals, und er – er war so lieb. <stage>( Weint . )</stage> Bis jetzt, Herr Morbach, habe ich geglaubt, das käme nur in Romanen vor, daß Menschen so schlecht sein könnten!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Gnädige Frau, die ganze Sache wird auf einem Mißverständniß beruhen. Sie sehen mich selbst so bestürzt – – –</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Ich glaube nicht an ein Mißverständniß. Ach, ich war so glücklich – noch vor wenigen Minuten! Wollen Sie mir beistehen, Herr Morbach, den Heuchler zu entlarven? Ich will mich verbergen in meinem eigenen Hause – ich will ihn überraschen – o, daß Menschen so heucheln können! Es ist zu viel, ich trage es nicht! O, helfen Sie einer armen unglücklichen Frau! <stage>( Sinkt halb ohnmächtig in Pauls Arme . In demselben Augenblick erscheint<span>Franz</span></stage></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Beruhigen Sie sich, arme unglückliche Frau.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt zu sich kommend ) .</stage>
+          <p>Ja – ich will mich beruhigen. Jetzt ist keine Zeit, in Ohnmacht zu fallen. Ich werde handeln! <stage>( Schnell ab . )</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene VII.</head>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ist es denn möglich? Der grundsolide Franz – und sie – diese reizende Frau – sie sollte – – Unfaßlich! Und doch, ich kann nicht daran zweifeln. – Ja, reizend ist sie – und sie liebt ihn nicht, und sie ist nicht seine Frau, und ist also nicht gebunden. Wie, Paul? Wer wollte denn ins volle Menschenleben, in die Tiefen der Sinnlichkeit tauchen? – Sie wäre ja nun da, die Gelegenheit – warum zauderst du? Das Verhängniß selbst führt sie in meine Arme. Und doch – nein – ich darf die begehrliche Hand nicht ausstrecken nach dem Becher der Freude. Bis jetzt war ich <span>Eins</span><stage>( Kleine Pause . )</stage> Unmöglich? Und warum? Warum soll die einschränkende Kraft der Sitte größer sein als die befreiende eines glühenden Herzens? Ein kühner Sprung der Gedanken, und <span>ich</span></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene VIII.</head>
+        <stage>Lotte . Paul .</stage>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt Shawl und Hut über dem Arm ) .</stage>
+          <p>Nun, sind Sie bereit, Herr Professor?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>tritt und nimmt und sieht und bringt und wendet ( dicht zu ihr heran , ihre Hand , sie forschend an , will sprechen , aber kein Wort über die Lippen , er sich weg . Für sich )</stage>
+          <p>Und diese süßen Augen – unfaßlich, unfaßlich!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Mein Gott, ist Ihnen nicht wohl?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Legen Sie Ihren Shawl ab, Sie werden Ihren Mann nicht im Felde aufsuchen.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Was fällt Ihnen ein?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt wieder an sie herantretend , heftig ) .</stage>
+          <p>Sind Sie wirklich die Gattin des Herrn Franz von Gerhardt?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt verlegen ) .</stage>
+          <p>Aber Herr Professor, ich bitte Sie – was soll das heißen? <stage>( Für sich . )</stage> Er scheint auf der richtigen Fährte, ich muß ihn wieder <stage>( Laut . )</stage> Warum soll ich denn nicht seine Gattin sein? Natürlich!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt bei Seite ) .</stage>
+          <p>Seine <span>natürliche</span><stage>( Laut . )</stage> Habe ich Ihnen denn schon gesagt, gnädige Frau, daß ich Sie für die reizendste aller Frauen halte?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Was bin ich Ihnen schuldig?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Für das Compliment, meinen Sie? Daß Sie ebenfalls – – –</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Sie für den reizendsten Professor von Halle zu erklären?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Das wäre zu viel verlangt. Wenn Sie mir aber einen kleinen Platz in Ihrem Herzen gönnen wollten – das heißt, wenn Sie eins haben.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p><span>Eins</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ist die eines Menschen, den Sie vollkommen bezaubert haben.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und mich fangen Sie an zu entzaubern.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>(sagt  rückt ihr näher )</stage>
+          <p>Sie sind ein Engel!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>(sagt  springt auf )</stage>
+          <p>Und Sie ein ganz gewöhnlicher – Don Juan.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Mein Herz glüht für Sie!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Meines befindet sich bereits auf dem Gefrierpunkt.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Löschen Sie das Andenken Ihres provisorischen Gatten aus Ihrem Herzen – – –</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich empfehle mich Ihnen, Herr Professor.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>nimmt und hält ( ihre Hände und sie zurück )</stage>
+          <p>Sie dürfen nicht gehen – ich bete Sie an!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Lassen Sie mich fort!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Warum sollte ich Sie fortlassen? Wohin wollen Sie gehen?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>In – die Küche.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Was wollen Sie in der Küche? Hören Sie mich an. Kaum eine halbe Stunde habe ich Sie gesehen, und doch lange genug, um mich rettungslos in Sie zu verlieben. Ein Thor wäre ich, ein Narr, wollte ich an den Pforten des Glückes umkehren, weil Sie nicht gleich »Herein« rufen. Lotte, Sie haben keinen guten Ruf zu verlieren; benutzen Sie diese günstige Chance – schöne Lotte!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt voll Schmerz und Entrüstung ) .</stage>
+          <p>Um Gotteswillen, Herr Morbach, was habe ich gethan? Was habe ich <span>Ihnen</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>(sagt  läßt sie los )</stage>
+          <p>Sie haben Recht, Sie haben mir nichts gethan. Und wie unnatürlich ist mir dieser Ton – ich ertrage ihn selber nicht. Nein, Lotte, ich bin nicht leichtfertig. Und auch Sie, Lotte, Sie können nicht sein, was Sie zu sein scheinen. So blicken nicht Augen, die mit der Sünde vertraut sind. Ich weiß es, Kind, Sie sind schuldlos, ein Opfer, wie so viele Andere auch. Ist es die Schuld der Rose, wenn der rauhe Nordwind über ihren Kelch fährt und den reinen Duft ihr raubt? Wer waren Ihre Aeltern?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich verstehe nicht mehr! – – – Mein Vater war ein pensionirter – – –</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Sagen Sie lieber nichts; was liegt daran, <span>wie</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich war's. Aber, Herr Professor, ich bin ganz verwirrt – – –</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Sie sahen andere Frauen, die minder schön waren, minder klug als Sie, und diese Frauen gingen in Sammet und Seide einher und sahen voll Hochmuth auf <span>Sie</span><span>Wenn ich wollte!</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt bei Seite ) .</stage>
+          <p>Wie streng er meine sogenannte Vernunftheirath beurtheilt! Aber woher weiß er überhaupt? – – <stage>( Laut . )</stage> Mein Gott, woher wissen Sie – war denn das ein so schlimmes Unrecht?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Und die Armseligkeit und Dunkelheit Ihres Lebens wurde Ihnen immer unerträglicher; und es kam ein Tag, wo Sie, unglückliches Kind, nicht mehr sagten: Wenn ich wollte! – Ein Tag des Unglücks, wo du sagtest: <span>Ich will!</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt für sich ) .</stage>
+          <p>In dieser Weise eine Ehe zu verdammen, wie sie doch täglich zu Dutzenden geschlossen werden! Das ist zu arg! <stage>( Laut . )</stage> Ich bin bestürzt; in diesem Lichte sah ich's nie. Ich weiß es wohl, daß ich ihn nicht liebte, das war meine große Schuld. Aber mein Bruder, mein Vater, sie riethen mir dazu – alle Welt billigte, was ich that.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Sie riethen dir dazu? Ich glaube es wohl! – Man schmückte das Opfer wohl noch mit Blumen, das war der Brauch von </p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt gekränkt ) .</stage>
+          <p>Lotte?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich aber, Lotte, ich will dich retten. Schmach dem Manne, der sich damit beruhigt: sie ist die Erste nicht! Lotte, deines Bleibens ist hier keine Stunde länger; Lucie, seine Frau, ist angekommen. Noch heut müssen wir fort – Beide. Meine reine Liebe zu dir soll alle Sünde, die du begangen hast, tilgen. Lotte, rette dich an mein Herz, noch ist es Zeit.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt erstaunt und bestürzt ) .</stage>
+          <p>Mein Gott, wofür halten Sie mich?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Für die Geliebte meines Freundes, arme Lotte!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt für sich ) .</stage>
+          <p>Mein Gott, ist es Schmerz, ist es Freude, was ich empfinde? Soll ich weinen vor Zorn oder lachen? <stage>( Laut . )</stage> Und Sie hassen mich nicht, trotzdem?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich, dich hassen?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und Sie lieben mich? Lieben mich wirklich?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ueber alle Maßen! Du wendest dich ab – kannst du dich besinnen?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Lassen Sie mich! – Nur einige Minuten Bedenkzeit – ich muß mich fassen – zu mir selber kommen. <stage>( Drückt ihm die Hand . )</stage> O, Sie sind ein guter Mensch! <stage>( Schnell ab . )</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene IX.</head>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Erst war sie bestürzt – und dann tief ergriffen – und zuletzt – welch ein Strahl der Liebe in ihren schönen Augen! Jetzt bin ich sicher: Reue und Liebe werden mir helfen sie zu retten.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene X.</head>
+        <stage>Paul . Franz .</stage>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Hast du meine Frau gesehen?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Welche?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Die tolle Lotte wird mir noch Unannehmlichkeiten machen!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Das glaube ich selber.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Es ist übrigens der erste dumme Streich, den sie macht, das kann ich dir versichern.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt bei Seite ) .</stage>
+          <p>Gott sei Dank! <stage>( Laut . )</stage> Desto weniger beneidenswerth ist <span>deine</span></p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Was? <span>Noch</span><span>du</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Du übst ja eine recht liebenswürdige Gastfreundschaft an mir!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Habe ich nicht meine Frau in deinem Arm gesehen?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Aber es <span>ist</span></p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Was mich das angeht? I, du bist ja die Frivolität in Person! Mensch, hat dich das Studium der Kirchengeschichte so ganz und gar corrumpirt? Du hast dir wohl einen <span>Borgia</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Du solltest doch froh sein, daß ich dieser Frau, die du so unglücklich gemacht hast – – –</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene XI.</head>
+        <stage>Lucie . Vorige .</stage>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt ohne Franz zu sehen ) .</stage>
+          <p>O, lieber Herr Morbach, wie gut, daß ich Sie noch hier treffe! Seien Sie mein Beschützer – – –</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Zurück, ehrvergessenes Weib! Es thut mir leid, daß ich euer Rendez-vous stören muß. Die Herrschaften haben sich wahrscheinlich schon gekannt, ehe diese Dame mir ihr vermeintliches Herz schenkte?</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Aber, Franz, ich bin ja deine Lucie – was fällt dir ein? Ach – ich vergaß – nein, ich bin <span>nicht</span></p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Ich, treulos? Wahrhaftig, man möchte weinen, wenn es nicht zum Lachen wäre! Du verwechselst uns, mein Kind; nicht <span>ich</span><span>du</span></p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Der ärgsten Thatsache ins Gesicht wagst du zu leugnen? Mich schickst du nach Franzensbad – – –</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Ich schicke dich? <span>Ich</span></p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Schweig still! Man spricht nicht von Familienangelegenheiten in Gegenwart Fremder.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <stage>(sagt  Beide wenden sich in den folgenden Reden an Paul . )</stage>
+          <p>Und das ist die Frau, die heilige Eide geschworen, daß sie nie einen anderen Mann geliebt hat als mich!</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Und das ist der Mann, Herr Morbach, der mich bis zu dem heutigen Tage immer nur seinen Augapfel nannte!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz</speaker>
+          <stage>( der erregt auf- und abgeht ) .</stage>
+          <p><span>Zankapfel</span></p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt ohne auf ihn zu achten ) .</stage>
+          <p>Sein Hänschen, sein Kätzchen, seine einzige Lucy – – –</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p><span>Lucifer</span></p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Und Sie glauben gar nicht, Herr Morbach, wie ich ihm Alles zu Liebe that! Alle seine Maschinen habe ich bewundert, wenn sie mir auch gar nicht gefielen.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Was? Auch die neue Mähmaschine, die täglich 17 Morgen Wiese mäht, hat dir nicht gefallen? O, eine verständnißvolle Frau!</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Ich lasse mich scheiden.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Ich dito.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Wo wohnt der nächste Rechtsanwalt?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Zu dem können wir zusammen fahren; ich habe ebenfalls Geschäfte bei dem Rechtsanwalt. <stage>( Heftig zu Paul . )</stage> Und du, Bösewicht, du stehst da wie eine Bildsäule! Gib Rechenschaft: sah ich diese Frau in deinen Armen oder nicht?</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt aufspringend ) .</stage>
+          <p>Wie? Was? Und <span>darum</span></p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Herr des Himmels – ich traue meinen Ohren nicht! Wie weit willst du denn gehen, du – du Weib, um mir die Erlaubniß zu geben, dich für treulos zu halten?</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Aber, Franz, ich war ja in Ohnmacht gefallen, und er fing mich in seinen Armen auf.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>In Ohnmacht gefallen? Was hast du in Ohnmacht zu fallen?</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Er fragt noch! – Ich fiel in Ohnmacht, als ich die Nachricht erhielt von deiner Treulosigkeit. Und ich fühle es, ich werde daran sterben! Wen kümmert es auch, ob ich lebe oder ob ich todt bin?</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Lucie, wenn das wahr wäre – –</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Es <span>ist</span><stage>( Leise zu Franz . )</stage> Franz, ich sehe, dein ganzes Lebensglück steht auf dem Spiel; ich will dich retten, <stage>( Zu Lucie . )</stage> Gnädige Frau, hören Sie mich an, einen Augenblick. Jene Dame, die Sie für die Geliebte Ihres Gatten halten, ist – meine Frau.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Wer ist deine Frau?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Verhältnisse eigenthümlicher Art zwangen mich, diese Ehe geheim zu halten. Eine Entführung wurde nöthig – mein Freund half mir dabei – –</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Fränzchen, was höre ich?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Mein Freund bot mir für die erste Zeit ein Asyl in seinem Hause an, und so konnte ich wohl meine Gattin Ihnen gegenüber für die Hausfrau ausgeben. Als Sie so unverhofft ins Zimmer traten, gnädige Frau, war ich zu bestürzt, um Ihnen gleich Alles zu sagen.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz</speaker>
+          <stage>( sagt halblaut zu Paul ) .</stage>
+          <p>Was? Du bist mit Lotte verheirathet? Aber warum in aller Welt denn eine heimliche Ehe? Das ist unglaublich, das geht völlig über meinen Horizont.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich werde dir später Alles erklären. <stage>( Für sich . )</stage> Er ist eifersüchtig – in Gegenwart seiner Frau – der Ehrlose!</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>O, diese Heuchlerin! Das übersteigt alle Begriffe. Ich hole sie her und stelle sie vor unser Gericht. <stage>( Im Abgehen . )</stage> Also eine abgekartete Zusammenkunft hier bei mir? Na wartet! <stage>( Ab . )</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene XII.</head>
+        <stage>Lucie . Paul .</stage>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt naiv plaudernd ) .</stage>
+          <p>Ich sollte eigentlich recht böse auf Sie sein; aber ich kann es nicht – bin ich doch so froh, so herzensfroh, wie ich es </p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich bin noch nicht in der Lage gewesen.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Und sehen Sie, nun hatte ich doch Recht: nur in Romanen kommen solche Schlechtigkeiten vor. Eine heimliche Ehe, das ist wohl ein bißchen romantisch; aber schlecht ist es gar nicht. Und wissen Sie, ich finde es sogar reizend; aber Franz dürfte es nicht hören – der ist so vernünftig, der hätte mich niemals heimlich geheirathet, und wenn ich vor Liebe gestorben wäre. Ach bitte, erzählen Sie mir etwas von der heimlichen Ehe. Wo sind Sie denn getraut worden?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt verwirrt ) .</stage>
+          <p>Getraut – ganz recht – nur civil.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Bloß civil? Ach wie schade! Ich habe eine Abneigung gegen Civilehe wie gegen Leichenverbrennung. Indessen civil ist immer noch besser als gar nicht. Was hatte denn Ihre Braut an?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt verwirrt ) .</stage>
+          <p>Ich glaube – einen Myrthenkranz und einen Schleier.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Warum nicht gar! Vor einem Civilstandesbeamten gehört sich ein feines Promenadencostume.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ja, ja – jetzt erinnere ich mich.</p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene XIII.</head>
+        <stage>Vorige . Franz . Lotte .</stage>
+        <sp who="#franz">
+          <speaker>Franz</speaker>
+          <stage>(sagt  zieht Lotte , die sich etwas sträubt , herein )</stage>
+          <p>Hier ist die heimliche Gattin und Sünderin.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Aber Franz, was fällt dir ein?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( geht Lotte entgegen und nimmt ihre Hand ) .</stage>
+          <p><stage>( Zu Lucie . )</stage> Hier, gnädige Frau, erlauben Sie, daß ich Ihnen meine Gattin vorstelle. <stage>( Leise zu Lotte . )</stage> Um Gottes willen, schweigen Sie; ich will Sie retten vor tiefster Beschämung.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt herzlich ) .</stage>
+          <p>Seien Sie mir herzlich willkommen. Ich hatte Sie in einem so häßlichen Verdacht – Sie werden mir verzeihen – aber nun ist Alles gut, und wir werden herzliche Freundinnen sein. <stage>( Etwas leiser zu ihr . )</stage> Eine heimliche Ehe, das muß wunderhübsch sein, nicht wahr? <stage>( Laut . )</stage> Aber gnädige Frau, Sie entschuldigen mich wohl einen Augenblick; eine nothwendige Besorgung – <stage>( Halblaut zu Franz . )</stage> Fränzchen, ehe ich dich nicht um Verzeihung gebeten und mit dir ausgesöhnt bin, habe ich keinen Augenblick Ruhe, komm mit mir in den Garten. <stage>( Laut zu Lotte . )</stage> Ich bin gleich wieder hier, Frau Professorin. <stage>( Im Abgehen zu Franz . )</stage> Fränzchen, daß du nicht treulos bist, das ist <span>zu</span><stage>( Ab mit Franz . )</stage></p>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene XIV.</head>
+        <stage>Lotte . Paul .</stage>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>So? Also Sie sind mein Gatte? Ja, wer hätte das vor wenigen Stunden gedacht! Lebt man glücklich? Ist man zufrieden mit seiner Frau? Hat man die Ehe noch nicht bereut?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ich wollte meinen Freund retten, dessen Leben zerstört worden wäre ohne mein Opfer – verzeihen Sie das harte Wort. Die junge Frau darf nie die Wahrheit erfahren; sie würde sie nicht ertragen können und dem Gatten in ihrem Herzen nie verzeihen. Wir reisen in einer Stunde ab.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und bei welcher Station gedenken Sie unsere improvisirte Ehe – <span>aufzulösen</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Wir werden sie gar nicht auflösen.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Wie? Sie werden doch nicht im Ernst die Geliebte Ihres Freundes heirathen wollen?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p><span>Vorläufig</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt innig ) .</stage>
+          <p>Ja, ich habe aufrichtig jede Leichtfertigkeit bereut, der ich mich in meinem Leben schuldig gemacht habe. Und seit einer Stunde habe ich begriffen, daß Vieles, was ich bisher für recht und schuldlos hielt, Sünde ist vor Gott und – Ihnen.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ihnen? Warum sagst du nicht »<span>Du</span><span>Paul</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich kann nicht, noch nicht.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Und Lotte, du willst dich bessern, ganz und voll bessern?</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Wenn Bessern heißt: den edelsten und besten Menschen lieben und allein lieben und niemals einen Andern lieben, so bin ich gebessert, fürs ganze Leben.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Du liebe Lotte, wie herzlich gut bin ich dir!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Aber, lieber Herr Professor, könnten Sie mich denn nicht gleich heirathen?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Nein, Kind; erst müssen deine Vorsätze <span>Thaten</span><span>Du</span><span>Paul</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich kann nicht.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Wir werden reisen. Ich nehme einen zweijährigen Urlaub an der Universität und werde über dich wachen wie der Bruder über die Schwester. Ich werde dich bekannt machen mit allem Schönen und Reinen, was Menschen zu veredeln im Stande ist. Und, Lotte, wenn du mich wirklich liebst, so wird diese Liebe ein Funke sein, der allmälig deine ganze Seele ergreifen und entzünden muß und – läutern; und dann, Lotte, werde ich vergessen haben, was du warst, und nur sehen, was du bist, und dann erst, Lotte, wirst du mein sein, ganz mein – mein Weib.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt für sich ) .</stage>
+          <p>Sein Weib! Wie mich das Wort berauscht! Ein zu lieber, einfältiger Mensch! <stage>( Laut . )</stage> Und dann – werden Sie dann nicht das Urtheil der Welt fürchten, die mich, einen armen <span>Parvenu der Tugend</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Welche Welt? Welche Menschen? Ich bin ein stolzer Mensch, Lotte, und für meine Handlungen gibt es keine höhere Instanz als mein eigenes Urtheil, mein eigenes Gewissen. Ich werde die Menschen <span>zwingen</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und werden nicht Augenblicke kommen, wo Sie selbst mich dennoch und trotz alledem verachten?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>So werde ich diese <span>Augenblicke</span><span>dich</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und doch – lieber – – –</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Schweig. Ich will!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich verstehe.</p>
+          <lg>
+            <l>»Und der Götterjüngling hebet</l>
+            <l>Aus der Flamme sich empor,</l>
+            <l>Und in seinen Armen schwebet</l>
+            <l>Die Geliebte mit hervor.«</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="scene">
+        <head>Scene XV.</head>
+        <stage>Die Vorigen . Franz . Lucie .</stage>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Ach Lotte, liebste beste Schwägerin, verzeih, daß ich dich nach deiner schlechten Photographie nicht gleich erkannt habe.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Nun, lieber Schwager, ich werde dir deine heimliche Ehe wohl verzeihen müssen, wenn ich nur erst den Grund davon wüßte. Diese tolle Lotte! Ein Unglück wahrhaftig, daß auch die <span>Schwestern</span></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Was sagst du? Deine <span>Schwester</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte</speaker>
+          <stage>( sagt mit einem tiefen Knix ) .</stage>
+          <p>Frau von Haller, die Schwester des Herrn von Gerhardt und – Witwe.</p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Was? <span>Keine</span></p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie.</speaker>
+          <p>Ihr seid <span>nicht</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Ich fürchte, wir sind noch nicht einmal verlobt! Ihr müßt den Herrn Professor fragen.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul</speaker>
+          <stage>( sagt der wie erstarrt dagestanden hat ) .</stage>
+          <p>Sie können mir niemals verzeihen, gnädige Frau – leben Sie wohl! – Guten Morgen, Franz! <stage>( Will gehen . )</stage></p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Guten Morgen? Mensch, es ist ja Nachmittag!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Gleichviel, ob Morgen oder Mittag, für mich ist es Nacht. <stage>( Will fort . )</stage></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Halt! – Sie haben mir die Ehe versprochen!</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Ein solcher Tropf wie ich kann Ihnen nur Mitleid oder Verachtung einflößen.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Aber um Gottes willen, Herr Professor – warum sind Sie denn so außer sich? Nur deshalb, weil Sie nun Ihre Besserungspläne nicht an mir ausführen können? Verzweifeln Sie nicht zu früh! Habe ich auch keinen Geliebten, so stecke ich doch voller Fehler; z. B. ich liebe einen Bücherwurm, der ungeheuer einfältig ist und meine Liebe – nicht erwidert.</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Nicht erwidert? Können Sie so grausam spotten? Wäre es möglich, gnädige Frau – Lotte – Sie könnten? – Nein, nein, unmöglich!</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Du – <span>Paul</span><stage>( Reicht ihm beide Hände , die er küßt . )</stage></p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Lotte – nie gab es einen beschämteren und zugleich glückseligeren Menschen als mich.</p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Und gewiß, nie wurde ein Professor der Kirchengeschichte so thöricht geliebt wie du. <stage>( Zu Franz . )</stage> Nun siehst du, Franz, er har mir schon die Cour gemacht, als er noch glaubte, ich sei deine Frau. Nicht wahr, lieber Paul, das hast du gethan?</p>
+        </sp>
+        <sp who="#paul">
+          <speaker>Paul.</speaker>
+          <p>Franz, konnte ich anders? Sie war so reizend. <span>Wußte</span><span>fühlte</span></p>
+        </sp>
+        <sp who="#franz">
+          <speaker>Franz.</speaker>
+          <p>Und du, Lotte – wirst du denn nun einen <span>Pedanten</span><span>Gecken</span></p>
+        </sp>
+        <sp who="#lotte">
+          <speaker>Lotte.</speaker>
+          <p>Keins von Beiden. Unter Tausenden von Pedanten und Gecken habe ich einen lieben und wahren Menschen herausgefunden. Ich habe das große Loos gezogen.</p>
+        </sp>
+        <sp who="#lucie">
+          <speaker>Lucie</speaker>
+          <stage>( sagt Franz umarmend . ) .</stage>
+          <p>Fränzchen, ich auch!</p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

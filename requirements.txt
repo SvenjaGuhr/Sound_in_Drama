@@ -1,0 +1,55 @@
+# Requirements for "What Does Drama Sound Like? Sound Analysis of GerDraCor"
+# Reproduces the preprocessing, prediction post-processing, evaluation,
+# and analysis notebooks and scripts.
+#
+# Python 3.10 or newer is required (the scripts use PEP 604 "X | None"
+# type hints and list[Path] / tuple[int, float] subscripting).
+#
+# Install:
+#     pip install -r requirements.txt
+#     python -m spacy download de_core_news_sm
+#     python -m spacy download de_core_news_md
+#
+# The two spaCy models are NOT installable via this file (they are not on
+# PyPI); install them with the two commands above after pip install.
+# See the note at the bottom for pinning them if exact reproduction matters.
+
+# ── Data handling ─────────────────────────────────────────────────────────────
+pandas>=2.0,<3.0
+numpy>=1.24,<2.0            # <2.0 for compatibility with the spaCy/pyannote stack
+lxml>=5.0
+
+# ── NLP ───────────────────────────────────────────────────────────────────────
+spacy>=3.7,<3.8            # de_core_news_sm / de_core_news_md must match this line
+nltk>=3.8
+
+# ── Evaluation (03_evaluation.ipynb) ─────────────────────────────────────────
+scikit-learn>=1.3
+pygamma-agreement>=0.5.6   # gamma inter-annotator agreement (Mathet et al.)
+pyannote.core>=5.0         # Segment/Continuum; also pulled in by pygamma-agreement
+
+# ── Statistics (analysis + correlation notebooks) ────────────────────────────
+scipy>=1.11
+statsmodels>=0.14
+pingouin>=0.5.4            # partial correlation in sound_stage_correlation.ipynb
+
+# ── Plotting ──────────────────────────────────────────────────────────────────
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.18
+
+# ── Notebook environment ──────────────────────────────────────────────────────
+ipython>=8.0              # IPython.display in 03_evaluation.ipynb
+jupyter>=1.0              # to run the .ipynb files
+
+# ── NOT declared here ─────────────────────────────────────────────────────────
+# google.colab  — provided by the Google Colab runtime only; not on PyPI.
+#   The two `from google.colab import files` calls (upload/download helpers in
+#   sound_stage_correlation.ipynb and stage_direction_analysis.ipynb) are
+#   Colab-only. When running locally, replace them with a local file path.
+#
+# spaCy German models — install after pip, as shown in the header. To pin the
+# exact versions used, add these two lines as direct URLs instead of the
+# `spacy download` commands (they must match the spacy 3.7.x line above):
+#   https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.7.0/de_core_news_sm-3.7.0-py3-none-any.whl
+#   https://github.com/explosion/spacy-models/releases/download/de_core_news_md-3.7.0/de_core_news_md-3.7.0-py3-none-any.whl

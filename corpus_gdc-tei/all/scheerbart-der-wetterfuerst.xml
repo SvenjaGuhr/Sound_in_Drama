@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ger000250" xml:lang="ger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Der Wetterfürst</title>
+        <title type="sub">Ein Schauspiel zwischen hohen Bergen</title>
+        <author>
+          <persName>
+            <forename>Paul</forename>
+            <surname>Scheerbart</surname>
+          </persName>
+          <idno type="wikidata">Q62435</idno>
+          <idno type="pnd">118606816</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>TextGrid Repository</name>
+          <idno type="URL">http://www.textgridrep.org/textgrid:tvgr.0</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode"
+                >Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <author>Paul Scheerbart</author>: <title level="a">Der Wetterfürst. Ein Schauspiel
+              zwischen hohen Bergen</title>. Herausgegeben von Mechthild Rausch. Band <biblScope
+              unit="volume">1</biblScope>: Revolutionäre Theater-Bibliothek.
+              <pubPlace>München</pubPlace>: <publisher>edition text + kritik</publisher>
+            <date>1977</date>, S. <biblScope unit="page" from="73" to="76">73–76</biblScope>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="jarrimo" sex="MALE">
+            <persName>Jarrimo</persName>
+          </person>
+          <person xml:id="lisabella" sex="FEMALE">
+            <persName>Lisabella</persName>
+          </person>
+          <person xml:id="roderich" sex="MALE">
+            <persName>Roderich</persName>
+          </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#jarrimo" passive="#lisabella"/>
+          </listRelation>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2017-01-06">(dlina) file conversion from source</change>
+        <change when="2017-08-04">(ff) structural cleanup</change>
+        <change when="2018-11-04">(ff) formalities</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1904">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ger000250"
+        passive="http://www.wikidata.org/entity/Q51393733"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <pb n="73"/>
+    <front>
+      <docTitle>
+        <titlePart type="main">Der Wetterfürst</titlePart>
+        <titlePart type="sub">Ein Schauspiel zwischen hohen Bergen</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personen.</head>
+        <castItem><role>Jarrimo,</role>
+          <roleDesc>ein alter Wetterfürst.</roleDesc></castItem>
+        <castItem><role>Lisabella,</role>
+          <roleDesc>seine Tochter.</roleDesc></castItem>
+        <castItem><role>Roderich,</role>
+          <roleDesc>ein Oberzwerg.</roleDesc></castItem>
+      </castList>
+      <set>
+        <p>Die Handlung spielt oben im Gebirge an einer Stelle, die für Menschen nicht zugänglich
+          ist.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+        <head>Erster Aufzug</head>
+        <stage>Altdeutsches Holzzimmer. Links – etwas weiter ab von der linken Seitenwand – ein
+          grüner Ofen mit der Schmalseite nach vorn. Vor dieser ein Lehnstuhl mit Kopflehnen. Die
+          hohe Rückenlehne links im rechten Winkel zur Schmalseite des Ofens. Hinter der Rückenlehne
+          in der entsprechenden Entfernung Thüre in der linken Seitenwand. Vor dem Lehnstuhl grosser
+          Tisch mit Kugelfüssen auch mit der Schmalseite nach vorn. Hinter der hinteren Schmalseite
+          des Tisches ein zweiter Lehnstuhl in derselben Stellung wie der vordere, so dass seine
+          Rückenlehne die halbe Breitseite des Ofens deckt. Hinter dem hinteren Stuhle breites,
+          nicht sehr hohes Fenster mit Aussicht auf weisse Bergkuppen, Gletscher und blauen Himmel.
+          Rechts hinten quer vor der hinteren Wand ein alter Diwan mit dunkelgrünem Tuch. Vorne
+          rechts vor der rechten Seitenwand ein altdeutsches Buffet. Hinter dem Buffet in der
+          rechten Seitenwand eine zweite Türe. Auf dem hellen Fussboden an einzelnen Stellen weisser
+          Sand. Die Seitenwände rechtwinklig zur hinteren Wand.</stage>
+        <stage>Im vorderen Lehnstuhl sitzt der alte Jarrimo vor einer alten, <pb n="74"/> sehr
+          grossen Chronik, im hinteren Lehnstuhl am Fenster sitzt seine Tochter Lisabella.</stage>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Heute ist es ruhig draussen.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Ja – wenns doch so bliebe!</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Es ist aber die Ruhe vor dem Sturm.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Väterchen! Du bist doch ein Wetterfürst! Kannst Du den Sturm nicht verhindern?</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Warum?</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Es kommen dann wieder so viele Menschen um – und das tut mir so leid.</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Warum?</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Väterchen! Ich leide so mit.</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Das solltest Du nicht, denn Du weisst, dass Alles seine Gründe hat. Das Unwetter muss
+            sein – sonst verweichlichen die Menschen.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Wenn ich aber höre, was die Menschen unter dem Unwetter leiden, so leide ich das Alles
+            mit. Väterchen, bestell den Sturm ab!</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Du weisst: Ich handle auf höheren Befehl.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Väterchen, hast Du mich nicht lieb?</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Ja.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>So bestell den Sturm ab – ich leide so sehr mit.</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Ich will nicht, dass du leidest.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>So bestell den Sturm ab, liebes Väterchen!</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO</speaker>
+          <stage>nach langer Pause.</stage>
+          <p>So hole den Roderich. <stage>Lisabella springt auf und geht hinten rechts ab und kommt
+              gleich mit Roderich wieder, der sich auf den Diwan setzt.</stage></p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Lisabella, lass uns allein!</p>
+          <stage>Lisabella ab vorne links.</stage>
+        </sp>
+        <sp who="#roderich">
+          <speaker>RODERICH.</speaker>
+          <p>Was willst Du von mir?</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Ich will, dass der nächste Sturm verhindert wird.</p>
+        </sp>
+        <sp who="#roderich">
+          <speaker>RODERICH.</speaker>
+          <p>Können wir tun – es kostet Dich aber das Leben.</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Tu, was ich will!</p>
+        </sp>
+        <sp who="#roderich">
+          <speaker>RODERICH.</speaker>
+          <p>Gut! Ich werds besorgen. <stage>Hinten rechts ab.</stage></p>
+          <stage>Es wird ganz dunkel.</stage>
+        </sp>
+      </div>
+      <pb n="75"/>
+      <div type="act">
+        <head>Zweiter Aufzug</head>
+        <stage>Es wird wieder hell. Die Scene ist wie vorhin. Jarrimo sitzt im Lehnstuhl allein.
+          Lisabella kommt von links.</stage>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Nun, Väterchen, hast Du den Sturm abbestellt?</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Ich habs getan.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Ach, Väterchen, wie dank ich Dir!</p>
+          <stage>Kniet vor ihm nieder und küsst seine Hand.</stage>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Ich fühle, dass ich sterbe.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Aber – Väterchen!</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Gieb mir noch ein Glas Wein.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA</speaker>
+          <stage>läuft zum Buffet und giesst ein Glas Wein ein.</stage>
+          <p>Hier, Väterchen! Aber sterben darfst Du nicht.</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Ich muss.</p>
+          <stage>Er trinkt das Glas halb aus.</stage>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Warum?</p>
+        </sp>
+        <sp who="#jarrimo">
+          <speaker>JARRIMO.</speaker>
+          <p>Weil ich Dir den Willen getan habe.</p>
+          <stage>Er sinkt zurück, das Glas fällt und zerbricht.</stage>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Vater! Roderich! Roderich!</p>
+          <stage>Sie hebt des Vaters Kopf und hält ihn, Roderich kommt.</stage>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Der Vater stirbt.</p>
+        </sp>
+        <sp who="#roderich">
+          <speaker>RODERICH.</speaker>
+          <p>Das wusste ich. Er hats so haben wollen.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Weil er den Sturm abbestellt hat? Deswegen?</p>
+        </sp>
+        <sp who="#roderich">
+          <speaker>RODERICH.</speaker>
+          <p>Deswegen musste er sterben.</p>
+          <stage>Setzt sich auf den Diwan, Lisabella liegt wieder vor ihrem Vater auf den Knieen und
+            streichelt seine Hände.</stage>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Väterchen, warum hast Du mir <emph>das</emph> nicht gesagt? Ich hab das doch nicht
+            gewusst.</p>
+          <stage>Weint.</stage>
+        </sp>
+        <sp who="#roderich">
+          <speaker>RODERICH.</speaker>
+          <p>Weisst Du, Kind, warum Dein Vater starb?</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Warum?</p>
+        </sp>
+        <sp who="#roderich">
+          <speaker>RODERICH.</speaker>
+          <p>Er wollte Dir durch seinen Tod zeigen, dass es nicht gut ist, Mitleid zu haben – mit
+            den Menschen.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Und warum ist es nicht gut?</p>
+        </sp>
+        <sp who="#roderich">
+          <speaker>RODERICH.</speaker>
+          <p>Weil den Menschen des Mitleid garnichts nützt.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA</speaker>
+          <stage>aufstehend.</stage>
+          <p>Und um mir diese Weisheit beizubringen – dazu musste mein Vater sterben?</p>
+        </sp>
+        <pb n="76"/>
+        <sp who="#roderich">
+          <speaker>RODERICH.</speaker>
+          <p>Er war Dir wohl zu gut; er hatte wohl Mitleid mit deinem Mitleiden.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA.</speaker>
+          <p>Und so bestrafte er sich selbst?</p>
+        </sp>
+        <sp who="#roderich">
+          <speaker>RODERICH.</speaker>
+          <p>Vielleicht.</p>
+        </sp>
+        <sp who="#lisabella">
+          <speaker>LISABELLA</speaker>
+          <stage>setzt sich auf ihren Stuhl am Fenster.</stage>
+          <p>Ich habe kein Mitleid mehr – mit Keinem. <stage>Sieht starr hinaus.</stage></p>
+          <stage>Vorhang!</stage>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>
